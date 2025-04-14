@@ -1,8 +1,6 @@
-port: 4001
+repository: amaranth-unm/website
 
-repository: fredgibbs/xanthan
-
-baseurl: /xanthan/
+baseurl: 
 
 essay-images: /essays/images
 
