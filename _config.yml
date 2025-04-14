@@ -1,12 +1,3 @@
-repository: amaranth-unm/website
+repository: amaranth-unm.github.io
 
 baseurl: 
-
-essay-images: /essays/images
-
-defaults:
-  -
-    scope:
-      path: "essays"
-    values:
-      layout: "base"
