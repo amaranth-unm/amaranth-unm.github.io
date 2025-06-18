@@ -1,5 +1,5 @@
 title: Amaranth
 description: Digital Humanities and Public Scholarship Studio @ UNM
-url: https://amaranth-unm.github.io
+baseurl: ""
 safe: true
 environment: production
