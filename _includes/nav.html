@@ -16,11 +16,15 @@
         </li>
 
         <li class="nav-item">
+          <a class="nav-link" href="{{site.baseurl}}/experiments">Experiments</a>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link" href="{{site.baseurl}}/services">Services</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/portfolio">Portfolio</a>
+          <a class="nav-link" href="{{site.baseurl}}/class">Classroom</a>
         </li>
         
 
@@ -41,12 +45,14 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Process Guides
+            Equipment Guides
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{site.baseurl}}/guides/printing">Getting Started</a></li>
-            <li><a class="dropdown-item" href="{{site.baseurl}}/guides/3d-scanning">3D scanning</a></li>
-            <li><a class="dropdown-item" href="{{site.baseurl}}/guides/3d-printing">3D printing</a></li>
+            <li><a class="dropdown-item" href="{{site.baseurl}}/equipment-guides/3d-printer">Getting Started</a></li>
+            <li><a class="dropdown-item" href="{{site.baseurl}}/equipment-guides/3d-scanner">3D scanning</a></li>
+            <li><a class="dropdown-item" href="{{site.baseurl}}/equipment-guides/360-camera">3D printing</a></li>
+            <li><a class="dropdown-item" href="{{site.baseurl}}/equipment-guides/poster-printer">Poster Printer Guide</a></li>
+            <li><a class="dropdown-item disabled" href="https://outlook.office365.com/owa/calendar/HistoryAmaranth@unmm.onmicrosoft.com/bookings/">Make an Appointment</a></li>
           </ul> 
           </li>
 <!--
@@ -62,3 +68,6 @@
     </div>
   </div>
 </nav>
+{% unless page.path == "index.md" %}
+<img src="{{site.baseurl}}/assets/bg-images/short-amaranth-header.png" alt="Navigation Banner" style="width: 100%; display: block; margin-bottom: 0.5rem;">
+{% endunless %}
