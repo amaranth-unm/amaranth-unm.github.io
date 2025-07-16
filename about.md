@@ -17,5 +17,21 @@ The word _amaranth_ originates from the Greek _amarantos_, which means unfading,
 
 Throughout history and into the present, people have used the dozens of species of Amaranth plants for a large variety of purposes, from medicines to dyes. Over the last few decades, a new set of digital technology tools and techniques emerged to provide humanists with many options for projects and research. The diversity of opportunities in the digital humanities thus lends itself to a metaphor that captures this idea of growth from variety. 
 
+## Virtual Tour
+View the 360 photo with info labels to see what Amaranth has to offer! 
+
+<iframe 
+  src="https://jeseyfried.github.io/amaranth-holding-area/app-files/index.html" 
+  width="100%" 
+  height="800" 
+  style="border:none;overflow:hidden"
+  allow="fullscreen"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen>
+</iframe>
+
+
+
 
 {% include team.html %}

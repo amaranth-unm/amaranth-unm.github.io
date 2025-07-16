@@ -4,12 +4,12 @@ layout: base
 date: 2024-10-26
 chapters: 
   - title: "Medieval Capitals"
-    image: "assets/bg-images/capitals-together-small.jpg"
+    image: "/assets/images/site/capitals-together-small.jpg"
     summary: Using 3D prints to deepen understanding of Gothic architectural styles.
     link: "capitals"
 
   - title: "Digital Essays"
-    image: "assets/bg-images/word-docs.jpg"
+    image: "/assets/images/site/word-docs.jpg"
     summary: How to create an online space for what students create in a course.
     link: "digital-essays"
 
@@ -50,5 +50,3 @@ chapters:
 {% endfor %}
 
 </div>
-
-<br><br><br>
