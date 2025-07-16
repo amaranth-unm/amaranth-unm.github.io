@@ -17,5 +17,5 @@ chapters:
 
 
 # Amaranth Use Cases
-{% include cards_grid.html }
+{% include cards_grid.html %}
 
