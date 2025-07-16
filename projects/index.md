@@ -1,5 +1,5 @@
 ---
-title: Directory
+title: Projects
 layout: base
 date: 2024-10-26
 chapters: 
@@ -8,30 +8,21 @@ chapters:
     summary: Using 3D prints to deepen understanding of Gothic architectural styles.
     link: "capitals"
 
-  - title: "Digital Essays"
-    image: "/assets/images/site/word-docs.jpg"
-    summary: How to create an online space for what students create in a course.
-    link: "digital-essays"
-
   - title: "HGSA Poster Contest"
-    image: "assets/bg-images/four-posters.jpg"
+    image: "/assets/images/site/four-posters.jpg"
     summary: Demonstrating the capability of Amaranth's poster printer.
     link: "poster-contest"
 
   - title: "Friction Maps"
-    image: "assets/bg-images/friction-map-tile.png"
+    image: "/assets/images/site//friction-map-tile.png"
     summary: 3D printed maps that illustrate the friction that blocks political expansion or cultural influence.
     link: "terrain"
 
-  - title: "Podcast Repository"
-    image: "assets/bg-images/headphones.jpg"
-    summary: A sample website for an archive of student-created podcasts.
-    link: "podcasts"
 ---
 
 
 
-# Amaranth Use Cases
+# Current Projects
 <!-- change row-cold-md-2 to 3 or 4 for different number of cols -->
 <div class="row row-cols-1 row-cols-md-2 g-4">
 
