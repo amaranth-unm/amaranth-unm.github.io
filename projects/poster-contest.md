@@ -13,4 +13,12 @@ The student group representing the graduate students in the Department of Histor
 
 Some of the entries for the contest in Spring 2025 are included below.
 
-<iframe src="assets/hgsa-posters-sp25rs.pdf" width="1000" height="600"></iframe>
+{% assign images = 
+"/assets/images/posters/1.jpg,
+/assets/images/posters/2.jpg,
+/assets/images/posters/3.jpg" | split: ','
+%}
+
+{% include carousel.html
+images = images 
+%}

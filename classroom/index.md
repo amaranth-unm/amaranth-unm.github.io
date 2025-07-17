@@ -2,7 +2,7 @@
 title: Classroom
 layout: base
 date: 2024-10-26
-chapters: 
+cards: 
   - title: "Digital Essays"
     image: "/assets/images/site/word-docs.jpg"
     summary: How to create an online space for what students create in a course.
@@ -17,5 +17,5 @@ chapters:
 
 
 # Digital Projects
-{% include cards_grid.html %}
+{% include card-grid.html %}
 
