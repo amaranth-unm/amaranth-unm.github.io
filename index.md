@@ -5,6 +5,7 @@ date: 2024-12-02
 ---
 
 {% include jumbotron.html 
+height:100
 image-url="assets/images/site/amaranth-header.png"
 %}
 
