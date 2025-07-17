@@ -2,6 +2,14 @@
 NAVIGATION
 *****************************************************/
 
+@media screen {
+
+a.navbar-brand {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
 .navbar-brand {
   text-decoration: none !important;
   border: none !important;
@@ -16,7 +24,6 @@ NAVIGATION
   outline: none !important;
 }
 
-@media screen {
 
 
 } /* end media screen */
