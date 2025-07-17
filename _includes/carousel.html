@@ -3,7 +3,7 @@
   <div class="carousel-inner">
     {% for image in include.images %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{{image}}" class="d-block" alt="...">
+        <img src="{{image}}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           {% assign index = forloop.index | minus: 1 %}          
           <h5>{{ include.headers[index] }}</h5>
