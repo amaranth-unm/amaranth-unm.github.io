@@ -1,5 +1,5 @@
 {% assign carousel_id = include.id | default: 'carouselExample' %}
-<div id="{{ carousel_id }}" class="carousel slide {{ include.class }}" style="width: {{ include.width | default: '100%' }};">
+<div id="{{ carousel_id }}" class="carousel slide {{ include.class }}" data-bs-ride="carousel" style="width: {{ include.width | default: '100%' }};">
   <div class="carousel-inner">
     {% for image in include.images %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
