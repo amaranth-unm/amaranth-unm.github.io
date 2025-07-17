@@ -7,6 +7,10 @@
 
     {% include nav.html %}
 
+{% unless page.path == "index.md" %}
+<img src="{{site.baseurl}}/assets/images/site/short-amaranth-header.png" alt="Navigation Banner" style="width: 100%; display: block; margin-bottom: 0.5rem;">
+{% endunless %}
+
     <div class="container">
       {{ content }}
     </div> <!-- /main -->
@@ -17,7 +21,7 @@
     {% include bottom-js.html %}
 
     <footer class="site-footer">
-      <img src="assets/bg-images/amaranth-footer.png">
+      <img src="{{site.baseurl}}/assets/images/site/amaranth-footer.png">
     </footer>
     
   </body>
