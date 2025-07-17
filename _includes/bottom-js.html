@@ -1,4 +1,4 @@
-  <!-- JavaScript
+<!-- JavaScript
   ================================================== -->
   <script src="https://use.fontawesome.com/a1660defb1.js"></script>
 
@@ -11,4 +11,18 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot.min.js"></script>
   <script type="text/javascript">
       $.bigfoot();
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var carousels = document.querySelectorAll('.carousel');
+      carousels.forEach(function(carousel) {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Carousel) {
+          new bootstrap.Carousel(carousel, {
+            interval: false,
+            wrap: true
+          });
+        }
+      });
+    });
   </script>
