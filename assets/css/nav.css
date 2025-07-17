@@ -2,6 +2,19 @@
 NAVIGATION
 *****************************************************/
 
+.navbar-brand {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
 
 @media screen {
 
