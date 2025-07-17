@@ -2,7 +2,7 @@
 title: Amaranth @ UNM
 layout: base
 date: 2024-12-02
-chapters: 
+cards: 
   - title: "Digital Essays"
     image: "/assets/images/site/word-docs.jpg"
     summary: How to create an online space for what students create in a course.
@@ -26,8 +26,10 @@ Amaranth is UNM's digital humanities and public scholarship studio.
 # Projects
 See what we're up to!
 
+
 # Course integrations
-{% include cards_grid.html %}
+{% include card-grid.html %}
+
 
 # Possibilities
 <!-- Services Section -->
