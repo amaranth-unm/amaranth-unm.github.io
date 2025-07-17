@@ -12,17 +12,3 @@
   <script type="text/javascript">
       $.bigfoot();
   </script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var carousels = document.querySelectorAll('.carousel');
-      carousels.forEach(function(carousel) {
-        if (typeof bootstrap !== 'undefined' && bootstrap.Carousel) {
-          new bootstrap.Carousel(carousel, {
-            interval: false,
-            wrap: true
-          });
-        }
-      });
-    });
-  </script>
