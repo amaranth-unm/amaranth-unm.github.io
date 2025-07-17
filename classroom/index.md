@@ -16,6 +16,6 @@ chapters:
 
 
 
-# Amaranth Use Cases
+# Digital Projects
 {% include cards_grid.html %}
 
