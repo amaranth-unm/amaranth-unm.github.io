@@ -529,28 +529,26 @@ IMAGE CAROUSEL
 *****************************************************/
 .carousel {
   height: 85vh; /* Set the carousel height to the full viewport height */
-  width:100%;
-  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
+  width: 100%;
   background: #000;
-border:1px solid black;
+  border: 1px solid black;
 }
 
 .carousel-inner {
-  height:100%; /* Set the carousel height to the full viewport height */
-  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
+  height: 100%; /* Set the carousel height to the full viewport height */
 }
 
 .carousel-item {
-  height:100%; /* Set the carousel height to the full viewport height */
-  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
-
-}
-
-.carousel-item active{
+  height: 100%; /* Set the carousel height to the full viewport height */
   display: flex;
   align-items: center;
-  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
+  justify-content: center;
+}
 
+.carousel-item.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-item img {

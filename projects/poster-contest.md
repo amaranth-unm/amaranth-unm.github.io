@@ -20,5 +20,6 @@ Some of the entries for the contest in Spring 2025 are included below.
 %}
 
 {% include carousel.html
-images = images 
+images = images
+id = "posterCarousel"
 %}
