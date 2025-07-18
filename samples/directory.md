@@ -5,12 +5,80 @@ date: 2024-10-26
 directory-sheet: 'https://docs.google.com/spreadsheets/d/1pP8KhM3E5rmA3ce2Q3oKNFmqJHnEuLT15Nkp_NI61u8/edit?usp=sharing#gid=0'
 ---
 
-This page demonstrates a standard "card" directory to access site pages. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern, Digital, Humanistic Font Pairings</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif&family=Inter&family=Literata&family=Libre+Franklin&family=Manrope&family=Merriweather&family=Source+Serif+Pro&family=Tisa+Pro&family=Work+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+    .pair {
+      margin-bottom: 4rem;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .pair h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .sans {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .serif {
+      font-size: 1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Modern + Humanistic Font Pairings</h1>
 
-The content of the cards is created through a Google Sheet. The URL is specified in the page's YAML header. In this case, it's 
-[here]('https://docs.google.com/spreadsheets/d/1pP8KhM3E5rmA3ce2Q3oKNFmqJHnEuLT15Nkp_NI61u8/edit?usp=sharing#gid=0')
+  <div class="pair" style="font-family: 'Libre Franklin', sans-serif;">
+    <h2>Libre Franklin + Literata</h2>
+    <p class="sans">Libre Franklin (Sans): Digital and modern with professional clarity.</p>
+    <p class="serif" style="font-family: 'Literata', serif;">Literata (Serif): Elegant, bookish, and warm—great for scholarly tone.</p>
+  </div>
 
-The style of cards is easily configurable through CSS properties (changing colors, fonts, sizing, etc)
+  <div class="pair" style="font-family: 'Inter', sans-serif;">
+    <h2>Inter + Source Serif Pro</h2>
+    <p class="sans">Inter (Sans): Highly legible and designed for digital UIs.</p>
+    <p class="serif" style="font-family: 'Source Serif Pro', serif;">Source Serif Pro (Serif): Sharp yet humanistic with classical appeal.</p>
+  </div>
 
+  <div class="pair" style="font-family: 'IBM Plex Sans', sans-serif;">
+    <h2>IBM Plex Sans + IBM Plex Serif</h2>
+    <p class="sans">IBM Plex Sans (Sans): Balanced modernity and warmth.</p>
+    <p class="serif" style="font-family: 'IBM Plex Serif', serif;">IBM Plex Serif (Serif): A perfect human-tech blend in typographic form.</p>
+  </div>
+
+  <div class="pair" style="font-family: 'Work Sans', sans-serif;">
+    <h2>Work Sans + Merriweather</h2>
+    <p class="sans">Work Sans (Sans): Contemporary with personality.</p>
+    <p class="serif" style="font-family: 'Merriweather', serif;">Merriweather (Serif): Screen-optimized with a literary feel.</p>
+  </div>
+
+  <div class="pair" style="font-family: 'Manrope', sans-serif;">
+    <h2>Manrope + Tisa Pro</h2>
+    <p class="sans">Manrope (Sans): Sleek, geometric, and forward-looking.</p>
+    <p class="serif" style="font-family: 'Tisa Pro', serif;">Tisa Pro (Serif): Humanistic and reader-friendly with modern curves.</p>
+  </div>
+
+</body>
+</html>
 
 
