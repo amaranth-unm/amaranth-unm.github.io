@@ -524,41 +524,6 @@ figcaption a {
 
 
 
-/*****************************************************
-IMAGE CAROUSEL
-*****************************************************/
-.carousel {
-  height: 85vh; /* Set the carousel height to the full viewport height */
-  width: 100%;
-  background: #000;
-  border: 1px solid black;
-}
-
-.carousel-inner {
-  height: 100%; /* Set the carousel height to the full viewport height */
-}
-
-.carousel-item {
-  height: 100%; /* Set the carousel height to the full viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-item.active {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-item img {
-  max-width: 100%; /* Ensure the image doesn’t exceed the carousel width */
-  max-height: 100%; /* Ensure the image doesn’t exceed the carousel height */
-  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
-
-}
-
-
 
 
 /*****************************************************
