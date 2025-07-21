@@ -2,7 +2,7 @@
 title: Projects
 layout: base
 date: 2024-10-26
-cards: 
+cards:
   - title: "Medieval Capitals"
     image: "/assets/images/site/capitals-together-small.jpg"
     summary: Using 3D prints to deepen understanding of Gothic architectural styles.
@@ -13,9 +13,9 @@ cards:
     summary: Demonstrating the capability of Amaranth's poster printer.
     link: "poster-contest"
 
-  - title: "Friction Maps"
+  - title: "Terrain Maps"
     image: "/assets/images/site//friction-map-tile.png"
-    summary: 3D printed maps that illustrate the friction that blocks political expansion or cultural influence.
+    summary: 3D printed maps that illustrate topography as well as political expansion or cultural influence.
     link: "terrain"
 ---
 
