@@ -6,15 +6,15 @@ author: Jonathan Seyfried
 date: 2025-06-19
 ---
 
-<h2>3D Terrain and Friction Maps</h2>
+## 3D Terrain and Friction Maps
 
 This use case includes printing basic terrain as well as exploring additional 3D features to represent borderlands concepts.
 
-<h2>Recommendations for 3D Printing Terrain</h2>
+## Recommendations for 3D Printing Terrain
 
-For a quick way to obtain a STL file for terrain, go to <a href="https://touchterrain.geol.iastate.edu/main">Touch Terrain</a> created by Iowa State University.
+For a quick way to obtain a STL file for terrain, go to [Touch Terrain] (https://touchterrain.geol.iastate.edu/main) created by Iowa State University.
 
-<h2>Use Multicolor Mode to Create Visible Layers</h2>
+## Use Multicolor Mode to Create Visible Layers
 
 The 3D printer in Amaranth supports multi-colored printing. This can be done by layer, so as to further illustrate elevation and topography.
 
