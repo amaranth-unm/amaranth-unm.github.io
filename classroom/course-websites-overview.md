@@ -4,6 +4,7 @@ layout: base
 date: 2024-10-26
 ---
 
+# Course Website Overview
 This overview explains how we help instructors create collaborative websites for displaying student work. These websites demonstrate what collaborative digital history can be, as group of students contribute small articles that collectively add up to something useful that one person alone couldn’t do in a reasonable timeframe.
 
 ## Understand How It Works

@@ -16,6 +16,6 @@ cards:
 
 
 
-# Digital Projects
+# Sample Websites
 {% include card-grid.html %}
 
