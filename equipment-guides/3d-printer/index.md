@@ -29,7 +29,7 @@ The slicing software creates instructions for how to print an object for a parti
 
 ### Orca Video
 
-[![Orca Slicer getting started guide: A slicer for all of your 3D printers](https://img.youtube.com/vi/cquTCpz1V74/0.jpg)](https://www.youtube.com/watch?v=cquTCpz1V74)
+<iframe src="https://www.youtube.com/embed/cquTCpz1V74" title="Orca Slicer getting started guide: A slicer for all of your 3D printers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Anycubic Video
 
