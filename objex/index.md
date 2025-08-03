@@ -11,12 +11,12 @@ cards:
   - title: "Teotihuacan Jaguars"
     image: "images/jaguars-temp.png"
     summary: Showing different outcomes based on print detail settings.
-    link: "jaguars-temp"
+    link: "jaguars"
 
   - title: "Bronze Skull"
     image: "images/skull-temp.jpg"
     summary: Connecting an object to a concept.
-    link: "skull-temp"
+    link: "skull"
 
   - title: "Anti-Communist Statue in London"
     image: "images/anticommunist.png"
