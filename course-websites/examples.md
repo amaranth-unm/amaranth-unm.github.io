@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Digital Essays
+title: Examples
 subtitle: 
 author: Jonathan Seyfried
 date: 2025-06-19
@@ -23,7 +23,7 @@ cards:
 
 ---
 
-# Digital Essays
+# Examples
 
 
 ## A few examples of collaborative class projects
