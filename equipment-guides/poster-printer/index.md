@@ -14,7 +14,7 @@ The printer uses inkjet cartridges, which are expensive to replace, so please re
 ## Print Dialog Box
 
 The below screenshot shows the correct settings for sending a print to the poster printer.
-![A screenshot of the correct settings for a poster print.](poster-print-dialog.jpg)
+![A screenshot of the correct settings for a poster print.](images/poster-print-dialog.jpg)
 
 <br style="clear: both">
 
