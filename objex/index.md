@@ -18,7 +18,7 @@ cards:
     summary: Connecting an object to a concept.
     link: "skull"
 
-  - title: "Anti-Communist Statue in London"
+  - title: "Anti-Communist Statue"
     image: "images/anticommunist.png"
     summary: Demonstrating the potential for capturing texture.
     link: "anticommunist"

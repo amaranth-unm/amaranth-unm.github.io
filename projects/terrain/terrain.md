@@ -12,7 +12,7 @@ This use case includes printing basic terrain as well as exploring additional 3D
 
 ## Recommendations for 3D Printing Terrain
 
-For a quick way to obtain a STL file for terrain, go to [Touch Terrain] (https://touchterrain.geol.iastate.edu/main) created by Iowa State University.
+For a quick way to obtain a STL file for terrain, go to [Touch Terrain](https://touchterrain.geol.iastate.edu/main) created by Iowa State University.
 
 ## Use Multicolor Mode to Create Visible Layers
 

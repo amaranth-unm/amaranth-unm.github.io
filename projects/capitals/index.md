@@ -18,14 +18,13 @@ Printing a series of objects increases the pedagogical value of 3D objects becau
 
 The central learning outcome desired for this project was to help students retain a long-term understanding of Romanesque and Gothic architectural styles. The table below summarizes the main differences of these two styles, ones that largely dominate the architecture in western Europe during the Middle Ages.
 
-| Topic | Romanesque | Gothic |
+| Feature | Romanesque Style | Gothic Style |
 | --------- | ---------- | ---------- |
 | Time Period | Early medieval, ca. 1000-1200 | High and Late Medieval, ca. 1100-1500 |
 | Treatment of Forms from Nature | Strong lines of highly stylized leaves, based on Roman models | A more realistic portrayal |
 | Treatment of Plants | Curling stems, knot-work, scrolling | Accurate reproduction of leaf forms, |
 | Treatment of Animals | Included fantastic beasts | Animals from Biblical stories, depicted with more realism |
 | Human Form | Expressive, but abstract | Curving figures, emphasis on realistic portrayal of strong emotion |
-| Symmetry | blahblahbla | Appearance of symmetry conceals variation |
 | Key Buildings | Shrine of St. James in Santiago de Compostela | Cathedral of Saint Denis in Paris, Cathedral of Notre Dame in Paris |
 | Building Features | Rounded arches with chevrons, | Large windows, pointed arches, flying buttresses to support stone ceiling vaults |
 
@@ -35,7 +34,7 @@ Very few museums currently produce 3D files of the kind required for printing. S
 
 For this project we relied on the 3D scanning done by several volunteers who contributed to the Scan the World Project. Even though their scanning resulted in enough detail for 3D printing, the lack of fine detail demonstrates the limits of amateur 3D scanning with small handheld devices. Under more suitable lighting conditions and with more powerful scanners, museums might one day provide 3D printable files that more closely imitate the texture of the original object. 
 
-The Scan the World Project's [collection](https://www.myminifactory.com/users/Scan%20The%20World) includes over two dozen medieval capitals. In choosing from the available capitals, we attempted to pick five that effectively demonstrate features of Romanesque and Gothic styles. The table below lists the capitals in approximate chronological order, but these capitals were chosen for their  contemporaneity.
+The Scan the World Project's [collection](https://www.myminifactory.com/users/Scan%20The%20World) includes over two dozen medieval capitals. In choosing from the available capitals, we attempted to pick five that effectively demonstrate features of Romanesque and Gothic styles. The table below lists the capitals we printed and their stylistic features.
 
 | Image of the 3D Model | Image of original | Location | Date | Description of Style |
 | --------- | ---------- | ---------- |
