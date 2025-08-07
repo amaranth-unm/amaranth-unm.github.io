@@ -7,18 +7,20 @@ date: 2024-10-26
 cards: 
   - title: Campus Histories
     image: "/assets/images/projects/campus.png"
-    summary: What would the buildings say? How can we feel more connected to the rich history of our campus?
+    text: Built on our latest version of Xanthan, essays here have the most functionality of the bunch. The site is wrapped in the standard UNM web style. 
     link: https://unm-digital-history.github.io/campus-history/
+
+
+  - title: Metahistory
+    image: "/assets/images/projects/metahistory.png"
+    text: This site shows a permanent left-nav feature and a table of contents page. As students add their pages, the website automatically grabs metadata from their new page to add it to the table of contents. No 
+    link: https://unm-historiography.github.io/metahistory/
 
   - title: Santa Fe Trail Sites
     image: "/assets/images/projects/trails.png"
-    summary: Historic Sites on the Santa Fe Trail
+    text: This very early site is basically a prototype version of the new Xanthan platform, without much of the current functionality. But this site has not been updated about eight years, and everything works just as when it was last active. It is still ready for new contributions!
     link: https://historic-trails.unm.edu/
   
-  - title: Metahistory
-    image: "/assets/images/projects/metahistory.png"
-    summary: Collected historiographical essays from past classes to future ones.
-    link: https://unm-historiography.github.io/metahistory/
 
 ---
 
@@ -35,4 +37,4 @@ Many popular website creation apps, such as Wordpress or Wix, place limits on de
 If you are interested in any of the above, let's talk about building a website together for your student projects. We've got the technical infrastructure set up and the documentation of instructions for you and your students. We're happy to visit classes to help.
 
 ## A few examples
-{% include card-grid.html %}
+{% include card-horizontal.html %}

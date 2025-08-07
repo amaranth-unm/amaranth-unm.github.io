@@ -17,28 +17,13 @@ The conference ends, and participants go their own way. While each scholar goes 
 
 Academic workshops often produce exciting, creative work—but too often, that work disappears as soon as the event ends. Amaranth helps solves that problem by making it easy to keep papers online, organized, and accessible. No expensive hosting, no institutional servers that mysteriously vanish, no endless email chains asking, “Hey, do you still have a copy of that thing?”
 
-With GitHub Pages, we get:
-
-Free, reliable hosting (yes, free, and it works)
-
-A clear record of changes (because scholarship evolves, and that’s a feature, not a bug)
-
-A modern, mobile-friendly site (because scrolling through a Word doc on your phone is a crime)
-
-Easy collaboration (you know, that thing we say we value in academia)
-
-In short: GitHub Pages keeps workshop work alive, accessible, and easy to share—because scholarship deserves better than a forgotten folder called “Workshop2023_FINAL_v2_REALFINAL.pdf.”
-
-
 We believe scholarship should be open, accessible, and built to last. That’s why this site uses GitHub Pages—a free, stable platform that makes our workshop papers easy to access anywhere in the world, long after the event itself is over.
 
 Our site runs on the Xanthan template, which gives us a clean, elegant design without requiring complex web development skills. This means we can focus on what matters most: sharing ideas and sparking conversations.
 
-Using GitHub also helps preserve the history of these papers. Every edit and update is saved, so future readers can see how ideas evolved over time—a natural fit for the creative and experimental spirit of our workshop.
+Using GitHub also helps preserve the history of these papers. Every edit and update is saved, so future readers can see how ideas evolved over time—a natural fit for the creative and experimental spirit of our workshop. In short: GitHub Pages keeps workshop work alive, accessible, and easy to share—because scholarship deserves better than a forgotten folder called “Workshop2023_FINAL_v2_REALFINAL.pdf.”
 
 Most importantly, it’s a model that supports the values of open scholarship: transparency, sustainability, and access for everyone.
-
-
 
 
 ## An ongoing example
