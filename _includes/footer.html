@@ -1,36 +1,51 @@
-<footer class="site-footer">
-  <div class="footer-container">
-    <!--<div class="footer-logo">
-      <a href="/">
-        <img src="/assets/images/logo-footer.png" alt="Center Santa Fe Logo" />
-      </a>
+<footer class="site-footer bg-dark text-light py-5 mt-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <h3 class="footer-heading">Explore</h3>
+        <ul class="footer-list">
+          <li><a href="{{site.baseurl}}/about">About</a></li>
+          <li><a href="{{site.baseurl}}/projects">Projects</a></li>
+          <li><a href="{{site.baseurl}}/objex">Objex</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3 class="footer-heading">Websites</h3>
+        <ul class="footer-list">
+          <li><a href="{{site.baseurl}}/websites/overview">Overview</a></li>
+          <li><a href="{{site.baseurl}}/websites/examples">Gallery</a></li>
+          <li><a href="{{site.baseurl}}/websites/course-projects">Course Projects</a></li>
+          <li><a href="{{site.baseurl}}/websites/workshops">Workshops</a></li>
+          <li><a href="{{site.baseurl}}/websites/introducing-github">Introduction to GitHub</a></li>
+          <li><a href="{{site.baseurl}}/websites/github-steps">GitHub Process</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3 class="footer-heading">Process Guides</h3>
+        <ul class="footer-list">
+          <li><a href="{{site.baseurl}}/process-guides/3d-printing">3D Printing Overview</a></li>
+          <li><a href="{{site.baseurl}}/process-guides/3d-scanning">3D Scanning</a></li>
+          <li><a href="{{site.baseurl}}/process-guides/360-photography">360 Photography</a></li>
+          <li class="text-muted">Designing Posters</li>
+          </ul>
+          </div>
+      <div class="col">
+          <h3 class="footer-heading">Equipment</h3>
+        <ul class="footer-list">      
+          <li><a href="{{site.baseurl}}/equipment/3d-printer">3D Printer</a></li>
+          <li><a href="{{site.baseurl}}/equipment/3d-scanner">3D Scanner</a></li>
+          <li><a href="{{site.baseurl}}/equipment/360-camera">360 Camera</a></li>
+          <li><a href="{{site.baseurl}}/equipment/vr-headsets">VR Headsets</a></li>
+          <li><a href="{{site.baseurl}}/equipment/poster-printer">Poster Printer</a></li>
+          <li><a href="{{site.baseurl}}/equipment/photo-printer">Photo Printer</a></li>
+          <li><a href="{{site.baseurl}}/equipment/yeti-mics">YETI Mics</a></li>
+        </ul>
+      </div>
     </div>
-  -->
-    <div class="footer-description">
-      Amaranth supports teaching that bridges critical thinking and digital literacy, and provides tools and resources for creative, sustainable collboration.
+    <hr class="my-4">
+    <div class="footer-bottom text-center">
+      <span class="footer-meta">Made with <span style="font-family: serif;">&hearts;</span> in Albuquerque, NM &mdash;
+        <a href="mailto:info@amaranth.unm.edu" class="text-light">Contact Us</a></span>
     </div>
-    <!--<div class="footer-links">
-      <ul>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/programs/">Programs</a></li>
-        <li><a href="/events/">Events</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
-    </div>
-  -->
-    <div class="footer-social">
-      <ul class="list-inline social-buttons">
-        {% for network in site.social %}
-        <li>
-            <a href="{{ network.url }}">
-                <i class="fa fa-{{ network.title }}"></i>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-    </div>
-  </div>
-  <div class="footer-credits">
-
   </div>
 </footer>
