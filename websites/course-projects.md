@@ -2,9 +2,27 @@
 title: Course Websites Overview
 layout: base
 date: 2024-10-26
+
+
+cards: 
+  - title: Campus Histories
+    image: "/assets/images/projects/campus.png"
+    summary: What would the buildings say? How can we feel more connected to the rich history of our campus?
+    link: https://unm-digital-history.github.io/campus-history/
+
+  - title: Santa Fe Trail Sites
+    image: "/assets/images/projects/trails.png"
+    summary: Historic Sites on the Santa Fe Trail
+    link: https://historic-trails.unm.edu/
+  
+  - title: Metahistory
+    image: "/assets/images/projects/metahistory.png"
+    summary: Collected historiographical essays from past classes to future ones.
+    link: https://unm-historiography.github.io/metahistory/
+
 ---
 
-## Collaborative Digital Projects
+# Collaborative Course Project Websites
 This overview explains how we help instructors create collaborative websites for displaying student work. These websites demonstrate what collaborative digital history can be: a group of students contribute small articles that collectively add up to something useful, creating something that one person alone couldn’t do in a reasonable timeframe. The course website will be a collaborative sustainable digital projects.
 
 ## Public Engagement
@@ -15,3 +33,6 @@ Many popular website creation apps, such as Wordpress or Wix, place limits on de
 
 ## Let's Get Started
 If you are interested in any of the above, let's talk about building a website together for your student projects. We've got the technical infrastructure set up and the documentation of instructions for you and your students. We're happy to visit classes to help.
+
+## A few examples
+{% include card-grid.html %}

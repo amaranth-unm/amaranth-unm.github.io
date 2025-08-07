@@ -21,8 +21,9 @@ Amaranth also represents the inherent contradictions that humanists explore. Thr
 
 Over the last few decades, a new set of digital technology tools and techniques emerged to provide humanists with many options for projects and research. The diversity of opportunities in the digital humanities thus lends itself to a metaphor that captures this idea of growth from variety. 
 
-## Virtual Tour
-View the 360 photo with info labels to see what Amaranth has to offer! 
+
+## Historic Virtual Tour
+Below you can see what the very first incaration of _Amaranth_ looked like. View the 360 photo with info labels to see what's around! Stop by to see how much has changed! 
 
 <iframe 
   src="https://jeseyfried.github.io/amaranth-holding-area/app-files/index.html" 

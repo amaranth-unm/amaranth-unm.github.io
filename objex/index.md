@@ -13,17 +13,19 @@ cards:
     summary: Showing different outcomes based on print detail settings.
     link: "jaguars"
 
-  - title: "Bronze Skull"
+  - title: "Brad & Chad"
     image: "images/skull-temp.jpg"
     summary: Connecting an object to a concept.
     link: "skull"
 
-  - title: "Anti-Communist Statue"
+  - title: "Women and Children Communism Memorial"
     image: "images/anticommunist.png"
     summary: Demonstrating the potential for capturing texture.
     link: "anticommunist"
 ---
 
 # Objex
+
+We like to make stuff. The real fun is to experiment with how 3D printing can be used profitably in the classroom and how it can engage learners of all ages. Below are a few prints we've done for various experiments.
 
 {% include card-grid.html %}
