@@ -539,6 +539,7 @@ FOOTER
   padding-top: 2rem;
   padding-bottom: 1rem;
   letter-spacing: 0.01em;
+  clear: both;
 }
 
 .site-footer .footer-heading {
