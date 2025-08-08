@@ -38,5 +38,6 @@ Why not always opt for the most fine print setting? You make a tradeoff in print
   class="left"
   width="30%"
   caption="Printed at Draft, 70 minutes"
-  image-url="images/jag-draft.jpg"
+  image-url="images/jag-draft-2.jpg"
 %}
+
