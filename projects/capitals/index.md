@@ -18,6 +18,9 @@ Printing a series of objects increases the pedagogical value of 3D objects becau
 
 The central learning outcome desired for this project was to help students retain a long-term understanding of Romanesque and Gothic architectural styles. The table below summarizes the main differences of these two styles, ones that largely dominate the architecture in western Europe during the Middle Ages.
 
+<div class="table-responsive">
+  <table class="table table-bordered">
+
 | Feature | Romanesque Style | Gothic Style |
 | --------- | ---------- | ---------- |
 | Time Period | Early medieval, ca. 1000-1200 | High and Late Medieval, ca. 1100-1500 |
@@ -27,6 +30,9 @@ The central learning outcome desired for this project was to help students retai
 | Human Form | Expressive, but abstract | Curving figures, emphasis on realistic portrayal of strong emotion |
 | Key Buildings | Shrine of St. James in Santiago de Compostela | Cathedral of Saint Denis in Paris, Cathedral of Notre Dame in Paris |
 | Building Features | Rounded arches with chevrons | Large windows, pointed arches, flying buttresses to support stone ceiling vaults |
+
+  </table>
+</div>
 
 ## Sourcing the 3D Files
 
