@@ -28,14 +28,14 @@ Why not always opt for the most fine print setting? You make a tradeoff in print
 %}
 
 {% include figure.html
-  class="center"
+  class="left"
   width="30%"
   caption="Printed at Optimal, 92 minutes"
   image-url="images/jag-optimal.jpg"
 %}
 
 {% include figure.html
-  class="right"
+  class="left"
   width="30%"
   caption="Printed at Draft, 70 minutes"
   image-url="images/jag-draft.jpg"

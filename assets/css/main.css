@@ -466,20 +466,20 @@ figure {
   /* no bottom padding; handled with caption */
 }
 
-.img-right {
+.right {
   float:right;
   padding:0 0px 0px 2rem;
   text-align:left;
   margin-right:0px;
 }
 
-.img-left {
+.left {
   float:left;
   padding:0 2rem 0px 0px;
   margin-left:0px;
 }
 
-.img-center {
+.center {
   text-align:center;
   margin-left:auto;
   margin-right:auto;
