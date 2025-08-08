@@ -15,14 +15,24 @@ For more information about the Revopoint POP3 scanner and software, visit their 
 ### Tips for 3D Scanning
 
 - Open the Revoscan application on the computer and connect the scanner through its USB cable. The setup should look like the picture below.
-  ![The physical setup of the 3D scanner](3Dphysicalsetup.jpg)
+{% include figure.html
+  class="left"
+  width="60%"
+  caption="The physical setup of the 3D scanner"
+  image-url="images/3Dphysicalsetup.jpg"
+%}
   <br style="clear: both">
 
 ### Scanning Every Surface
 
 - After completing separate scans for each rotated side of the object, you will have multiple scan files listed on the lefthand side of the application screen.
 - Go through each of these and delete unwanted material. In the example in the picture below, we would next delete the ring around the base of the object.
-  ![Initial scanned material.](images/Revoscan-procedures-1.png)
+{% include figure.html
+  class="left"
+  width="60%"
+  caption="Initial scanned material"
+  image-url="images/images/Revoscan-procedures-1.png"
+%}
   <br style="clear: both">
 
 ### Fusion and Merging
@@ -30,7 +40,12 @@ For more information about the Revopoint POP3 scanner and software, visit their 
 - Click through the Fusion instructions for each of the scans.
 - Once fused, the multiple scans can then be merged.
 - Check that enough of the model (over 30%) overlaps, such as in the image below.
-  ![Overlapping images for merging.](images/Revoscan-merging.png)
+{% include figure.html
+  class="left"
+  width="60%"
+  caption="Overlapping images for merging"
+  image-url="images/images/Revoscan-merging.png"
+%}
   <br style="clear: both">
 
 ### Merging and Exporting the Model

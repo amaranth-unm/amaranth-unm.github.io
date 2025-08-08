@@ -22,11 +22,11 @@ The central learning outcome desired for this project was to help students retai
 | --------- | ---------- | ---------- |
 | Time Period | Early medieval, ca. 1000-1200 | High and Late Medieval, ca. 1100-1500 |
 | Treatment of Forms from Nature | Strong lines of highly stylized leaves, based on Roman models | A more realistic portrayal |
-| Treatment of Plants | Curling stems, knot-work, scrolling | Accurate reproduction of leaf forms, |
+| Treatment of Plants | Curling stems, knot-work, scrolling | Accurate reproduction of leaf forms |
 | Treatment of Animals | Included fantastic beasts | Animals from Biblical stories, depicted with more realism |
 | Human Form | Expressive, but abstract | Curving figures, emphasis on realistic portrayal of strong emotion |
 | Key Buildings | Shrine of St. James in Santiago de Compostela | Cathedral of Saint Denis in Paris, Cathedral of Notre Dame in Paris |
-| Building Features | Rounded arches with chevrons, | Large windows, pointed arches, flying buttresses to support stone ceiling vaults |
+| Building Features | Rounded arches with chevrons | Large windows, pointed arches, flying buttresses to support stone ceiling vaults |
 
 ## Sourcing the 3D Files
 
@@ -50,5 +50,10 @@ An instructor wishing to supplement a short lecture on Romanesque and Gothic sty
 
 In the Amaranth studio space, the poster below, printed at 36x47 inches, explains the pedagogical intentions of the printed capitals. This creates an opportunity for communication of the pedagogical utility of the capitals outside of the classroom setting. We hope that this sparks ideas for the pedagogical potential of additional series of 3D objects to demonstrate themes from other historical contexts.
 
-![medieval capitals poster](images/capitals-poster.jpg)
+{% include figure.html
+  class="left"
+  width="60%"
+  caption="Medieval Capitals Poster"
+  image-url="images/capitals-poster.jpg"
+%}
 
