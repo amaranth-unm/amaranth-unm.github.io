@@ -21,7 +21,7 @@ The slicing software creates instructions for how to print an object for a parti
   caption="Printer settings in Orca Slicer"
   image-url="images/orca-printer-settings.png"
 %}
-
+  <br style="clear: both">
 2. Ensure the filament type matches the one loaded in the printer.
 3. Import the file for your model, usually in 3MF or STL format.
 4. After rotating it and snapping it to the build plate, it should look like what you see in the below screenshot.
@@ -31,7 +31,7 @@ The slicing software creates instructions for how to print an object for a parti
   caption="Printer settings in Orca Slicer"
   image-url="images/Orca-slicer1.png"
 %}
-
+  <br style="clear: both">
 5. Adjust the print settings (e.g., layer height, infill percentage) based on your desired print quality.
 6. Click 'Slice plate' at the top right corner of the screen. After the slicing is complete, it should look like the screenshot below.
 {% include figure.html
@@ -40,7 +40,7 @@ The slicing software creates instructions for how to print an object for a parti
   caption="Model after slicing"
   image-url="images/Orca-slicer2.png"
 %}
-
+  <br style="clear: both">
 7. You can preview each layer, and nozzle position within each layer, by moving the toggle bars at the right and bottom of the screen. Save the sliced file as a .gcode file to an SD card or USB drive for printing.
 
 ## Printing Process
