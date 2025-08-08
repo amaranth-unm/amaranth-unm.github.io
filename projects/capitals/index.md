@@ -50,5 +50,10 @@ An instructor wishing to supplement a short lecture on Romanesque and Gothic sty
 
 In the Amaranth studio space, the poster below, printed at 36x47 inches, explains the pedagogical intentions of the printed capitals. This creates an opportunity for communication of the pedagogical utility of the capitals outside of the classroom setting. We hope that this sparks ideas for the pedagogical potential of additional series of 3D objects to demonstrate themes from other historical contexts.
 
-![medieval capitals poster](images/capitals-poster.jpg)
+{% include figure.html
+  class="left"
+  width="60%"
+  caption="Medieval Capitals Poster"
+  image-url="images/capitals-poster.jpg"
+%}
 
