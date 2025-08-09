@@ -8,14 +8,14 @@ date: 2025-08-09
 
 ## Notre Dame Cathedral: An Intricate Model
 
-The team of 3D model creators named [MiniWorld3D](https://www.printables.com/@MiniWorld3D) created [this model](https://www.printables.com/model/274437-notre-dame-de-paris-france/files) of the Cathedral de Notre Dame in Paris.
-
 {% include figure.html
   class="right"
   width="40%"
   caption="Notre Dame model in 3D viewer"
   image-url="images/notre-dame-3d-viewer-2.jpg"
 %}
+The team of 3D model creators named [MiniWorld3D](https://www.printables.com/@MiniWorld3D) created [this model](https://www.printables.com/model/274437-notre-dame-de-paris-france/files) of the Cathedral de Notre Dame in Paris.
+
 <br style="clear: both">
 We downloaded it and printed it at an enlarged size and high detail. The filament is a translucent gray. The print time was about ten hours. 
 
@@ -25,7 +25,7 @@ We downloaded it and printed it at an enlarged size and high detail. The filamen
   caption="Sliced view of Notre Dame model"
   image-url="images/notre-dame-sliced.jpg"
 %}
-
+<br style="clear: both">
 The result demonstrates the high level of complexity and detail capable with 3D printing.
 
 {% include figure.html
