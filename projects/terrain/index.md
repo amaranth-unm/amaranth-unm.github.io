@@ -30,6 +30,7 @@ The below image shows two prints of the same model file, one printed with three 
   caption="Printed 3D model of the Sandias and Rio Grande Valley"
   image-url="images/two-sandia-prints.jpg"
 %}
+<br style="clear: both">
 
 ### Zooming Out and Printing in Four Colors
 
@@ -73,7 +74,7 @@ For this model of the Santa Fe Trail, we wanted to create something larger than 
   caption="Touch terrain screenshot of SF Trail"
   image-url="images/sftrail-touchter-select.png"
 %}
-
+<br style="clear: both">
 Then we sliced the model on two plates, as shown in the image below.
 
 {% include figure.html
