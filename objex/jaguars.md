@@ -41,3 +41,12 @@ Why not always opt for the most fine print setting? You make a tradeoff in print
   image-url="images/jag-draft-2.jpg"
 %}
 
+<br style="clear: both">
+Notice the thick layers on the Draft print, more visible in the zoomed-in image below.
+
+{% include figure.html
+  class="left"
+  width="30%"
+  caption="Zoomed-in on the nose of the Jaguar"
+  image-url="images/jag-nose.jpg"
+%}
