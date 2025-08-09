@@ -14,18 +14,18 @@ The statue is located across from the Victora & Albert Museum in London, in the 
 <br style="clear: both">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1214.472654160829!2d-0.17383205277943448!3d51.49618705473291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876054244e3245f%3A0xb03d192e4dbcb138!2sYalta%20Memorial%20Garden!5e1!3m2!1sen!2sus!4v1754779449359!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br style="clear: both">
-The organization, [London Remembers](https://www.londonremembers.com/), has created a database of memorials in the city. [Their webpage](https://www.londonremembers.com/memorials/communist-victims) for this statue offers a full description and includes the text of its plaque.
+[London Remembers](https://www.londonremembers.com/) has created a database of memorials in the city. [Their webpage](https://www.londonremembers.com/memorials/communist-victims) for this statue offers a full description and includes the text of its plaque.
 <br style="clear: both">
 {% include figure.html
   class="left"
-  width="40%"
+  width="45%"
   caption="Yalta Memorial Gardens. Source: London Remembers"
   image-url="images/com-gardens-view.jpg"
 %}
 
 {% include figure.html
   class="right"
-  width="40%"
+  width="45%"
   caption="Close-up view of the statue. Source: London Remembers"
   image-url="images/com-statue-close.jpg"
 %}
@@ -50,7 +50,7 @@ After the print completed, the support material snapped off very easily. We used
 
 {% include figure.html
   class="right"
-  width="40%"
+  width="60%"
   caption="Our 3D print, using a filament designed to mimic stone."
   image-url="images/anticommunist.png"
 %}
