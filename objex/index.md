@@ -22,6 +22,11 @@ cards:
     image: "images/anticommunist.png"
     summary: Demonstrating the potential for capturing texture.
     link: "anticommunist"
+
+  - title: "Notre Dame Cathedral"
+    image: "images/notre-dame-side-zoom-1.jpg"
+    summary: An intricate model with excellent details.
+    link: "notredame"
 ---
 
 # Objex
