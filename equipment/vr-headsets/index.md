@@ -19,11 +19,11 @@ The Amaranth studio has two Meta Quest 3 headsets and one HTC Vive Focus headset
 
 {% include figure.html
   class="right"
-  width="45%"
+  width="40%"
   caption="HTC Vive Pro Headset"
   image-url="images/htc-vive-focus.jpg"
 %}
-
+<br style="clear: both">
 ## Historical Content in VR
 
 We are currently building our list of recommended VR experiences for historical content. In the meantime, consider this video by Matthew Brennan, a PhD student and instructor at Indiana University's School of Informatics and Computing.

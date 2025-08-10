@@ -9,7 +9,7 @@ date: 2025-08-03
 ## YETI Mics
 {% include figure.html
   class="right"
-  width="30%"
+  width="15%"
   caption="YETI Blue microphone"
   image-url="images/yeti-mic-1.jpg"
 %}
@@ -20,6 +20,7 @@ The Amaranth studio owns two YETI Blue microphones for high quality audio record
 
 We offer support for students and instructors interested in recording and posting podcasts. One of our [sample websites](https://amaranth-unm.github.io/websites/examples) is tailored for a class repository of podcast episodes. 
 
+<br style="clear: both">
 ## Software Options for Recording Audio
 
 The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. 
