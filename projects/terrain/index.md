@@ -84,4 +84,18 @@ Then we sliced the model on two plates, as shown in the image below.
   image-url="images/printing-with-two-plates.png"
 %}
 
-After printing out the first half and removing it from the build plate, the printer could proceed with printing the second plate. With both plates printed, we used a projection of the Santa Fe Trail to trace its path using acrylic paint pens. This allowed for greater detail and significantly reduced the duration of the 3D printing.
+After printing out the first half and removing it from the build plate, the printer could proceed with printing the second plate. With both plates printed, we used a projection of the Santa Fe Trail to trace its path using acrylic paint pens. This allowed for greater detail and significantly reduced the duration of the 3D printing. If we were to do this 3D print over again, we would not choose a gradient filament because this created a color difference between the top layers of the two plates.
+
+{% include figure.html
+  class="right"
+  width="40%"
+  caption="Using a projector to trace the trail"
+  image-url="images/low-tech-terrain.jpg"
+%}
+
+{% include figure.html
+  class="left"
+  width="55%"
+  caption="Model with acrylic paint pen work added"
+  image-url="images/acrylic-terrain.jpg"
+%}
