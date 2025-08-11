@@ -95,7 +95,7 @@ After printing out the first half and removing it from the build plate, the prin
 
 {% include figure.html
   class="right"
-  width="30%"
+  width="40%"
   caption="Using a projector to trace the trail"
   image-url="images/low-tech-terrain.jpg"
 %}
