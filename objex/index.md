@@ -27,6 +27,11 @@ cards:
     image: "images/notre-dame-side-zoom-1.jpg"
     summary: An intricate model with excellent details.
     link: "notredame"
+
+  - title: "An Explanation of Filament"
+    image: "images/extrusion-bronze.jpg"
+    summary: An explanation of 3D printing filament.
+    link: "filament"
 ---
 
 # Objex

@@ -14,7 +14,7 @@ cards:
     link: "poster-contest"
 
   - title: "Terrain Maps"
-    image: "/assets/images/site//friction-map-tile.png"
+    image: "/assets/images/site/acrylic-terrain.jpg"
     summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextuzlize space and geograpgy.
     link: "terrain"
 ---
