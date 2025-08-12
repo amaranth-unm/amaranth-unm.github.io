@@ -4,10 +4,10 @@ title: Chalchiuhtlicue
 subtitle:
 author: Jonathan Seyfried
 date: 2025-08-03
+header-image: images/charnay-1.jpg
 ---
 
-## Chalchiuhtlicue in Mexico City
-
+# Chalchiuhtlicue
 On the [Scan the World repository](https://www.myminifactory.com/object/3d-print-monumental-statue-of-chalchiuhtlicue-56241), we found a printable 3D model, in STL format, for the statue of Chalchiuhtlicue. The 3D model of this object adds to its journey from the period Teotihuacán's flourshing in the early centuries of the first millennium to its current day placement at the center of a large gallery at the [National Anthropology Museum](https://mna.inah.gob.mx/colecciones_detalle.php?id=1412) in Mexico City.
 
 When holding a palm-sized model of this giant statue, consider the ways that people have related to its materiality over the centuries. 

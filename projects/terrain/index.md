@@ -6,17 +6,19 @@ author: Jonathan Seyfried
 date: 2025-08-04
 ---
 
-## 3D-Printed Terrain
-
+# Printing Terrain
 This page explains how to 3D print terrain as well as exploring additional 3D features to represent borderlands concepts.
 
 ## Recommendations for 3D Printing Terrain
+There are many ways to print terrain. Most include gathering and assembling relevant datafiles and transforming them into an STL file that can be loaded into slicing software for a 3D printer. 
 
-For a quick way to obtain a STL file for terrain, go to [Touch Terrain](https://touchterrain.geol.iastate.edu/main) created by Iowa State University.
+There is, however, a very quick and easy way to play around with terrain printing. To get an STL file for terrain, go to [Touch Terrain](https://touchterrain.geol.iastate.edu/main) created by Iowa State University.
 
-Drag and resize the rectangle to capture the terrain you want printed. The settings on the righthand side offer various customizations. Some cartographic sources that work better for certain parts of the world. 
+Drag and resize the rectangle to capture the area you want printed. The settings on the righthand side offer various customizations. Some cartographic sources that work better for certain parts of the world. 
 
-The most important setting is the vertical distortion. We recommend using at least some vertical distortion to add comprehensibility to the 3D representation of the terrain. Generally speaking, the larger the terrain selected the more vertical distortion. After you choose your settings, click on the large green button at the bottom right. From the next screen you can preview the 3D print file, in STL format, or simply download it in a zipped folder. After unzipping that folder, you will have a 3D print file ready for slicing. 
+The most important setting is the vertical distortion. We recommend using at least some vertical distortion to add comprehensibility to the 3D representation of the terrain. Generally speaking, the larger the terrain selected the more vertical distortion is necessary to really see a difference across the model. 
+
+After you choose your settings, click on the large green button at the bottom right. From the next screen you can preview the 3D print file, in STL format, or simply download it in a zipped folder. After unzipping that folder, you will have a 3D print file ready for slicing. 
 
 The following images will provide you with further recommendations for how to print terrain.
 

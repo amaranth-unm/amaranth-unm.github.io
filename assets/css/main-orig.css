@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+@media screen {
+  /*****************************************************
+  PAGE SETUP
+  *****************************************************/
+
+  #sheetrock {
+    display:none;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    width:100%;
+  }
+
+
+.container {
+  width:60rem;
+  margin: 0 auto;
+  clear:both;
+}
+
+.container.full-width {
+  max-width: 95rem;
+  margin: 0 auto;
+  clear: both;
+}
+
+.social-buttons {
+  gap: 0.5rem;
+}
+
+.social-buttons .fa {
+  font-size: 1.3rem;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.social-buttons .fa:hover {
+  color: #e94e77;
+}
+
+#dark-mode-toggle {
+  margin-right: 1rem;
+}
+
+
+/*****************************************************
+JUMBOTRON
+*****************************************************/
+
+
+.jumbotron {
+  position: relative; /* Ensure the jumbotron is the positioning context */
+  background-size: cover; /* Ensure the background image covers the entire jumbotron */
+  background-position: center;
+  color: white;
+  height: 50vh; /* default height */
+  margin-bottom: 0;
+  padding:2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;/* vertical centering */
+  align-items: center; /* horizontal centering */
+  height: 100%;
+}
+
+.jumbotron .overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0; /* Position at the bottom of the jumbotron */
+  left: 0; /* Align to the left */
+  width: 100%; /* Stretch across the full width */
+  background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  color: white; /* White text for contrast */
+  padding: .8rem 2rem;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.overlay h1 {
+  margin: 0;
+  /* Remove default margin for the title */
+  font-size: 2.5rem;
+  /* Adjust font size for the title */
+  text-align: left;
+  ;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron p {
+  text-align: center;
+}
+
+.jumbotron .overlay p {
+  align-self: flex-end; /* This pushes the caption to the right */
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+  max-width:50rem;
+}
+
+.jumbotron .overlay p.caption {
+  font-size: .8rem;/* Adjust caption font size */
+  text-align: right;
+}
+
+.overlay .title-row {
+  display: flex;
+  font-size:1rem;
+  /* Use flexbox for horizontal alignment */
+  justify-content: space-between;
+  /* Space out elements */
+  align-items: center;
+  /* Align items vertically */
+}
+
+
+
+/*****************************************************
+CARDS
+*****************************************************/
+
+/* Ensure all images in the cards are the same size */
+.image-container {
+  width: 100%; /* Make the container responsive */
+  height: 50rem; /* Set a fixed height for the image container */
+  overflow: hidden; /* Hide any overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the container width */
+  height: 100%; /* Make the image fill the container height */
+  object-fit: cover; /* Maintain aspect ratio and crop excess */
+  display: block;
+}
+
+
+.card {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07), 0 1.5px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: none;
+  border-radius: 1.1rem;
+  overflow: hidden;
+}
+
+
+/* Card horizontal layout improvements */
+.card-horizontal .card-body {
+  padding: 1.5rem;
+  max-width: 38rem;
+  /* Prevents text from being too wide */
+  width: 100%;
+}
+
+.card-horizontal .card-title,
+.card-horizontal .card-subtitle,
+.card-horizontal .card-text {
+  word-break: break-word;
+}
+
+.card-horizontal img {
+  object-fit: cover;
+  height: 220px;
+  min-height: 220px;
+  width: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .card-horizontal .card-body {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .card-horizontal img {
+    height: 160px;
+    min-height: 160px;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+}
+
+
+.card-horizontal {
+  background-color: rgba(174, 214, 214,.5)
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.13), 0 2px 8px rgba(0, 0, 0, 0.09);
+  transform: translateY(-4px) scale(1.015);
+}
+
+
+.card-title {
+  font-family: 'Space Grotesk', 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #222;
+}
+.card-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  color: #e94e77;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.card-text {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+
+.card img {
+  filter: brightness(0.90) contrast(.95);
+  border-radius: 1.1rem 0 0 1.1rem;
+  transition: filter 0.2s;
+}
+
+.card:hover img {
+  filter: brightness(1) contrast(1) saturate(1.1);
+}
+
+.card-body {
+  padding:0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  /* Adjust as needed for your card design */
+  object-fit: cover;
+  /* This makes the image fill the box, cropping if needed */
+  object-position: center;
+  /* Center the crop */
+  background: #eee;
+  /* Optional: placeholder background */
+}
+
+.card-body {
+  font-size:1rem;
+  padding-left: 2rem;
+} 
+
+.card h4 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  margin-top:0rem;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #666;
+  font-weight: 400;
+}
+.row a {
+  text-decoration:none;
+  border:none;
+}
+
+
+
+
+/*****************************************************
+TYPOGRAPHY
+*****************************************************/
+
+h1, h2, h3, h4, h5 {
+  font-family: "Space Grotesk", sans-serif;
+  text-align:left;
+  margin: 2rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-title h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  color:#fff;
+  font-size: 3rem;
+  margin-top: -1.2em;
+  margin-bottom: .2em;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size:1.2rem;
+}
+
+h5 {
+  text-transform:uppercase;
+  font-size:1rem;
+}
+
+h5.modal-title {
+    margin: 0;
+  }
+
+.modal-lg, .modal-xl {
+--bs-modal-width: 90%;
+max-height:80vh;
+background-color: black;
+  }
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #999;
+  clear:both;
+}
+
+p {
+  line-height: 1.6em;
+  margin-bottom: 1.5em;
+}
+
+
+p.abstract {
+  border:1px solid gray;
+  background-color: #e5d3bb;
+  padding:2em;
+  font-size: 90%;
+  margin: 3em 0 4em 0em;
+}
+
+p.author {
+  margin: .5em 0 0em 0;
+  text-align: center;
+  text-transform: uppercase;
+  color:#666;
+}
+
+blockquote {
+  margin: -1em 4em 1em 4em;
+  font-size: 90%;
+  border:none;
+}
+
+a {
+  color: #005999;
+  font-weight:bold;
+  border-bottom: 2px dotted #87a7be;
+}
+
+a:visited {
+ color: #44136c;
+ border-bottom: 2px dotted #956cb7;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+
+ul {
+  margin-bottom:1rem;
+}
+
+
+li ul li {
+  color:#666666;
+  list-style: none;
+  margin-bottom:1em;
+}
+
+.full-width {
+  margin-bottom:2rem;
+}
+
+.full-width p {
+  width:100%;
+  padding: 0 15%;
+  margin:0;
+  font-style: italic;
+}
+
+.highlight {
+  background-color:#ccc;
+}
+
+
+
+/*****************************************************
+PULLQUOTES
+*****************************************************/
+
+
+aside {
+  border-top:.3rem solid black;
+  border-bottom:.3rem solid black;
+  margin: 1rem 0 1rem 0;
+
+  p{
+    font-size:90%;
+    font-weight:bold;
+    text-align:justify;
+    line-height:1.2rem;
+    padding:0;
+    margin:0;
+    width:100%;
+  }
+
+  .right {
+    float:right;
+    margin-left: 1rem;
+    }
+
+  .left {
+    float:left;
+    left:0;
+    margin-right: 1rem;
+    margin-top:.6rem;
+    }
+}
+
+
+/*****************************************************
+IMAGES
+*****************************************************/
+
+figure {
+  margin-bottom:0;
+  clear:none;
+  margin:none;
+  /* no bottom padding; handled with caption */
+}
+
+.img-right {
+  float:right;
+  padding:0 0px 0px 2rem;
+  text-align:left;
+  margin-right:0px;
+}
+
+.img-left {
+  float:left;
+  padding:0 2rem 0px 0px;
+  margin-left:0px;
+}
+
+.img-center {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+figcaption {
+  color:#888;
+  font-family: 'Oxygen', sans-serif;
+  display:block;
+  font-size:.8rem;
+  margin:.4rem 0 1rem 0;
+  clear:both;
+  line-height: 1.1rem;
+}
+
+figcaption.img-right {
+  text-align: justify;
+  padding:0 0px 0px 0rem;
+}
+
+figcaption.img-left {
+  text-align: justify;
+  padding:0;
+}
+
+figcaption.img-center {
+  text-align:justify;
+  padding:0;
+}
+
+figcaption p {
+  margin:0;
+  padding:0;
+  line-height: 1.2rem;
+  font-size:.8rem;
+}
+
+figcaption a {
+  opacity:.5;
+  font-weight:normal;
+}
+
+
+
+
+
+/*****************************************************
+FOOTER
+*****************************************************/
+
+/* Footer: Compact, Thin, Efficient Typography */
+.site-footer {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1rem;
+  background: #222;
+  color: #eee;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.site-footer .footer-heading {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.site-footer .footer-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.site-footer .footer-list li {
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.site-footer .footer-meta {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 0.25rem;
+  font-weight: 400;
+}
+
+.site-footer .footer-bottom {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .site-footer .row {
+    row-gap: 1.5rem;
+  }
+
+  .site-footer {
+    font-size: 0.95rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+
+} /* end media screen */
+
+
+/*****************************************************************************/
+/*
+/* SMALL SCREEN
+/*
+/*****************************************************************************/
+
+  @media (max-width: 768px) {
+
+
+  main {
+    margin: 0 1.5%;
+  }
+
+.lg-left-col p{
+  width:100%;
+}
+
+  aside {
+  position:relative;
+  width:100%;
+  padding: .4em;
+  border:1px solid #ccc;
+  background:#fefefe;
+  margin-bottom:1em;
+  }
+
+aside.aside-right {
+  margin-left:0;
+  left:0;
+  width:100%;
+}
+
+aside p{
+  margin:0;
+}
+
+figure.img-right-col {
+  position:relative;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+}

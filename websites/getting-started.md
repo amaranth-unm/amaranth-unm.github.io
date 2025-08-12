@@ -1,22 +1,19 @@
 ---
 layout: base
 date: 2025-07-31
+header-image: /assets/images/site/seed.png
 ---
 
 # Getting Started
-We are here to help guide you through the process! But here's the general outline.
+We are here to help guide you through the process of getting your website set up. But here's the general outline.
 
 ## Initial Steps with Amaranth
+We've tried to create all the instructions you need to do things on your own, but there can be a lot to take in if you've never thought about making a website before. Please book a time to talk to us and we can walk you through the concepts and first steps. 
 
-We'll help you get familiar and comfortable with the web hosting platform GitHub.
+- We'll help you get familiar and comfortable with the web hosting platform called GitHub Pages.
+- We use a GitHub Pages template called Xanthan, that was designed specifically for the kinds of work we're doing. We'll help you follow [the Xanthan set up instructions](https://fredgibbs.net/xanthan/guides/getting-started).
 
-We'll help you follow [the Xanthan set up instructions](https://fredgibbs.net/xanthan/guides/getting-started).
-
-This will help you create a basic website template. We'll give you a tour of [the various places in the repository](https://fredgibbs.net/xanthan/guides/understanding-your-site) that hold files that you will edit to make the website specific to your course.
-
-This sort of is your "official" project website. But it's best to 
-
-Then you can begin typing over the placeholder text for [the title](https://fredgibbs.net/xanthan/guides/editing-your-site) of the website. Once you have finished making changes for the day, you will request a merge with the repository in Amaranth. This process is called submitting a 'pull request.' 
+We'll create an "official" project website hosted by Amaranth. We'll help you make your own copy  
 
 
 ## A Summary of What Your Students Will Do

@@ -37,27 +37,25 @@ Below you can see what the very first incaration of _Amaranth_ looked like. View
 </iframe>
 
 
-<!-- Team Section -->
-<section id="team" class="bg-light-gray">    
-        <div class="row">
-            {% for member in site.data.team.people %}
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="/assets/images/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                    <h4>{{ member.name }}</h4>
-                    <p class="text-muted">{{ member.position }}</p>
-                    <ul class="list-inline social-buttons">
-                        {% for network in member.social %}
-                        <li>
-                            <a href="{{ network.url }}">
-                                <i class="fa fa-{{ network.title }}"></i>
-                            </a>
-                        </li>
-                        {% endfor %}
+## Team
 
-                    </ul>
-                </div>
-            </div>
-            {% endfor %}
-        </div>        
-</section>
+{% for member in site.data.team.people %}
+<div class="card card-horizontal mb-4" style="max-width: 100%;">
+  <div class="row g-0 align-items-center">
+    <div class="col-md-4">
+      <img src="{{ site.baseurl }}/assets/images/team/{{ member.pic }}.jpg" class="img-fluid rounded-start" alt="{{ member.name }}"
+        style="object-fit:cover; height:100%; min-height:220px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title mb-1">{{ member.name }}</h4>
+        <h6 class="card-subtitle mb-2 text-muted">{{ member.position }}</h6>
+        <p class="card-text">{{ member.bio }}</p>
+        {% if member.link %}
+        <p class="card-text"><small class="text-muted"><a href="{{ member.link }}" target="_blank">{{ member.link }}</a></small></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

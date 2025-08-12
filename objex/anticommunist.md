@@ -6,6 +6,8 @@ author: Jonathan Seyfried
 date: 2025-08-03
 ---
 
+# Printing Texture
+
 ## Memorial to the Victims of Communism
 
 We chose the 3D model of this statue from the [Scan the World](https://www.myminifactory.com/object/3d-print-women-and-children-communism-memorial-london-3411) repository because of its texture. 

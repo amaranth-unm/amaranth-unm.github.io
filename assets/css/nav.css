@@ -4,16 +4,14 @@ NAVIGATION
 
 @media screen {
 
-a.navbar-brand {
-  text-decoration: none !important;
-  border: none !important;
-  outline: none !important;
-}
-
 .navbar-brand {
-  text-decoration: none !important;
-  border: none !important;
-  outline: none !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    line-height: 1rem;
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
 }
 
 .navbar-brand:hover,

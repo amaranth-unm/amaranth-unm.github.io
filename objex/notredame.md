@@ -6,7 +6,7 @@ author: Jonathan Seyfried
 date: 2025-08-09
 ---
 
-## Notre Dame Cathedral: An Intricate Model
+# Printing Details
 
 {% include figure.html
   class="right"
@@ -30,21 +30,21 @@ The result demonstrates the high level of complexity and detail capable with 3D 
 
 {% include figure.html
   class="left"
-  width="20%"
+  width="32%"
   caption="Top view of the printed model"
   image-url="images/notre-dame-top-1.jpg"
 %}
 
 {% include figure.html
-  class="center"
-  width="20%"
+  class="left"
+  width="32%"
   caption="Side view of the model"
   image-url="images/notre-dame-side-1.jpg"
 %}
 
 {% include figure.html
-  class="right"
-  width="20%"
+  class="left"
+  width="32%"
   caption="Detail view of the rose window"
   image-url="images/notre-dame-rose-1.jpg"
 %}

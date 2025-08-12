@@ -1,12 +1,14 @@
 ---
 title: Amaranth @ UNM
 layout: base
+header-image: assets/images/site/amaranth-header.png
+header-height: 110vh
 date: 2024-12-02
 cards: 
-  - title: "Digital Essays"
+  - title: "Project Websites"
     image: "/assets/images/site/word-docs.jpg"
     summary: How to create an online space for what students create in a course.
-    link: "digital-essays"
+    link: "websites/class-projects"
 
   - title: "Podcast Repository"
     image: "/assets/images/site/headphones.jpg"
@@ -14,21 +16,14 @@ cards:
     link: "podcasts"
 ---
 
-{% include jumbotron.html 
-height="100"
-image-url="assets/images/site/amaranth-header.png"
-%}
-
 # Welcome to Amaranth
 Amaranth is UNM's digital humanities and public scholarship studio.
 
+# Course integrations
+{% include card-grid.html %}
 
 # Projects
 See what we're up to!
-
-
-# Course integrations
-{% include card-grid.html %}
 
 
 # Possibilities
@@ -39,7 +34,8 @@ See what we're up to!
         <div class="col-md-4">
             <img style="width:150px" src="{{site.baseurl}}/assets/images/services/3d-printer.png"/>
             <h4 class="service-heading">3D printing</h4>
-            <p class="text-muted">Populate the world with digital surrogates.</p>
+            <a href="{{site.baseurl}}/process-guides/3d-printing">Populate the world with plastic surrogates.</a>
+            <p class="text-muted"></p>
         </div>
         <div class="col-md-4">
             <img style="width:150px" src="{{site.baseurl}}/assets/images/services/printing.png"/>
@@ -49,7 +45,7 @@ See what we're up to!
         <div class="col-md-4">
             <img style="width:150px" src="{{site.baseurl}}/assets/images/services/responsive-design.png"/>
             <h4 class="service-heading">Engaging Storytelling</h4>
-            <p class="text-muted"><a href="{{site.baseurl}}/classroom/digital-essays">Engage your readers with sharp, sustainable, and succulent digital essays.</a></p>
+            <a href="{{site.baseurl}}/websites/overview">Engage your readers with sharp, sustainable, and succulent digital essays.</a>
         </div>
     </div>
     <div class="row text-center" style="margin-top:4em;">

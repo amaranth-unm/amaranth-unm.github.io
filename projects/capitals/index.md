@@ -6,13 +6,11 @@ author: Jonathan Seyfried
 date: 2025-06-19
 ---
 
-# 3D-Printed Medieval Capitals
-
+# Tactile Architecture
 This use case explores the use of 3D printing to help create deeper understanding of medieval architectural styles.
 
 ## Project Summary
-
-Printing a series of objects increases the pedagogical value of 3D objects because students can compare them. While 2D images might very well convey most of the information described below, the experience of connecting to multiple 3D objects will likely make a substantial difference in students' retention of that information. We selected five 3D files of medieval capitals from a repository called [Scan the World](https://www.myminifactory.com/scantheworld/about) and printed them in a variety of colors. Although the detail of the scans sometimes limited the sharpness of the print quality, the capitals successfully convey key differences between Romanesque and Gothic architectural features. We created a large poster to demonstrate the potential for contextualizing 3D printed objects in a display.
+Printing a series of objects increases the pedagogical value of 3D objects because students can directly compare their physicality. While 2D images might very well convey most of the information described below, the experience of connecting to multiple 3D objects will likely make a substantial difference in students' retention of that information. We selected five 3D files of medieval capitals from a repository called [Scan the World](https://www.myminifactory.com/scantheworld/about) and printed them in a variety of colors. Although the detail of the scans sometimes limited the sharpness of the print quality, the capitals successfully convey key differences between Romanesque and Gothic architectural features. We created a large poster to demonstrate the potential for contextualizing 3D printed objects in a display.
 
 ## Pedagogical Goals
 
