@@ -12,7 +12,7 @@ date: 2025-08-12
   class="center"
   width="70%"
   caption="Our little basket of discarded coils of filament"
-  image-url="images/extrusion-dish.jpg"
+  image-url="images/extrusion-dish-2.jpg"
 %}
 
 There is a big world of 3D printing out there. Although a very wide range of materials get used for 3D printing across all kinds of settings, from industrial products to home hobbyists. Polylactic acid, known as PLA, remains the most common material for beginners. As a particular variety of plastic polymer, PLA heats and cools very rapidly, allowing for the melted bits to become laid down by the print nozzle and then cool very quickly to become solid. Made from biodegradable ingredients such as cornstarch and tapioca roots, PLA offers an excellent alternative to petroleum based plastics.
@@ -21,24 +21,25 @@ There is a big world of 3D printing out there. Although a very wide range of mat
 
 {% include figure.html
   class="left"
-  width="45%"
+  width="20%"
   caption="Extrusion-test filament"
   image-url="images/extrusion-spring.jpg"
 %}
 
 Before starting a print, the printer runs a test of filament extrusion: the pushing through of the melted-hot filament by the nozzle. This clears out any buildup from the last print and ensures that when the printing begins the filament extrusion proceeds smoothly. The test extrusion generates a bit of extra filament and our printer has a spring-loaded mechanism to shoot off that material. 
+<br style="clear: both">
 
 ## Why are we keeping all that filament? 
 
 {% include figure.html
   class="right"
-  width="45%"
+  width="25%"
   caption="Our tub of discarded filament"
   image-url="images/extrusion-tub.jpg"
 %}
 
 We are keeping the filament from extrusion tests and support material because PLA we will send it off to a company that recycles it. 
-
+<br style="clear: both">
 ## Want to know more details aobut PLA?
 
 Watch this video for a full explanation of polylactic acid, PLA.
