@@ -40,7 +40,7 @@ Before starting a print, the printer runs a test of filament extrusion: the push
 
 We are keeping the filament from extrusion tests and support material because PLA we will send it off to a company that recycles it. 
 <br style="clear: both">
-## Want to know more details aobut PLA?
+## Want to know more details about PLA?
 
 Watch this video for a full explanation of polylactic acid, PLA.
 

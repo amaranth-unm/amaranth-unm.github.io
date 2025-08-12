@@ -43,7 +43,7 @@ The result demonstrates the high level of complexity and detail capable with 3D 
 %}
 
 {% include figure.html
-  class="center"
+  class="right"
   width="20%"
   caption="Detail view of the rose window"
   image-url="images/notre-dame-rose-1.jpg"
