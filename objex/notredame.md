@@ -30,21 +30,21 @@ The result demonstrates the high level of complexity and detail capable with 3D 
 
 {% include figure.html
   class="left"
-  width="25%"
+  width="20%"
   caption="Top view of the printed model"
   image-url="images/notre-dame-top-1.jpg"
 %}
 
 {% include figure.html
   class="center"
-  width="25%"
+  width="20%"
   caption="Side view of the model"
   image-url="images/notre-dame-side-1.jpg"
 %}
 
 {% include figure.html
   class="right"
-  width="25%"
+  width="20%"
   caption="Detail view of the rose window"
   image-url="images/notre-dame-rose-1.jpg"
 %}

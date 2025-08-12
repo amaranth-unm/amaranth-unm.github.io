@@ -25,8 +25,13 @@ cards:
 
   - title: "Notre Dame Cathedral"
     image: "images/notre-dame-side-zoom-1.jpg"
-    summary: An intricate model with excellent details.
+    summary: Showcasing an especially intricate model.
     link: "notredame"
+
+  - title: "Filament"
+    image: "images/extrusion-bronze.jpg"
+    summary: Explaining the material used for 3D printing.
+    link: "filament"
 ---
 
 # Objex

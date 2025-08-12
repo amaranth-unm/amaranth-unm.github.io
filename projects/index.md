@@ -10,12 +10,12 @@ cards:
 
   - title: "HGSA Poster Contest"
     image: "/assets/images/site/four-posters.jpg"
-    summary: Sometimes first impressions happen quickly. Learning to conceptualize, design, reine, and explain a large format poster encourages a number of crucial communication skills.
+    summary: Sometimes first impressions happen quickly. Learning to conceptualize, design, refine, and explain a large format poster encourages a number of crucial communication skills.
     link: "poster-contest"
 
   - title: "Terrain Maps"
-    image: "/assets/images/site//friction-map-tile.png"
-    summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextuzlize space and geograpgy.
+    image: "/assets/images/site/acrylic-terrain.jpg"
+    summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextualize space and geography.
     link: "terrain"
 ---
 
