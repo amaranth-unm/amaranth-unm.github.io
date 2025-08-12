@@ -25,12 +25,12 @@ cards:
 
   - title: "Notre Dame Cathedral"
     image: "images/notre-dame-side-zoom-1.jpg"
-    summary: An intricate model with excellent details.
+    summary: Showcasing an especially intricate model.
     link: "notredame"
 
-  - title: "An Explanation of Filament"
+  - title: "Filament"
     image: "images/extrusion-bronze.jpg"
-    summary: An explanation of 3D printing filament.
+    summary: Explaining the material used for 3D printing.
     link: "filament"
 ---
 
