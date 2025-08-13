@@ -8,7 +8,7 @@ header-image: images/com-statue-close.jpg
 ---
 
 # Printing Texture
-In our 3D printing journey, we've sometimes felt disappointed at the lack of surface texture that gets picked up by 3D scanners. To capture texture, the 3D scanning process must include creating data on depth, using technology such as LiDAR or infrared. The the human eye ascertains depth through color shading but a computer can't do that very easily. This is the reason that so many 3D scanned models lack texture. When we saw this model of the Memorial to the Victims of Communism, its texture immediately grabbed our attention. The printed model's texture remains somewhat different than the original, but this print nonetheless demonstrates the potential for creating interesting surfaces in 3D printing.
+In our 3D printing journey, we've sometimes felt disappointed at the lack of surface texture that gets picked up by 3D scanners. To capture texture, the 3D scanning process must include creating data on depth, using technology such as LiDAR or infrared. The human eye ascertains depth through color shading but a computer can't do that very easily. This is the reason that so many 3D scanned models lack texture. So when we saw this model of the Memorial to the Victims of Communism, its texture immediately grabbed our attention. The printed model's texture remains somewhat different than the original, but this print nonetheless demonstrates the potential for creating interesting surfaces in 3D printing.
 
 ## Memorial to the Victims of Communism
 
