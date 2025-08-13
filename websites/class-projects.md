@@ -22,21 +22,26 @@ cards:
 ---
 
 # Collaborative Websites
-This overview explains how we help instructors create collaborative websites for displaying student work. These websites demonstrate what collaborative digital history can be: a group of students contribute small articles that collectively add up to something useful, creating something that one person alone couldn’t do in a reasonable timeframe. 
-
-## Why not use Squarespace or Wix or Wordpress?
-Good question! 
-
+This overview explains why we encourage collaborative websites for displaying student work. These websites demonstrate what collaborative digital history can be: a group of students contribute small articles that collectively add up to something useful, creating something that one person alone couldn’t do in a reasonable time. 
 
 ## Public Engagement
 Instead of an audience of only the course instructor, students will have the chance to share their coursework for a wider audience. This helps increase the authenticity of assessment and encourages our students to think about how to improve public engagement with the humanities. 
 
+
+## Why not use Squarespace or Wix or Wordpress?
+Good question! Many popular website creation sites are good solutions for a quick and temporary need. You don't need a multi-zone automated irrigation system to water a single plant once a week. But most website tools are not good choices for open, collaborative, and sustainable projects. 
+- Require a yearly subscription fee to retain access, or have lots of ads interefere with your site
+- Don't support multi-user collaboration without an expensive subscription plan
+- Dependent on a particular server
+
+## Designing Communication
+Our project template helps students think about how design factors into communication. They can use images or other embedded media in many ways, but rather than just throwing them together, they have to think about visual hierarchy and how a story flows together on a webpage. These are crucial communication skills in the 21st century.
+
 ## Digital Literacy
-Many popular website creation apps, such as Wordpress or Wix, place limits on design and function. When creating a website in a hurry, those apps get the basic job done. However, these apps involve so many layers of code that even someone with web design experience cannot understand how they work. In addition, these apps diminish student agency over the look-and-feel of the page they contribute to the website. Our process results in a website with similar design features as a Wordpress website, but will also help students gain experience with website design and introductory coding. The steps that we have designed reinforce a collaborative ethos and provide a clear picture of how basic code produces design elements on a page. 
+When creating a website in a hurry, those apps get the basic job done precisely because they obscure all technical detail. But our students need more digital literacy, not less. Learning the **basics** about how code works _without actually learning coding_ empowers students. The steps that we have designed reinforce a collaborative ethos and provide a clear picture of how basic code produces design elements on a page. 
 
 ## Let's Get Started
-If you are interested in any of the above, let's talk about building a website together for your student projects. We've got the technical infrastructure set up and the documentation of instructions for you and your students. We're happy to visit classes to help.
+If you are interested in any of the above, let's talk about building a website together for student projects. We've got the technical infrastructure set up and instructions for you and your students. Check out our [website process guide](../process-guides/websites) to get a high-level overview. We're always happy to visit classes to help. In the meantime you might check out a few examples of course sites that have used our platform.
 
-## A few examples
 {% include card-list.html 
 cards = page.cards%}

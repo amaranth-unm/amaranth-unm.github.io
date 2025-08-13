@@ -24,7 +24,7 @@ Our site runs on the Xanthan template, which gives us a clean, elegant design wi
 
 
 ## Histories of the Future
-In early 2015, a group of historians of science gathered at Princeton to discuss the represetations of history in science fiction. Using a prototype verion of the platform that Amaranth uses today, the workshop's proceeding, participants, and existence remain well-preserved with literally zero upkeep or maintenace.  
+In early 2015, a group of historians of science [gathered at Princeton](https://history.princeton.edu/news-events/events/histories-future) to discuss the represetations of history in science fiction. Using a prototype verion of the platform that Amaranth uses today, the workshop's proceeding, participants, and existence remain well-preserved with literally zero upkeep or maintenace.  
 
 {% include card-list.html 
 cards = page.cards

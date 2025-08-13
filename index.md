@@ -2,70 +2,51 @@
 title: Amaranth @ UNM
 layout: base
 header-image: assets/images/site/amaranth-header.png
-header-height: 110vh
+header-height: 90vh
 date: 2024-12-02
 cards: 
-  - title: "Project Websites"
-    image: "/assets/images/site/word-docs.jpg"
+  - title: "Collaborative Websites"
+    image: "/assets/images/site/websites.png"
     summary: How to create an online space for what students create in a course.
     link: "websites/class-projects"
+  
+  - title: "Engaging Storytelling "
+    image: "/assets/images/site/storytelling.png"
+    summary: Engage your readers with sharp, sustainable, and succulent digital essays
+    link: "websites/scrollstories"
 
-  - title: "Podcast Repository"
-    image: "/assets/images/site/headphones.jpg"
-    summary: A sample website for an archive of student-created podcasts.
+  - title: "Podcasting"
+    image: "/assets/images/site/podcasting.png"
+    summary: Students can do interviews, stories, oral histories, and we can help gather them together in an enduring archive
     link: "podcasts"
+
+  - title: "Poster Printing "
+    image: "/assets/images/site/poster-printer.png"
+    summary: Expand design thinking, creative communication, and paper sizes with poster assignments
+    link: "podcasts"
+
+  - title: "3D Printing "
+    image: "/assets/images/site/3d-printer.png"
+    summary: Better understand spatial relationships, terrain, stylistic comparisons in 3D!
+    link: "process-guides/3d-printing"
+  
+  - title: "VR Critique"
+    image: "/assets/images/site/vr.png"
+    summary: Virtual reality offers new ways of exploring the past, but these are early days. Help students understand the intersection of history and technology by critiquing existing resources.
+    link: "podcasts"
+
 ---
 
 # Welcome to Amaranth
-Amaranth is UNM's digital humanities and public scholarship studio.
+We help bring technology and the humanities together. We empower students, scholars, educators, and communities to create immersive, interactive stories and archives that invite critical engagement with core humanities issues. 
+
+Through collaborative projects, open-access resources, and experimental digital platforms, we aim to bring humanities research into public discourse. We envision a future where the humanities are not in crisis, but are thriving through emerging technologies.
 
 # Course integrations
+We want to get students excited about using technology to keep humanities vibrant.If you've ever done or thought about a digtial project as part of course assignments (or extra credit), we can help! Our goal is to provide the technical infrastructure, training, and support (for both faculty and students), so that we can handle the digital components, and instructors can focus on their content. 
+
 {% include card-grid.html %}
 
-# Projects
-See what we're up to!
 
-
-# Possibilities
-<!-- Services Section -->
-<section id="services">
-<div class="container">
-    <div class="row text-center">
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/3d-printer.png"/>
-            <h4 class="service-heading">3D printing</h4>
-            <a href="{{site.baseurl}}/process-guides/3d-printing">Populate the world with plastic surrogates.</a>
-            <p class="text-muted"></p>
-        </div>
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/printing.png"/>
-            <h4 class="service-heading">Poster printing</h4>
-            <p class="text-muted">Expand minds, skills, and paper sizes with poster assignments.</p>
-        </div>
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/responsive-design.png"/>
-            <h4 class="service-heading">Engaging Storytelling</h4>
-            <a href="{{site.baseurl}}/websites/overview">Engage your readers with sharp, sustainable, and succulent digital essays.</a>
-        </div>
-    </div>
-    <div class="row text-center" style="margin-top:4em;">
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/virtual-tour.png"/>
-            <h4 class="service-heading">Virtual tours</h4>
-            <p class="text-muted">Use 360-degree cameras for historical tours and annotations.</p>
-        </div>
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/microphone.png"/>
-            <h4 class="service-heading">Microphones and sound editing</h4>
-            <p class="text-muted">Good mics for sharp podcasts.</p>
-        </div>
-        <div class="col-md-4">
-            <img style="width:150px" src="{{site.baseurl}}/assets/images/services/scanner.png"/>
-            <h4 class="service-heading">Book scanning</h4>
-            <p class="text-muted">High-res no touch imaging for tricky reproductions.</p>
-        </div>
-    </div>
-</div>
-
-</section>
-
+# Get in touch
+We're eager to work with you to better integrate humanities and technology. Drop by studio hours or book some time.

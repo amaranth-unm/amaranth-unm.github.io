@@ -9,10 +9,10 @@ date: 2024-10-28
 # About Amaranth
 
 ## Mission: What we do
-We help bring technology and the humanities together. We empower students, scholars, educators, and communities to create immersive, interactive archives and storytelling experiences that invite critical engagement with core humanities issues. Through collaborative projects, open-access resources, and experimental digital platforms, we aim to bring humanities research into public discourse.
+We help bring technology and the humanities together. We empower students, scholars, educators, and communities to create immersive, interactive archives and storytelling experiences that invite critical engagement with core humanities issues. Through collaborative projects, open-access resources, and experimental digital platforms, we bring humanities research into public discourse.
 
 ## Vision: What we dream
-We envision a future where humanities inquiry is at the heart of digital transformation, making it more accessible, ethical, and inclusive. Our studio strives to be a pioneering hub where humanistic inquiry, technology, and design converge—cultivating an environment that not only preserves but also reimagines the narratives that define our shared heritage. By breaking down traditional barriers to knowledge and sparking interdisciplinary conversations, we aspire foreground the stories that shape our world.
+We envision a future where emerging technologies engage with humanities Our studio strives to be a pioneering hub where humanistic inquiry, technology, and design converge---cultivating an environment that not only preserves but also reimagines the narratives that define our shared heritage. By breaking down traditional barriers to knowledge and sparking interdisciplinary conversations, we aspire to help the next generation of humanists situate their work in the digtial world.
 
 ## Why Amaranth?
 Amaranth originates from the Greek _amarantos_, which means unfading---as in permanence or immortality. Of course there's a playful irony here, as the speed of new innovation in digital technology often leads to a rather rapid fading of its products. We hope our work with open source, sustainable processes lengthens the life span of our projects.

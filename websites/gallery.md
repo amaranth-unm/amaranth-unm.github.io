@@ -38,4 +38,6 @@ cards:
 We welcome collaboration of all kinds. If you can imagine it, we can make it happen. If you can't imagine it, we can help you visualize your ideas.
 
 ## A few examples of collaborative class projects
-{% include card-horizontal.html %}
+{% include card-list.html 
+cards = page.cards
+%}

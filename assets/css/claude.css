@@ -59,7 +59,8 @@ h6 {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
   letter-spacing: -0.025em;
 }
 
@@ -72,7 +73,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-top: 3rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.02em;
   line-height: 1.1;
   text-transform: uppercase;
@@ -81,13 +82,36 @@ h1 {
 h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--text-primary);
-  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   color: var(--text-primary);
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  color: var(--text-primary);
+  margin-top: 1.75rem;
+  margin-bottom: 0.65rem;
+}
+
+h5 {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  color: var(--text-secondary);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: clamp(0.875rem, 1.25vw, 1.125rem);
+  color: var(--text-secondary);
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -224,6 +248,7 @@ main .container {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  gap: 0;
   height: 100%;
   opacity: 0.85;
 }
@@ -264,6 +289,7 @@ main .container {
 .card-title {
   font-family: 'Orbitron', monospace;
   color: var(--text-primary);
+  margin-top:1rem;
   margin-bottom: 0.75rem;
   font-size: 1.35rem;
   font-weight: 600;
@@ -272,11 +298,29 @@ main .container {
   line-height: 1.2;
 }
 
+/* Reduce spacing in vertical cards */
+.card-img-top + .card-body {
+  padding-top: 0.75rem;
+}
+
 .card-content {
   color: var(--text-secondary);
   line-height: 1.5;
   flex-grow: 1;
   font-size: 0.9rem;
+}
+
+/* Horizontal card layout: image and text vertically centered */
+.card .row {
+  display: flex;
+  align-items: center;
+}
+
+.card .card-body {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
 }
 
 /* Grid layouts */
@@ -507,6 +551,14 @@ blockquote {
 
 .fade-in {
   animation: fadeInUp 0.6s ease-out;
+}
+
+/* Bold text styling */
+strong,
+b,
+.bold {
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 /* Utility classes */
@@ -741,8 +793,22 @@ blockquote {
   height: 200px;
   object-fit: cover;
   object-position: center;
-  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   transition: var(--transition);
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+
+/* Cards with top images should have no padding on sides and top */
+.card:has(.card-img-top) {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Add padding back to card body when it follows an image */
+.card-img-top + .card-body {
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
 .card:hover .card-img-top {
@@ -842,12 +908,13 @@ figure.center {
 
 /* Ensure all figures clear properly on mobile */
 @media (max-width: 768px) {
+  figure,
   figure.left,
   figure.right {
+    width: 100% !important;
     float: none !important;
-    margin: 0 auto 2rem auto;
-    max-width: 100%;
-    display: block;
+    margin: 0 auto 2rem auto !important;
+    padding: 0 !important;
   }
 }
 

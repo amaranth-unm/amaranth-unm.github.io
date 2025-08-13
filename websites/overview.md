@@ -10,8 +10,15 @@ header-image: /assets/images/site/collaboration.png
 ## Collaborative Class Projects
 We help instructors create collaborative websites that collect, display, and preserve student work. These websites demonstrate what collaborative digital history can be: a group of students contribute small articles that collectively add up to something useful, creating something that one person alone couldn’t do in a reasonable timeframe. The course website will be a collaborative sustainable digital projects.
 
-## Community Partnerships
-Instead of an audience of only the course instructor, students will have the chance to share their coursework for a wider audience. This helps increase the authenticity of assessment and encourages our students to think about how to improve public engagement with the humanities. 
+## Independent Studies / Honors / etc
+Students doing independent projects may want benefit from a flexible digital format for their work. If so, we can help! Using the same process and platform as we do for course sites, we can help students create their own digital project site or page.
 
-## Workshop Preservation
+## Academic Communities
 Academic workshops often produce exciting, creative work—but too often, that work disappears as soon as the event ends. Amaranth helps solves that problem by making it easy to keep papers online, organized, and accessible. No expensive hosting, no institutional servers that mysteriously vanish, no endless email chains asking, “Hey, do you still have a copy of that thing?”. 
+
+## Personal Websites
+- Showcase your ongoing projects
+- Be more visible to people looking for stuff you work on
+- Maintain a free, digital space for augmenting other scholarly outputs
+- Keep an updated CV available to anyone who needs it
+
