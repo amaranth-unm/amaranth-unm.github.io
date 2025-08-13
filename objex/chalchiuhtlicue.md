@@ -8,9 +8,11 @@ header-image: images/charnay-1.jpg
 ---
 
 # Chalchiuhtlicue
-On the [Scan the World repository](https://www.myminifactory.com/object/3d-print-monumental-statue-of-chalchiuhtlicue-56241), we found a printable 3D model, in STL format, for the statue of Chalchiuhtlicue. The 3D model of this object adds to its journey from the period Teotihuacán's flourshing in the early centuries of the first millennium to its current day placement at the center of a large gallery at the [National Anthropology Museum](https://mna.inah.gob.mx/colecciones_detalle.php?id=1412) in Mexico City.
+We wondered about how 3D printing an object might affect our sense of its materiality. In particular, the size of the 3D model might reveal or obscure something about the original artifact. As we browsed available 3D model files, one of them stood out as an excellent illustration of this dynamic: a model made from a 3D scan of the statue of Chalchiuhtlicue from the Teotihuacán civilization.
 
-When holding a palm-sized model of this giant statue, consider the ways that people have related to its materiality over the centuries. 
+On the [Scan the World repository](https://www.myminifactory.com/object/3d-print-monumental-statue-of-chalchiuhtlicue-56241), we found a printable 3D model, in STL format, for this statue. The 3D model of this object adds to its journey from the period Teotihuacán's flourshing in the early centuries of the first millennium to its current day placement at the center of a large gallery at the [National Anthropology Museum](https://mna.inah.gob.mx/colecciones_detalle.php?id=1412) in Mexico City.
+
+When holding our palm-sized model of this giant statue, consider the ways that people have related to its materiality over the centuries. 
 
 ### The Carving, ca. 250 CE
 

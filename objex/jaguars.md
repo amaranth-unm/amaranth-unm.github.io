@@ -4,9 +4,13 @@ title: Jaguars
 subtitle:
 author: Jonathan Seyfried
 date: 2025-08-03
+header-image: images/jag-nose.jpg
 ---
 
-## Jaguars: A Demonstration of Detail Settings on the 3D Printer
+# Detail Settings on the 3D Printer
+With 3D printing, we often think of the road not taken. We send through a print at high quality and wonder if it really would have looked all that much worse if we had saved some time by printing it at a lower quality. Especially when starting out with 3D printing, it's often difficult to judge how to make the tradeoff between print quality and print time duration. We wanted to provide newbies to 3D printing with a sense of what the different print quality settings on Orca really mean. 
+
+## The Jaguars
 
 For our [instructions on 3D scanning](https://amaranth-unm.github.io/equipment/3d-scanner/), we used a replica of a jaguar purchased at the museum store of the Museo Nacional de Antropología in Mexico City. We now want to demonstrate how changing the detail setttings on Orca Slicer will produce different outcomes.
 
