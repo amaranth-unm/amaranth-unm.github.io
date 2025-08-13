@@ -4,7 +4,13 @@ title: 3D Printing Filament
 subtitle:
 author: Jonathan Seyfried
 date: 2025-08-12
+header-image: images/extrusion-tub.jpg
 ---
+
+# Weird Coils Shot Into the Air
+We never get tired of the marvel of watching a long cord of plastic melt and then cool into a dramatically different shape. 3D printing appears to make something out of nothing. But of course, that's the not the case at all. Our 3D models are printed using a material called polylactic acid, PLA for short. To explain a little more about this material, we will take you on a journey that starts in the discard pile.
+
+If you watch the Anycubic Kobra 3 start a print job, you'll experience the unexpected launch of a blob from a little tray on its right side. Before laying filament down on the build plate, the printer tests the filament to make sure its speed and composition matches the programming in the printing file. The test material then gets discarded. But we decided to keep it as a way to start the conversation about the material used to make 3D prints.
 
 ## What is the material used to build 3D printed models?
 

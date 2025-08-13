@@ -4,9 +4,11 @@ title: Model of Notre Dame Cathedral
 subtitle:
 author: Jonathan Seyfried
 date: 2025-08-09
+header-image: images/notre-dame-sliced.jpg
 ---
 
 # Printing Details
+We wondered how well the 3D printer could handle an especially intricate model. We chose a STL file that captured the architectural ornamentation of Notre Dame de Paris to see what would happen. 3D printers sometimes accomplish a surprising amount of fine detail work. This time, we chose to print in High Detail and lowered the print speed by 100 mm/s on most of the layer types. These settings allowed the printer to lay down the filament in a way that bridged overhangs and accomplished minute patterns. 
 
 {% include figure.html
   class="right"
