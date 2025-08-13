@@ -4,6 +4,8 @@ title: About Amaranth
 subtitle: what why when how
 author: Fred Gibbs
 date: 2024-10-28
+header-image: assets/images/site/campfire.png
+header-height: 60vh
 ---
 
 # About Amaranth
