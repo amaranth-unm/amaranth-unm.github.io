@@ -7,23 +7,23 @@ date: 2025-08-03
 ---
 
 ## VR Headsets
-
 The Amaranth studio has two Meta Quest 3 headsets and one HTC Vive Focus headset. Both headsets allow for the user to set a boundary area and do not require any external motion tracking equipment.
 
 {% include figure.html
   class="left"
   width="45%"
   caption="Meta Quest 3 Headset"
-  image-url="images/quest-3-meta.jpg"
+  image-path="images/quest-3-meta.jpg"
 %}
 
 {% include figure.html
   class="right"
   width="40%"
   caption="HTC Vive Pro Headset"
-  image-url="images/htc-vive-focus.jpg"
+  image-path="images/htc-vive-focus.jpg"
 %}
 <br style="clear: both">
+
 ## Historical Content in VR
 
 We are currently building our list of recommended VR experiences for historical content. In the meantime, consider this video by Matthew Brennan, a PhD student and instructor at Indiana University's School of Informatics and Computing.

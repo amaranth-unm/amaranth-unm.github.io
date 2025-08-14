@@ -921,6 +921,72 @@ figure.center {
 /* Tables - ensure spacing */
 .table-responsive {
   margin-bottom: 2rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+/* Table styling for dark theme */
+.table {
+  background-color: var(--surface-color);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  margin-bottom: 0;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--accent-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 1rem 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.table td {
+  background-color: var(--surface-color);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  padding: 0.75rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table tbody tr:hover {
+  background-color: var(--surface-hover);
+}
+
+.table tbody tr:hover td {
+  background-color: var(--surface-hover);
+}
+
+.table-bordered {
+  border: 1px solid var(--border-color);
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid var(--border-color);
+}
+
+/* Make table text more readable */
+.table td,
+.table th {
+  line-height: 1.5;
+}
+
+.table td {
+  font-size: 0.9rem;
+}
+
+/* Ensure table images fit well */
+.table img {
+  max-width: 120px;
+  height: auto;
+  border-radius: var(--radius-sm);
 }
 
 /* Carousel styling */

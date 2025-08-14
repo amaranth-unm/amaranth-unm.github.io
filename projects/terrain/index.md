@@ -29,7 +29,7 @@ The below image shows two prints of the same model file, one printed with three 
 
 {% include figure.html
   class="left"
-  width="60%"
+  width="100%"
   caption="Printed 3D model of the Sandias and Rio Grande Valley"
   image-path="images/two-sandia-prints.jpg"
 %}
@@ -52,7 +52,6 @@ id = "carouselExample"
 
 
 ## Use Multicolor Mode to Create Visible Layers
-
 The 3D printer in Amaranth supports multi-colored printing. This can be done by layer, so as to further illustrate elevation and topography.
 
 On Orca Slicer, use the Paint button to change the filament color by layer height. 
@@ -60,21 +59,21 @@ On Orca Slicer, use the Paint button to change the filament color by layer heigh
   class="left"
   width="60%"
   caption="Paint by layer on Orca"
-  image-url="images/painting-by-layer.jpg"
+  image-path="images/painting-by-layer.jpg"
 %}
 
 For additional explanation of multi-color printing on the Anycubic Kobra 3 printer, watch the video below.
 
-<iframe width="951" height="535" src="https://www.youtube.com/embed/9jy7MEGkdjE" title="This Is The Best Slicer For MultiColor Printing | Orca Slicer Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br style="clear: both">
 
-## Supplement Multi-Color 3D Printing with Acrylic Paint
 
+## Add Acrylic Paint
 For this model of the Santa Fe Trail, we wanted to create something larger than the size of the build plate. First we selected a rectangular piece of terrain whose dimensions would add up to the length and width of two build plates on the printer. 
 {% include figure.html
   class="left"
   width="60%"
   caption="Touch terrain screenshot of SF Trail"
-  image-url="images/sftrail-touchter-select.png"
+  image-path="images/sftrail-touchter-select.png"
 %}
 <br style="clear: both">
 Then we sliced the model on two plates, as shown in the image below.
@@ -83,21 +82,22 @@ Then we sliced the model on two plates, as shown in the image below.
   class="left"
   width="60%"
   caption="Santa Fe Trail model in Orca Slicer"
-  image-url="images/printing-with-two-plates.png"
-%}
-
-After printing out the first half and removing it from the build plate, the printer could proceed with printing the second plate. With both plates printed, we used a projection of the Santa Fe Trail to trace its path using acrylic paint pens. This allowed for greater detail and significantly reduced the duration of the 3D printing. If we were to do this 3D print over again, we would not choose a gradient filament because this created a color difference between the top layers of the two plates.
-
-{% include figure.html
-  class="right"
-  width="40%"
-  caption="Using a projector to trace the trail"
-  image-url="images/low-tech-terrain.jpg"
+  image-path="images/printing-with-two-plates.png"
 %}
 
 {% include figure.html
   class="left"
-  width="55%"
-  caption="Model with acrylic paint pen work added"
-  image-url="images/acrylic-terrain.jpg"
+  width="40%"
+  caption="Using a projector to trace the trail"
+  image-path="images/low-tech-terrain.jpg"
 %}
+
+{% include figure.html
+  class="left"
+  width="50%"
+  caption="Model with acrylic paint pen work added"
+  image-path="images/acrylic-terrain.jpg"
+%}
+
+After printing out the first half and removing it from the build plate, the printer could proceed with printing the second plate. With both plates printed, we used a projection of the Santa Fe Trail to trace its path using acrylic paint pens. This allowed for greater detail and significantly reduced the duration of the 3D printing. If we were to do this 3D print over again, we would not choose a gradient filament because this created a color difference between the top layers of the two plates.
+

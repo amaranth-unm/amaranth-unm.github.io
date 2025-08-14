@@ -4,17 +4,19 @@ title: 3D Capitals
 subtitle: 
 author: Jonathan Seyfried
 date: 2025-06-19
+header-image: /assets/images/site/capitals.png
 ---
 
 # Tactile Architecture
 This use case explores the use of 3D printing to help create deeper understanding of medieval architectural styles.
 
 ## Project Summary
-Printing a series of objects increases the pedagogical value of 3D objects because students can directly compare their physicality. While 2D images might very well convey most of the information described below, the experience of connecting to multiple 3D objects will likely make a substantial difference in students' retention of that information. We selected five 3D files of medieval capitals from a repository called [Scan the World](https://www.myminifactory.com/scantheworld/about) and printed them in a variety of colors. Although the detail of the scans sometimes limited the sharpness of the print quality, the capitals successfully convey key differences between Romanesque and Gothic architectural features. We created a large poster to demonstrate the potential for contextualizing 3D printed objects in a display.
+Printing a series of objects increases the pedagogical value of 3D objects because students can directly compare their physicality. While 2D images might very well convey most of the information described below, the experience of connecting to multiple 3D objects will likely make a substantial difference in students' retention of that information. 
+
+We selected five 3D files of medieval capitals from a repository called [Scan the World](https://www.myminifactory.com/scantheworld/about) and printed them in a variety of filaments / colors. Although the detail of the scans sometimes limited the sharpness of the print quality, the capitals successfully convey key differences between Romanesque and Gothic architectural features. We created a large poster to demonstrate the potential for contextualizing 3D printed objects---come to the studio to check it out! We hope that this sparks ideas for the pedagogical potential of additional series of 3D objects to demonstrate themes from other historical contexts.
 
 ## Pedagogical Goals
-
-The central learning outcome desired for this project was to help students retain a long-term understanding of Romanesque and Gothic architectural styles. The table below summarizes the main differences of these two styles, ones that largely dominate the architecture in western Europe during the Middle Ages.
+We were wondering if we could help students retain a long-term understanding of Romanesque and Gothic architectural styles. The table below summarizes the main differences of these two styles, ones that largely dominate the architecture in western Europe during the Middle Ages.
 
 <div class="table-responsive">
   <table class="table table-bordered">
@@ -87,10 +89,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
     <tbody>
       <tr>
         <td>
-          {% include figure.html image-url="images/london-cap-model.jpg" alt="Image of London capital model" caption="" %}
+          {% include figure.html image-path="images/london-cap-model.jpg" alt="Image of London capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-url="images/london-cap-orig.jpg" alt="Image of original London capital" caption="" %}
+          {% include figure.html image-path="images/london-cap-orig.jpg" alt="Image of original London capital" caption="" %}
         </td>
         <td>London, possibly from All Hallows Church</td>
         <td>ca. 12th century</td>
@@ -98,10 +100,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
       </tr>
       <tr>
         <td>
-          {% include figure.html image-url="images/denis-cap-model.jpg" alt="Image of Denis capital model" caption="" %}
+          {% include figure.html image-path="images/denis-cap-model.jpg" alt="Image of Denis capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-url="images/denis-cap-orig.jpg" alt="Image of original Denis capital" caption="" %}
+          {% include figure.html image-path="images/denis-cap-orig.jpg" alt="Image of original Denis capital" caption="" %}
         </td>
         <td>Cathedral of St. Denis near Paris</td>
         <td>ca. 1140-1144</td>
@@ -109,10 +111,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
       </tr>
       <tr>
         <td>
-          {% include figure.html image-url="images/wissenbourg-cap-model.jpg" alt="Image of Wissembourg capital model" caption="" %}
+          {% include figure.html image-path="images/wissenbourg-cap-model.jpg" alt="Image of Wissembourg capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-url="images/wissembourg-cap-orig.jpg" alt="Image of original Wissembourg capital" caption="" %}
+          {% include figure.html image-path="images/wissenbourg-cap-orig.jpg" alt="Image of original Wissembourg capital" caption="" %}
         </td>
         <td>Church of St. Peter and Paul in Wissembourg</td>
         <td>ca. 1140</td>
@@ -120,10 +122,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
       </tr>
       <tr>
         <td>
-          {% include figure.html image-url="images/maastricht-cap-model.jpg" alt="Image of Maastricht capital model" caption="" %}
+          {% include figure.html image-path="images/maastricht-cap-model.jpg" alt="Image of Maastricht capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-url="images/maastricht-cap-orig.jpg" alt="Image of original Maastricht capital" caption="" %}
+          {% include figure.html image-path="images/maastricht-cap-orig.jpg" alt="Image of original Maastricht capital" caption="" %}
         </td>
         <td>Basilica of Our Lady in Maastricht</td>
         <td>ca. 12th century</td>
@@ -131,10 +133,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
       </tr>
       <tr>
         <td>
-          {% include figure.html image-url="images/nicolau-cap-model.jpg" alt="Image of Nicolau capital model" caption="" %}
+          {% include figure.html image-path="images/nicolau-cap-model.jpg" alt="Image of Nicolau capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-url="images/nicolau-cap-orig.jpg" alt="Image of original Nicolau capital" caption="" %}
+          {% include figure.html image-path="images/nicolau-cap-orig.jpg" alt="Image of original Nicolau capital" caption="" %}
         </td>
         <td>Hospital of St. Nicolau in Barcelona</td>
         <td>ca. 1200-1220</td>
@@ -145,15 +147,4 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
 </div>
 
 ## Pedagogical Use of the 3D Capitals
-
 An instructor wishing to supplement a short lecture on Romanesque and Gothic styles may borrow the capitals from the Amaranth studio. During or after the lecture, students can hold and inspect the 3D models in order to reinforce what they learned. We also encourage the instructor to lead the students in a critique of the accuracy of the 3D models so that they can appreciate the challenges as well as the opportunities for 3D representation of historical artifacts.
-
-In the Amaranth studio space, the poster below, printed at 36x47 inches, explains the pedagogical intentions of the printed capitals. This creates an opportunity for communication of the pedagogical utility of the capitals outside of the classroom setting. We hope that this sparks ideas for the pedagogical potential of additional series of 3D objects to demonstrate themes from other historical contexts.
-
-{% include figure.html
-  class="left"
-  width="60%"
-  caption="Medieval Capitals Poster"
-  image-url="images/capitals-poster.jpg"
-%}
-

@@ -18,14 +18,14 @@ cards:
   - title: "Podcasting"
     image: "/assets/images/site/podcasting.png"
     summary: Students can do interviews, stories, oral histories, and we can help gather them together in an enduring archive
-    link: "podcasts"
+    link: "process-guides/podcasting"
 
-  - title: "Poster Printing "
+  - title: "Poster Printing"
     image: "/assets/images/site/poster-printer.png"
     summary: Expand design thinking, creative communication, and paper sizes with poster assignments
-    link: "podcasts"
+    link: "process-guides/posters"
 
-  - title: "3D Printing "
+  - title: "3D Printing"
     image: "/assets/images/site/3d-printer.png"
     summary: Better understand spatial relationships, terrain, stylistic comparisons in 3D!
     link: "process-guides/3d-printing"
@@ -33,7 +33,7 @@ cards:
   - title: "VR Critique"
     image: "/assets/images/site/vr.png"
     summary: Virtual reality offers new ways of exploring the past, but these are early days. Help students understand the intersection of history and technology by critiquing existing resources.
-    link: "podcasts"
+    link: "equipment/vr-headsets"
 
 ---
 
