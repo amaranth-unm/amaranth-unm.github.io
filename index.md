@@ -49,4 +49,4 @@ We want to get students excited about using technology to keep humanities vibran
 
 
 # Get in touch
-We're eager to work with you to better integrate humanities and technology. Drop by studio hours or book some time.
+We're eager to work with you to better integrate humanities and technology. Drop by studio hours or [book a consultation](contact)
