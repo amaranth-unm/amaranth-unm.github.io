@@ -8,13 +8,15 @@ header-image: images/notre-dame-sliced.jpg
 ---
 
 # Printing Details
-We wondered how well the 3D printer could handle an especially intricate model. We chose a STL file that captured the architectural ornamentation of Notre Dame de Paris to find out. 3D printers sometimes accomplish a surprising amount of fine detail work. To increase our chances of success with this model, we chose to print in High Detail and reduced the print speed by 100 mm/s on most of the layer types. These settings allowed the printer to lay down the filament in a way that bridged overhangs and accomplished minute patterns. 
+We wondered how well the 3D printer could handle an especially intricate model. We chose a STL file that captured the architectural ornamentation of Notre Dame de Paris to find out. 
+
+To increase our chances of success with this model, we chose to print in High Detail and reduced the print speed by 100 mm/s on most of the layer types. These settings allowed the printer to lay down the filament in a way that bridged overhangs and accomplished minute patterns. 
 
 {% include figure.html
   class="right"
   width="20%"
   caption="Notre Dame model in 3D viewer"
-  image-url="images/notre-dame-3d-viewer-2.jpg"
+  image-path="images/notre-dame-3d-viewer-2.jpg"
 %}
 The team of 3D model creators named [MiniWorld3D](https://www.printables.com/@MiniWorld3D) created [this model](https://www.printables.com/model/274437-notre-dame-de-paris-france/files) of the Cathedral de Notre Dame in Paris.
 
@@ -25,7 +27,7 @@ We downloaded it and printed it at an enlarged size and high detail. The filamen
   class="left"
   width="40%"
   caption="Sliced view of Notre Dame model"
-  image-url="images/notre-dame-sliced.jpg"
+  image-path="images/notre-dame-sliced.jpg"
 %}
 <br style="clear: both">
 The result demonstrates the high level of complexity and detail capable with 3D printing.
@@ -34,19 +36,19 @@ The result demonstrates the high level of complexity and detail capable with 3D 
   class="left"
   width="32%"
   caption="Top view of the printed model"
-  image-url="images/notre-dame-top-1.jpg"
+  image-path="images/notre-dame-top-1.jpg"
 %}
 
 {% include figure.html
   class="left"
   width="32%"
   caption="Side view of the model"
-  image-url="images/notre-dame-side-1.jpg"
+  image-path="images/notre-dame-side-1.jpg"
 %}
 
 {% include figure.html
   class="left"
   width="32%"
   caption="Detail view of the rose window"
-  image-url="images/notre-dame-rose-1.jpg"
+  image-path="images/notre-dame-rose-1.jpg"
 %}

@@ -115,9 +115,9 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   color: var(--text-secondary);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Layout components */
@@ -241,7 +241,7 @@ main .container {
   background: var(--surface-hover);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: 1.5rem;
+  padding: 1.25rem;
   margin-bottom: 2rem;
   transition: var(--transition);
   position: relative;
@@ -305,9 +305,9 @@ main .container {
 
 .card-content {
   color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.4;
   flex-grow: 1;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Horizontal card layout: image and text vertically centered */
@@ -320,7 +320,7 @@ main .container {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  min-height: 200px;
+  min-height: 120px;
 }
 
 /* Grid layouts */
@@ -844,7 +844,7 @@ b,
 
 /* Images - ensure spacing around standalone images */
 img {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Figure elements - ensure they have bottom margin */
@@ -857,7 +857,7 @@ figcaption {
   font-size: 0.8rem;
   color: var(--text-muted);
   font-style: italic;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
   margin-bottom: 0;
   line-height: 1.4;
   text-align: left;
@@ -922,6 +922,41 @@ figure.center {
 .table-responsive {
   margin-bottom: 2rem;
 }
+
+/* Carousel styling */
+.carousel {
+  margin: 2rem auto;
+  max-width: 70%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-indicators {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    max-width: 95%;
+  }
+  
+  .carousel img {
+    height: 250px;
+  }
+}
+
 .jumbotron {
   margin-top: 0 !important;
   margin-bottom: 0 !important;

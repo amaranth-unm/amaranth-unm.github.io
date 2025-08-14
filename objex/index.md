@@ -18,17 +18,17 @@ cards:
     summary: Connecting an object to a concept.
     link: "skull"
 
-  - title: "Women and Children Communism Memorial"
+  - title: "Communism Memorial"
     image: "images/anticommunist.png"
     summary: Demonstrating the potential for capturing texture.
     link: "anticommunist"
 
-  - title: "Notre Dame Cathedral"
+  - title: "Notre Dame"
     image: "images/notre-dame-side-zoom-1.jpg"
     summary: Showcasing an especially intricate model.
     link: "notredame"
 
-  - title: "Filament"
+  - title: "Printer Turds"
     image: "images/extrusion-bronze.jpg"
     summary: Explaining the material used for 3D printing.
     link: "filament"

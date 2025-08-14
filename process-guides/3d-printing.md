@@ -6,25 +6,21 @@ author: Jonathan Seyfried
 date: 2025-04-01
 ---
 
-# {{page.title}}
+# 3D Printing 
+Most of the work of 3D printing is preparing the print file. Once you have done that, there are very few steps related to operating the machine itself. The poster above the printer tells you everything you need to know!
 
-## {{page.subtitle}}
+## Getting Started
+If you just want to print something for fun, the easiet way is to grab some models from an existing site.
 
-<!--
-### Table of Contents
-* TOC
-{:toc}
--->
+## Orca Slicing
+The Orca software on Amaranth's iMacs creates a file with instrcutions for how to print an object for a particular printer. Our software is set to default to the printer we have: the Anycubic Kobra 3. 
 
-The slicing software creates instructions for how to print an object for a particular printer. On the Mac workstations in the History Tech Lab, the software is set to default to the printer we have: the Anycubic Kobra 3. 
+Orca is "slicing" software, which takes a scan of an object and slices it up like slicing an onion. These slices are directions for the printer are where to extrude filament for each slice. The printer layers slice after slice to build an actual thing.
 
-You can choose which of the four loaded filaments you want to use for your print.
-Orca Video: <iframe width="1521" height="526" src="https://www.youtube.com/embed/cquTCpz1V74" title="Orca Slicer getting started guide: A slicer for all of your 3D printers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+There are zillions of 3D scans or fabricated objects you can print. The scans have data about the object, but they don't say anything about how they should be printed. You need to slice them yourself because we need to slice them for our printer.
 
-Anycubic Video: <iframe width="1521" height="526" src="https://www.youtube.com/embed/2CurchA4HT8" title="AnyCubic Tries Multicolor: The AnyCubic Kobra 3 Combo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- Open the Orca Slicer application and import the STL file you created from RevoScan. 
-
+## Slicing your 3D object
 - Rotate it and snap it to the build plate, it should look like this:
 Image: Orca_slicer1
 

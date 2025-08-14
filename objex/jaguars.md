@@ -7,8 +7,12 @@ date: 2025-08-03
 header-image: images/jag-nose.jpg
 ---
 
-# Detail Settings on the 3D Printer
-With 3D printing, we often think of the road not taken. We send through a print at high quality and wonder if it really would have looked all that much worse if we had saved some time by printing it at a lower quality. Especially when starting out with 3D printing, it's often difficult to judge how to make the tradeoff between print quality and print time duration. We wanted to provide newbies to 3D printing with a sense of what the different print quality settings on Orca really mean. 
+# Detail Settings
+One of the few choices you have to make about 3D printing is the print quality. The print times can vary widely between rough and high quality, so it's natural to wonder what the difference is going to be.
+
+With 3D printing, it's easy to go for the best but then think of the road not taken---to send through a print at high quality and wonder if it really would have looked all that much worse if we had saved time by printing it at a lower quality. 
+
+Especially when starting out with 3D printing, it's often difficult to judge how to make the tradeoff between print quality and print time duration. This page tries to illustrate what the different print quality settings on Orca really mean. At least for a small print.
 
 ## The Jaguars
 
@@ -28,21 +32,21 @@ Why not always opt for the most fine print setting? You make a tradeoff in print
   class="left"
   width="30%"
   caption="Printed at High Detail, 132 minutes"
-  image-url="images/jag-high.jpg"
+  image-path="images/jag-high.jpg"
 %}
 
 {% include figure.html
   class="left"
   width="30%"
   caption="Printed at Optimal, 92 minutes"
-  image-url="images/jag-optimal.jpg"
+  image-path="images/jag-optimal.jpg"
 %}
 
 {% include figure.html
   class="left"
   width="30%"
   caption="Printed at Draft, 70 minutes"
-  image-url="images/jag-draft-2.jpg"
+  image-path="images/jag-draft-2.jpg"
 %}
 
 <br style="clear: both">
@@ -52,5 +56,5 @@ Notice the thick layers on the Draft print, more visible in the zoomed-in image 
   class="left"
   width="30%"
   caption="Zoomed-in on the nose of the Jaguar"
-  image-url="images/jag-nose.jpg"
+  image-path="images/jag-nose.jpg"
 %}

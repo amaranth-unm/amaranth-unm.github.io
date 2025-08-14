@@ -6,15 +6,8 @@ author: Jonathan Seyfried
 date: 2025-06-19
 ---
 
-## 3D Printing using Orca Slicer (software app) and the Anycubic Kobra 3 Printer (hardware)
-
-Most of the work of 3D printing is preparing the print file. Once you have done that, there are very few steps related to operating the machine itself. 
-
-The slicing software creates instructions for how to print an object for a particular printer. On the Mac workstations in the Amaranth Studio, the software is set to default to the printer we have: the Anycubic Kobra 3. If you want to slice a model on your own computer, choose the correct version of Orca to download by visiting [their Github page](https://github.com/SoftFever/OrcaSlicer/releases). You can choose which of the four loaded filaments you want to use for your print. You should find the easy steps below sufficient for preparing and printing your 3D model. If you would like further details, you can watch the videos at hte bottom of this page.
-
 ## Preparing the Print File
-
-- Open the Orca Slicer application and ensure that the Anycubic Kobra 3 printer is selected. The printer settings should look like the below screenshot.
+- Open the Orca app and ensure that the Anycubic Kobra 3 printer is selected. The printer settings should look like the below screenshot.
 {% include figure.html
   class="left"
   width="60%"

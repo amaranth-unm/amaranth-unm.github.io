@@ -20,7 +20,7 @@ When holding our palm-sized model of this giant statue, consider the ways that p
   class="right"
   width="40%"
   caption="Temple complex main avenue of Teotihuacán. Source: Wikimedia Commons"
-  image-url="images/teotihuacan-1.jpg"
+  image-path="images/teotihuacan-1.jpg"
 %}
 
 The Teotihuacán civilization flourished from 100 CE to ca. 700 CE. During these centuries, a thriving metropolis and hinterland provided the resources needed to construct a vast temple complex within the city. At some point during the civilization's height, artists carved this giant statue. The statue depicts the goddess of water and fertility, Chalchiuhtlicue. The statue stands at more than twenty feet tall with each side five and a half feet wide. 
@@ -35,7 +35,7 @@ After the Teotihuacán civilization declined, centuries passed and vegetation ev
   class="center"
   width="60%"
   caption="Gelatin silver print photograph by William Henry Jackson, ca.1883-1884. Source: [Library of Congress](https://www.loc.gov/item/2014647500/)"
-  image-url="images/charnay-1.jpg"
+  image-path="images/charnay-1.jpg"
 %}
 
 The archaeologists in Charnay's expedition cleared the rubble from the statue. It was eventually transported it to a museum in Mexico City.
@@ -48,7 +48,7 @@ Today, the imposing statue of Chalchiuhtlicue stands at the center of the Teotih
   class="center"
   width="40%"
   caption="The statue of Chalchiuhtlicue today"
-  image-url="images/chalc-today.jpg"
+  image-path="images/chalc-today.jpg"
 %}
 
 ### The 3D Model
@@ -59,7 +59,7 @@ Scan the World offers one of the largest repositories of printable 3D models. Th
   class="right"
   width="40%"
   caption="Screenshot of the object record at Scan the World"
-  image-url="images/chalc-scan-wrld.png"
+  image-path="images/chalc-scan-wrld.png"
 %}
 
 We downloaded the 3D model, in STL file format, from Scan the World and then sliced it. After about three hours, we had the printed object ready to display.
@@ -68,5 +68,5 @@ We downloaded the 3D model, in STL file format, from Scan the World and then sli
   class="left"
   width="40%"
   caption="Chalchiuhtlicue in the slicer"
-  image-url="images/chalc-sliced.jpg"
+  image-path="images/chalc-sliced.jpg"
 %}
