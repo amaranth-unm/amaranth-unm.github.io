@@ -609,9 +609,56 @@ FOOTER
 
   @media (max-width: 768px) {
 
+  /* Reduce base font size for mobile */
+  html, body {
+    font-size: 16px;
+  }
 
   main {
     margin: 0 1.5%;
+  }
+
+  /* Typography adjustments for mobile */
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .home-title h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+  }
+  
+  h5 {
+    font-size: 0.95rem;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5em;
+  }
+  
+  /* Card text adjustments */
+  .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
   }
 
 .lg-left-col p{
