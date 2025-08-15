@@ -8,7 +8,7 @@ cards:
   - title: "Collaborative Websites"
     image: "/assets/images/site/websites.png"
     summary: How to create an online space for what students create in a course.
-    link: "websites/class-projects"
+    link: "websites/overview"
   
   - title: "Engaging Storytelling "
     image: "/assets/images/site/storytelling.png"
@@ -23,7 +23,7 @@ cards:
   - title: "Poster Printing"
     image: "/assets/images/site/poster-printer.png"
     summary: Expand design thinking, creative communication, and paper sizes with poster assignments
-    link: "process-guides/posters"
+    link: "equipment/poster-printer"
 
   - title: "3D Printing"
     image: "/assets/images/site/3d-printer.png"
