@@ -197,6 +197,11 @@ CARDS
     min-height: 160px;
     border-radius: 0.5rem 0.5rem 0 0;
   }
+  
+  /* Reduce jumbotron height on mobile devices */
+  .jumbotron {
+    height: 50vh !important;
+  }
 }
 
 
