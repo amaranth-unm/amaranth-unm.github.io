@@ -38,6 +38,8 @@ The Mac workstations and the PC laptop in the Amaranth studio all have Audacity 
   image-path="images/audacity-screenshot.jpg"
 %}
 
+<br style="clear: both">
+
 ## Recording on Audacity
 
 After just a little practice getting used to the basic controls on Audacity, it is a very user friendly application. Here are a few tips:
