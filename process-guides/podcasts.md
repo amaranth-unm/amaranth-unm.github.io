@@ -15,3 +15,4 @@ The podcasting format lends itself to a more conversational tone. It's good to h
 
 ## Plan Out the Takeaways
 As you lay out your script, ensure that you have an interesting factoid or conclusion for the listener to learn at regular intervals. 
+

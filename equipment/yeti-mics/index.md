@@ -9,7 +9,7 @@ date: 2025-08-03
 ## Podcasting Mics
 {% include figure.html
   class="right"
-  width="33%"
+  width="15%"
   caption="YETI Blue microphone"
   image-path="images/yeti-mic-1.jpg"
 %}
@@ -37,3 +37,16 @@ The Mac workstations and the PC laptop in the Amaranth studio all have Audacity 
   caption="Audacity screenshot"
   image-path="images/audacity-screenshot.jpg"
 %}
+
+<br style="clear: both">
+
+## Recording on Audacity
+
+After just a little practice getting used to the basic controls on Audacity, it is a very user friendly application. Here are a few tips:
+- Check that the recording input device is correct by clicking on the Audio Setup button in the top row of controls
+- Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
+- Drag and drop audio files into Audacity after downloading them from Creative Commons sites like [Pixabay](https://pixabay.com/)
+
+For more tips and a general orientation to Audacity, watch the below video.
+
+<iframe width="951" height="535" src="https://www.youtube.com/embed/vlzOb4OLj94" title="Audacity Tutorial For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
