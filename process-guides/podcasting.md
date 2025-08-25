@@ -20,7 +20,7 @@ As you lay out your script, ensure that you have an interesting factoid or concl
 
 ## The Podcast as a Way to Share Work-In-Progress
 
-In a university setting, researchers face considerable pressure to hold back their work until after several drafts and peer review. Podcasting, with its informal culture and conversational tone, offers you the chance to share your work at an earlier stage. Although your listeners will appreciate some amount of preparation, you might even consider podcasting as informal as brainstorming. Sometimes sharing your work in its early stages opens up possibilities for others to contact you with fruitful suggestions and tie-ins. Although we rarely think of those with graduate training as amateurs, the following quote from Austin Kleon might put your mind at ease if you are worried about sharing work before its at its perfected stage.
+In a university setting, researchers face considerable pressure to hold back their work until after several drafts and peer review. Podcasting, with its informal culture and conversational tone, offers you the chance to share your work at an earlier stage. Although your listeners will appreciate some amount of preparation, you might even consider podcasting as informal as brainstorming. Sometimes sharing your work in its early stages opens up possibilities for others to contact you with fruitful suggestions and tie-ins. Although we rarely think of those with graduate training as amateurs, the following quote from Austin Kleon might put your mind at ease if you are worried about sharing work before its perfected stage.
 <br style="clear: both">
 {% include figure.html
   class="right"
