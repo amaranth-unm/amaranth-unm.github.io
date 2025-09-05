@@ -69,3 +69,5 @@ For more detailed troubleshooting, refer to the [Anycubic Kobra 3 manual](https:
 ### Anycubic Video
 
 <iframe src="https://www.youtube.com/embed/2CurchA4HT8" title="AnyCubic Tries Multicolor: The AnyCubic Kobra 3 Combo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <br style="clear: both">
