@@ -31,7 +31,7 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 
 {% include scrollybox/bg.html
   height="220"
-  image-url="images/mvh-women-supervision.jpg"
+  image-path="images/mvh-women-supervision.jpg"
   pre-box-space="100"
   box-content='One stated reason for building a men-only dorm (Mesa Vista) was that existing Hokona Hall could be then be used as a women-only dorm, where they would have supervision "of the best sort".'
 %}
@@ -50,7 +50,7 @@ Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend le
 <!-- this is an unclosed div that needs to be closed with bg-multi-long-close-->
 {% include scrollybox/bg-multi-long.html
   bg-id="bg1"
-  image-url="images/mvh-floorplan.jpg"
+  image-path="images/mvh-floorplan.jpg"
   pre-box-space="0"
 %}
 
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec ante ligu
  
 
 {% include scrollybox/bg-switch.html
-  image-url="images/mvh-tv-room.jpg"
+  image-path="images/mvh-tv-room.jpg"
   switch-id="switch1"
   bg-id="bg1"
 %}
