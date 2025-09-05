@@ -26,7 +26,7 @@ Open the Revoscan application on the computer and connect the scanner through it
   class="img-right"
   width="60%"
   caption="An example setup before scanning"
-  image-url="3Dphysicalsetup.jpg"
+  image-url="equipment/3d-scanner/images/3Dphysicalsetup.jpg"
 %}
 
 - Complete scans for each side of the object. You will then have multiple scan files listed on the lefthand side of the application screen.
