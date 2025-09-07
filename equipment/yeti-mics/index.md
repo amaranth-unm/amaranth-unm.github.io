@@ -23,11 +23,13 @@ We offer support for students and instructors interested in recording and postin
 
 ## Software Options for Recording Audio
 The easiest way to record audio is to use an app on an iPhone or Android phone, although this option results in lower quality audio. Here are some quick steps for each:
-### iPhone
+
+**iPhone** 
 - Use the built-in app called Voice Memos
 - Tap the red button to start and stop the recording
 - Share via AirDrop, or cloud storage
-### Android
+
+**Android**
 - Use the Recorder app
 - This app starts recording when you tap the large button at the bottom center
 - Tap the stop button to end the recording
