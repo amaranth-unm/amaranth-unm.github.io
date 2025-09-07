@@ -10,13 +10,7 @@ date: 2025-04-01
 
 ## {{page.subtitle}}
 
-<!--
-### Table of Contents
-* TOC
-{:toc}
--->
-
-Video: <iframe width="853" height="480" src="https://www.youtube.com/embed/YNpmpQmFLzo" title="Revopoint POP3 Review - 3D Scanner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/YNpmpQmFLzo" title="Revopoint POP3 Review - 3D Scanner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Revopoint 3D Support: https://support.revopoint3d.com/hc/en-us
 
@@ -26,7 +20,7 @@ Open the Revoscan application on the computer and connect the scanner through it
   class="img-right"
   width="60%"
   caption="An example setup before scanning"
-  image-url="3Dphysicalsetup.jpg"
+  image-path="equipment/3d-scanner/images/3Dphysicalsetup.jpg"
 %}
 
 - Complete scans for each side of the object. You will then have multiple scan files listed on the lefthand side of the application screen.

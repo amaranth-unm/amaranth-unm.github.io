@@ -22,6 +22,21 @@ We offer support for students and instructors interested in recording and postin
 <br style="clear: both">
 
 ## Software Options for Recording Audio
+The easiest way to record audio is to use an app on an iPhone or Android phone, although this option results in lower quality audio. Here are some quick steps for each:
+
+**iPhone** 
+- Use the built-in app called Voice Memos
+- Tap the red button to start and stop the recording
+- Share via AirDrop, or cloud storage
+
+**Android**
+- Use the Recorder app
+- This app starts recording when you tap the large button at the bottom center
+- Tap the stop button to end the recording
+- Tap the three dots at the upper right to open up the menu where you can share the recording to cloud storage
+
+You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to use them.
+
 The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. 
 
 {% include figure.html
@@ -43,7 +58,7 @@ The Mac workstations and the PC laptop in the Amaranth studio all have Audacity 
 ## Recording on Audacity
 
 After just a little practice getting used to the basic controls on Audacity, it is a very user friendly application. Here are a few tips:
-- Check that the recording input device is correct by clicking on the Audio Setup button in the top row of controls
+- Check that the YETI mic as the recording input device is correctly connected by clicking on the Audio Setup button in the top row of controls
 - Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
 - Drag and drop audio files into Audacity after downloading them from Creative Commons sites like [Pixabay](https://pixabay.com/)
 
