@@ -62,6 +62,56 @@ After just a little practice getting used to the basic controls on Audacity, it 
 - Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
 - Drag and drop audio files into Audacity after downloading them from Creative Commons sites like [Pixabay](https://pixabay.com/)
 
+
+
+## Getting Started with Audacity
+When using Audacity for the first time, a few dialog boxes will appear that you can click past. The screenshots below come from a first-time use of the Audacity app on one of the Mac workstations in the Amaranth Studio.
+
+<br style="clear: both">
+
+When prompted to allow use of the microphone, click Allow.
+{% include figure.html
+  class="center"
+  width="25%"
+  caption="Allow microphone use"
+  image-path="images/audacity-mic-access.jpg"
+%}
+<br style="clear: both">
+It is ok to click past the checks for app updates by closing the box or clicking Skip.
+<br style="clear: both">
+{% include figure.html
+  class="right"
+  width="35%"
+  caption="Ok to close this box"
+  image-path="images/audacity-app-update-check.jpg"
+%}
+
+{% include figure.html
+  class="left"
+  width="35%"
+  caption="Ok to click Skip"
+  image-path="images/audacity-update-skip.jpg"
+%}
+<br style="clear: both">
+If you get a Plugin error, you can click Continue.
+{% include figure.html
+  class="center"
+  width="45%"
+  caption="Ok to click continue on this error"
+  image-path="images/audacity-plugin-continue.jpg"
+%}
+<br style="clear: both">
+Lastly, you will get a Welcome dialog box offering videos on what's new in the latest version. It is ok to close this box or click Ok.
+{% include figure.html
+  class="center"
+  width="45%"
+  caption="Ok to click continue on this error"
+  image-path="images/audacity-welcome.jpg"
+%}
+<br style="clear: both">
+
+## Audacity Tutorial Video
+
 For more tips and a general orientation to Audacity, watch the below video.
 
 <iframe width="951" height="535" src="https://www.youtube.com/embed/vlzOb4OLj94" title="Audacity Tutorial For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
