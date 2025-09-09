@@ -71,7 +71,7 @@ When using Audacity for the first time, a few dialog boxes will appear that you 
 
 When prompted to allow use of the microphone, click Allow.
 {% include figure.html
-  class="right"
+  class="center"
   width="25%"
   caption="Allow microphone use"
   image-path="images/audacity-mic-access.jpg"
@@ -95,7 +95,7 @@ It is ok to click past the checks for app updates by closing the box or clicking
 <br style="clear: both">
 If you get a Plugin error, you can click Continue.
 {% include figure.html
-  class="right"
+  class="center"
   width="45%"
   caption="Ok to click continue on this error"
   image-path="images/audacity-plugin-continue.jpg"
@@ -103,7 +103,7 @@ If you get a Plugin error, you can click Continue.
 <br style="clear: both">
 Lastly, you will get a Welcome dialog box offering videos on what's new in the latest version. It is ok to close this box or click Ok.
 {% include figure.html
-  class="right"
+  class="center"
   width="45%"
   caption="Ok to click continue on this error"
   image-path="images/audacity-welcome.jpg"
