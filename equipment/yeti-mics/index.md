@@ -66,11 +66,13 @@ After just a little practice getting used to the basic controls on Audacity, it 
 
 ## Getting Started with Audacity
 When using Audacity for the first time, a few dialog boxes will appear that you can click past. The screenshots below come from a first-time use of the Audacity app on one of the Mac workstations in the Amaranth Studio.
+
 <br style="clear: both">
+
 When prompted to allow use of the microphone, click Allow.
 {% include figure.html
   class="right"
-  width="45%"
+  width="25%"
   caption="Allow microphone use"
   image-path="images/audacity-mic-access.jpg"
 %}
