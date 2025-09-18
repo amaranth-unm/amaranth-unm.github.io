@@ -12,6 +12,61 @@
     display:none;
   }
 
+  /* Event Card Typography */
+  .event-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+  .event-left .date {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2rem;
+    text-transform: none;
+    line-height: 1.1;
+  }
+  .event-left .weekday {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3rem;
+  }
+  .event-left .time, .event-left .place {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.2rem;
+  }
+  .event-left .time {
+    color: #e94e77;
+  }
+  .event-left .place {
+    color: #888;
+  }
+  @media (max-width: 700px) {
+    .event-left {
+      align-items: flex-start;
+      padding-right: 0;
+    }
+    .event-left .date {
+      font-size: 2.2rem;
+    }
+    .event-left .weekday, .event-left .time, .event-left .place {
+      font-size: 1rem;
+    }
+  }
+
   html, body {
     margin: 0;
     padding: 0;
