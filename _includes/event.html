@@ -1,0 +1,27 @@
+{% for event in site.data.events.2018-spring %}
+
+{% if event.upcoming == true and event.next == false %}
+<div class="row row-talk">
+
+  <div class="col-xs-12 text-xs-left col-sm-3 col-lg-3 text-lg-right">
+    <div class="month">{{event.month}}</div>
+    <div class="day">{{event.day}}</div>
+    <div class="weekday">{{event.weekday}}</div>
+
+    <div class="time">{{event.time}}</div>
+    <div class="place">{{event.place}}</div>
+
+  </div>
+
+  <div class="talk-desc col-xs-9">
+    <div class="month">&nbsp;</div>
+
+    <h2 class="person">{{event.person}}</h2>
+    <div class="time">{{event.department}}</div>
+    <div class="place">{{event.affiliation}}</div>
+  </div>
+
+</div> <!-- end row -->
+
+{% endif %}
+{% endfor %}
