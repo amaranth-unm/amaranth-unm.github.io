@@ -29,10 +29,10 @@ Instead of an audience of only the course instructor, students will have the cha
 
 
 ## Why not use Squarespace or Wix or Wordpress?
-Good question! Many popular website creation sites are good solutions for a quick and temporary need. You don't need a multi-zone automated irrigation system to water a single plant once a week. But most website tools are not good choices for open, collaborative, and sustainable projects. 
+Good question! Many popular website creation sites are good solutions for a quick and temporary need. But most free website tools are not good choices for open, collaborative, and sustainable projects. Often they:
 - Require a yearly subscription fee to retain access, or have lots of ads interefere with your site
 - Don't support multi-user collaboration without an expensive subscription plan
-- Dependent on a particular server
+- Dependent on a particular platform, which means you can't switch services without starting over
 
 ## Designing Communication
 Our project template helps students think about how design factors into communication. They can use images or other embedded media in many ways, but rather than just throwing them together, they have to think about visual hierarchy and how a story flows together on a webpage. These are crucial communication skills in the 21st century.
@@ -40,8 +40,18 @@ Our project template helps students think about how design factors into communic
 ## Digital Literacy
 When creating a website in a hurry, those apps get the basic job done precisely because they obscure all technical detail. But our students need more digital literacy, not less. Learning the **basics** about how code works _without actually learning coding_ empowers students. The steps that we have designed reinforce a collaborative ethos and provide a clear picture of how basic code produces design elements on a page. 
 
+
+### What will students need to do?
+For your students to contribute their work to a project website, your students will do _exactly_ what you did to set things up, and use the same documentation.
+- Create a free GitHub account
+- Duplicate the project website (that you'll have already created from an existing tempalte) into their own GitHub repository. Again, this is _not_ a technical process; they just click a few buttons.
+- Develop and add their own page(s) with their essay, images, podcast, or whatever the project is.
+  - These are just text files that they edit on their computers/tablets and then drag and drop into GitHub. No special software required.
+- When the course is ending and their work is done, they click button to submit their changes to the "official" project site. 
+
+
 ## Let's Get Started
-If you are interested in any of the above, let's talk about building a website together for student projects. We've got the technical infrastructure set up and instructions for you and your students. Check out our [website process guide](../process-guides/websites) to get a high-level overview. We're always happy to visit classes to help. In the meantime you might check out a few examples of course sites that have used our platform.
+If you are interested in any of the above, let's talk about building a website together for student projects. We've got the technical infrastructure set up and instructions for you and your students. Check out our [website getting started guide](getting-started) to get a high-level overview. We're always happy to visit classes to help. In the meantime you might check out a few examples of course sites that have used our platform.
 
 {% include card-list.html 
 cards = page.cards%}
