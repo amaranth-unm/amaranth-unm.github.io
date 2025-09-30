@@ -1,0 +1,38 @@
+- title: Online Portfolio Workshop
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Oct
+  weekday: Friday
+  day: 03
+  year: 2025
+  date: 10/03/2025
+  time: "12:30 - 2:00"
+  place: 1104 Mesa Vista<BR>(History Common Room)
+  url: 
+  abstract: |
+    This workshop will introduce participants to the process of creating an online academic portfolio using free, stable, and easily accessible tools. An online portfolio offers increased visibility for your research, networking opportunities, and the ability to showcase your work in a dynamic and interactive way. The workshop will cover the basics of setting up a new portfolio website, how to edit content, and basic styling.
+
+    No prior experience with web development is necessary, but participants should bring a laptop. By the end of the workshop, you'll have your own working website, and know how to update and make it your own thing.
+  image-name: portfolio-workshop.png
+
+
+# example speaker entry
+# - title: "Atmo-Orientalism: Olfactory Racialization and Environmental Health"
+#   person: Hsuan Hsu
+#   month: March
+#   day: 23
+#   year: 2018
+#   date: 23-03-2018
+#   time: "4:00 - 5:00"
+#   place: 1104 Mesa Vista Hall
+#   url: http://english.ucdavis.edu/people/hlhsu
+#   affiliation: UC-Davis
+#   department: Department of English
+#   person-title: Professor
+#   abstract: |
+#     “Atmo-Orientalism: Race, Atmosphere, and Environmental Health” considers the process of “environmental exclusion” that comes hand-in-hand with deodorization by constructing a genealogy of discourses that racialize Chinese spaces as atmospheric health threats. Reading a range of legal and cultural discourses conflating the Chinese with bad air, this paper argues that representations of the Chinese as diseased and toxic manifest in the (apparently “race-blind”) form of atmospheric difference. The paper concludes by considering how Asian diasporic texts–from Sui Sin Far’s Mrs. Spring Fragrance (1912) to the work of contemporary olfactory artist and Anicka Yi (who sampled scents from Manhattan’s Koreatown and Chinatown in Life is Cheap (2017)—respond to atmo-orientalism by underscoring how noxious air is sustained by air conditioning at both urban and transnational scales.
+
+#   paper-link: readings/SHWG_Hsu.pdf
+#   image-name: hsu-poster-xsm.jpg

@@ -323,6 +323,129 @@ main .container {
   min-height: 120px;
 }
 
+
+
+
+
+.event-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: stretch;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  border: 2px solid #e94e77;
+  transition: box-shadow 0.2s;
+}
+
+.event-row:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.event-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+
+.event-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media (max-width: 700px) {
+  .event-row {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .event-left,
+  .event-right {
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+  }
+}
+
+
+/* Event Card Typography */ 
+.event-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 2rem;
+}
+
+.event-left .date {
+  font-family: 'Space Grotesk', serif;
+  font-size: 3rem;
+  color: #e94e77;
+  text-transform: none;
+  line-height: 1;
+}
+
+.event-left .weekday {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.event-left .time,
+.event-left .place {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  color: #aaa;
+  margin-bottom: 0.2rem;
+}
+
+.event-left .time {
+  font-size: 2rem;
+  color: #e94e77;
+}
+
+.event-left .place {
+  color: #888;
+  margin-bottom: 1rem;
+  
+}
+
+.event-right h2 {
+  font-family: 'Orbitron', monospace;
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 700px) {
+  .event-left {
+    align-items: flex-start;
+    padding-right: 0;
+  }
+
+  .event-left .date {
+    font-size: 2.2rem;
+  }
+
+  .event-left .weekday,
+  .event-left .time,
+  .event-left .place {
+    font-size: 1rem;
+  }
+}
+
+
+
+
 /* Grid layouts */
 .grid {
   display: grid;
@@ -354,6 +477,8 @@ main .container {
   margin: 0;
   float: none !important;
 }
+
+
 
 /* Buttons */
 .btn {
