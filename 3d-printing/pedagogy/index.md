@@ -14,7 +14,7 @@ cards:
     link: "terrain"
 ---
 
-# Current Projects
+# Pedagogical Uses
 
 {% include card-list.html
 cards = page.cards
