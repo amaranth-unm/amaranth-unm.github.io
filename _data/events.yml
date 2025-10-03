@@ -15,7 +15,49 @@
     This workshop will introduce participants to the process of creating an online academic portfolio using free, stable, and easily accessible tools. An online portfolio offers increased visibility for your research, networking opportunities, and the ability to showcase your work in a dynamic and interactive way. The workshop will cover the basics of setting up a new portfolio website, how to edit content, and basic styling.
 
     No prior experience with web development is necessary, but participants should bring a laptop. By the end of the workshop, you'll have your own working website, and know how to update and make it your own thing.
-  image-name: portfolio-workshop.png
+
+    Useful links for this workshop
+    - [Xanthan](https://amaranth-unm.github.io/xanthan//guides/getting-started)
+    - [GitHub Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+    - [Portfolio Template Repository](https://github.com/amaranth-unm/portfolio-template)
+    - [GitHub Desktop](https://github.com/apps/desktop)
+    - [Visual Studio Code](https://code.visualstudio.com)
+  image-name: portfolio-workshop.jpeg
+
+- title: Conference Poster Design Workshop
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Oct
+  weekday: Friday
+  day: 24
+  year: 2025
+  date: 10/03/2025
+  time: "11:00 - 12:00"
+  place: 1104 Mesa Vista<BR>(History Common Room)
+  url: 
+  abstract: |
+    This workshop will introduce participants to guidelines and expectations for creating conference posters. This workshop is offered in partnership with the History Graduate Students Association as part of the Fall 2025 Poster Contest.
+
+
+
+- title: Poster Contest Deadline
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Nov
+  weekday: Friday
+  day: 07
+  year: 2025
+  date: 11/07/2025
+  time: 
+  place: 
+  url: 
+  abstract: |
+    Amaranth is parterning with HGSA to offer a poster contest for History Graduate Students. This semester, the required format is a conference poster. The deadline is November 7th and entries should be emailed to hgsa@unm.edu
+  image-name: 
 
 
 # example speaker entry

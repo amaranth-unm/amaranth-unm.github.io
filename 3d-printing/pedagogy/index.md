@@ -8,18 +8,13 @@ cards:
     summary: This project explores the parameters of using 3D prints to deepen understanding of the transition from Romanseque to Gothic architectural styles.
     link: "capitals"
 
-  - title: "HGSA Poster Contest"
-    thumbnail: "/assets/images/site/four-posters.jpg"
-    summary: Sometimes first impressions happen quickly. Learning to conceptualize, design, refine, and explain a large format poster encourages a number of crucial communication skills.
-    link: "poster-contest"
-
   - title: "Terrain Maps"
     thumbnail: "/assets/images/site/acrylic-terrain.jpg"
     summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextualize space and geography.
     link: "terrain"
 ---
 
-# Current Projects
+# Pedagogical Uses
 
 {% include card-list.html
 cards = page.cards
