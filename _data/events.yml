@@ -17,6 +17,41 @@
     No prior experience with web development is necessary, but participants should bring a laptop. By the end of the workshop, you'll have your own working website, and know how to update and make it your own thing.
   image-name: portfolio-workshop.png
 
+- title: Conference Poster Design Workshop
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Oct
+  weekday: Friday
+  day: 24
+  year: 2025
+  date: 10/03/2025
+  time: "11:00 - 12:00"
+  place: 1104 Mesa Vista<BR>(History Common Room)
+  url: 
+  abstract: |
+    This workshop will introduce participants to guidelines and expectations for creating conference posters. This workshop is offered in partnership with the History Graduate Students Association as part of the Fall 2025 Poster Contest.
+
+
+
+- title: HGSA & Amaranth Poster Contest
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Nov
+  weekday: Friday
+  day: 07
+  year: 2025
+  date: 11/07/2025
+  time: 
+  place: 
+  url: 
+  abstract: |
+    Amaranth is parterning with HGSA to offer a poster contest for History Graduate Students. This semester, the required format is a conference poster. The deadline is November 7th and entries should be emailed to hgsa@unm.edu
+  image-name: 
+
 
 # example speaker entry
 # - title: "Atmo-Orientalism: Olfactory Racialization and Environmental Health"
