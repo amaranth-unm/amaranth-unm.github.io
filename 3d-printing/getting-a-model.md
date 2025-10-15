@@ -23,4 +23,4 @@ Some repositories offer several options for file format when downloading a model
 Initially, your downloaded 3D model will appear in the Downloads folder on your computer. As you continue with 3D printing, you will find it easier if you have all your 3D printing files in one separate folder on your Desktop or in Documents.
 
 ## Ready to Slice
-Once you have the downloaded file in a desired folder location, you are ready for [slicing](/slicing).
+Once you have the downloaded file in a desired folder location, you are ready for slicing.
