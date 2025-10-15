@@ -17,4 +17,4 @@ date: 2025-06-19
 
 The Amaranth studio has an AnyCubic Kobra 3 with a four-spool materials station. This allows for using four different filaments for a single 3D print. 
 
-Head over to our [3D printing pages]({{ site.baseurl }}3d-printing/) to learn more. 
+Head over to our [3D printing pages]({{ site.baseurl }}/3d-printing/) to learn more. 
