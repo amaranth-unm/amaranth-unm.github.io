@@ -20,14 +20,14 @@ As an item to demonstrate the positive potential for using Meshy.ai we chose to 
 
 <br style="clear: both">
 {% include figure.html
-  class="right"
+  class="left"
   width="35%"
   caption="Fair use image of an Amaranth flower"
   image-path="images/amaranth-flower.jpg"
 %}
 
 {% include figure.html
-  class="left"
+  class="right"
   width="35%"
   caption="Drafts from Meshy.ai"
   image-path="images/meshy-screenshot-1.jpg"
@@ -35,17 +35,17 @@ As an item to demonstrate the positive potential for using Meshy.ai we chose to 
 <br style="clear: both">
 
 ## Example 2: Middleton Cross
-This example shows the limitations of Meshy.ai because it generated a strange interpretation of the markings on the cross, especially with the face of the human figure. 
+This example shows the limitations of Meshy.ai because it generated a strange interpretation of the markings on the cross, especially with the face of the human figure. Also, Meshy.ai decided to regenerate the part of the cross that no longer exists. Meshy.ai does allow for refining and giving instructions for new iterations of the generation, but you will not have full control over what the AI decides to create.
 <br style="clear: both">
 {% include figure.html
-  class="right"
+  class="left"
   width="35%"
   caption="Line drawing of Middleton Cross"
   image-path="images/middleton_cross.jpg"
 %}
 
 {% include figure.html
-  class="left"
+  class="right"
   width="35%"
   caption="Meshy rendering of Middleton Cross"
   image-path="images/meshy-middleton.jpg"
