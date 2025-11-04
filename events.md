@@ -7,11 +7,8 @@ header-height: 50vh
 header-position: 40px
 ---
 
-# Upcoming Events
-
-
 {::nomarkdown}
-</div> <!-- close container for bg work-->
+</div> <!-- close container to have larger width for event boxes-->
 {:/nomarkdown}
 
 <div class="container" style="max-width:90%">

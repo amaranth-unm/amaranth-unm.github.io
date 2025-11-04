@@ -1,41 +1,87 @@
+<!--Separate events into upcoming and past based on date-->
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign upcoming_events = "" | split: "" %}
+{% assign past_events = "" | split: "" %}
 
 {% for event in include.events %}
-<div class="event-row">
+  {% assign event_date_parts = event.date | split: "/" %}
+  {% assign event_date = event_date_parts[2] | append: "-" | append: event_date_parts[0] | append: "-" | append: event_date_parts[1] %}
   
+  {% if event_date >= today %}
+    {% assign upcoming_events = upcoming_events | push: event %}
+  {% else %}
+    {% assign past_events = past_events | push: event %}
+  {% endif %}
+{% endfor %}
+
+<!--Display Upcoming Events-->
+{% if upcoming_events.size > 0 %}
+<h1>Upcoming Events</h1>
+{% assign upcoming_events_sorted = upcoming_events | sort: "date" %}
+{% for event in upcoming_events_sorted %}
+<div class="event-row">
   <div class="event-left">
     <div class="weekday">{{event.weekday}}</div>
     <div class="date">{{event.month}} {{event.day}}</div>
     <div class="time">{{event.time}}</div>
     <div class="place">{{event.place}}</div>
-      {% if event.image-name != nil %}
+    {% if event.image-name != nil %}
       <a href="{{ site.baseurl }}/assets/images/events/{{event.image-name}}" data-lightbox="{{event.person}}" data-title="{{event.person}} poster">
         <img src="{{ site.baseurl }}/assets/images/events/{{event.image-name}}" width="100%" class="talk-poster">
       </a>
-      {% endif %}
-
+    {% endif %}
   </div>
 
   <div class="event-right">
-    {% if event.person != nil %}
-    <h3 class="person">{{event.person}}</h3>
-    {% endif %}
-    {% if event.person-title != nil %}
-    <div class="person-title">{{event.person-title}}</div>
-    {% endif %}
-    {% if event.department != nil %}
-    <div class="time">{{event.department}}</div>
-    {% endif %}
-    {% if event.affiliation != nil %}
-    <div class="place">{{event.affiliation}}</div>
-    {% endif %}
+    {% if event.person != nil %}<h3 class="person">{{event.person}}</h3>{% endif %}
+    {% if event.person-title != nil %}<div class="person-title">{{event.person-title}}</div>{% endif %}
+    {% if event.department != nil %}<div class="time">{{event.department}}</div>{% endif %}
+    {% if event.affiliation != nil %}<div class="place">{{event.affiliation}}</div>{% endif %}
     <h2 class="title">{{event.title}}</h2>
     <h4 class="subtitle">{{event.subtitle}}</h4>
     <p class="abstract">{{event.abstract | markdownify }}</p>
     {% if event.paper-links != nil %}
-    {% for paper in event.paper-links %}
-    <div class="download"><a href="{{paper[1]}}">{{paper[0]}}</a></div>
-    {% endfor %}
+      {% for paper in event.paper-links %}
+        <div class="download"><a href="{{paper[1]}}">{{paper[0]}}</a></div>
+      {% endfor %}
     {% endif %}
   </div>
 </div>
 {% endfor %}
+{% endif %}
+
+<!--Display Past Events-->
+{% if past_events.size > 0 %}
+<h1>Past Events</h1>
+{% assign past_events_sorted = past_events | reverse %}
+{% for event in past_events_sorted %}
+<div class="event-row past-event">
+  <div class="event-left">
+    <div class="weekday">{{event.weekday}}</div>
+    <div class="date">{{event.month}} {{event.day}}</div>
+    <div class="time">{{event.time}}</div>
+    <div class="place">{{event.place}}</div>
+    {% if event.image-name != nil %}
+      <a href="{{ site.baseurl }}/assets/images/events/{{event.image-name}}" data-lightbox="{{event.person}}" data-title="{{event.person}} poster">
+        <img src="{{ site.baseurl }}/assets/images/events/{{event.image-name}}" width="100%" class="talk-poster">
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="event-right">
+    {% if event.person != nil %}<h3 class="person">{{event.person}}</h3>{% endif %}
+    {% if event.person-title != nil %}<div class="person-title">{{event.person-title}}</div>{% endif %}
+    {% if event.department != nil %}<div class="time">{{event.department}}</div>{% endif %}
+    {% if event.affiliation != nil %}<div class="place">{{event.affiliation}}</div>{% endif %}
+    <h2 class="title">{{event.title}}</h2>
+    <h4 class="subtitle">{{event.subtitle}}</h4>
+    <p class="abstract">{{event.abstract | markdownify }}</p>
+    {% if event.paper-links != nil %}
+      {% for paper in event.paper-links %}
+        <div class="download"><a href="{{paper[1]}}">{{paper[0]}}</a></div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+{% endif %}
