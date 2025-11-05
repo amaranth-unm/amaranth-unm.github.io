@@ -8,7 +8,7 @@
   day: 21
   year: 2025
   date: 11/21/2025
-  time: "12:00 - 1:00"
+  time: "1:45 - 2:45"
   place: History Common Room
   url: 
   abstract: |
@@ -82,6 +82,24 @@
     Amaranth is parterning with HGSA to offer a poster contest for History Graduate Students. This semester, the required format is a conference poster. The deadline is November 7th and entries should be emailed to hgsa@unm.edu
   image-name: deadline.jpg
 
+
+
+- title: Amaranth Booth at 2025 Medieval Times Faire
+  affiliation: 
+  department: 
+  person:
+  person-title:
+  month: Oct
+  weekday: Friday
+  day: 31
+  year: 2025
+  date: 10/31/2025
+  time: "10:00 - 2:00"
+  place: Johnson Field
+  url: 
+  abstract: |
+    At the 2025 Medieval Faire organized by UNM's Institute for Medieval Studies, Amaranth will have a booth where we will be sharing information about our offerings, answering questions, and demonstrating the 3D printer. Stop by to learn more about Amaranth and medieval studies at UNM!
+  image-name: medieval-flyer-2025-bkgrd.png
 
 # example speaker entry
 # - title: "Atmo-Orientalism: Olfactory Racialization and Environmental Health"
