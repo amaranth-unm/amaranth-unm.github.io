@@ -2,7 +2,7 @@
 title: Recording Audio
 layout: base
 date: 2025-11-07
-header-image: /images/recording-audio-header.png
+header-image: images/recording-audio-header.png
 ---
 
 # Tips and Guidelines for Recording Audio

@@ -2,7 +2,7 @@
 title: Oral Histories
 layout: base
 date: 2025-11-07
-header-image: /images/oral-history-interview.png
+header-image: images/oral-history-interview.png
 ---
 
 # Tips and Guidelines for Oral Histories
