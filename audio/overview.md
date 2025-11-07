@@ -2,7 +2,7 @@
 title: Audio Overview
 layout: base
 date: 2025-11-07
-header-image: /assets/images/site/podcasting.png
+header-image: /assets/images/site/audio-overview-header.png
 ---
 
 # Audio Overview

@@ -2,7 +2,7 @@
 title: Oral Histories
 layout: base
 date: 2025-11-07
-header-image: /assets/images/site/podcasting.png
+header-image: /assets/images/site/oral-history-interview.png
 ---
 
 # Tips and Guidelines for Oral Histories
@@ -45,4 +45,4 @@ The below information is adapted from publications available on [the website of 
 
 Ritchie, Donald A. *Doing Oral History.* Third edition. New York, NY: Oxford University Press, 2015.
 
-Yow, Valerie Raleigh. *Recording Oral History : A Guide for the Humanities and Social Sciences.* 2nd edition. Walnut Creek, CA: AltaMira Press, 2005.
+Yow, Valerie Raleigh. *Recording Oral History: A Guide for the Humanities and Social Sciences.* 2nd edition. Walnut Creek, CA: AltaMira Press, 2005.

@@ -2,13 +2,13 @@
 title: Recording Audio
 layout: base
 date: 2025-11-07
-header-image: /assets/images/site/podcasting.png
+header-image: /assets/images/site/recording-audio-header.png
 ---
 
 # Tips and Guidelines for Recording Audio
 On this page, you can find general tips and guidelines for recording audio using your phone or 
 
-## Software Options for Recording Audio
+## Software and Device Options for Recording Audio
 The easiest way to record audio is to use an app on an iPhone or Android phone, although this option results in lower quality audio. 
 We recommend that you do not attempt to edit a sound file on your phone, but instead upload the sound file onto a cloud storage location so that you can later download it onto a computer for editing. 
 Here are some quick steps for each:
@@ -25,6 +25,7 @@ Here are some quick steps for each:
 - Tap the three dots at the upper right to open up the menu where you can share the recording to cloud storage
 - If you don't have an existing cloud storage app, you can download Microsoft OneDrive and it will connect to your UNM email account.
 
+**YETI Mics**
 You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to use them.
 
 The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. 
