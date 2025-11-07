@@ -2,7 +2,7 @@
 title: Editing with Audacity
 layout: base
 date: 2025-11-07
-header-image: /images/site/sound-editing-header.png
+header-image: /images/sound-editing-header.png
 ---
 
 
