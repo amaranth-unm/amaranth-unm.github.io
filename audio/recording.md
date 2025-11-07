@@ -45,16 +45,6 @@ The Mac workstations and the PC laptop in the Amaranth studio all have Audacity 
 
 <br style="clear: both">
 
-## Recording on Audacity
-
-After just a little practice getting used to the basic controls on Audacity, it is a very user friendly application. Here are a few tips:
-- Check that the YETI mic as the recording input device is correctly connected by clicking on the Audio Setup button in the top row of controls
-- If the sound is recording at too high a volume, adjust the Gain dial on the back of the microphone
-- Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
-- To remove verbal pauses, drag the cursor over a portion of an audio clip to select it for deletion and then hit the Delete key
-- Drag and drop audio files into Audacity after downloading them from Creative Commons sites like [Pixabay](https://pixabay.com/)
-
-
 
 ## Getting Started with Audacity
 When using Audacity for the first time, a few dialog boxes will appear that you can click past. The screenshots below come from a first-time use of the Audacity app on one of the Mac workstations in the Amaranth Studio.
