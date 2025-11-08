@@ -21,7 +21,7 @@ After just a little practice getting used to the basic controls on Audacity, it 
 - If the sound is recording at too high a volume, turn down the Gain dial on the back of the microphone
 {% include figure.html
   class="center"
-  width="45%"
+  width="30%"
   caption="The Gain dial, at its lowest setting"
   image-path="images/gain-dial.png"
 %}
