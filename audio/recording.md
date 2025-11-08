@@ -26,7 +26,7 @@ Here are some quick steps for each:
 - If you don't have an existing cloud storage app, you can download Microsoft OneDrive and it will connect to your UNM email account.
 
 **YETI Mics**
-You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to use them.
+- You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to use them.
 
 The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. 
 
@@ -92,9 +92,3 @@ Lastly, you will get a Welcome dialog box offering videos on what's new in the l
   image-path="images/audacity-welcome.jpg"
 %}
 <br style="clear: both">
-
-## Audacity Tutorial Video
-
-For more tips and a general orientation to Audacity, watch the below video.
-
-<iframe width="951" height="535" src="https://www.youtube.com/embed/vlzOb4OLj94" title="Audacity Tutorial For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
