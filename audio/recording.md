@@ -8,7 +8,7 @@ header-image: images/recording-audio-header.png
 # Tips and Guidelines for Recording Audio
 On this page, you can find general tips and guidelines for recording audio using your phone or 
 
-## Software and Device Options for Recording Audio
+## Device Options for Recording Audio
 The easiest way to record audio is to use an app on an iPhone or Android phone, although this option results in lower quality audio. 
 We recommend that you do not attempt to edit a sound file on your phone, but instead upload the sound file onto a cloud storage location so that you can later download it onto a computer for editing. 
 Here are some quick steps for each:
@@ -26,9 +26,13 @@ Here are some quick steps for each:
 - If you don't have an existing cloud storage app, you can download Microsoft OneDrive and it will connect to your UNM email account.
 
 **YETI Mics**
-You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to use them.
+- You will get better quality audio if you use the YETI mics in the Amaranth Studio or in the recording booths at Zimmerman Library. Read further for more information about how to get started with the YETI mics and our recommended audio editing app.
 
-The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. 
+## Recording Audio Using a Mic
+
+If you are using the YETI Mics to record audio, you can record directly into Audacity and don't need to upload your audio file to cloud storage.
+
+The Mac workstations and the PC laptop in the Amaranth studio all have Audacity installed. The Mac workstations also have Garage Band. We recommend Audacity.
 
 {% include figure.html
   class="left"
@@ -88,13 +92,10 @@ Lastly, you will get a Welcome dialog box offering videos on what's new in the l
 {% include figure.html
   class="center"
   width="45%"
-  caption="Ok to click continue on this error"
+  caption="Ok to close this dialog box"
   image-path="images/audacity-welcome.jpg"
 %}
 <br style="clear: both">
 
-## Audacity Tutorial Video
-
-For more tips and a general orientation to Audacity, watch the below video.
-
-<iframe width="951" height="535" src="https://www.youtube.com/embed/vlzOb4OLj94" title="Audacity Tutorial For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Next Steps
+Now that you have Audacity open and running, visit the next page for tips on editing audio files. [Read more about Editing with Audacity →](audacity)
