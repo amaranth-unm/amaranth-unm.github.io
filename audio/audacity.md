@@ -31,7 +31,7 @@ After just a little practice getting used to the basic controls on Audacity, it 
   class="center"
   width="40%"
   caption="If you hit Control+i then this line will become a division between two clips"
-  image-path="images/audacity-audio-setup.png"
+  image-path="images/audacity-divide-clip.png"
 %}
 <br style="clear: both">
 - To remove verbal pauses, drag the cursor over a portion of an audio clip to select it for deletion and then hit the Delete key
