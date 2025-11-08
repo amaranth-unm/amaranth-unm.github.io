@@ -23,7 +23,7 @@ After just a little practice getting used to the basic controls on Audacity, it 
   class="center"
   width="45%"
   caption="The Gain dial, at its lowest setting"
-  image-path="images/gain.png"
+  image-path="images/gain-dial.png"
 %}
 <br style="clear: both">
 - Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
@@ -45,7 +45,7 @@ After just a little practice getting used to the basic controls on Audacity, it 
 - Drag and drop audio files into Audacity after downloading them from Creative Commons sites like [Pixabay](https://pixabay.com/). The new audio file will display as a second audio track below what you already recorded.
 {% include figure.html
   class="center"
-  width="60%"
+  width="40%"
   caption="What it looks like when you drag an audio file into Audacity"
   image-path="images/audacity-drag-audio.png"
 %}
