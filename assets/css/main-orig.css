@@ -8,6 +8,56 @@
   PAGE SETUP
   *****************************************************/
 
+
+/*****************************************************
+ORIGINAL AMARANTH COLOR PALETTE
+Date archived: November 19, 2025
+*****************************************************/
+
+  :root {
+    /* Original Accent Colors */
+    --original-pink: #e94e77;
+    /* Pink/Magenta - highlights, hovers, subtitles, event times */
+    --original-blue: #005999;
+    /* Blue - primary link color */
+    --original-light-blue: #87a7be;
+    /* Light Blue - link underlines */
+    --original-purple: #44136c;
+    /* Purple - visited link color */
+    --original-light-purple: #956cb7;
+    /* Light Purple - visited link underlines */
+    --original-beige: #e5d3bb;
+    /* Beige/Tan - backgrounds, footer, abstract boxes */
+
+    /* Original Neutrals */
+    --original-near-black: #222;
+    /* Near Black - text, dark backgrounds */
+    --original-dark-gray: #444;
+    /* Dark Gray - body text */
+    --original-medium-dark: #555;
+    /* Medium Dark Gray */
+    --original-medium-gray: #666;
+    /* Medium Gray - text */
+    --original-gray: #888;
+    /* Gray - secondary text */
+    --original-light-gray-1: #aaa;
+    /* Light Gray */
+    --original-light-gray-2: #ccc;
+    /* Light Gray - borders, backgrounds */
+    --original-border-gray: #999;
+    /* Border Gray - hr, borders */
+    --original-off-white: #eee;
+    /* Off White - light backgrounds */
+
+    /* Original Usage Notes */
+    /* 
+  Primary personality color: #e94e77 (pink/magenta)
+  Link progression: #005999 (unvisited) → #44136c (visited)
+  Warm foundation: #e5d3bb (beige) for backgrounds
+  */
+  }
+
+
   #sheetrock {
     display:none;
   }
