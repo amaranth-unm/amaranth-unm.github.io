@@ -316,7 +316,7 @@ main .container {
 
 .card-title {
   font-family: 'Orbitron', monospace;
-  color: var(--text-primary);
+  color: var(--unm-sandia-sunset);
   margin-top:1rem;
   margin-bottom: 0.75rem;
   font-size: 1.35rem;
