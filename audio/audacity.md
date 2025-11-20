@@ -9,6 +9,8 @@ header-image: images/sound-editing-header.png
 # Editing with Audacity
 All new software takes a little time to get comfortable with. After a little practice, you'll find editing a breeze.
 
+If you haven't already used to Audacity to record your story, you'll need to click through some early dialog boxes when you first start it (see the last section of the [recording page](recording) for more detail).
+
 ## Basic Editing
 If you didn't record directly into Audacity, you'll first need to load your recording. It's safest to download your audio file---.mp3 is easiest work with---from your cloud storage to whatever computer you're using. Just drag and drop your .mp3 file to the Audacity window or icon in your tool bar.
 
