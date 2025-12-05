@@ -2,8 +2,7 @@
 
 /* Import modern fonts */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-
-/*****************************************************
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');/*****************************************************
 AMARANTH COLOR PALETTE
 Futuristic Southwest aesthetic based on UNM brand colors
 Original palette archived in: assets/css/original.css
@@ -101,24 +100,24 @@ h1 {
   font-weight: 700;
   color: var(--unm-cherry);
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: .8rem;
   letter-spacing: 0.02em;
   line-height: 1.1;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: clamp(1.35rem, 2.75vw, 1.85rem);
+  font-size: clamp(1.35rem, 2.75vw, 1.8rem);
   color: var(--unm-high-noon);
   margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 h3 {
   font-size: clamp(1.15rem, 2.25vw, 1.6rem);
   color: var(--unm-sandia-sunset);
   margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.7rem;
 }
 
 h4 {
@@ -1244,4 +1243,18 @@ figure.center {
   font-size: clamp(1.2rem, 3vw, 2rem) !important;
   font-weight: 400 !important;
   opacity: 0.9;
+}
+
+/* Header Title using Alan Sans font */
+h1.header-title {
+  font-family: 'Asimovian', sans-serif !important;
+  font-size: clamp(5rem, 10vw, 10rem) !important;
+  font-weight: 900 !important;
+  color: var(--unm-terra) !important;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
+  margin: 0 !important;
+  letter-spacing: 0.05em;
+  text-transform: unset;
+  opacity:.9;
+  
 }

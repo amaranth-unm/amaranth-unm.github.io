@@ -39,6 +39,8 @@ To remove pauses, drag the cursor over a portion of an audio clip to select it f
 If for some reason there is a gap after deleting the clip, go to Audacity -> Preferences -> Track Behaviors and make sure "Editing a clip can move other clips" is checked. Then everything will work.
 
 
+
+
 <br style="clear: both">
 
 ### Adding other tracks (music, effect, etc)
@@ -54,6 +56,27 @@ If for some reason there is a gap after deleting the clip, go to Audacity -> Pre
 - Download the file and put it somewhere you can access easily.
 - Drag and drop audio files into Audacity 
 - The new audio file will display as a second audio track below what you already recorded.
+
+
+<br style="clear: both">
+
+## Export Audio as MP3 from Audacity
+
+Once your audio is ready to export, there's just a few steps to follow. If you don't see any instructions about it, just keep the default suggestion.
+
+1. **Go to File menu** → Select **Export** → Choose **Export Audio...**
+   - Or use keyboard shortcut: `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (Mac)
+
+1. Then the pop-up appears, click the right button for `Export to computer`.
+1. **Name your file** - In the top box (that's already highlighted), type whatever filename you want. Be sure to use all lower case and hyphens instead of speaces. There's no need to add a file extention like .mp3.
+1. **Choose save location** - On the  `Folder` line, click the `Browse...` button Pick where you want to save the file. Feel free to keep the default location; just take note of where it is so you can find it later (to upload to a repository, move to a thumbdrive, etc)
+1. **Select MP3 format** --  On the `Format` line, select `MP3 Files`
+   - This is the ideal format for simple web audio files
+1. Keep all the default Audio Options
+1. **Click Export** or **Save**
+
+Now you have a file you can upload to your repository or whatever.
+
 
 
 <br style="clear: both">
