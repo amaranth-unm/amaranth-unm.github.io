@@ -4,6 +4,7 @@ layout: base
 header-image: assets/images/site/amaranth-header.png
 header-height: 90vh
 header-title: amaranth
+header-subtitle: "humanities + technology"
 header-title-position: -150px
 date: 2024-12-02
 cards: 

@@ -53,7 +53,7 @@
 <!--Display Past Events-->
 {% if past_events.size > 0 %}
 <h1>Past Events</h1>
-{% assign past_events_sorted = past_events | reverse %}
+{% assign past_events_sorted = past_events | sort: "date" | reverse %}
 {% for event in past_events_sorted %}
 <div class="event-row past-event">
   <div class="event-left">

@@ -8,7 +8,7 @@ cards:
   - title: Campus Histories
     thumbnail: "/assets/images/projects/campus.png"
     summary: Built on our latest version of Xanthan, essays here have the most functionality of the bunch. The site is wrapped in the standard UNM web style. 
-    link: https://unm-digital-history.github.io/campus-history/
+    link: https://amaranth-unm.github.io/campus-history/
 
   - title: Metahistory
     thumbnail: "/assets/images/projects/metahistory.png"

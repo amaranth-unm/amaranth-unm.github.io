@@ -22,8 +22,13 @@
       background-repeat: no-repeat;">
   {% if include.header-title %}
   <h1 class="{{ include.header-class | default: 'header-title' }}" {% if include.header-title-position %}style="transform: translateY({{ include.header-title-position }});"{% endif %}>{{ include.header-title }}</h1>
+  {% if include.header-subtitle %}
+  <h2 class="header-subtitle" {% if include.header-title-position %}style="transform: translateY({{ include.header-title-position }});"{% endif %}>{{ include.header-subtitle }}</h2>
+  {% endif %}
   {% else %}
   <h1 id="page-title">{{ include.title}}</h1>
   {% endif %}
+  {% if include.text and include.text != include.header-subtitle %}
   <h2 id="page-subtitle">{{ include.text }}</h2>
+  {% endif %}
 </div>

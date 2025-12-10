@@ -15,12 +15,14 @@
     {% assign headersize = page.header-size %}
     {% assign headerclass = page.header-class %}
     {% assign headertitleposition = page.header-title-position %}
+    {% assign headersubtitle = page.header-subtitle %}
     
     {% if headerimage %}
     
       {% include header-image.html
         image-path = headerimage
         header-title = headertitle
+        header-subtitle = headersubtitle
         text = headersubtitle
         height = headerheight                
         background-position = headerposition

@@ -265,7 +265,7 @@ main .container {
 
 /* Cards */
 .card {
-  background: var(--surface-hover);
+  background: #4c4e51;
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
@@ -1257,4 +1257,15 @@ h1.header-title {
   text-transform: unset;
   opacity:.9;
   
+}
+
+h2.header-subtitle {
+  font-family: 'Asimovian', sans-serif !important;
+  font-size: clamp(.5rem, 3vw, 1.5rem) !important;
+  color: #eee !important;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  margin: 0.5rem 0 0 0 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.85;
 }

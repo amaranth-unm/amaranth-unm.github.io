@@ -70,8 +70,6 @@
       url: "/equipment/photo-printer"
     - title: "Podcast Microphones"
       url: "/equipment/yeti-mics"
-    - title: "Discuss with us!"
-      url: "/contact"
 
 - title: "Contact"
   url: "/contact"
