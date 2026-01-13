@@ -2,7 +2,7 @@
 layout: base
 title: 3D Printer Guide
 subtitle:
-header image: images/hp-t630.jpg
+header-image: images/hp-t630.jpg
 author: Jonathan Seyfried
 date: 2025-06-19
 ---
