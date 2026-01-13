@@ -2,6 +2,7 @@
 title: Projects
 layout: base
 date: 2024-10-26
+header-image: terrain\images\low-tech-terrain.jpg
 cards:
   - title: "Tactile Architecture"
     thumbnail: "/assets/images/site/capitals-together-small.jpg"
