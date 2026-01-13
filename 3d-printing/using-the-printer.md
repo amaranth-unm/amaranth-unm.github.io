@@ -4,7 +4,7 @@ title: Using the 3D Printer
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: 
+header-image: images/anycubic-kobra-3.jpg
 ---
 
 ## Printing Process

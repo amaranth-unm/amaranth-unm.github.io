@@ -4,7 +4,7 @@ title: Complex Models
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: 
+header-image: images/trabant.png
 ---
 
 # Coming soon
