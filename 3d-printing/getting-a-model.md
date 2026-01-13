@@ -4,7 +4,7 @@ title: Getting a 3D Printable Model
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: /images/getting-printable-file.png
+header-image: images/getting-printable-file.png
 ---
 
 # How to Get a 3D Printable Model
