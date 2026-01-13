@@ -2,7 +2,7 @@
 title: Objex
 layout: base
 date: 2025-08-03
-header-image: images/com-print-done.jpg
+header-image: images/com-print-done-cropped.jpg
 cards:
   - title: "Chalchiuhtlicue"
     image: "images/chalchiuhtlicue-temp.png"
