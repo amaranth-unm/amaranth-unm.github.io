@@ -4,7 +4,7 @@ title: Slicing Software
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: 
+header-image: images/notre-dame-sliced.jpg
 ---
 
 ## Preparing the Print File
