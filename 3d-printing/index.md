@@ -4,7 +4,7 @@ title: Overview of 3D Printing
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: 
+header-image: 3d-printing\images\orca-slicer1.png
 ---
 
 # 3D Printing 
