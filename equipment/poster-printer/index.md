@@ -2,6 +2,7 @@
 layout: base
 title: 3D Printer Guide
 subtitle:
+header image: images/hp-t630.jpg
 author: Jonathan Seyfried
 date: 2025-06-19
 ---
@@ -41,9 +42,10 @@ This next image shows the correct settings for printing a 36x24 poster
   caption="These are the correct settings"
   image-path="images/mac-36x24-jpg-or-pdf-change-paper-915-610-marked.png"
 %}
-Click on the Paper Size menu and choose 915.58 x 610.99 mm
 
-After selecting that new Paper Size, your preview should appear with a horizontal orientation and have no white space around the margins
+- Click on the Paper Size menu and choose 915.58 x 610.99 mm
+
+- After selecting that new Paper Size, your preview should appear with a horizontal orientation and have no white space around the margins
 
 <br style="clear: both">
 
@@ -77,4 +79,5 @@ This next image shows the correct settings for printing a 36x24 poster
   caption="These are the correct settings"
   image-path="images/pc-actual-size-36-24-print-preview-marked.png"
 %}
-The print preview should now show the image taking up the entire box and the document size as 36 x 24 inches
+
+- The print preview should now show the image taking up the entire box and the document size as 36 x 24 inches
