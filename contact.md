@@ -14,7 +14,8 @@ We’re excited to work with you to help integrate humanities and technology!
 We invite you to email us at <amaranth@unm.edu> with any questions or suggestions.
 
 ## Please drop by studio hours (Spring 2026)
-- Tuesdays & Thursdays 9:30-11:30 and 12:30-2:00
+- Tuesdays & Thursdays 9:30-11:00 and 12:30-2:00
+- Wednesdays 10:00-2:00
 
 
 ## Book time in the Studio
