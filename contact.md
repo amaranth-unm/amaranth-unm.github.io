@@ -16,7 +16,7 @@ We invite you to email us at <amaranth@unm.edu> with any questions or suggestion
 ## Please drop by studio hours (Spring 2026)
 - Tuesdays & Thursdays 9:30-11:00 and 12:30-2:00
 - Wednesdays 10:00-2:00
-
+The Amaranth Studio is located in Mesa Vista Hall, Room 2068. It's on the second floor, directly above the History Department Office.
 
 ## Book time in the Studio
 Our preferred method for scheduling is to use our [bookings page](https://outlook.office.com/book/HistoryAmaranth@unmm.onmicrosoft.com/?ismsaljsauthenabled). This page is managed through UNM's Microsoft Teams, and it helps us keep our calendar organized, especially during crunch times of the semester.
