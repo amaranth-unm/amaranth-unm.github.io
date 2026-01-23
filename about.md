@@ -45,13 +45,13 @@ Below you can see what the very first incarnation of _Amaranth_ looked like. Vie
 <div class="card card-horizontal mb-4" style="max-width: 100%;">
   <div class="row g-0 align-items-center">
     <div class="col-md-4">
-      <img src="{{ site.baseurl }}/assets/images/team/{{ member.pic }}.jpg" class="img-fluid rounded-start" alt="{{ member.name }}"
+      <img src="{{ site.baseurl }}/assets/images/team/{{ member.pic }}" class="img-fluid rounded-start" alt="{{ member.name }}"
         style="object-fit:cover; height:100%; min-height:220px;">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h4 class="card-title mb-1">{{ member.name }}</h4>
-        <h6 class="card-subtitle mb-2 text-muted">{{ member.position }}</h6>
+        <h6 class="card-subtitle mb-1">{{ member.position }}</h6>
+        <h4 class="card-title mb-2">{{ member.name }}</h4>
         <p class="card-text">{{ member.bio }}</p>
         {% if member.link %}
         <p class="card-text"><small class="text-muted"><a href="{{ member.link }}" target="_blank">{{ member.link }}</a></small></p>

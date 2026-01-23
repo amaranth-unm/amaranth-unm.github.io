@@ -9,7 +9,7 @@ header-title-position: -150px
 date: 2024-12-02
 cards: 
   - title: "Collaborative Websites"
-    image: "/assets/images/site/websites.png"
+    image: "/assets/images/site/websites.jpg"
     summary: How to create an online space for what students create in a course.
     link: "websites/overview"
   
@@ -19,7 +19,7 @@ cards:
     link: "websites/scrollstories"
 
   - title: "Podcasting"
-    image: "/assets/images/site/podcasting.jpg"
+    image: "/assets/images/headers/podcasting.jpg"
     summary: Students can do interviews, stories, oral histories, and we can help gather them together in an enduring archive
     link: "process-guides/podcasting"
 

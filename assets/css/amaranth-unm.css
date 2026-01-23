@@ -1270,6 +1270,24 @@ h2.header-subtitle {
   opacity: 0.85;
 }
 
+/* Team Card Styling (About page) */
+.card-horizontal .card-subtitle {
+  color: var(--text-secondary) !important; /* light gray, same as description baseline */
+  margin-bottom: 0.1rem !important; /* very small space before title */
+  text-transform: uppercase !important; /* all caps subtitle */
+  letter-spacing: 0.05em !important; /* add spacing for readability */
+}
+
+.card-horizontal .card-title {
+  color: var(--unm-high-noon) !important; /* site yellow */
+  margin-top: .2rem !important; /* larger space before description */
+  margin-bottom: 1rem !important; /* larger space before description */
+}
+
+.card-horizontal .card-text {
+  color: #d0d0d0 !important; /* slightly brighter than var(--text-secondary) for better contrast */
+}
+
 /* CTA Button Styling */
 .btn-cta {
   background-color: var(--amaranth-neon-cyan) !important;

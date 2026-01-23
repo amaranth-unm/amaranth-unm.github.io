@@ -2,9 +2,14 @@
 title: ScrollStories
 layout: base
 date: 2024-10-26
-header-image: /assets/images/site/storyboard.png
+header-image: /assets/images/headers/storyboard.jpg
 
-cards: 
+cards:
+  - title: "Why Amaranth?"
+    thumbnail: /websites/scrollstories/amaranth-name/images/amaranth.jpg
+    summary: From Greek mythology to Aztec sacred rituals to modern superweeds, the amaranth plant embodies the contradictions at the heart of digital humanities work.
+    link: "amaranth-name/"
+
   - title: "Mesa Vista Hall"
     thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-floorplan.jpg
     summary: This chapter explores the ceremonial and religious aspects of food in Viking society, examining feasts, sacrificial offerings, and mythological references to food and drink in Norse texts.
