@@ -2,21 +2,21 @@
 title: Course Websites Overview
 layout: base
 date: 2024-10-26
-header-image: /assets/images/site/collaboration.png
+header-image: /assets/images/headers/collaboration.jpg
 
 cards: 
   - title: Campus Histories
-    thumbnail: "/assets/images/projects/campus.png"
+    thumbnail: "/assets/images/projects/campus.jpg"
     summary: Built on our latest version of Xanthan, essays here have the most functionality of the bunch. The site is wrapped in the standard UNM web style. 
     link: https://amaranth-unm.github.io/campus-history/
 
   - title: Metahistory
-    thumbnail: "/assets/images/projects/metahistory.png"
+    thumbnail: "/assets/images/projects/metahistory.jpg"
     summary: This site shows a permanent left-nav feature and a table of contents page. As students add their pages, the website automatically grabs metadata from their new page to add it to the table of contents. No 
     link: https://unm-historiography.github.io/metahistory/
 
   - title: Santa Fe Trail Sites
-    thumbnail: "/assets/images/projects/trails.png"
+    thumbnail: "/assets/images/projects/trails.jpg"
     summary: This very early site is basically a prototype version of the new Xanthan platform, without much of the current functionality. But this site has not been updated about eight years, and everything works just as when it was last active. It is still ready for new contributions!
     link: https://historic-trails.unm.edu/
 ---
@@ -30,7 +30,7 @@ Instead of an audience of only the course instructor, students will have the cha
 
 ## Why not use Squarespace or Wix or Wordpress?
 Good question! Many popular website creation sites are good solutions for a quick and temporary need. But most free website tools are not good choices for open, collaborative, and sustainable projects. Often they:
-- Require a yearly subscription fee to retain access, or have lots of ads interefere with your site
+- Require a yearly subscription fee to retain access, or have lots of ads interfere with your site
 - Don't support multi-user collaboration without an expensive subscription plan
 - Dependent on a particular platform, which means you can't switch services without starting over
 
@@ -47,7 +47,7 @@ For your students to contribute their work to a project website, your students w
 - Duplicate the project website (that you'll have already created from an existing tempalte) into their own GitHub repository. Again, this is _not_ a technical process; they just click a few buttons.
 - Develop and add their own page(s) with their essay, images, podcast, or whatever the project is.
   - These are just text files that they edit on their computers/tablets and then drag and drop into GitHub. No special software required.
-- When the course is ending and their work is done, they click button to submit their changes to the "official" project site. 
+- When the course is ending and their work is done, they click button to submit their changes to the "official" project site.
 
 
 ## Let's Get Started

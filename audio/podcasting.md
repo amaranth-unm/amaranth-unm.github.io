@@ -2,7 +2,7 @@
 title: Podcasting
 layout: base
 date: 2025-11-07
-header-image: /assets/images/site/podcasting.png
+header-image: /assets/images/headers/podcasting.jpg
 ---
 
 # Create Engaging Podcasts

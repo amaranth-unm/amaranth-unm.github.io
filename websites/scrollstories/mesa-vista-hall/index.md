@@ -3,7 +3,7 @@ title: mesa-vista-hall
 author: Fred Gibbs
 layout: base
 date: 2025-04-20
-header-image: images/mvh-construction.jpg
+header-image: /assets/images/headers/mvh-construction.jpg
 header-title: 
 header-height: 60vh
 background-position: 

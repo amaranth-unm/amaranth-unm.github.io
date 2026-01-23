@@ -2,7 +2,7 @@
 layout: base
 title: Events
 subtitle: What's on the schedule?
-header-image: assets/images/site/common-room-posters.png
+header-image: /assets/images/headers/common-room-posters.jpg
 header-height: 50vh
 header-position: 40px
 ---

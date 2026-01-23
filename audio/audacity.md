@@ -2,7 +2,7 @@
 title: Editing with Audacity
 layout: base
 date: 2025-11-07
-header-image: images/sound-editing-header.png
+header-image: /assets/images/headers/sound-editing-header.jpg
 ---
 
 
@@ -49,7 +49,7 @@ If for some reason there is a gap after deleting the clip, go to Audacity -> Pre
   class="right"
   width="40%"
   caption="What it looks like when you drag an audio file into Audacity"
-  image-path="images/audacity-drag-audio.png"
+  image-path="images/audacity-drag-audio.jpg"
 %}
 
 - Find (or make) a sound file you want to integrate into your final audio clip. One great Creative Commons site is [Pixabay](https://pixabay.com/), but use whatever you like. 

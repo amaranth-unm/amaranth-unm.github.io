@@ -2,11 +2,14 @@
 title: Project Websites Overview
 layout: base
 date: 2024-10-26
-header-image: /assets/images/site/website-overview.png
+header-image: /assets/images/headers/website-overview.jpg
 ---
 
 # Websites Overview
-We want to help showcase your research! 
+We created a super easy-to-use template system called [Xanthan](https://xanthan-web.github.io) to build sustainable websites quickly that keep you in control of your files, your content, and your site. It's getting started guide and extension reference documentation can get you going and keep you building for a long time. We've set up a few templates customized for our most requested sites.
+
+First things first: **You'll never need to learn any web programming skills to add to or revise your website!** If you can copy and paste from our example pages, you can easily create and customized your site! Of course if you do learn some web basics, you'll have a lot more control. But first things first.
+
 
 ## Collaborative Class Projects
 We help instructors create collaborative websites that collect, display, and preserve student work. These websites demonstrate what collaborative digital history can be: a group of students contribute small articles that collectively add up to something useful, creating something that one person alone couldn’t do in a reasonable timeframe. [Read more about Project Websites →](class-projects)
@@ -23,3 +26,8 @@ Academic workshops often produce exciting, creative work—but too often, that w
 - Maintain a free, digital space for augmenting other scholarly outputs
 - Keep an updated CV available to anyone who needs it
 
+## Stop the excuses!
+
+<div class="text-center mt-5 mb-5">
+  <a href="../collaborate.html" class="btn btn-cta">Let's Build!</a>
+</div>

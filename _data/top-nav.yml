@@ -15,36 +15,34 @@
       url: "/websites/communities"
     - title: "ScrollStories"
       url: "/websites/scrollstories"
-    - title: "Getting Started"
-      url: "/websites/getting-started"
 
 - title: "3D Printing"
   items:
     - title: "Overview"
       url: "/3d-printing"
+    - title: "Pedagogy"
+      url: "/3d-printing/pedagogy"
+    - title: "Objex"
+      url: "/3d-printing/objex"
     - title: "Getting a 3D Printable Model"
       url: "/3d-printing/getting-a-model"
-    - title: "2D Images to 3D Objects"
-      url: "/3d-printing/2d-to-3d"
     - title: "Slicing"
       url: "/3d-printing/slicing"
     - title: "Printing"
       url: "/3d-printing/using-the-printer"
-    - title: "Objex"
-      url: "/objex"
-    - title: "Pedagogy"
-      url: "/3d-printing/pedagogy"
+    - title: "2D Images to 3D Objects"
+      url: "/3d-printing/2d-to-3d"
     - title: "Complex Models"
       url: "/3d-printing/complex-models"
-      disabled: true
+      hidden: true
     - title: "Using PVA for Support"
       url: "/3d-printing/using-pva"
-      disabled: true
+      hidden: true
 
 - title: "Audio"
   items:
     - title: "Overview"
-      url: "/audio/overview"
+      url: "/audio"
     - title: "Recording"
       url: "/audio/recording"
     - title: "Editing with Audacity"
@@ -68,8 +66,9 @@
       url: "/equipment/poster-printer"
     - title: "Photo Printer"
       url: "/equipment/photo-printer"
+      hidden: true
     - title: "Podcast Microphones"
       url: "/equipment/yeti-mics"
 
-- title: "Contact"
-  url: "/contact"
+- title: "Collaborate"
+  url: "/collaborate"

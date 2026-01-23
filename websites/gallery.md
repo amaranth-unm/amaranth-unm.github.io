@@ -7,27 +7,27 @@ date: 2025-08-06
 cards: 
   
   - title: Campus Histories
-    image: "/assets/images/projects/campus.png"
+    image: "/assets/images/projects/campus.jpg"
     summary: What would the buildings say? How can we feel more connected to the rich history of our campus?
     link: https://unm-digital-history.github.io/campus-history/
 
   - title: Metahistory
-    image: "/assets/images/projects/metahistory.png"
+    image: "/assets/images/projects/metahistory.jpg"
     summary: Collected historiographical essays from past classes to future ones.
     link: https://unm-historiography.github.io/metahistory/
 
   - title: Santa Fe Trail Sites
-    image: "/assets/images/projects/trails.png"
+    image: "/assets/images/projects/trails.jpg"
     summary: Historic Sites on the Santa Fe Trail
     link: https://historic-trails.unm.edu/
 
   - title: CENTER Santa Fe
-    image: "/assets/images/projects/trails.png"
+    image: "/assets/images/projects/trails.jpg"
     summary: Community partnership with a non-profit photography organization
     link: https://historic-trails.unm.edu/
 
   - title: Histories of the Future 
-    image: "/assets/images/projects/trails.png"
+    image: "/assets/images/projects/trails.jpg"
     summary: What will histories of the future look like? 
     link: http://histscifi.com
 

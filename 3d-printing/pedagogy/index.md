@@ -15,7 +15,13 @@ cards:
     link: "terrain"
 ---
 
-# Pedagogical Uses
+# 3D Pedagogy
+
+Images can show us what something looks like, but they can't tell us how it feels in our hands, how heavy it is, or how it compares in size to other objects. When studying material culture---artifacts, architecture, sculpture, terrain---the physical qualities of objects often matter as much as their appearance. A photograph of a medieval capital flattens its carved details; a map abstracts the landscape into lines and colors. 3D printed replicas restore some of what images remove: the ability to rotate an object, trace its contours, and place it alongside others for direct comparison.
+
+Physical objects also change how we learn. Holding a palm-sized replica of a 20-foot statue raises immediate questions about scale and presence. Arranging a series of architectural details side by side reveals stylistic differences that verbal descriptions struggle to convey. Terrain maps printed with exaggerated elevation make geographic relationships tangible in ways that flat screens simply cannot. These aren't replacements for original artifacts or fieldwork, but they offer something valuable: a hands-on way to engage with material that would otherwise remain distant or abstract.
+
+The projects below document our experiments with 3D printing for teaching and learning. We hope they spark ideas for how physical replicas might support your own courses and research.
 
 {% include card-list.html
 cards = page.cards

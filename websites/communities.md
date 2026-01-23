@@ -2,11 +2,11 @@
 title: Nurturing Communities
 layout: base
 date: 2024-10-26
-header-image: /assets/images/site/workshop.png
+header-image: /assets/images/headers/workshop.jpg
 
 cards: 
   - title: Histories of the Future
-    thumbnail: "/assets/images/projects/histscifi.png"
+    thumbnail: "/assets/images/projects/histscifi.jpg"
     summary: This website explores the variety of ways by which scientists and authors of speculative fiction alike have sought to define the future.  
     link: http://histscifi.com
 ---

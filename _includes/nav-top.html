@@ -14,11 +14,13 @@
               </a>
               <ul class="dropdown-menu">
                 {% for subitem in item.items %}
-                  {% if subitem.divider %}
-                    <li><hr class="dropdown-divider"></li>
-                  {% else %}
-                    <li><a class="dropdown-item" href="{{site.baseurl}}{{ subitem.url }}">{{ subitem.title }}</a></li>
-                  {% endif %}
+                  {% unless subitem.hidden %}
+                    {% if subitem.divider %}
+                      <li><hr class="dropdown-divider"></li>
+                    {% else %}
+                      <li><a class="dropdown-item{% if subitem.disabled %} disabled{% endif %}" href="{{site.baseurl}}{{ subitem.url }}"{% if subitem.disabled %} aria-disabled="true"{% endif %}>{{ subitem.title }}</a></li>
+                    {% endif %}
+                  {% endunless %}
                 {% endfor %}
               </ul>
             </li>

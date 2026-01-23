@@ -4,7 +4,7 @@ title: 3D Capitals
 subtitle: 
 author: Jonathan Seyfried
 date: 2025-06-19
-header-image: /assets/images/site/capitals.png
+header-image: /assets/images/headers/capitals.jpg
 ---
 
 # Tactile Architecture

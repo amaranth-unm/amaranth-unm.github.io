@@ -4,7 +4,7 @@ title: Terrain
 subtitle: 
 author: Jonathan Seyfried
 date: 2025-08-04
-header-image: /assets/images/site/cliff-dwellings.png
+header-image: /assets/images/headers/cliff-dwellings.png
 ---
 
 # Printing Terrain

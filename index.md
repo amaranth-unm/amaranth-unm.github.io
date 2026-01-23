@@ -1,7 +1,7 @@
 ---
 title: Amaranth @ UNM
 layout: base
-header-image: assets/images/site/amaranth-header.png
+header-image: /assets/images/headers/amaranth-header.jpg
 header-height: 90vh
 header-title: amaranth
 header-subtitle: "humanities + technology"
@@ -14,27 +14,27 @@ cards:
     link: "websites/overview"
   
   - title: "Engaging Storytelling "
-    image: "/assets/images/site/storytelling.png"
+    image: "/assets/images/site/storytelling.jpg"
     summary: Engage your readers with sharp, sustainable, and succulent digital essays
     link: "websites/scrollstories"
 
   - title: "Podcasting"
-    image: "/assets/images/site/podcasting.png"
+    image: "/assets/images/site/podcasting.jpg"
     summary: Students can do interviews, stories, oral histories, and we can help gather them together in an enduring archive
     link: "process-guides/podcasting"
 
   - title: "Poster Printing"
-    image: "/assets/images/site/poster-printer.png"
+    image: "/assets/images/site/poster-printer.jpg"
     summary: Expand design thinking, creative communication, and paper sizes with poster assignments
     link: "equipment/poster-printer"
 
   - title: "3D Printing"
-    image: "/assets/images/site/3d-printer.png"
+    image: "/assets/images/site/3d-printer.jpg"
     summary: Better understand spatial relationships, terrain, stylistic comparisons in 3D!
     link: "process-guides/3d-printing"
   
   - title: "VR Critique"
-    image: "/assets/images/site/vr.png"
+    image: "/assets/images/site/vr.jpg"
     summary: Virtual reality offers new ways of exploring the past, but these are early days. Help students understand the intersection of history and technology by critiquing existing resources.
     link: "equipment/vr-headsets"
 
@@ -46,7 +46,7 @@ We help bring technology and the humanities together. We empower students, schol
 Through collaborative projects, open-access resources, and experimental digital platforms, we aim to bring humanities research into public discourse. We envision a future where the humanities are not in crisis, but are thriving through emerging technologies.
 
 # Course integrations
-We want to get students excited about using technology to keep humanities vibrant.If you've ever done or thought about a digtial project as part of course assignments (or extra credit), we can help! Our goal is to provide the technical infrastructure, training, and support (for both faculty and students), so that we can handle the digital components, and instructors can focus on their content. 
+We want to get students excited about using technology to keep humanities vibrant. If you've ever done or thought about a digital project as part of course assignments (or extra credit), we can help! Our goal is to provide the technical infrastructure, training, and support (for both faculty and students), so that we can handle the digital components, and instructors can focus on their content. 
 
 {% include card-grid.html %}
 

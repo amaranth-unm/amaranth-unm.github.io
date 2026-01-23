@@ -4,7 +4,7 @@ title: About Amaranth
 subtitle: what why when how
 author: Fred Gibbs
 date: 2024-10-28
-header-image: assets/images/site/campfire.png
+header-image: /assets/images/headers/campfire.jpg
 header-height: 60vh
 ---
 
@@ -14,18 +14,18 @@ header-height: 60vh
 We help bring technology and the humanities together. We empower students, scholars, educators, and communities to create immersive, interactive archives and storytelling experiences that invite critical engagement with core humanities issues. Through collaborative projects, open-access resources, and experimental digital platforms, we bring humanities research into public discourse.
 
 ## Vision: What we dream
-We envision a future where emerging technologies engage with humanities Our studio strives to be a pioneering hub where humanistic inquiry, technology, and design converge---cultivating an environment that not only preserves but also reimagines the narratives that define our shared heritage. By breaking down traditional barriers to knowledge and sparking interdisciplinary conversations, we aspire to help the next generation of humanists situate their work in the digtial world.
+We envision a future where emerging technologies engage with humanities Our studio strives to be a pioneering hub where humanistic inquiry, technology, and design converge---cultivating an environment that not only preserves but also reimagines the narratives that define our shared heritage. By breaking down traditional barriers to knowledge and sparking interdisciplinary conversations, we aspire to help the next generation of humanists situate their work in the digital world.
 
 ## Why Amaranth?
 Amaranth originates from the Greek _amarantos_, which means unfading---as in permanence or immortality. Of course there's a playful irony here, as the speed of new innovation in digital technology often leads to a rather rapid fading of its products. We hope our work with open source, sustainable processes lengthens the life span of our projects.
 
-Amaranth also represents the inherent contradictions that humanists explore. Throughout history and into the present, people have used the dozens of species of Amaranth plants for a huge range of uses, including medicines and dyes. Some amaranth specices have been used for food for millenia, and are now regarded as "super foods". Others now are developing gyphosate tolerance, making them "super weeds" that interefere with modern agri-business.
+Amaranth also represents the inherent contradictions that humanists explore. Throughout history and into the present, people have used the dozens of species of Amaranth plants for a huge range of uses, including medicines and dyes. Some amaranth species have been used for food for millenia, and are now regarded as "super foods". Others now are developing gyphosate tolerance, making them "super weeds" that interfere with modern agri-business.
 
 Over the last few decades, a new set of digital technology tools and techniques emerged to provide humanists with many options for projects and research. The diversity of opportunities in the digital humanities thus lends itself to a metaphor that captures this idea of growth from variety. 
 
 
 ## Historic Virtual Tour
-Below you can see what the very first incaration of _Amaranth_ looked like. View the 360 photo with info labels to see what's around! Stop by to see how much has changed! 
+Below you can see what the very first incarnation of _Amaranth_ looked like. View the 360 photo with info labels to see what's around! Stop by to see how much has changed! 
 
 <iframe 
   src="https://jeseyfried.github.io/amaranth-holding-area/app-files/index.html" 
