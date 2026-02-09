@@ -92,7 +92,7 @@ This history of suppression and survival resonates with broader patterns in the 
 
 For centuries, amaranth remained a marginal crop, known mainly to indigenous communities and a few botanists. That began to change in the 1970s, when the American health food movement rediscovered this "ancient grain."
 
-{% include figure.html class="right" width="45%" caption="Modern amaranth products marketed as superfoods. The grain's complete protein profile and high nutrient density have fueled its commercial revival." image-path="images/amaranth-products-modern.jpg" %}
+{% include figure.html class="right" width="45%" caption="Modern amaranth products marketed as superfoods. The grain's complete protein profile and high nutrient density have fueled its commercial revival." image-path="images/gemini-grains.png" %}
 
 Nutritional analysis revealed what indigenous peoples had known for millennia: amaranth is remarkably nutritious. Unlike most grains, it contains all nine essential amino acids, making it a complete protein---rare for a plant food. It's rich in iron, magnesium, phosphorus, and fiber. It's naturally gluten-free. In an era of increasing interest in plant-based diets and sustainable agriculture, amaranth seemed almost too good to be true.
 
@@ -107,7 +107,7 @@ The grain that colonial powers tried to eradicate is now marketed as a "superfoo
 
 Here is where amaranth's story takes an unexpected turn. While cultivated amaranth species have been rediscovered as superfoods, their wild cousins have become something else entirely: superweeds.
 
-{% include figure.html class="left" width="50%" caption="Palmer amaranth, or pigweed, can grow up to three inches per day and reach heights of seven feet, overwhelming crops like cotton and soybeans." image-path="images/palmer-amaranth-field.jpg" %}
+{% include figure.html class="left" width="50%" caption="Palmer amaranth, or pigweed, can grow up to three inches per day and reach heights of seven feet, overwhelming crops like cotton and soybeans." image-path="images/palmer-weed.jpg" %}
 
 Palmer amaranth (*Amaranthus palmeri*), commonly known as pigweed, is native to the southwestern United States and northern Mexico. In its natural habitat, it's just another plant. But in agricultural fields, it's a nightmare.
 
@@ -130,7 +130,7 @@ The real crisis began in 2006, when populations of Palmer amaranth started showi
 
 This brings us back to why we chose *amaranth* for a digital humanities studio.
 
-{% include figure.html class="right" width="45%" caption="Hopi Red Dye amaranth, used for centuries to color traditional piki bread and textiles. The same plant family provides food, medicine, dye, and symbolic meaning." image-path="images/hopi-red-dye-amaranth.jpg" %}
+{% include figure.html class="right" width="45%" caption="Hopi Red Dye amaranth, used for centuries to color traditional piki bread and textiles. The same plant family provides food, medicine, dye, and symbolic meaning." image-path="images/gemini-hopi-red-dye.png" %}
 
 Amaranth represents the inherent contradictions that humanists explore. The same plant family gives us sacred grain and stubborn weed, superfood and superpest, ancient tradition and modern biotechnology problem. One species feeds people; another resists every attempt to control it. The meaning depends entirely on context---who's growing it, where, and why.
 
@@ -154,7 +154,7 @@ Finally, amaranth reminds us that context determines meaning. A plant that's a s
 
 ## Growing Something Together
 
-{% include figure.html class="left" width="50%" caption="Alegría, or 'joy,' a traditional Mexican candy made from popped amaranth and honey---a treat that connects modern consumers to ancient foodways." image-path="images/alegria-amaranth-candy.jpg" %}
+{% include figure.html class="left" width="50%" caption="Alegría, or 'joy,' a traditional Mexican candy made from popped amaranth and honey---a treat that connects modern consumers to ancient foodways." image-path="images/alegrias.jpg" %}
 
 So that's why we're called Amaranth.
 

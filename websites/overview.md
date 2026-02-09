@@ -20,11 +20,8 @@ Students doing independent projects may want benefit from a flexible digital for
 ## Academic Communities
 Academic workshops often produce exciting, creative work—but too often, that work disappears as soon as the event ends. Amaranth helps solves that problem by making it easy to keep papers online, organized, and accessible. No expensive hosting, no institutional servers that mysteriously vanish, no endless email chains asking, “Hey, do you still have a copy of that thing?”. [Read more about preserving working group and conference events →](communities)
 
-## Personal Websites
-- Showcase your ongoing projects
-- Be more visible to people looking for stuff you work on
-- Maintain a free, digital space for augmenting other scholarly outputs
-- Keep an updated CV available to anyone who needs it
+## Portfolio Websites
+A personal portfolio website helps you showcase your ongoing projects, maintain visibility in your field, and create a free digital space for your scholarly outputs. Whether you're sharing research, linking to your CV, or highlighting creative work, a portfolio gives you control over your professional presence and preserves your work for the long term. [Read more about creating portfolio websites →](portfolios)
 
 ## Stop the excuses!
 

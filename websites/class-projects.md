@@ -29,7 +29,7 @@ Instead of an audience of only the course instructor, students will have the cha
 
 
 ## Why not use Squarespace or Wix or Wordpress?
-Good question! Many popular website creation sites are good solutions for a quick and temporary need. But most free website tools are not good choices for open, collaborative, and sustainable projects. Often they:
+Good question! You've got a whole course to think about--why add another foreign component? Many popular website creation sites are good solutions for a quick and temporary need. But most free website tools are not good choices for open, collaborative, and sustainable projects. Often they:
 - Require a yearly subscription fee to retain access, or have lots of ads interfere with your site
 - Don't support multi-user collaboration without an expensive subscription plan
 - Dependent on a particular platform, which means you can't switch services without starting over

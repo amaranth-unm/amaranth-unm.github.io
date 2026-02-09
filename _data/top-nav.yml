@@ -11,10 +11,15 @@
       url: "/websites/overview"
     - title: "Class Projects"
       url: "/websites/class-projects"
-    - title: "Communities"
-      url: "/websites/communities"
+    - title: "Professional Portfolios"
+      url: "/websites/portfolios"
     - title: "ScrollStories"
       url: "/websites/scrollstories"
+    - title: "Communities"
+      url: "/websites/communities"
+    - title: "Gallery"
+      url: "/websites/gallery"
+
 
 - title: "3D Printing"
   items:

@@ -6,7 +6,7 @@
   <a href="{{ card_href }}">
     <div class="row g-0 align-items-center">
       <div class="col-sm-4">                
-        <img src="{{site.baseurl}}{{ card.dir }}{{ card.thumbnail }}" class="img-fluid rounded-start card-image" alt="..." style="object-fit: cover; height: 200px; width: 100%;">
+        <img src="{{site.baseurl}}{{ card.thumbnail }}" class="img-fluid rounded-start card-image" alt="{{ card.title | escape }}" style="object-fit: cover; height: 200px; width: 100%;">
       </div>
       <div class="col-sm-8 d-flex align-items-center">
         <div class="card-body">
