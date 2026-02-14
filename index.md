@@ -4,52 +4,53 @@ layout: base
 header-image: /assets/images/headers/amaranth-header.jpg
 header-height: 90vh
 header-title: amaranth
-header-subtitle: "humanities + technology"
+header-subtitle: "humanities + technology + design"
 header-title-position: -150px
 date: 2024-12-02
-cards: 
-  - title: "Collaborative Websites"
-    image: "/assets/images/site/websites.jpg"
-    summary: How to create an online space for what students create in a course.
-    link: "websites/overview"
-  
-  - title: "Engaging Storytelling "
+features:
+  - title: "Tell stories that move people"
     image: "/assets/images/site/storytelling.jpg"
-    summary: Engage your readers with sharp, sustainable, and succulent digital essays
+    text: "ScrollStories combine immersive visuals with compelling narrative---backgrounds shift, text emerges, and readers scroll through your argument like an experience, not just a page. Design choices like pacing, scale, and visual rhythm shape how your audience engages with your ideas."
     link: "websites/scrollstories"
+    link-text: "Explore ScrollStories →"
 
-  - title: "Podcasting"
-    image: "/assets/images/headers/podcasting.jpg"
-    summary: Students can do interviews, stories, oral histories, and we can help gather them together in an enduring archive
-    link: "process-guides/podcasting"
+  - title: "Make ideas tangible"
+    image: "/assets/images/site/capitals-together-small.jpg"
+    text: "3D printing transforms abstract concepts into objects you can hold, rotate, and compare. When you print a Romanesque capital next to a Gothic one, the differences aren't just visual---they're <em>felt</em>. Understanding spatial relationships, terrain, and material culture starts with touch."
+    link: "3d-printing"
+    link-text: "Explore 3D Printing →"
 
-  - title: "Poster Printing"
-    image: "/assets/images/site/poster-printer.jpg"
-    summary: Expand design thinking, creative communication, and paper sizes with poster assignments
-    link: "equipment/poster-printer"
+  - title: "Make stories heard"
+    image: "/assets/images/site/headphones.jpg"
+    text: "Oral histories, podcasts, and audio archives preserve stories that would otherwise disappear. Good audio isn't just recording---it's designing a narrative that draws listeners in and honors the people who share their experiences."
+    link: "audio"
+    link-text: "Explore Audio →"
 
-  - title: "3D Printing"
-    image: "/assets/images/site/3d-printer.jpg"
-    summary: Better understand spatial relationships, terrain, stylistic comparisons in 3D!
-    link: "process-guides/3d-printing"
-  
-  - title: "VR Critique"
-    image: "/assets/images/site/vr.jpg"
-    summary: Virtual reality offers new ways of exploring the past, but these are early days. Help students understand the intersection of history and technology by critiquing existing resources.
-    link: "equipment/vr-headsets"
-
+  - title: "Build things that last"
+    image: "/assets/images/site/websites.jpg"
+    text: "Collaborative websites built on open-source tools give students and scholars real ownership of their work---free hosting, no proprietary lock-in, and technology designed to endure for decades. Your work stays yours."
+    link: "websites/overview"
+    link-text: "Explore Websites →"
 ---
 
-# Welcome to Amaranth
-We help bring technology and the humanities together. We empower students, scholars, educators, and communities to create immersive, interactive stories and archives that invite critical engagement with core humanities issues. 
+# Humanities work deserves to be seen, heard, and experienced
 
-Through collaborative projects, open-access resources, and experimental digital platforms, we aim to bring humanities research into public discourse. We envision a future where the humanities are not in crisis, but are thriving through emerging technologies.
+We help students, scholars, educators, and communities create work that doesn't just exist online---it *communicates*. Through intentional design, open technology, and deep engagement with humanities questions, we bring research and storytelling into public life.
 
-# Course integrations
-We want to get students excited about using technology to keep humanities vibrant. If you've ever done or thought about a digital project as part of course assignments (or extra credit), we can help! Our goal is to provide the technical infrastructure, training, and support (for both faculty and students), so that we can handle the digital components, and instructors can focus on their content. 
-
-{% include card-grid.html %}
+We envision a future where the humanities thrive through emerging technologies---where *how* you present your work is as powerful as the work itself.
 
 
-# Get in touch
-We're eager to work with you to better integrate humanities and technology. Drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](contact). For Fall 2025, studio hours are Wednesdays 9:30-11:30 and 1:30-3:30, and Thursdays 9:30-11:30.
+{% include feature-blocks.html title="" %}
+
+
+## Work with us
+We want to get students and scholars excited about using technology and design to keep humanities vibrant. If you've ever imagined a digital project as part of course assignments, a research initiative, or community work---we can help make it happen.
+
+We provide the technical infrastructure, process guides,hands-on training, and design support. Whether it's a collaborative class archive, a set of ScrollStory essays, a podcast series, or something we haven't thought of yet---let's build it together.
+
+Please drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
+
+
+### Spring 2026 studio hours
+- Tuesdays & Thursdays: 9:30--11:00; 12:30--2:00
+- Wednesdays: 10:00--12:00

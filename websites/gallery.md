@@ -17,7 +17,7 @@ cards:
 
 
   - title: A Cultural History of Arkham Asylum
-    thumbnail: "/assets/images/projects/metahistory.jpg"
+    thumbnail: "/assets/images/projects/asylum.png"
     summary: Deep scrollstory with many images, demonstrating how visual analysis and narrative layering explore complex cultural history
     link: https://hadas496.github.io/comics-and-Reaganomics-/
 
@@ -29,7 +29,7 @@ cards:
 
 
   - title: Santa Fe Trail Sites
-    thumbnail: "/assets/images/projects/trails.jpg"
+    thumbnail: "/assets/images/projects/trails.png"
     summary: Directory with map integration and linked location pages, showing how geographic navigation connects historical sites
     link: https://historic-trails.unm.edu/
 

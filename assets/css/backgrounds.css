@@ -1,159 +1,145 @@
 /*****************************************************
-BACKGROUNDs
+BACKGROUNDS — Parallax & Scrolling Layouts
 *****************************************************/
 
 .bg-image {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* This makes the background fixed while scrolling */
-    height: 250vh; /* Viewport height; set in include code */
-    position: relative;
-  }
-  
-  /* Styling the scrolling text box */
-  .bg-text-box {
-    width: 40%;
-    max-width: 650px;
-    margin: 0 auto;
-    margin-bottom: 85vh;
-    padding: 3rem 2.5rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(248, 250, 252, 0.88) 100%);
-    backdrop-filter: blur(20px);
-    border-radius: 20px;
-    box-shadow: 
-      0 25px 60px rgba(0, 0, 0, 0.25),
-      0 15px 35px rgba(0, 0, 0, 0.15),
-      inset 0 1px 0 rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-left: 4px solid #e91e63;
-    position: relative;
-    z-index: 1;
-    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #1a202c;
-    letter-spacing: 0.02em;
-    font-weight: 400;
-  }
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 250vh;
+  position: relative;
+}
 
-  .bg-text-box h1,
-  .bg-text-box h2,
-  .bg-text-box h3,
-  .bg-text-box h4 {
-    font-family: 'Orbitron', monospace;
-    color: #1a202c;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    margin-bottom: 1rem;
-    text-shadow: none;
-  }
+/* Scrolling text box over background image */
+.bg-text-box {
+  width: 40%;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 85vh;
+  padding: 3rem 2.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 250, 252, 0.92) 100%);
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 4px solid #ba0c2f;
+  position: relative;
+  z-index: 1;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #1a202c;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
 
-  .bg-text-box h1 { font-size: 1.8rem; }
-  .bg-text-box h2 { font-size: 1.5rem; }
-  .bg-text-box h3 { font-size: 1.3rem; }
-  .bg-text-box h4 { font-size: 1.1rem; }
+.bg-text-box h1,
+.bg-text-box h2,
+.bg-text-box h3,
+.bg-text-box h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #1a202c;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 1rem;
+  text-shadow: none;
+}
 
-  .bg-text-box p {
-    margin-bottom: 1.5rem;
-    color: #2d3748;
-    font-weight: 400;
-  }
+.bg-text-box h1 { font-size: 1.8rem; }
+.bg-text-box h2 { font-size: 1.5rem; }
+.bg-text-box h3 { font-size: 1.3rem; }
+.bg-text-box h4 { font-size: 1.1rem; }
 
-  .bg-text-box strong,
-  .bg-text-box b {
-    color: #e91e63;
-    font-weight: 600;
-  }
+.bg-text-box p {
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+  font-weight: 400;
+}
 
-  .bg-text-box a {
-    color: #e91e63;
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1px solid rgba(233, 30, 99, 0.3);
-    transition: all 0.2s ease;
-  }
+.bg-text-box strong,
+.bg-text-box b {
+  color: #ba0c2f;
+  font-weight: 600;
+}
 
-  .bg-text-box a:hover {
-    color: #c2185b;
-    border-bottom-color: #c2185b;
-  }
-  
-  
-  .bg-multi-container {
-    position: relative;
-    height: auto;
-  }
-  
-  .bg-multi {
-    position: sticky; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    transition: background-image 1s ease-in-out;
-    z-index: 0; /* Keeps the background behind the text */
-  }
-  
-  
-  /* keep next 3 sections together */
-  .sticky_bg_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background: blue;
-    height:auto;
-  }
-  
-  .sticky_bg {
-    width: 100%;
-    height: 100vh;
-    grid-row: 1;
-    grid-column: 1;
-    position: sticky;
-    top: 0;
-    background-image: url("/xanthan/assets/bg-images/image_3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .sticky_bg_content {
-    width: 50%;
-    z-index: 0;
-    grid-row: 1;
-    grid-column: 1;
-    margin:auto;
-    margin-top: 100vh;
-    margin-bottom: 100vh;
-    background: yellow;
-    background-color: rgba(10, 10, 10, 0.8); /* Slightly transparent background for text box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color:#fff;
-  }
-  
-  
-  
-  
-  .side-scroll-container {
-    width:100%;
-    margin: auto 20px;
-  
-  }
-  
-  .ss-text-box {
-    width:33%;
-  }
-  
-  .ss-image-container {
-    float:right;
-    width:66%;
-    position:sticky;
-    top:0;
-  }
-  
-  .ss-image {
-  width:100%;
-  }
-  
+.bg-text-box a {
+  color: #ba0c2f;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(186, 12, 47, 0.3);
+  transition: all 0.2s ease;
+}
+
+.bg-text-box a:hover {
+  color: #8a0921;
+  border-bottom-color: #8a0921;
+}
+
+
+/* Multi-background sticky container */
+.bg-multi-container {
+  position: relative;
+  height: auto;
+}
+
+.bg-multi {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  z-index: 0;
+}
+
+
+/* Sticky background with overlay content */
+.sticky_bg_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: auto;
+}
+
+.sticky_bg {
+  width: 100%;
+  height: 100vh;
+  grid-row: 1;
+  grid-column: 1;
+  position: sticky;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sticky_bg_content {
+  width: 50%;
+  z-index: 0;
+  grid-row: 1;
+  grid-column: 1;
+  margin: auto;
+  margin-top: 100vh;
+  margin-bottom: 100vh;
+  background-color: rgba(10, 10, 10, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+
+/* Side-scroll layout */
+.side-scroll-container {
+  width: 100%;
+  margin: auto 20px;
+}
+
+.ss-text-box { width: 33%; }
+
+.ss-image-container {
+  float: right;
+  width: 66%;
+  position: sticky;
+  top: 0;
+}
+
+.ss-image { width: 100%; }

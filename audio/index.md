@@ -1,21 +1,27 @@
 ---
-title: Audio Overview
+title: Voices
 layout: base
 date: 2025-11-07
 header-image: /assets/images/headers/audio-overview-header.jpg
+header-height: 60vh
 ---
 
-# Audio Overview
-We want to help you create audio content for your humanities projects. In the Audio drop-down menu, you will find pages that guide you through how to get from recording to editing an audio file. You will also find pages that guide you on oral histories and podcasts.
+# Every voice has a story
 
-## Tips for Recording Audio
-We have created a set of tips and guidelines to help make your audio recording experience trouble-free. We will guide you along the recording process whether you record on your phone or using the YETI mics in the Amaranth studio. [Read more about Recording Audio →](recording)
+Some of the most important humanities work happens in conversation and in dialogue, researchers discussing their work, students preserving food stories through collecting oral histories, scholars telling a story to their audience. Audio captures what text alone cannot: inflection, hesitation, laughter, silence. The aural landscape of a story tells you something that no transcript can.
 
-## Tips for Editing Audio with Audacity
-Audacity is an open source and free software program for editing audio files. It has a tremendous amount of capabilities but is also very user friendly for beginners. We have a set of instructions to help you get started with Audacity. [Read more about Editing with Audacity →](audacity)
+We help scholars and students use audio as a medium for humanities work---not just as a recording tool, but as a way to design experiences that honor the people and stories at the center of the work.
 
-## Guidelines for Oral Histories
-Oral Histories differ in several important ways from other types of historical narrative. If you are new to Oral Histories or want to review some of the basics, we have created a short guide for you. [Read more about Oral Histories →](oral-histories)
 
-## Advice for Podcasts
-If you are considering a humanities podcast, visit our set of tips and guidelines. We can help you plan your podcast and encourage you to give it a try. [Read more about Podcasts →](podcasting)
+## Oral histories
+An oral history is more than an interview. It's a relationship between narrator and listener shaped by trust, preparation, and ethical care. Done well, it preserves not just what someone said, but how they said it---and helps explain why it matters. Our [oral history guide](oral-histories) walks through the process from planning to preservation, drawing on frameworks from the Oral History Association.
+
+
+## Podcasting
+A podcast transforms a humanistic inquiry into a site of engagement. It's something people listen to on a commute, a walk, or while doing housework---times when they are not reading your genius article in that pretigious journal. It demands a different kind of writing---conversational, structured around curiosity, designed to hold attention through narrative rather than citation. Our [podcasting guide](podcasting) covers how to get started, from finding your hook to shaping episodes that keep listeners coming back.
+
+
+## Getting started
+You don't need professional equipment or experience. A phone and a quiet room get you surprisingly far, and the [YETI mics](/equipment/yeti-mics) in the studio are available for higher-quality recording. We have guides for [recording audio](recording) and [editing with Audacity](audacity)---a free, open-source editor that's more than capable for humanities audio work.
+
+The hardest part isn't the technology. It's deciding what story you want to tell and whose voice should tell it. We can help with that too.

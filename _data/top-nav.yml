@@ -1,6 +1,6 @@
 
-- title: "About"
-  url: "/about"
+- title: "Studio"
+  url: "/studio"
 
 - title: "Events"
   url: "/events"
@@ -13,22 +13,31 @@
       url: "/websites/class-projects"
     - title: "Professional Portfolios"
       url: "/websites/portfolios"
-    - title: "ScrollStories"
-      url: "/websites/scrollstories"
     - title: "Communities"
       url: "/websites/communities"
     - title: "Gallery"
       url: "/websites/gallery"
 
-
-- title: "3D Printing"
+- title: "Visual Narrative"
   items:
-    - title: "Overview"
-      url: "/3d-printing"
+    - title: "ScrollStories"
+      url: "/websites/scrollstories"
+    - title: "Designing Posters"
+      url: "/visual-narrative/poster-design"
+    - title: "Printing Posters"
+      url: "/equipment/poster-printer"
+
+- title: "3D Pedagogy"
+  items:
     - title: "Pedagogy"
       url: "/3d-printing/pedagogy"
     - title: "Objex"
       url: "/3d-printing/objex"
+
+    - divider: true
+
+    - title: "Printing Overview"
+      url: "/3d-printing"
     - title: "Getting a 3D Printable Model"
       url: "/3d-printing/getting-a-model"
     - title: "Slicing"
@@ -44,36 +53,27 @@
       url: "/3d-printing/using-pva"
       hidden: true
 
-- title: "Audio"
+    - divider: true
+
+    - title: "3D Printer"
+      url: "/equipment/3d-printer"
+    - title: "3D Scanner"
+      url: "/equipment/3d-scanner"
+
+- title: "Voices"
   items:
     - title: "Overview"
       url: "/audio"
-    - title: "Recording"
-      url: "/audio/recording"
-    - title: "Editing with Audacity"
-      url: "/audio/audacity"
     - title: "Oral Histories"
       url: "/audio/oral-histories"
     - title: "Podcasting"
       url: "/audio/podcasting"
 
-- title: "Equipment"
-  items:
-    - title: "3D Printer"
-      url: "/equipment/3d-printer"
-    - title: "3D Scanner"
-      url: "/equipment/3d-scanner"
-    - title: "360 Camera"
-      url: "/equipment/360-camera"
-    - title: "VR Headsets"
-      url: "/equipment/vr-headsets"
-    - title: "Poster Printer"
-      url: "/equipment/poster-printer"
-    - title: "Photo Printer"
-      url: "/equipment/photo-printer"
-      hidden: true
+    - divider: true
+
+    - title: "Recording"
+      url: "/audio/recording"
+    - title: "Editing with Audacity"
+      url: "/audio/audacity"
     - title: "Podcast Microphones"
       url: "/equipment/yeti-mics"
-
-- title: "Collaborate"
-  url: "/collaborate"

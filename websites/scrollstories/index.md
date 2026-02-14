@@ -3,6 +3,7 @@ title: ScrollStories
 layout: base
 date: 2024-10-26
 header-image: /assets/images/headers/storyboard.jpg
+header-height: 60vh
 
 cards:
   - title: "Why Amaranth?"
@@ -17,19 +18,20 @@ cards:
 
   - title: Sugar, Emeralds, and Unicorn Horn
     thumbnail: "https://jeseyfried.github.io/sugar-emeralds-unicorn/images/davallano-1.jpg"
-    summary: In the spring of 1375, Matha d’Armagnac, the Duchess of Girona, drank a solution made with pulverized emeralds as a key ingredient. If the gemstones worked as predicted by the apothecary, Matha’s pregnancy would result in the birth of a strong boy. 
+    summary: In the spring of 1375, Matha d'Armagnac, the Duchess of Girona, drank a solution made with pulverized emeralds as a key ingredient. If the gemstones worked as predicted by the apothecary, Matha's pregnancy would result in the birth of a strong boy.
     link: "https://jeseyfried.github.io/sugar-emeralds-unicorn/"
 ---
 
-# ScrollStories
-A traditional webpage with a few images and text, and maybe a few pull quotes is compact and familiar way to communicate. 
+# Stories designed to be experienced
 
-Those wanting something a little more visually engaging have often used ESRI's StoryMaps, which offer a richer viewing experience through the way diffrent elements interact with each other as you scroll through the story.
+A ScrollStory is what happens when you treat a webpage not as a document but as a designed experience. As readers scroll, backgrounds shift, images emerge, and text appears in rhythm with the narrative. The design decisions---pacing, scale, visual rhythm, contrast---shape how your audience encounters your argument. It's not just reading. It's moving through a story.
 
-One limitation of StoryMaps is its opaquenss. Your story, your data, and design choice go into a database that you might eventually lost access to. It's hard to preserve your story in native form when entirely dependent on another platform. 
+ScrollStories are built on the same open-source platform as all our websites, which means your story, your images, and your design choices live in files you own---not locked inside a proprietary database that might disappear. They work on any device, cost nothing to host, and will still be online years from now.
+
+You don't need to be a designer or a developer to build one. If you can write in Markdown and choose images that matter, you can create a ScrollStory. We provide the templates; you bring the narrative.
 
 {% assign cards = page.cards %}
 
-{% include card-list.html 
-cards = cards 
+{% include card-list.html
+cards = cards
 %}

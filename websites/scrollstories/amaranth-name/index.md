@@ -162,9 +162,14 @@ We're a studio that helps bring technology and the humanities together. We work 
 
 We're named for a flower that symbolizes immortality, a grain that sustained civilizations, a plant that refuses to die no matter how hard you try to kill it. We embrace the contradictions because the humanities have always lived in contradiction: between past and present, preservation and change, the universal and the particular.
 
-If you're interested in working with us, come by the studio. Let's grow something together.
+Come by our studio in Mesa Vista Hall. Let's grow something together.
 
 ---
+
+## Image credits
+- <a href="https://commons.wikimedia.org/wiki/File:Alegrias03.JPG">AlejandroLinaresGarcia</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+
 
 ## Sources and Further Reading
 

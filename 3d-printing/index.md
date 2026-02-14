@@ -1,33 +1,29 @@
 ---
 layout: base
-title: Overview of 3D Printing
+title: 3D Printing Overview
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
 header-image: images/orca-slicer1.png
 ---
 
-# 3D Printing 
-Most of the work of 3D printing is preparing the print file. Once you have done that, there are very few steps related to operating the machine itself. The poster above the printer tells you everything you need to know!
+# From screen to object
 
-The pages in the 3D Printing menu of our website break down all the steps from finding a model to using the printer.
+3D printing turns digital models into physical things you can hold, compare, and learn from. The process is simpler than it looks: find or scan a model, prepare it with slicing software, and send it to the printer. Most of the work is in the preparation---once your file is ready, the printer does the rest.
 
-## Getting a 3D Printable Model
-If you just want to print something for fun, the easiet way is to grab some models from an existing site.
+The guides below walk through each step.
+
+
+## Getting a model
+Whether you download an existing scan from a repository like [Printables](https://www.printables.com/) or [Scan The World](https://www.myminifactory.com/users/Scan%20The%20World?show=store), or digitize a physical object with our [3D scanner](/equipment/3d-scanner), you'll end up with a file that describes the shape of your object. Our [getting a model](getting-a-model) guide covers the options.
+
 
 ## Slicing
-The Orca software on Amaranth's iMacs creates a file with instrcutions for how to print an object for a particular printer. Our software is set to default to the printer we have: the Anycubic Kobra 3. 
-
-Orca is "slicing" software, which takes a scan of an object and slices it up like slicing an onion. These slices are directions for the printer are where to extrude filament for each slice. The printer layers slice after slice to build an actual thing.
-
-There are zillions of 3D scans or fabricated objects you can print. The scans have data about the object, but they don't say anything about how they should be printed. You need to slice them yourself because we need to slice them for our printer.
-
-Once you have slided your model, save it as a .gcode file onto a USB drive.
+Slicing software takes your 3D model and converts it into layer-by-layer instructions for the printer---like slicing an onion into cross-sections that the printer rebuilds one at a time. We use Orca Slicer on the studio iMacs, already configured for our Anycubic Kobra 3. Our [slicing guide](slicing) walks through the settings.
 
 
-## Using the 3D Printer
-
-Bring the USB drive to the printer and follow the steps in this poster.
+## Printing
+Once your file is sliced, save it to a USB drive and bring it to the printer. The steps are straightforward---the poster above the printer covers everything you need.
 
 {% include figure.html
   class="center"

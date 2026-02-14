@@ -3,45 +3,37 @@ title: Oral Histories
 layout: base
 date: 2025-11-07
 header-image: /assets/images/headers/oral-history-interview.jpg
+header-height: 60vh
 ---
 
-# Tips and Guidelines for Oral Histories
-The below information is adapted from publications available on [the website of the Oral History Association](https://oralhistory.org/).
+# More than an interview
 
-## As a First Step, Plan the Purpose and Scope of the Oral History Project
-- Ask: Why am I doing this project? Who or what will it document (a person, a community, an event, a place)?
-- Define research questions or themes.
-- Decide the scope: how many interviews, over what time, with which kinds of narrators, what geographic/community scope.
-- Identify the audience (academic, public history, exhibition, web archive) and how the material will be used.
-- Check for pre-existing collections: is something similar already done, or will your project add new voices?
+An oral history is a relationship between narrator and listener. Done well, it preserves not just what someone said, but how they said it---the pauses, the laughter, the moments where language fails. It captures knowledge that written records miss: lived experience, community memory, the stories people carry but rarely write down.
 
-## Identify Narrators and Build a Relationship with Them
-- Choose narrators whose experiences are relevant to the topic and who bring diverse perspectives (age, gender, ethnicity, role). 
-- Establish rapport: have a pre-interview meeting/discussion to explain the project, process, consent, rights, what the narrator can expect. 
-- Be transparent: explain how the interview will be recorded, how it will be used/preserved, what review rights the narrator may have, what happens to transcripts, etc. 
-- Respect agency: narrators should know they can decline topics, stop recording, or withdraw.
+The work starts long before you press record. It begins with trust, preparation, and a clear sense of why this story matters and who it's for. The guidelines below, adapted from the [Oral History Association](https://oralhistory.org/), walk through the process from planning to ethics.
 
-## Interview Preparation
-- Do your homework: research the topic, community, relevant history so you come to the interview informed (so you can ask good follow-ups, contextualise what they say). 
-- Prepare an interview guide or outline of open-ended questions and topic areas rather than a rigid script. 
-- Prepare equipment: test audio/video gear, external microphones, check sound environment, ensure batteries/back-ups. 
-- Select a suitable environment: quiet, comfortable, minimal distractions; set up so narrator and interviewer are comfortable, can see each other, etc. 
-- If applicable, prepare the ethical/legal forms: consent forms, release forms (for audio/video, for use of materials), data-protection.
 
-## During the Interview
-- Start with simple, warm-up questions: name, place of birth, early life — to help narrator relax. 
-- Use open-ended questions (“Can you describe…”, “What was it like when…”) rather than yes/no or leading questions. 
-- Listen actively, follow up, allow silences, allow the narrator to speak at length, rather than you dominating. 
-- Be sensitive to difficult topics (trauma, loss, contested memory). Build trust, allow narrator to pass on questions. 
-- Capture as best possible: play back a test recording to ensure that the volume is recording correctly.
+## Plan the purpose and scope
+Before you interview anyone, get clear on what you're doing and why. What will this project document---a person, a community, an event, a place? Who is the audience? How will the material be used and preserved? Check whether similar collections already exist, and consider how your project might add voices that aren't yet heard.
 
-## Ethical Considerations
-- Narrators are not just “sources” — they are people with agency, rights, and histories. Consider power relations (interviewer/interviewee), community context, consent, representation. 
-- Be clear about how the interview might be used (publications, websites, exhibitions). Make sure narrators understand and agree. 
-- Respect confidentiality and sensitive material: sometimes parts of an interview may need to be redacted or embargoed.
-- Return value / benefit to the community: think about how the narrators or their communities might benefit (public sharing, exhibitions, copies for narrators, local events). 
 
-## Further Reading
+## Build relationships with narrators
+Choose narrators whose experiences are relevant to your topic and who bring diverse perspectives. Before any interview, meet with them to explain the project, the process, and their rights. Be transparent about how the recording will be used, what review rights they have, and what happens to transcripts. Narrators should always know they can decline topics, pause recording, or withdraw entirely.
+
+
+## Prepare for the interview
+Do your homework. Research the topic, the community, and the relevant history so you can ask informed follow-up questions and contextualize what narrators share. Prepare an interview guide with open-ended questions and topic areas rather than a rigid script. Test your equipment, check the sound environment, and have backup plans for batteries and storage. If your project requires consent or release forms, prepare those in advance.
+
+
+## During the interview
+Start with warm-up questions---name, place of birth, early life---to help the narrator relax. Use open-ended prompts ("Can you describe...", "What was it like when...") rather than yes/no or leading questions. Listen actively. Follow up. Allow silences---they often lead to the most honest moments. Be sensitive to difficult topics; build trust and let the narrator set boundaries.
+
+
+## Ethical care
+Narrators are not sources---they are people with agency, rights, and histories. Consider the power dynamics between interviewer and narrator. Be clear about how the interview might be used in publications, websites, or exhibitions, and make sure narrators genuinely understand and agree. Respect confidentiality: some material may need to be redacted or embargoed. And think about reciprocity---how might the narrators or their communities benefit from this work?
+
+
+## Further reading
 
 Ritchie, Donald A. *Doing Oral History.* Third edition. New York, NY: Oxford University Press, 2015.
 

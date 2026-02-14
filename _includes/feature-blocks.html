@@ -1,0 +1,32 @@
+{::nomarkdown}
+</div>
+{:/nomarkdown}
+
+<div class="section-alt">
+  <div class="container">
+
+    {% if include.title %}
+    <h2>{{ include.title }}</h2>
+    {% endif %}
+
+    {% for feature in page.features %}
+    <div class="feature-block {% if forloop.index == 2 or forloop.index == 4 %}feature-block-reverse{% endif %}">
+      <div class="feature-block-image">
+        <img src="{{ feature.image }}" alt="{{ feature.title }}">
+      </div>
+      <div class="feature-block-text">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
+        {% if feature.link %}
+        <a href="{{ feature.link }}" class="btn-cta">{{ feature.link-text | default: "Learn more →" }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+{::nomarkdown}
+<div class="container">
+{:/nomarkdown}
