@@ -3,10 +3,10 @@
   items:
     - title: "Ethos"
       url: "/studio"
-    - title: "The Space"
-      url: "/studio#the-space"
     - title: "Why Amaranth?"
       url: "/websites/scrollstories/amaranth-name"
+    - title: "The Space"
+      url: "/studio#the-space"
     - title: "Events"
       url: "/events"
 
