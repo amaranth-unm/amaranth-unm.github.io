@@ -5,7 +5,9 @@
 
   <body>
 
-    {% include nav-top.html %}
+    {% unless page.nav-below-hero %}
+      {% include nav-top.html %}
+    {% endunless %}
 
     {% assign headerimage = page.header-image %}
     {% assign headertitle = page.header-title %}
@@ -16,23 +18,25 @@
     {% assign headerclass = page.header-class %}
     {% assign headertitleposition = page.header-title-position %}
     {% assign headersubtitle = page.header-subtitle %}
-    
+
     {% if headerimage %}
-    
+
       {% include header-image.html
         image-path = headerimage
         header-title = headertitle
         header-subtitle = headersubtitle
         text = headersubtitle
-        height = headerheight                
+        height = headerheight
         background-position = headerposition
         background-size = headersize
         header-class = headerclass
         header-title-position = headertitleposition
       %}
-    
-    {% else %}
 
+    {% endif %}
+
+    {% if page.nav-below-hero %}
+      {% include nav-top.html %}
     {% endif %}
 
     <div class="container">

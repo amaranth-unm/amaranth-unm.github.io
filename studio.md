@@ -15,6 +15,10 @@ Amaranth is where humanistic inquiry, technology, and design converge. We help s
 
 Through collaborative projects, open-source tools, and hands-on experimentation, we create storytelling experiences, interactive archives, and digital scholarship that invites real engagement with the questions that matter most. A 3D-printed artifact isn't just a technical exercise---it's a designed argument about material culture. A podcast isn't just recorded audio---it's a crafted narrative that shapes how listeners encounter an idea.
 
+We don't do things *for* people---we work *with* them, teaching the thinking behind every design and technical decision. The goal isn't to hand someone a finished product. It's to help them develop the fluency to make their own choices and carry their work forward.
+
+This shapes what we offer and what we don't. We don't run code for scholars or build pipelines they'll never understand. We believe researchers should know their own methods---not just the conclusions, but the technical choices that produced them. A humanist who understands *why* they chose a particular tool, format, or platform is a better scholar than one who outsourced those decisions. Our work is building that understanding, one project at a time.
+
 ## Where we're headed
 
 We envision a future where emerging technologies deepen humanities work rather than replace it---where *how* you present an argument is as powerful as the argument itself. Too often, humanists are handed tools and told to make do. We think it should work the other way around: the questions humanists ask should drive the technologies and designs we build.
@@ -26,7 +30,7 @@ Our studio is a place where that vision takes shape---where the next generation 
 
 Amaranth lives in Mesa Vista Hall at UNM---a workspace where students, scholars, and community members come together to experiment with technology, design, and humanities storytelling. Whether you're printing a 3D model, editing a podcast, building a ScrollStory, or just thinking through a project idea, the studio is a place to try things, get feedback, and learn by doing.
 
-You don't need an appointment to stop by during studio hours. Bring your laptop, bring a project, or just bring curiosity. People work on their own things alongside each other, ask questions, share what they're learning, and help each other troubleshoot. It's a workshop, not a service desk.
+You don't need an appointment to stop by during studio hours. Bring your laptop, bring a project, or just bring curiosity. People work on their own things alongside each other, ask questions, share what they're learning, and help each other troubleshoot. Think of it like a pottery studio: someone shows you how to center the clay, but you're the one at the wheel. It's a workshop, not a service desk.
 
 
 ## Come by

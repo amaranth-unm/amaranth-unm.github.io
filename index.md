@@ -4,51 +4,57 @@ layout: base
 header-image: /assets/images/headers/amaranth-header.jpg
 header-height: 90vh
 header-title: amaranth
-header-subtitle: "humanities + technology + design"
+header-subtitle: "Expanding digital horizons in the humanities"
 header-title-position: -150px
+nav-below-hero: true
 date: 2024-12-02
 features:
-  - title: "Tell stories that move people"
+  - title: "Build work that lasts"
+    image: "/assets/images/site/websites.jpg"
+    text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. We teach to work within a framework of plain text files and understand technical and design choices along the way."
+    link: "websites/overview"
+    link-text: "Start building →"
+
+  - title: "The medium is part of the message"
     image: "/assets/images/site/storytelling.jpg"
-    text: "ScrollStories combine immersive visuals with compelling narrative---backgrounds shift, text emerges, and readers scroll through your argument like an experience, not just a page. Design choices like pacing, scale, and visual rhythm shape how your audience engages with your ideas."
-    link: "websites/scrollstories"
-    link-text: "Explore ScrollStories →"
+    text: "An oral history argues through voice. A podcast argues through intimacy. A ScrollStory argues through pacing and image. The medium you choose shapes what your audience understands---we help you choose with intention."
+    link: "narrate"
+    link-text: "Find your medium →"
 
   - title: "Make ideas tangible"
     image: "/assets/images/site/capitals-together-small.jpg"
-    text: "3D printing transforms abstract concepts into objects you can hold, rotate, and compare. When you print a Romanesque capital next to a Gothic one, the differences aren't just visual---they're <em>felt</em>. Understanding spatial relationships, terrain, and material culture starts with touch."
-    link: "3d-printing"
-    link-text: "Explore 3D Printing →"
+    text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
+    link: "explore"
+    link-text: "What we're investigating →"
 
-  - title: "Make stories heard"
+  - title: "A workshop, not a service desk"
     image: "/assets/images/site/headphones.jpg"
-    text: "Oral histories, podcasts, and audio archives preserve stories that would otherwise disappear. Good audio isn't just recording---it's designing a narrative that draws listeners in and honors the people who share their experiences."
-    link: "audio"
-    link-text: "Explore Audio →"
-
-  - title: "Build things that last"
-    image: "/assets/images/site/websites.jpg"
-    text: "Collaborative websites built on open-source tools give students and scholars real ownership of their work---free hosting, no proprietary lock-in, and technology designed to endure for decades. Your work stays yours."
-    link: "websites/overview"
-    link-text: "Explore Websites →"
+    text: "We don't build things for you---we build things <em>with</em> you. The goal isn't a finished product. It's the fluency to make your own choices about tools, design, and media---and to carry your work forward."
+    link: "studio"
+    link-text: "Visit the studio →"
 ---
 
-# Humanities work deserves to be seen, heard, and experienced
+# A new digital humanities
 
-We help students, scholars, educators, and communities create work that doesn't just exist online---it *communicates*. Through intentional design, open technology, and deep engagement with humanities questions, we bring research and storytelling into public life.
+Amaranth is a digital humanities studio at the University of New Mexico that emphasizes communication over computation. We love technology, but we point tools toward storytelling, immersion, pedagogy, and forms of expression that carry scholarship into the world and keep it relevant.
 
-We envision a future where the humanities thrive through emerging technologies---where *how* you present your work is as powerful as the work itself.
+Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis, to name a few of the most well known. This important work has not only pushed methodological boundaries, but invited new questions and perspectives across the humanities. But truly sharing humanities scholarship (whether using digital methods or not)---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
+
+Now AI is dissolving the technical barriers that kept most humanists from engaging with it directly. The gap between having a story to tell or an experience to share and building something real---a scroll-driven narrative, an interactive map or archive, an augmented reality app, or a website you actually own---continues to narrow. These forms shape how scholarship reaches people, and for the first time, the scholars themselves can be in the driver's seat.
+
+At Amaranth, we want to guide and accelerate these possibilities using technology as a means to an end: to share stories that resonate.
 
 
 {% include feature-blocks.html title="" %}
 
 
-## Work with us
-We want to get students and scholars excited about using technology and design to keep humanities vibrant. If you've ever imagined a digital project as part of course assignments, a research initiative, or community work---we can help make it happen.
+## Come build something
 
-We provide the technical infrastructure, process guides,hands-on training, and design support. Whether it's a collaborative class archive, a set of ScrollStory essays, a podcast series, or something we haven't thought of yet---let's build it together.
+Some of the best work starts as a half-formed question, a vague idea, something you're not sure is even possible. That's exactly the right time to talk.
 
-Please drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
+We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
+
+Drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
 
 
 ### Spring 2026 studio hours

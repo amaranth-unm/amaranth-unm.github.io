@@ -13,6 +13,11 @@ cards:
     thumbnail: "/assets/images/site/acrylic-terrain.jpg"
     summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextualize space and geography.
     link: "terrain"
+
+  - title: "Objex"
+    thumbnail: "/3d-printing/objex/images/com-print-done-cropped.jpg"
+    summary: A growing collection of 3D scans and prints---each one an experiment in what physical reproduction can reveal about scale, texture, and material presence.
+    link: "/3d-printing/objex"
 ---
 
 # 3D Pedagogy
