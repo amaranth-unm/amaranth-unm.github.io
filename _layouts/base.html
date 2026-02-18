@@ -19,7 +19,18 @@
     {% assign headertitleposition = page.header-title-position %}
     {% assign headersubtitle = page.header-subtitle %}
 
-    {% if headerimage %}
+    {% if page.header-style == 'studio' %}
+
+      {% include header-studio.html
+        image-path = headerimage
+        title = headertitle
+        subtitle = headersubtitle
+        eyebrow = page.header-eyebrow
+        divider = page.header-divider
+        height = headerheight
+      %}
+
+    {% elsif headerimage %}
 
       {% include header-image.html
         image-path = headerimage

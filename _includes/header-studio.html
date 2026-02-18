@@ -1,0 +1,44 @@
+<!--
+  Option 3 — "Dark + Silver Ghost Watermark"
+  Typography-forward studio header. Used when front matter includes:
+    header-style: studio
+
+  Optional front matter:
+    header-image:     background texture (shown as ghost watermark)
+    header-eyebrow:   small caps line above title (e.g. "UNM // Digital Humanities Studio")
+    header-title:     large serif display title (e.g. "Amaranth")
+    header-divider:   text between decorative lines (e.g. "Humanities + Technology")
+    header-subtitle:  paragraph below divider
+    header-height:    height of header (default: 440px)
+-->
+
+{% capture img_url %}
+{% if include.image-path %}{% include image-path.html image-path=include.image-path %}{% endif %}
+{% endcapture %}
+{% assign img_url = img_url | strip %}
+
+<div class="header-studio" style="height: {{ include.height | default: '440px' }};">
+  {% if img_url != '' %}
+  <div class="header-studio-bg" style="background-image: url('{{ img_url }}');"></div>
+  {% endif %}
+  <div class="header-studio-grid"></div>
+  <div class="header-studio-bar"></div>
+  <div class="header-studio-content">
+    {% if include.eyebrow %}
+    <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
+    {% endif %}
+    {% if include.title %}
+    <h1>{{ include.title }}</h1>
+    {% endif %}
+    {% if include.divider %}
+    <div class="header-studio-divider">
+      <div class="header-studio-divider-line"></div>
+      <span>{{ include.divider }}</span>
+      <div class="header-studio-divider-line"></div>
+    </div>
+    {% endif %}
+    {% if include.subtitle %}
+    <p>{{ include.subtitle }}</p>
+    {% endif %}
+  </div>
+</div>

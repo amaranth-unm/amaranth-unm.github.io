@@ -1,12 +1,13 @@
 ---
 title: Amaranth @ UNM
 layout: base
-header-image: /assets/images/headers/amaranth-header.jpg
-header-height: 90vh
-header-title: amaranth
+header-style: studio
+header-image: /assets/images/headers/palmer-sandia.png
+header-height: 440px
+header-eyebrow: "UNM // Digital Humanities Studio"
+header-title: Amaranth
 header-subtitle: "Expanding digital horizons in the humanities"
-header-title-position: -150px
-nav-below-hero: true
+nav-below-hero: false
 date: 2024-12-02
 features:
   - title: "Build work that lasts"
@@ -38,9 +39,9 @@ features:
 
 Amaranth is a digital humanities studio at the University of New Mexico that emphasizes communication over computation. We love technology, but we point tools toward storytelling, immersion, pedagogy, and forms of expression that carry scholarship into the world and keep it relevant.
 
-Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis, to name a few of the most well known. This important work has not only pushed methodological boundaries, but invited new questions and perspectives across the humanities. But truly sharing humanities scholarship (whether using digital methods or not)---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
+Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis, This important work not only pushed methodological boundaries, but invited new questions and perspectives across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
 
-Now AI is dissolving the technical barriers that kept most humanists from engaging with it directly. The gap between having a story to tell or an experience to share and building something real---a scroll-driven narrative, an interactive map or archive, an augmented reality app, or a website you actually own---continues to narrow. These forms shape how scholarship reaches people, and for the first time, the scholars themselves can be in the driver's seat.
+Now AI is dissolving technical barriers that have separated scholars and publics. The gap between having a story to tell or an experience to share and building something real---a scroll-driven narrative, an interactive map or archive, an augmented reality app, or a website you actually own---continues to narrow. These forms shape how scholarship reaches people, and for the first time, the scholars themselves can be in the driver's seat.
 
 At Amaranth, we want to guide and accelerate these possibilities using technology as a means to an end: to share stories that resonate.
 
