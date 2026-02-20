@@ -3,13 +3,13 @@ title: Why Amaranth?
 author: Fred Gibbs
 layout: base
 date: 2025-01-22
-header-image: images/amaranth.jpg
-header-title:
-header-height: 60vh
-background-position:
+header-image: /assets/images/headers/amaranth-flower-etch.png
+header-title: Why Amaranth?
+header-tier: section
+header-filter: botanical
+header-position: "left center"
+header-opacity: 0.28
 ---
-
-# Why Amaranth?
 
 ## The Unfading Flower
 

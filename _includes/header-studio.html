@@ -1,44 +1,74 @@
 <!--
-  Option 3 — "Dark + Silver Ghost Watermark"
-  Typography-forward studio header. Used when front matter includes:
-    header-style: studio
+  Unified header system — three tiers, four filter modes.
+  Activated automatically whenever a page has header-image in front matter.
 
-  Optional front matter:
-    header-image:     background texture (shown as ghost watermark)
-    header-eyebrow:   small caps line above title (e.g. "UNM // Digital Humanities Studio")
-    header-title:     large serif display title (e.g. "Amaranth")
-    header-divider:   text between decorative lines (e.g. "Humanities + Technology")
-    header-subtitle:  paragraph below divider
-    header-height:    height of header (default: 440px)
+  Parameters:
+    tier:        hero | section | banner (default: hero)
+                 Heights set in CSS: hero 100vh, section 45vh, banner 22vh
+
+    filter:      botanical | woodcut | etching | photo (default: photo)
+                 botanical = line-art engravings on white bg (invert + red tint + screen blend)
+                             requires: dark lines on white or near-white background
+                 woodcut   = early modern prints on off-white/cream paper
+                             grayscale + red tint, no inversion; image reads as-is with
+                             a reddish cast over the dark background
+                 etching   = color photos → high-contrast silhouette + red tint
+                             NOTE: produces bold shapes, not fine lines — different aesthetic
+                             from botanical/woodcut; for photos needing line-art look, pre-
+                             process the image and use botanical instead
+                 photo     = color photos kept photographic (darkened, slight desaturate)
+
+    image-path:  background image path
+    bg-position: CSS background-position (default: center right)
+                 e.g. "left center", "80% 50%", "center top"
+    bg-opacity:  override CSS opacity (0–1). Defaults: hero 0.28, section 0.18, banner 0.10
+    title:       page title (shown in all tiers)
+    eyebrow:     small caps line above title (hero only)
+    divider:     text between decorative lines (hero only)
+    subtitle:    paragraph below title (hero only)
+    height:      override CSS default height (e.g. "60vh")
 -->
+
+{% assign tier = include.tier | default: 'hero' %}
+{% assign filter = include.filter | default: 'photo' %}
 
 {% capture img_url %}
 {% if include.image-path %}{% include image-path.html image-path=include.image-path %}{% endif %}
 {% endcapture %}
 {% assign img_url = img_url | strip %}
 
-<div class="header-studio" style="height: {{ include.height | default: '440px' }};">
+<div class="header-studio header-studio--{{ tier }}"{% if include.height %} style="height: {{ include.height }};"{% endif %}>
   {% if img_url != '' %}
-  <div class="header-studio-bg" style="background-image: url('{{ img_url }}');"></div>
+  <div class="header-studio-bg header-studio-bg--{{ filter }}" style="background-image: url('{{ img_url }}'); background-position: {{ include.bg-position | default: 'center right' }};{% if include.bg-opacity %} opacity: {{ include.bg-opacity }};{% endif %}"></div>
   {% endif %}
   <div class="header-studio-grid"></div>
   <div class="header-studio-bar"></div>
   <div class="header-studio-content">
-    {% if include.eyebrow %}
-    <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
-    {% endif %}
-    {% if include.title %}
-    <h1>{{ include.title }}</h1>
-    {% endif %}
-    {% if include.divider %}
-    <div class="header-studio-divider">
-      <div class="header-studio-divider-line"></div>
-      <span>{{ include.divider }}</span>
-      <div class="header-studio-divider-line"></div>
-    </div>
-    {% endif %}
-    {% if include.subtitle %}
-    <p>{{ include.subtitle }}</p>
+    {% if tier == 'hero' %}
+      {% if include.eyebrow %}
+      <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
+      {% endif %}
+      {% if include.title %}
+      <h1>{{ include.title }}</h1>
+      {% endif %}
+      {% if include.divider %}
+      <div class="header-studio-divider">
+        <div class="header-studio-divider-line"></div>
+        <span>{{ include.divider }}</span>
+        <div class="header-studio-divider-line"></div>
+      </div>
+      {% endif %}
+      {% if include.subtitle %}
+      <p>{{ include.subtitle }}</p>
+      {% endif %}
+    {% elsif tier == 'section' %}
+      {% if include.title %}
+      <h1>{{ include.title }}</h1>
+      {% endif %}
+    {% elsif tier == 'banner' %}
+      {% if include.title %}
+      <h1>{{ include.title }}</h1>
+      {% endif %}
     {% endif %}
   </div>
 </div>

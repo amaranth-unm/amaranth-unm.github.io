@@ -4,7 +4,9 @@ title: Collaborate
 author: Fred Gibbs
 date: 2024-10-28
 header-image: /assets/images/headers/collaboration.jpg
-header-height: 60vh
+header-title: Collaborate
+header-tier: section
+header-filter: photo
 ---
 
 # Let's work together
