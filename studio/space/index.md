@@ -4,8 +4,8 @@ title: The Space
 author: Fred Gibbs
 date: 2025-01-01
 description: "Visit the Amaranth studio in Mesa Vista Hall at UNM. Open studio hours, equipment for 3D printing, audio recording, poster printing, and collaborative workspace for digital humanities projects."
-header-image: /assets/images/headers/printing-press-studio.avif
-header-title: The Space
+header-image: /assets/images/headers/cabinet.jpg
+header-title: Our Space
 header-tier: section
 header-filter: woodcut
 header-height: 60vh

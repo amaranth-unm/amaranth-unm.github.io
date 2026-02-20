@@ -6,7 +6,7 @@ date: 2025-01-22
 description: "From Greek mythology to Aztec sacred rituals to modern superweeds, the amaranth plant embodies the contradictions at the heart of digital humanities work. Why we chose the name for UNM's DH studio."
 header-image: /assets/images/headers/amaranth-flower-etch.png
 header-title: Why Amaranth?
-header-tier: section
+header-tier: hero
 header-filter: botanical
 header-position: "left center"
 header-opacity: 0.28
