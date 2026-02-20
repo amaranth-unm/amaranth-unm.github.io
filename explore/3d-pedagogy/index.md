@@ -4,6 +4,10 @@ layout: base
 date: 2024-10-26
 description: "3D printing for humanities teaching and research. Architectural capitals, terrain maps, and artifact replicas that let students hold, compare, and learn from physical objects at UNM."
 header-image: terrain/images/low-tech-terrain.jpg
+header-tier: section
+header-title: 3D Pedagogy
+header-filter: etching
+header-position: 20% 70%
 cards:
   - title: "Tactile Architecture"
     thumbnail: "/assets/images/site/capitals-together-small.jpg"

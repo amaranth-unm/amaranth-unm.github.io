@@ -5,9 +5,10 @@ author: Fred Gibbs
 date: 2025-02-14
 description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—3D fabrication, scroll-driven narratives, AI-assisted workflows, and open-source publishing at UNM."
 header-image: /assets/images/headers/heavens.webp
-header-title: Where technology earns its place
+header-title: Expanding Horizons
 header-tier: section
 header-filter: woodcut
+header-position: 0 80%
 ---
 
 Not every emerging technology deserves a place in humanities scholarship. At Amaranth, we investigate which ones genuinely deepen the work---helping scholars reach wider audiences, make arguments in forms that text alone can't, or give students real ownership of what they build. We test in real classrooms and real projects, and we share what we learn honestly: what worked, what didn't, and why. That track record is the foundation of the guidance we offer.

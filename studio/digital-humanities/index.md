@@ -7,8 +7,7 @@ description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio
 header-image: /assets/images/headers/punch-card-warehouse.jpg
 header-title: Digital Humanities
 header-tier: section
-header-filter: photo
-header-height: 60vh
+header-filter: etching
 ---
 
 ## What are the digital humanities?

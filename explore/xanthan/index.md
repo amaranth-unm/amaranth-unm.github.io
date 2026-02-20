@@ -2,8 +2,7 @@
 layout: base
 title: Xanthan
 description: "Xanthan is Amaranth's open-source Jekyll framework for academic websites. Free hosting, no vendor lock-in, AI-friendly design. Built from years of studio practice at UNM."
-header-image: /assets/images/headers/letterforms.webp
-header-height: 50vh
+header-image: /assets/images/headers/xanthan-bw.png
 header-tier: section
 header-filter: botanical
 header-title: "Built from practice"
