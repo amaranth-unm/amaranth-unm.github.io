@@ -2,6 +2,7 @@
 title: Portfolio Websites
 layout: base
 date: 2024-10-26
+description: "Build a professional academic portfolio you own and control. Free hosting on GitHub Pages, no subscriptions, no lock-in. Showcase your research, teaching, and digital projects permanently."
 header-image: /assets/images/headers/collaboration.jpg
 header-height: 60vh
 

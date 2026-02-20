@@ -2,6 +2,7 @@
 layout: base
 title: Designing Posters
 date: 2025-02-01
+description: "Design and print academic posters at Amaranth. We help with visual hierarchy, typography, and layout—then print on our large-format HP DesignJet T630 in Mesa Vista Hall at UNM."
 header-image: /assets/images/headers/common-room-posters.jpg
 header-height: 60vh
 ---

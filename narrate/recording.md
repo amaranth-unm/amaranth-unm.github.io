@@ -2,6 +2,7 @@
 title: Recording Audio
 layout: base
 date: 2025-11-07
+description: "Quick tips for recording audio on your phone, with a USB mic, or in Audacity. Practical guidance for oral histories, podcasts, and audio projects at UNM."
 header-image: /assets/images/headers/recording-audio-header.jpg
 ---
 

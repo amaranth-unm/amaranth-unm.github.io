@@ -3,6 +3,7 @@ layout: base
 title: The Studio
 author: Fred Gibbs
 date: 2025-01-01
+description: "Amaranth is where humanistic inquiry, technology, and design converge. We help students, scholars, and communities bring humanities work into public life through collaborative projects and open-source tools at UNM."
 header-image: /assets/images/headers/printing-press-studio.avif
 header-title: The Studio
 header-tier: section

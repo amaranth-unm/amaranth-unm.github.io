@@ -2,6 +2,7 @@
 title: Podcasting
 layout: base
 date: 2025-11-07
+description: "Start a podcast at UNM with support from Amaranth. Structuring episodes, recording techniques, editing in Audacity, and sharing your scholarship with wider audiences."
 header-image: /assets/images/headers/podcasting.jpg
 header-height: 60vh
 ---

@@ -3,6 +3,7 @@ layout: base
 title: Beyond Text
 author: Fred Gibbs
 date: 2025-01-01
+description: "The medium is part of the argument. Amaranth helps UNM scholars create ScrollStories, oral histories, and podcasts—narrative forms that reach audiences in ways text alone can't."
 header-tier: section
 header-filter: botanical
 header-image: /assets/images/headers/storyboard.jpg

@@ -3,6 +3,8 @@
   items:
     - title: "Ethos"
       url: "/studio"
+    - title: "Digital Humanities"
+      url: "/studio/digital-humanities"
     - title: "The Space"
       url: "/studio/space"
     - title: "Events"

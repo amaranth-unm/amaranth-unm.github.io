@@ -2,6 +2,7 @@
 layout: base
 title: Gallery
 date: 2026-01-30
+description: "Examples of student and faculty websites built with Amaranth and Xanthan at UNM. Collaborative class projects, portfolios, ScrollStories, and research sites."
 
 cards: 
   

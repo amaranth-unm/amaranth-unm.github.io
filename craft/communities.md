@@ -2,6 +2,7 @@
 title: Academic Communities
 layout: base
 date: 2024-10-26
+description: "Keep workshop and conference scholarship alive online. Amaranth builds free, permanent websites for academic communities and working groups using open-source tools."
 header-image: /assets/images/headers/workshop.jpg
 header-height: 60vh
 

@@ -1,5 +1,6 @@
 title: Amaranth
-description: Digital Humanities and Public Scholarship Studio @ UNM
+description: "Amaranth is the Digital Humanities and Public Scholarship Studio at the University of New Mexico, supporting students and faculty with websites, digital storytelling, 3D printing, and open-source tools."
+url: https://amaranth.unm.edu
 repository: amaranth-unm/amaranth-unm.github.io
 baseurl: 
 safe: true

@@ -2,6 +2,7 @@
 title: Collaborative Class Projects
 layout: base
 date: 2024-10-26
+description: "Turn course assignments into public scholarship. Amaranth helps UNM instructors build collaborative class websites where student work lives on the open web—free, durable, and built to last."
 header-image: /assets/images/headers/collaboration.jpg
 header-height: 60vh
 

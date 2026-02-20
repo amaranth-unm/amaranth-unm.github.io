@@ -3,6 +3,7 @@ layout: base
 title: Collaborate
 author: Fred Gibbs
 date: 2024-10-28
+description: "Work with Amaranth on digital humanities projects at UNM. Drop by studio hours, book a consultation, or email us about class projects, grant work, or public-facing research."
 header-image: /assets/images/headers/collaboration.jpg
 header-title: Collaborate
 header-tier: section

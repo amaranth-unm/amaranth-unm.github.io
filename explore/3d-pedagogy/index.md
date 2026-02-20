@@ -2,6 +2,7 @@
 title: Projects
 layout: base
 date: 2024-10-26
+description: "3D printing for humanities teaching and research. Architectural capitals, terrain maps, and artifact replicas that let students hold, compare, and learn from physical objects at UNM."
 header-image: terrain/images/low-tech-terrain.jpg
 cards:
   - title: "Tactile Architecture"

@@ -2,6 +2,7 @@
 title: Oral Histories
 layout: base
 date: 2025-11-07
+description: "A practical guide to oral history at UNM. Planning, interviewing, recording, ethics, and preservation—from the Amaranth Digital Humanities Studio."
 header-image: /assets/images/headers/oral-history-interview.jpg
 header-height: 60vh
 ---

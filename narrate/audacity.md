@@ -2,6 +2,7 @@
 title: Editing with Audacity
 layout: base
 date: 2025-11-07
+description: "A beginner's guide to editing audio in Audacity. Trim pauses, remove glitches, add music, and export your finished podcast or oral history recording."
 header-image: /assets/images/headers/sound-editing-header.jpg
 ---
 

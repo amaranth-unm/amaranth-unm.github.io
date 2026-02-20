@@ -2,6 +2,7 @@
 title: Our Approach
 layout: base
 date: 2024-10-26
+description: "Build websites, posters, and 3D prints with Amaranth at UNM. Every design choice is an argument—we help scholars and students craft digital work using open-source tools they actually own."
 header-image: /assets/images/headers/website-overview.jpg
 header-height: 60vh
 ---

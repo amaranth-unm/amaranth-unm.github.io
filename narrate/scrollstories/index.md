@@ -2,6 +2,7 @@
 title: ScrollStories
 layout: base
 date: 2024-10-26
+description: "ScrollStories are scroll-driven digital narratives where backgrounds shift and text emerges as readers move through your argument. Built with Xanthan at Amaranth, UNM."
 header-image: /assets/images/headers/storyboard.jpg
 header-height: 60vh
 

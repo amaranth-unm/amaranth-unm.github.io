@@ -3,6 +3,7 @@ layout: base
 title: Horizons
 author: Fred Gibbs
 date: 2025-02-14
+description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—3D fabrication, scroll-driven narratives, AI-assisted workflows, and open-source publishing at UNM."
 header-image: /assets/images/headers/heavens.webp
 header-title: Where technology earns its place
 header-tier: section
