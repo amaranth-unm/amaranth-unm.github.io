@@ -10,8 +10,19 @@ header-zoom: 130%
 header-position: center center
 ---
 
-# Build things that last
 
+Humanistic Digital Projects
+
+We help students with creative, public-facing digital projects that connect technology to culture, history, and community. These projects include:
+
+- digital storytelling and multimodal interpretation
+- cultural heritage and museum collaboration
+- community archives and oral history
+- public history and regional narratives
+- multilingual and cross-cultural knowledge production
+
+
+# Communicate through design
 Every design choice is an argument. The typeface on an academic poster says something about the work it presents. The structure of a website shapes how readers encounter your ideas. A 3D-printed artifact is a claim about what matters in material culture. Craft isn't decoration applied after the thinking is done---it's part of the thinking.
 
 We help students, scholars, and communities build work that takes design seriously: websites, posters, and physical objects where the *how* reinforces the *what*. Everything we build uses open-source tools, costs nothing to maintain, and belongs entirely to the people who make it.

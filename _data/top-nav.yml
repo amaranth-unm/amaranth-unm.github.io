@@ -16,10 +16,15 @@
   items:
     - title: "Horizons"
       url: "/explore"
-    - title: "3D Pedagogy"
-      url: "/explore/3d-pedagogy"
     - title: "Xanthan"
       url: "/explore/xanthan"
+    - title: "3D Pedagogy"
+      url: "/explore/3d-pedagogy"
+    - title: "AI Pedagogy"
+      url: "/explore/ai-pedagogy"
+    - title: "ARG!"
+      url: "/explore/arg"
+
 
 - title: "Craft"
   items:

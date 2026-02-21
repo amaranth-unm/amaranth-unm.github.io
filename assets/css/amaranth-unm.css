@@ -688,7 +688,7 @@ EVENTS — botanical specimen aesthetic
 }
 
 .event-day {
-  font-family: 'IM Fell English', serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 3.2rem;
   color: var(--text-primary);
   line-height: 1;
@@ -722,6 +722,7 @@ EVENTS — botanical specimen aesthetic
   margin-bottom: 0.2rem;
 }
 
+.event-title { margin-top: 0; }
 .event-title a { color: inherit; text-decoration: none; }
 .event-title a:hover { text-decoration: underline; }
 
@@ -742,7 +743,7 @@ EVENTS — botanical specimen aesthetic
 }
 
 /* Past events: subdued */
-.event-past { opacity: 0.5; }
+.event-past { opacity: 0.8; }
 
 
 /*****************************************************
