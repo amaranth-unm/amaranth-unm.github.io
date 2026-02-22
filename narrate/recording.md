@@ -4,12 +4,12 @@ layout: base
 date: 2025-11-07
 description: "Quick tips for recording audio on your phone, with a USB mic, or in Audacity. Practical guidance for oral histories, podcasts, and audio projects at UNM."
 header-image: /assets/images/headers/recording-audio-header.jpg
+header-tier: banner
+header-filter: photo
+header-title: "Quick Tips for Recording Audio"
 ---
 
-# Quick Tips for Recording Audio
-On this page, you can find general tips and guidelines for recording audio using your phone or 
-
-## Recording on your phone
+## Your phone is enough to start
 The easiest way to record audio is to use an app on an iPhone or Android phone, although this option results in lower audio quality.
 
 It's usually not worth trying to edit a sound file on your phone. It's much faster and easier to instead upload the sound file to a cloud storage location so that you can later download it onto a computer for editing. 

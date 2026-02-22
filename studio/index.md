@@ -3,7 +3,7 @@ layout: base
 title: The Studio
 author: Fred Gibbs
 date: 2025-01-01
-description: "Amaranth is where humanistic inquiry, technology, and design converge. We help students, scholars, and communities bring humanities work into public life through collaborative projects and open-source tools at UNM."
+description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
 header-image: /assets/images/headers/printing-press-studio.avif
 header-title: The Studio
 header-tier: section
@@ -11,27 +11,38 @@ header-filter: woodcut
 header-height: 60vh
 ---
 
+## A workshop, not a service desk
+
+Amaranth is a studio in the original sense: a place where you come to make things, not to have things made for you. We don't run code for scholars or build websites they'll never understand. We work alongside you, teaching the thinking behind every technical and design decision—so when the project is done, you know something you didn't know before.
+
+One of our graduate students described it as the pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw.
+
+This shapes everything we offer. The goal is always fluency, not just product. A humanist who understands *why* they made a particular design or technical choice is a stronger scholar than one who outsourced those decisions. We're building that understanding, one project at a time.
+
+
 ## What we do
 
-Amaranth is where humanistic inquiry, technology, and design converge. We help students, scholars, educators, and communities bring humanities work into public life---not by treating technology as a service or design as decoration, but by weaving all three into every project from the start.
+Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth supports:
 
-Through collaborative projects, open-source tools, and hands-on experimentation, we create storytelling experiences, interactive archives, and digital scholarship that invites real engagement with the questions that matter most. A 3D-printed artifact isn't just a technical exercise---it's a designed argument about material culture. A podcast isn't just recorded audio---it's a crafted narrative that shapes how listeners encounter an idea.
+- **Public-facing websites** built on open infrastructure, owned by their creators, designed to last
+- **Audio and narrative work**—oral histories, podcasts, ScrollStory essays—where medium and message reinforce each other
+- **3D fabrication** for teaching, research, and exhibition
+- **Poster design and large-format printing** for conferences and public display
+- **AI-assisted workflows** that put scholars in the editorial seat
 
-We don't do things *for* people---we work *with* them, teaching the thinking behind every design and technical decision. The goal isn't to hand someone a finished product. It's to help them develop the fluency to make their own choices and carry their work forward.
+We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
 
-This shapes what we offer and what we don't. We don't run code for scholars or build pipelines they'll never understand. We believe researchers should know their own methods---not just the conclusions, but the technical choices that produced them. A humanist who understands *why* they chose a particular tool, format, or platform is a better scholar than one who outsourced those decisions. Our work is building that understanding, one project at a time.
 
-## Where we're headed
+## Digital humanities at UNM
 
-We envision a future where emerging technologies deepen humanities work rather than replace it---where *how* you present an argument is as powerful as the argument itself. Too often, humanists are handed tools and told to make do. We think it should work the other way around: the questions humanists ask should drive the technologies and designs we build.
-
-Our studio is a place where that vision takes shape---where the next generation of humanists learns to think across disciplines, combining critical inquiry with technical skill and intentional design to build work that reaches beyond the academy and into the world.
+Amaranth is UNM's home for digital humanities work—connecting people across departments who might not otherwise know they're working on related questions. If you're new to the field or want to understand where Amaranth fits in its history and current moment, the [digital humanities page](/studio/digital-humanities) is a good place to start.
 
 
 ## Why Amaranth?
-Amaranth originates from the Greek _amarantos_, meaning unfading---as in permanence or immortality. There's a playful irony in naming a digital humanities studio after a symbol of permanence, given how quickly digital technology becomes obsolete. We hope our work with open-source, sustainable processes lengthens the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than the ancient flower ever did.
 
-Amaranth also represents the inherent contradictions that humanists explore. Throughout history, people have used dozens of species of amaranth plants for medicines, dyes, and food---some are now regarded as "superfoods," while others are developing glyphosate tolerance, making them "superweeds" that disrupt modern agriculture. That tension between nourishment and disruption feels about right for the digital humanities.
+The name comes from the Greek *amarantos*: unfading. There's a deliberate irony in naming a digital humanities studio after a symbol of permanence, given how quickly technology becomes obsolete. We embrace the contradiction—and the richer story of a plant that has meant sacred grain, colonial threat, superfood, and superweed, depending on who's growing it and why.
+
+[Read the full story →](/studio/why-amaranth)
 
 
 ## Team
@@ -56,5 +67,3 @@ Amaranth also represents the inherent contradictions that humanists explore. Thr
   </div>
 </div>
 {% endfor %}
-
-

@@ -4,15 +4,18 @@ layout: base
 date: 2025-11-07
 description: "A beginner's guide to editing audio in Audacity. Trim pauses, remove glitches, add music, and export your finished podcast or oral history recording."
 header-image: /assets/images/headers/sound-editing-header.jpg
+header-tier: banner
+header-filter: photo
+header-title: "Editing with Audacity"
 ---
 
 
-# Editing with Audacity
+## Cut what doesn't belong
+
 All new software takes a little time to get comfortable with. After a little practice, you'll find editing a breeze.
 
 If you haven't already used to Audacity to record your story, you'll need to click through some early dialog boxes when you first start it (see the last section of the [recording page](recording) for more detail).
 
-## Basic Editing
 If you didn't record directly into Audacity, you'll first need to load your recording. It's safest to download your audio file---.mp3 is easiest work with---from your cloud storage to whatever computer you're using. Just drag and drop your .mp3 file to the Audacity window or icon in your tool bar.
 
 The main task at hand is to edit out pauses, ums, and other sound glitches. When you're playing your recording, you can see on the waveform (the visualization of your audio) where the glitch was. 

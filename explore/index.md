@@ -1,60 +1,59 @@
 ---
 layout: base
-title: Horizons
+title: Explore
 author: Fred Gibbs
 date: 2025-02-14
-description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—3D fabrication, scroll-driven narratives, AI-assisted workflows, and open-source publishing at UNM."
+description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—and how. AI pedagogy, 3D fabrication, open publishing, and what it means to share humanistic work in the AI era."
 header-image: /assets/images/headers/heavens.webp
-header-title: Expanding Horizons
+header-title: "What are we investigating?"
 header-tier: section
 header-filter: woodcut
 header-position: 0 80%
 ---
 
-Not every emerging technology deserves a place in humanities scholarship. At Amaranth, we investigate which ones genuinely deepen the work---helping scholars reach wider audiences, make arguments in forms that text alone can't, or give students real ownership of what they build. We test in real classrooms and real projects, and we share what we learn honestly: what worked, what didn't, and why. That track record is the foundation of the guidance we offer.
+## Tools that earn their place
+
+Not every emerging technology deserves a place in humanities scholarship. Some tools add friction without adding understanding. Some produce impressive outputs that don't actually help anyone think better. At Amaranth, we investigate which ones genuinely deepen the work—and why—by testing them in real classrooms, real projects, and real consultations. Then we share what we learn honestly: what worked, what didn't, and what we'd do differently.
+
+This is active, ongoing research. The landscape shifts faster than any institution can track. What's true about AI this semester may not be true next year. What we know about 3D printing in the classroom keeps evolving as we do more of it. The questions below aren't settled. They're live.
 
 
-## The horizon keeps moving
+## AI and the humanities
 
-The landscape of possibility is expanding---3D fabrication, scroll-driven narratives, AI-assisted workflows, open-source publishing---but it's also shifting. What worked three years ago may already be obsolete; what works next year doesn't exist yet. AI is dissolving technical barriers that once separated scholars from sophisticated media production, but it's also raising new questions about authorship, judgment, and trust.
+The most urgent question in our field isn't "how do we use AI?" It's something harder: what does humanistic thinking offer to a world being reshaped by AI? Humanists have spent centuries developing tools for exactly the problems AI raises—evaluating the authority of sources, understanding how knowledge gets constructed, asking who benefits from a particular framing. Those skills aren't supplementary to good AI use. They're foundational to it.
 
-Best practices aren't handed down. They emerge through making, failing, revising, and sharing what you've learned. We investigate so we can recommend from experience rather than theory.
+At Amaranth, we're investigating what it looks like to put undergraduates—not just faculty researchers—at the center of this work. We're asking how the act of sharing your scholarship publicly changes the precision and ambition of your thinking. And we're building open, transparent workflows that model accountable engagement with AI rather than hiding it.
 
-
-## Grounded in the classroom
-
-Our explorations aren't abstract. They're tested in courses, workshops, and studio sessions at UNM---places where the stakes are real and the feedback is immediate. If a technology doesn't help someone think more clearly, communicate more effectively, or take genuine ownership of their work, we move on.
-
-This means our research questions come from practice. What happens when students can hold a 3D-printed architectural capital instead of looking at a photograph? Can a scroll-driven narrative do things a traditional essay can't? How do you teach someone to make meaningful choices about design and media when AI is reshaping the entire landscape underneath them? The classroom is where we find out.
+[AI pedagogy at Amaranth →](/explore/ai-pedagogy)
 
 
-## Built to last
+## 3D Pedagogy
 
-One of the most persistent problems in digital humanities is impermanence. Scholars build work on platforms that charge fees, lock in content, restrict design choices, and eventually disappear. Grants fund projects that go dark within five years. Student portfolios vanish when a subscription lapses.
+What changes when students can hold a 3D-printed architectural capital instead of looking at a photograph? When a terrain map becomes something you can trace with your fingers rather than interpret through a flat screen?
 
-We think the infrastructure should be as durable as the ideas it carries. That conviction shapes everything we build and recommend---open formats, plain text, version control, no vendor lock-in. Sustainable digital scholarship isn't just about keeping the lights on. It's about ensuring that the work remains accessible, portable, and under the control of the people who made it.
+We're investigating how 3D fabrication changes learning and research in the humanities—how physical objects restore scale, texture, and direct comparison to inquiry that photographs can't. Our projects range from printing Romanesque and Gothic capitals for art history courses to creating terrain models that make geographic relationships tangible in ways no image can.
 
-
-## What we're investigating
-
-Our research isn't organized around discrete projects with predetermined outputs. It's organized around a broader question: how can emerging technologies deepen the questions humanists ask and expand the audiences they reach? Everything we build tests some part of that.
+[See our 3D pedagogy research →](/explore/3d-pedagogy)
 
 
-### 3D Pedagogy
+## Open scholarship and the Xanthan framework
 
-We're investigating how 3D-printed objects can transform teaching and learning in the humanities. Images show us what something looks like, but they can't tell us how it feels, how heavy it is, or how it compares in size to something else. Printed replicas restore what images remove: the ability to rotate an object, trace its contours, and place it alongside others for direct comparison.
+Open scholarship isn't just a publishing preference. In an AI era, it changes the kind of thinking you do. When your work is public, the pressure to be precise—in your argument, your evidence, your framing—is different. Visibility is a forcing function for clarity.
 
-Our current projects explore [tactile architecture](/3d-printing/pedagogy/capitals)---printing Romanesque and Gothic capitals so students can feel the stylistic transition---and [terrain maps](/3d-printing/pedagogy/terrain) that make geographic relationships tangible in ways that flat screens cannot. Our [Objex collection](/3d-printing/objex) documents these experiments---each print testing what physical reproduction can reveal about scale, texture, and material presence.
-
-[See our pedagogy research →](/3d-printing/pedagogy)
-
-
-### Xanthan
-
-Our open-source web framework for humanities projects---built on Jekyll and GitHub Pages, designed to last decades rather than billing cycles. Xanthan is our answer to a persistent problem: scholars and students build digital work on platforms that charge fees, lock in content, and eventually disappear. We think the infrastructure should be as sustainable as the ideas it carries.
-
-Xanthan powers class project sites, research portfolios, ScrollStory essays, and community archives---all free to host, fully owned by their creators, and built to outlive any single platform.
+Xanthan is our open-source web framework for humanities projects, built from years of studio practice. It's free to host, requires no vendor lock-in, and is designed so that AI assistants can understand and modify it—making sophisticated web publishing accessible to scholars who've never written a line of code. Every site built on Xanthan is an experiment in what sustainable, scholar-owned digital work looks like.
 
 [Explore the Xanthan project →](/explore/xanthan)
 
 
+## The Objex collection
+
+A curated archive of 3D-scanned objects—historical artifacts, architectural details, museum pieces—built to support teaching and research. Each scan in the collection is an experiment in what digital reproduction can reveal about material culture: what you gain when you can rotate an object on screen, and what you still lose compared to holding it.
+
+[Browse Objex →](/explore/objex)
+
+
+## Student research
+
+The Amaranth Research Group brings undergraduates into live research questions at the intersection of humanities and emerging technology. Current projects include 3D printing for high school history classrooms, digitization of museum artifacts, campus food stories and oral history, and immersive technologies in museum interpretation.
+
+[Meet the research group →](/explore/arg)

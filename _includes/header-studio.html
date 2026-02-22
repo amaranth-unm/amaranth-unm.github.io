@@ -6,12 +6,16 @@
     tier:        hero | section | banner (default: hero)
                  Heights set in CSS: hero 100vh, section 45vh, banner 22vh
 
-    filter:      botanical | woodcut | etching | photo (default: photo)
+    filter:      botanical | sketch | woodcut | etching | photo (default: photo)
                  botanical = line-art engravings on white bg (invert + red tint + screen blend)
                              requires: dark lines on white or near-white background
-                 woodcut   = early modern prints on off-white/cream paper
-                             grayscale + red tint, no inversion; image reads as-is with
-                             a reddish cast over the dark background
+                 sketch    = thin/faint line drawings on white bg — like botanical but adds
+                             contrast() pre-boost to darken faint lines before inverting, so
+                             they emerge as vivid red rather than dim. Use when botanical
+                             produces lines that are barely visible.
+                 woodcut   = historical images with natural color preserved
+                             slight darken only, no color transformation; use for color
+                             manuscripts, illuminations, woodcuts with their own color
                  etching   = color photos → high-contrast silhouette + red tint
                              NOTE: produces bold shapes, not fine lines — different aesthetic
                              from botanical/woodcut; for photos needing line-art look, pre-

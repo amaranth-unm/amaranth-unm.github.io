@@ -3,6 +3,9 @@ title: Objex
 layout: base
 date: 2025-08-03
 header-image: images/com-print-done-cropped.jpg
+header-title: "Objects worth holding"
+header-tier: section
+header-filter: photo
 cards:
   - title: "Chalchiuhtlicue"
     image: "images/chalchiuhtlicue-temp.png"
@@ -35,8 +38,8 @@ cards:
     link: "filament"
 ---
 
-# Objex
+## What photographs miss
 
-We like to make stuff. The real fun is to experiment with how 3D printing can be used profitably in the classroom and how it can engage learners of all ages. Below are a few prints we've done for various experiments.
+Each object in this collection is an experiment in what 3D reproduction can reveal that images can't. Scale, texture, the weight of a thing in your hand, the way details read differently when you can rotate them—these are qualities photographs systematically remove. Objex documents what we've printed, what we learned from it, and what questions each object raised.
 
 {% include card-grid.html %}

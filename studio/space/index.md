@@ -5,13 +5,13 @@ author: Fred Gibbs
 date: 2025-01-01
 description: "Visit the Amaranth studio in Mesa Vista Hall at UNM. Open studio hours, equipment for 3D printing, audio recording, poster printing, and collaborative workspace for digital humanities projects."
 header-image: /assets/images/headers/cabinet.jpg
-header-title: Our Space
+header-title: "Where the work happens"
 header-tier: section
 header-filter: woodcut
 header-height: 60vh
 ---
 
-## A workshop, not a service desk
+## Mesa Vista Hall
 
 Amaranth lives in Mesa Vista Hall at UNM---a workspace where students, scholars, and community members come together to experiment with technology, design, and humanities storytelling. Whether you're printing a 3D model, editing a podcast, building a ScrollStory, or just thinking through a project idea, the studio is a place to try things, get feedback, and learn by doing.
 

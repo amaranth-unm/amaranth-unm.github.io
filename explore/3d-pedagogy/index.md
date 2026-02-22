@@ -3,10 +3,10 @@ title: Projects
 layout: base
 date: 2024-10-26
 description: "3D printing for humanities teaching and research. Architectural capitals, terrain maps, and artifact replicas that let students hold, compare, and learn from physical objects at UNM."
-header-image: terrain/images/low-tech-terrain.jpg
+header-image: /assets/images/headers/notre-dame-sliced.jpg
 header-tier: section
-header-title: 3D Pedagogy
-header-filter: etching
+header-title: "What you can't see in a photograph"
+header-filter: photo
 header-position: 20% 70%
 cards:
   - title: "Tactile Architecture"
@@ -22,10 +22,8 @@ cards:
   - title: "Objex"
     thumbnail: "/3d-printing/objex/images/com-print-done-cropped.jpg"
     summary: A growing collection of 3D scans and prints---each one an experiment in what physical reproduction can reveal about scale, texture, and material presence.
-    link: "/3d-printing/objex"
+    link: "/explore/objex"
 ---
-
-# 3D Pedagogy
 
 Images can show us what something looks like, but they can't tell us how it feels in our hands, how heavy it is, or how it compares in size to other objects. When studying material culture---artifacts, architecture, sculpture, terrain---the physical qualities of objects often matter as much as their appearance. A photograph of a medieval capital flattens its carved details; a map abstracts the landscape into lines and colors. 3D printed replicas restore some of what images remove: the ability to rotate an object, trace its contours, and place it alongside others for direct comparison.
 

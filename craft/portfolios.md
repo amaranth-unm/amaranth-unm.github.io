@@ -3,8 +3,10 @@ title: Portfolio Websites
 layout: base
 date: 2024-10-26
 description: "Build a professional academic portfolio you own and control. Free hosting on GitHub Pages, no subscriptions, no lock-in. Showcase your research, teaching, and digital projects permanently."
-header-image: /assets/images/headers/collaboration.jpg
-header-height: 60vh
+header-image: /assets/images/headers/wormiani.jpg
+header-filter: woodcut
+header-tier: section
+header-title: "Own your professional identity"
 
 cards:
   - title: Example 1
@@ -19,7 +21,7 @@ cards:
 
 ---
 
-# Own your professional identity
+## Don't build on borrowed ground.
 
 Your scholarly work shouldn't live on someone else's platform. When your professional presence is scattered across institutional pages, social media, and email, you're building on ground that can shift without warning---a university redesigns its faculty pages, a platform changes its policies, an account gets locked. A portfolio website that you own and control is different. It moves with you between institutions, costs nothing to maintain, and presents your work the way you want it seen.
 

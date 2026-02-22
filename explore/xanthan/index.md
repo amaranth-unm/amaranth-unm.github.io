@@ -8,6 +8,8 @@ header-filter: botanical
 header-title: "Built from practice"
 ---
 
+## Grown from studio practice
+
 Xanthan and Amaranth grew up together. The framework started as a personal project---a set of Jekyll templates assembled to solve the problems that kept appearing in studio work---but it's long since stopped being one person's project. Every course, every consultation, every student site built in the studio has fed back into the framework. And the framework has shaped how the studio works: what we can offer, what we teach, what kinds of projects are possible. At this point, neither would exist in its current form without the other.
 
 

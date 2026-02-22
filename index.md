@@ -1,36 +1,36 @@
 ---
-title: Amaranth Digtial Humanities Studio
+title: Amaranth Digtial Humanities Studio @ UNM
 layout: base
-description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio. We help students and faculty build websites, podcasts, oral histories, 3D prints, and interactive narratives using open-source tools."
+description: "Amaranth is UNM's Digital Humanit ies and Public Scholarship Studio. We help students and faculty build websites, podcasts, oral histories, 3D prints, and interactive narratives using open-source tools."
 header-image: /assets/images/headers/palmer-sandia.png
 header-filter: botanical
 header-height: 100vh
 header-eyebrow: "UNM // Digital Humanities Studio"
 header-title: Amaranth
-header-subtitle: "Expanding digital horizons in the humanities"
+header-subtitle: "Public Scholarship and AI Pedagogy"
 nav-below-hero: false
 date: 2024-12-02
 features:
   - title: "Own your work"
-    image: "/assets/images/site/websites.jpg"
+    image: "/assets/images/headers/philosophy.jpg"
     text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. Your colors, your typography, your layout---every site is different because the design decisions are yours."
     link: "craft"
     link-text: "Start building →"
 
   - title: "Medium &harr; message"
-    image: "/assets/images/site/storytelling.jpg"
+    image: "/assets/images/headers/storyboard.jpg"
     text: "An oral history argues through voice. A podcast argues through intimacy. A ScrollStory argues through pacing and image. The medium you choose shapes what your audience understands---we help you choose with intention."
     link: "narrate"
     link-text: "Find your medium →"
 
   - title: "Tactile thinking"
-    image: "/assets/images/site/capitals-together-small.jpg"
+    image: "/assets/images/headers/heavens.webp"
     text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
     link: "explore"
     link-text: "What we're investigating →"
 
   - title: "Let's work together"
-    image: "/assets/images/site/headphones.jpg"
+    image: "/assets/images/headers/collaboration.jpg"
     text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
     link: "collaborate"
     link-text: "Collaborate →"

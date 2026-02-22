@@ -4,10 +4,12 @@ title: Designing Posters
 date: 2025-02-01
 description: "Design and print academic posters at Amaranth. We help with visual hierarchy, typography, and layout—then print on our large-format HP DesignJet T630 in Mesa Vista Hall at UNM."
 header-image: /assets/images/headers/common-room-posters.jpg
-header-height: 60vh
+header-tier: section
+header-filter: photo
+header-title: "Why make a poster?"
 ---
 
-# Why make a poster?
+## The canvas is the argument.
 
 A poster forces you to do something that most academic writing avoids: communicate visually. When you have a fixed canvas---36 by 24 inches, say---you can't hide behind long paragraphs or exhaustive footnotes. You have to decide what matters most, how to say it clearly, and how to make someone walking by stop and look.
 
@@ -25,7 +27,7 @@ For more on why posters belong in humanities scholarship, see [Consider the Post
 %}
 
 
-# Some key design principles
+## Design is a decision, not decoration
 
 You don't need a design background to make a good poster. But a handful of core principles---borrowed from design thinking and adapted for humanities work---can transform a cluttered draft into something that actually communicates.
 
@@ -52,7 +54,7 @@ This is where most first-draft posters struggle---five different fonts, three di
 
 
 
-# Embrace the process
+## Embrace the process
 
 The best way to start is not in PowerPoint or Canva---where it's too easy to get locked in to whatever you dragged and dropped on the canvas---but on paper. Sketch a few rough layouts with boxes representing images and lines representing text. Experiemnt. Try your title at the top, then try it across the middle. Sketch out the visual hierarchy. See what happens when the main image takes up a quarter of the poster.
 

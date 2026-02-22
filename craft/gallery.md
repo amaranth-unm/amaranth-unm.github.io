@@ -3,6 +3,11 @@ layout: base
 title: Gallery
 date: 2026-01-30
 description: "Examples of student and faculty websites built with Amaranth and Xanthan at UNM. Collaborative class projects, portfolios, ScrollStories, and research sites."
+header-image: /assets/images/headers/gallery.webp
+header-tier: section
+header-filter: photo
+header-position: center 60%
+header-title: "Website Gallery"
 
 cards: 
   
@@ -43,7 +48,8 @@ cards:
 
 ---
 
-# Website Gallery
+## What gets built here
+
 We welcome collaboration of all kinds! Below are a few examples of websites we've helped get started with one of our [Xanthan templates](https://xanthan-web.github.io). This is just to showcase the variety of sites, projects, and collaborations underway. We hope you'll [get in touch](../collaborate) about your next digital project!
 
 

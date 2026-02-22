@@ -5,14 +5,13 @@ author: Fred Gibbs
 date: 2025-02-14
 description: "The Amaranth Research Group (ARG) is a crew of undergrads investigating topics at the intersection of humanities and technology and storytelling."
 header-image: /assets/images/headers/pirates.jpeg
-header-title: ARG!
+header-title: "Amaranth Research Group"
 header-tier: section
 header-filter: photo
 header-position: 0 80%
 ---
 
-
-# Amaranth Research Group
+## This semester’s investigations
 
 This semester’s independent study students are exploring how digital tools reshape storytelling, preservation, pedagogy, and public memory. Their projects reflect the heart of digital humanities: combining technical experimentation with human questions about culture, history, and experience.
 

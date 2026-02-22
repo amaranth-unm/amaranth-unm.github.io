@@ -3,18 +3,21 @@ title: Oral Histories
 layout: base
 date: 2025-11-07
 description: "A practical guide to oral history at UNM. Planning, interviewing, recording, ethics, and preservation—from the Amaranth Digital Humanities Studio."
-header-image: /assets/images/headers/oral-history-interview.jpg
-header-height: 60vh
+header-image: /assets/images/headers/oral-history.png
+header-tier: section
+header-filter: woodcut
+header-position: center 20%
+header-title: "More than an interview"
 ---
 
-# More than an interview
+## What written records miss
 
 An oral history is a relationship between narrator and listener. Done well, it preserves not just what someone said, but how they said it---the pauses, the laughter, the moments where language fails. It captures knowledge that written records miss: lived experience, community memory, the stories people carry but rarely write down.
 
 The work starts long before you press record. It begins with trust, preparation, and a clear sense of why this story matters and who it's for. The guidelines below, adapted from the [Oral History Association](https://oralhistory.org/), walk through the process from planning to ethics.
 
 
-## Plan the purpose and scope
+## The relationship comes first
 Before you interview anyone, get clear on what you're doing and why. What will this project document---a person, a community, an event, a place? Who is the audience? How will the material be used and preserved? Check whether similar collections already exist, and consider how your project might add voices that aren't yet heard.
 
 

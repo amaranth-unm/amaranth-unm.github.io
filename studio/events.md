@@ -6,6 +6,7 @@ header-image: /assets/images/headers/common-room-posters.jpg
 header-title: Events
 header-tier: section
 header-filter: photo
+header-position: center 60%
 ---
 
 {% assign events = site.data.events %}

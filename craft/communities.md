@@ -4,7 +4,9 @@ layout: base
 date: 2024-10-26
 description: "Keep workshop and conference scholarship alive online. Amaranth builds free, permanent websites for academic communities and working groups using open-source tools."
 header-image: /assets/images/headers/workshop.jpg
-header-height: 60vh
+header-tier: section
+header-filter: woodcut
+header-title: "Keep the conversation alive"
 
 cards:
   - title: Histories of the Future
@@ -13,7 +15,7 @@ cards:
     link: http://histscifi.com
 ---
 
-# Keep the conversation alive
+## Scholarship shouldn't evaporate.
 
 You've organized an important workshop that gathers leading scholars of your field. Everyone contributes forward-thinking pieces on future research directions. The conference ends, participants go their own way---and the intellectual work it produced largely vanishes. Sound familiar?
 

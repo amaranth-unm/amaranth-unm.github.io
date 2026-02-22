@@ -5,16 +5,15 @@ author: Fred Gibbs
 date: 2024-10-28
 description: "Work with Amaranth on digital humanities projects at UNM. Drop by studio hours, book a consultation, or email us about class projects, grant work, or public-facing research."
 header-image: /assets/images/headers/collaboration.jpg
-header-title: Collaborate
+header-title: "Let's work together"
 header-tier: section
 header-filter: photo
 ---
 
-# Let's work together
+## Vague notions encouraged
+The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of a aesthetic, or a project you're not sure is even possible. We want to understand what you're trying to do and who you're trying to reach and brainstorm some possibilities.
 
-Whether you're a teacher looking for a digital home for a class project, a student bringing a course assignment to life, or a researcher building something new---we can help you move from idea to reality.
-
-Please email us at <amaranth@unm.edu> with questions or suggestions.
+Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, or a researcher showcasing your latest work, we can help you move from idea to reality. Reach us at <amaranth@unm.edu>.
 
 
 ## Drop by studio hours (Spring 2026)
@@ -23,8 +22,7 @@ Please email us at <amaranth@unm.edu> with questions or suggestions.
 
 
 ## Book time in the Studio
-
-Our preferred method for scheduling is to use our [bookings page](https://outlook.office.com/book/HistoryAmaranth@unmm.onmicrosoft.com/?ismsaljsauthenabled). This page is managed through UNM's Microsoft Teams, and it helps us keep our calendar organized, especially during crunch times of the semester. Please describe as much as you can what you're interested in discussing or doing so we can be most prepared to help.
+If you're more of a scheduler, use our [bookings page](https://outlook.office.com/book/HistoryAmaranth@unmm.onmicrosoft.com/?ismsaljsauthenabled). This also helps ensure you get dedicated attention, especially during crunch times of the semester. Please describe as much as you can what you're interested in discussing or doing so we can be most prepared to help.
 
 
 ## Grant projects and public-facing research

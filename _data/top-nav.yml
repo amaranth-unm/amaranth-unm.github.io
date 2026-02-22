@@ -22,13 +22,13 @@
       url: "/explore/3d-pedagogy"
     - title: "AI Pedagogy"
       url: "/explore/ai-pedagogy"
-    - title: "ARG!"
+    - title: "Research Group"
       url: "/explore/arg"
 
 
 - title: "Craft"
   items:
-    - title: "Philosophy"
+    - title: "Approach"
       url: "/craft"
     - title: "Class Projects"
       url: "/craft/class-projects"

@@ -3,8 +3,10 @@ title: Collaborative Class Projects
 layout: base
 date: 2024-10-26
 description: "Turn course assignments into public scholarship. Amaranth helps UNM instructors build collaborative class websites where student work lives on the open web—free, durable, and built to last."
-header-image: /assets/images/headers/collaboration.jpg
-header-height: 60vh
+header-image: /assets/images/headers/oil-painting.jpg
+header-tier: section
+header-filter: woodcut
+header-title: "When student work becomes public scholarship"
 
 cards:
   - title: Campus Histories
@@ -23,7 +25,7 @@ cards:
     link: https://historic-trails.unm.edu/
 ---
 
-# When student work becomes public scholarship
+## The audience is real.
 
 A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web---visible to future students, to communities, to anyone searching for the topic. Each contribution is small, but together they create something no one person could build alone.
 
