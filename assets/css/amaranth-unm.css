@@ -1294,6 +1294,9 @@ Typography-forward dark header with line grid + cherry bar
   .header-studio-content {
     padding: 2rem 1.5rem;
   }
+  .header-studio--section {
+    height: 30vh;
+  }
   .header-studio--section .header-studio-content {
     padding: 1.5rem 1.5rem;
     margin-left: 1rem;
@@ -1435,6 +1438,11 @@ RESPONSIVE
     float: none !important;
     margin: 0 auto 2rem auto !important;
     padding: 0 !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   .carousel { max-width: 95%; }
