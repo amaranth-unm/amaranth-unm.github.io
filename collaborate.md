@@ -11,14 +11,18 @@ header-filter: photo
 ---
 
 ## Vague notions encouraged
-The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of a aesthetic, or a project you're not sure is even possible. We want to understand what you're trying to do and who you're trying to reach and brainstorm some possibilities.
+The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of an aesthetic, or a project you're not sure is even possible. We want to help brainstorm possibilities from the outset!
 
-Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, or a researcher showcasing your latest work, we can help you move from idea to reality. Reach us at <amaranth@unm.edu>.
+Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, or a researcher showcasing your latest work, we can help you move from idea to reality.
 
-
-## Drop by studio hours (Spring 2026)
-- Tuesdays & Thursdays: 9:30--11:00 and 12:30--2:00
-- Wednesdays: 10:00--12:00
+{% include alert.html
+  class="studio-hours"
+  title="Studio Hours (Spring 2026)"
+  text="
+  - **Tuesdays & Thursdays:** 9:30--11:00 and 12:30--2:00
+  - **Wednesdays:** 10:00--12:00
+  - **Email anytime:** [amaranth@unm.edu](mailto:amaranth@unm.edu)"
+%}
 
 
 ## Book time in the Studio

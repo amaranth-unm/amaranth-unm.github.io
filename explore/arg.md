@@ -1,19 +1,21 @@
 ---
 layout: base
-title: Amaranth Reearch Group
+title: Amaranth Research Group 
 author: Fred Gibbs
 date: 2025-02-14
 description: "The Amaranth Research Group (ARG) is a crew of undergrads investigating topics at the intersection of humanities and technology and storytelling."
 header-image: /assets/images/headers/pirates.jpeg
-header-title: "Amaranth Research Group"
+header-title: ARRRG!
 header-tier: section
 header-filter: photo
 header-position: 0 80%
 ---
 
-## This semester’s investigations
+## Amaranth Really Robust Reserach Group (ARRRG!)
 
 This semester’s independent study students are exploring how digital tools reshape storytelling, preservation, pedagogy, and public memory. Their projects reflect the heart of digital humanities: combining technical experimentation with human questions about culture, history, and experience.
+
+Together, these projects demonstrate a constellation of practices common to digital humanities. From fabrication to scanning, storytelling to immersive analysis, these students are building bridges between technology and the deeply human work of meaning-making.
 
 ---
 
@@ -37,16 +39,6 @@ This work contributes to digital humanities by strengthening the infrastructure 
 
 ---
 
-## Grace Tomallo & Dillon Taylor
-
-**Campus Food Stories and Memory**
-
-Grace and Dillon are collecting food stories from across campus to understand how personal food memories shape identity, belonging, and community.
-
-Their project sits at the intersection of oral history and digital storytelling. By gathering narrative data and curating it for public engagement, they demonstrate how digital humanities methods amplify everyday experiences. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work transforms personal memory into shared cultural knowledge.
-
----
-
 ## Eli Salway
 
 **Museums and Immersive Digital Technologies**
@@ -57,4 +49,14 @@ Digital humanities thrives on critical engagement with tools, not just adoption.
 
 ---
 
-Together, these projects demonstrate that digital humanities is not a single method but a constellation of practices. From fabrication to scanning, storytelling to immersive analysis, these students are building bridges between technology and the deeply human work of meaning-making.
+## Grace Tomallo & Dillon Taylor
+
+**Campus Food Stories and Memory**
+
+Grace and Dillon are collecting food stories from across campus to understand how personal food memories shape identity, belonging, and community.
+
+Their project sits at the intersection of oral history and digital storytelling. By gathering narrative data and curating it for public engagement, they demonstrate how digital humanities methods amplify everyday experiences. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work transforms personal memory into shared cultural knowledge.
+
+---
+
+

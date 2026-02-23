@@ -36,19 +36,9 @@ features:
     link-text: "Collaborate →"
 ---
 
-# A new digital humanities
+# We help you make things that matter
 
-Amaranth is a digital humanities studio at the University of New Mexico. We love technology, but we point tools toward storytelling, immersion, pedagogy, and forms of expression that carry scholarship into the world and keep it relevant.
-
-## Communication over computation
-
-Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis. This important work not only pushed methodological boundaries, but invited new questions and perspectives across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
-
-## Expanding horizons
-
-Now AI is dissolving technical barriers that have separated scholars and publics. The gap between having a story to tell or an experience to share and building something real---a scroll-driven narrative, an interactive map or archive, an augmented reality app, or a website you actually own---continues to narrow. These forms shape how scholarship reaches people, and for the first time, the scholars themselves can be in the driver's seat.
-
-At Amaranth, we want to guide and accelerate these possibilities using technology as a means to an end: to share stories that resonate.
+Amaranth is UNM's digital humanities studio. We support students and faculty in building websites, oral histories, digital exhibits, and interactive narratives that carry scholarship into the world. You own your work, choose your medium intentionally, and communicate ideas that resonate with real audiences---not just other academics.
 
 
 {% include feature-blocks.html title="" %}

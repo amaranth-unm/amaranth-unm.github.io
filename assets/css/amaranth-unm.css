@@ -55,7 +55,7 @@ BASE
 *****************************************************/
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { font-size: 15px; scroll-behavior: smooth; }
+html { font-size: 16px; scroll-behavior: smooth; }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -127,7 +127,7 @@ h6 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;  /* base size - no bump */
   color: var(--text-secondary);
   margin-bottom: 1rem;
 }
@@ -359,6 +359,7 @@ a {
   color: var(--amaranth-pink);
   text-decoration: none;
   transition: var(--transition);
+  font-size: inherit;  /* explicitly inherit to maintain context size */
 }
 
 a:hover {
@@ -890,8 +891,8 @@ blockquote {
 /*****************************************************
 LISTS
 *****************************************************/
-ul, ol { margin-left: 1.5rem; margin-bottom: 1.5rem; font-size: inherit; }
-li { color: var(--text-secondary); margin-bottom: 0.5rem; }
+ul, ol { margin-left: 1.5rem; margin-bottom: 1.5rem; font-size: 1rem; }
+li { color: var(--text-secondary); margin-bottom: 0.5rem; font-size: 1rem; }
 
 
 /*****************************************************
@@ -1054,7 +1055,7 @@ Typography-forward dark header with line grid + cherry bar
 
 .header-studio h1 {
   font-family: 'IM Fell English', serif !important;
-  font-size: clamp(4rem, 9vw, 6.5rem) !important;
+  font-size: clamp(4.8rem, 10.8vw, 7.8rem) !important;
   font-weight: 400 !important;
   color: white !important;
   line-height: 1.0;
@@ -1108,12 +1109,12 @@ Typography-forward dark header with line grid + cherry bar
 .header-studio--section .header-studio-content {
   margin-left: 2rem;
   padding: 2rem 3rem;
-  max-width: 580px;
+  max-width: 40%;
   border-left-width: 2px;
 }
 
 .header-studio--section h1 {
-  font-size: clamp(1.5rem, 3.2vw, 2.4rem) !important;
+  font-size: clamp(3.5rem, 3.2vw, 2.4rem) !important;
   margin-bottom: 0 !important;
   margin-top: 0 !important;
   text-shadow:
@@ -1295,7 +1296,7 @@ Typography-forward dark header with line grid + cherry bar
     padding: 2rem 1.5rem;
   }
   .header-studio--section {
-    height: 30vh;
+    height: 30vh !important;
   }
   .header-studio--section .header-studio-content {
     padding: 1.5rem 1.5rem;
@@ -1317,7 +1318,7 @@ Usage: <p class="section-link-bar"><a href="...">text →</a></p>
   border-left: 3px solid rgba(186, 12, 47, 0.55);
   padding-left: 1rem;
   margin-top: 0.75rem;
-  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
   color: var(--text-secondary);
 }
 
@@ -1435,6 +1436,7 @@ RESPONSIVE
 
   figure, figure.left, figure.right {
     width: 100% !important;
+    max-width: 100% !important;
     float: none !important;
     margin: 0 auto 2rem auto !important;
     padding: 0 !important;
@@ -1462,4 +1464,92 @@ RESPONSIVE
   .event-entry { grid-template-columns: 3.5rem 1fr; gap: 0 1.5rem; }
   .event-day { font-size: 2rem; }
   .event-title { font-size: clamp(1.1rem, 4vw, 1.35rem); }
+}
+
+
+/*****************************************************
+ALERTS & CALLOUTS
+*****************************************************/
+
+/* Studio Hours Callout — Amaranth-themed with gradient */
+.alert-studio-hours {
+  position: relative;
+  padding: 2rem 2rem 2rem 2.5rem;
+  margin: 2.5rem 0;
+  border-left: 6px solid var(--amaranth-red);
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg,
+    rgba(229, 43, 80, 0.12) 0%,      /* amaranth base, subtle */
+    rgba(186, 12, 47, 0.15) 50%,     /* UNM cherry */
+    rgba(159, 43, 104, 0.12) 100%    /* amaranth purple */
+  );
+  box-shadow: var(--shadow-md);
+}
+
+.alert-studio-hours .alert-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--unm-cherry);  /* bold UNM red, distinct from page h2s (amaranth-bright) */
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.alert-studio-hours p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--amaranth-pink);  /* soft warm pink for readability on gradient */
+  margin-bottom: 0.5rem;
+}
+
+.alert-studio-hours ul {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.alert-studio-hours li {
+  font-size: 1.15rem;
+  line-height: 2;
+  color: var(--amaranth-pink);  /* matches paragraph text */
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.alert-studio-hours li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--amaranth-pink);
+  font-weight: bold;
+}
+
+.alert-studio-hours a {
+  color: var(--unm-turquoise-light);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: var(--transition);
+}
+
+.alert-studio-hours a:hover {
+  color: var(--amaranth-pink);
+  text-decoration-color: var(--amaranth-pink);
+}
+
+@media (max-width: 768px) {
+  .alert-studio-hours {
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    border-left-width: 4px;
+  }
+
+  .alert-studio-hours .alert-heading {
+    font-size: 1.3rem;
+  }
+
+  .alert-studio-hours p,
+  .alert-studio-hours li {
+    font-size: 1rem;
+  }
 }

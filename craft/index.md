@@ -31,17 +31,21 @@ Every site we build runs on [Xanthan](https://xanthan-web.github.io), our open-s
 - **[Communities](communities)** — Websites for organizations, archives, and groups who need a durable digital presence they actually own.
 - **[Gallery](gallery)** — See what others have built.
 
+<p class="section-link-bar"><a href="/websites">Explore website options and get started →</a></p>
+
 
 ## Posters
 
 A well-designed poster distills complex research into a visual argument that works at a glance. We help with design thinking—hierarchy, typography, visual rhythm—and provide large-format printing on our HP DesignJet T630.
 
-[Learn about poster design →](/craft/posters)
+<p class="section-link-bar"><a href="/craft/posters">Learn about poster design →</a></p>
 
 
 ## 3D Prints
 
-Need to print a model for a class, a presentation, or an experiment? Our [printing guides](/craft/3d-printing) walk you through the process from finding a model to pulling it off the printer. If you're interested in the research side of 3D printing in the humanities, see [Explore](/explore).
+Need to print a model for a class, a presentation, or an experiment? If you're interested in the research side of 3D printing in the humanities, see [Explore](/explore).
+
+<p class="section-link-bar"><a href="/craft/3d-printing">Get started with 3D printing →</a></p>
 
 
 ## Getting started

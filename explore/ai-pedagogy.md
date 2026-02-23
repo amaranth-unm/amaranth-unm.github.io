@@ -18,13 +18,9 @@ Artificial intelligence is reshaping how knowledge is made, organized, and inter
 Which means humanists aren't on the outside of this moment looking in. They're in the middle of it, with tools that matter.
 
 
-## Why undergraduates
+## AI changes what's possible 
+Amaranth's approach to web development through [Xanthan](https://xanthan-web.github.io), its open-source website framework, is built around a specific insight: AI assistants work best when they have clearly structured, well-documented materials to work with. Xanthan uses named variables, modular components, and plain-language configuration so that users can direct AI to make sophisticated changes to their sites without writing code themselves. This isn't about replacing expertise---it's about redistributing creative control. The person with the intellectual vision should be able to shape the final product, even if they've never written a line of CSS.
 
-Most conversations about AI in higher education focus on faculty research—how scholars can use AI to analyze large text corpora, generate hypotheses, or accelerate workflows. Or they focus on a defensive question: how do we detect whether students used AI to cheat?
-
-Both framings miss something important. Undergraduate students are already using AI in everything they do. The question isn't whether to engage with that reality—it's whether to engage thoughtfully. Students who move through four years of college using AI as a shortcut, without frameworks for evaluating what it tells them or understanding how it constructs knowledge, leave less equipped for intellectual and democratic life than they should be.
-
-Amaranth focuses on undergraduates precisely because they're where the intervention matters most—not to police AI use, but to make it more conscious, more critical, and more powerful.
 
 
 ## Humanities skills are AI skills
@@ -34,9 +30,9 @@ The ability to evaluate a source isn't just a humanities habit. It's exactly wha
 Humanistic AI fluency isn't a supplement to technical AI literacy. It's a different kind of capability entirely—and one that most STEM-centered AI education doesn't address. We think undergraduates deserve both.
 
 
-## How we work
+## How we work with AI
 
-Amaranth approaches AI in the classroom through open, transparent engagement. Rather than hiding AI use, we model responsible engagement in public:
+Amaranth approaches AI in the studio and classrooms through open, transparent engagement. Rather than hiding AI use, we model responsible engagement in public:
 
 - Students document their workflows—prompts, revisions, interpretive decisions—not as a compliance exercise, but as a reflective one. Documenting your process forces you to understand it.
 - We build with open-source tools and public platforms, so the work is visible and the decisions are legible.
@@ -49,8 +45,6 @@ One of the most productive questions we ask is: *what did sharing this work forc
 ## Humanities for AI
 
 Amaranth also contributes to broader campus conversations about artificial intelligence—not as advocates for any particular technology, but as people with expertise in how knowledge gets made, interpreted, and contested. The humanities have something specific to say about data, representation, and the cultural assumptions embedded in AI systems. We're interested in saying it—in faculty governance, curriculum design, and community engagement.
-
-We're not trying to slow AI down. We're trying to ensure that humanistic thinking has a seat at the table while the decisions are still being made.
 
 
 ## An ongoing investigation

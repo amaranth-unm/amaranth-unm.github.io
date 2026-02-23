@@ -12,12 +12,9 @@ header-height: 60vh
 ---
 
 ## A workshop, not a service desk
+Amaranth is a studio in the original sense: a place where you come to learn, experiment, and make things---not to have things made for you. We don't write code or build websites that you'll never understand. We work alongside you, teaching the thinking behind technical and design decisions. When you leave, your comfort is a little higher and boundaries a litter further than they were. 
 
-Amaranth is a studio in the original sense: a place where you come to make things, not to have things made for you. We don't run code for scholars or build websites they'll never understand. We work alongside you, teaching the thinking behind every technical and design decision—so when the project is done, you know something you didn't know before.
-
-One of our graduate students described it as the pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw.
-
-This shapes everything we offer. The goal is always fluency, not just product. A humanist who understands *why* they made a particular design or technical choice is a stronger scholar than one who outsourced those decisions. We're building that understanding, one project at a time.
+We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* they made a particular design or technical choice is a stronger scholar than one who outsourced those decisions. We're building that understanding, one session at a time.
 
 
 ## What we do

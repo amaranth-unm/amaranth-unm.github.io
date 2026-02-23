@@ -23,8 +23,6 @@ The word comes from the Greek *amarantos* (ἀμάραντος), meaning "unfadi
 There's a playful irony in naming a digital humanities studio after a symbol of permanence. Digital technology is notorious for its rapid obsolescence---file formats become unreadable, platforms disappear, links rot, and today's cutting-edge tool becomes tomorrow's abandoned project. We hope our work with open source tools and sustainable processes lengthens the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than the ancient flower ever did.
 
 
-## A Flower That Never Fades
-
 {% include scrollybox/bg.html
   height="220"
   image-path="images/aesop-rose-amaranth.jpg"
