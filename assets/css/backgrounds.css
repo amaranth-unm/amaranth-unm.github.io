@@ -143,3 +143,19 @@ BACKGROUNDS — Parallax & Scrolling Layouts
 }
 
 .ss-image { width: 100%; }
+
+
+/*****************************************************
+MOBILE — Scrollybox responsive overrides
+*****************************************************/
+@media (max-width: 768px) {
+
+  /* Widen text boxes and reduce font — the scroll behavior works as-is. */
+  .bg-text-box {
+    width: 90% !important;
+    font-size: 0.95rem;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 100vh;
+  }
+
+}
