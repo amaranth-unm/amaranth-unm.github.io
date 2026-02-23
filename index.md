@@ -12,19 +12,20 @@ nav-below-hero: false
 date: 2024-12-02
 features:
   - title: "Own your work"
-    image: "/assets/images/headers/letterforms.webp"
+    image: "/assets/images/headers/press.webp"
+    filter: "woodcut"
     text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. Your colors, your typography, your layout---every site is different because the design decisions are yours."
     link: "craft"
     link-text: "Start building →"
 
   - title: "Medium &harr; message"
-    image: "/assets/images/headers/storyboard.jpg"
+    image: "/assets/images/headers/scroll-journey.jpg"
     text: "An oral history argues through voice. A podcast argues through intimacy. A ScrollStory argues through pacing and image. The medium you choose shapes what your audience understands---we help you choose with intention."
     link: "narrate"
     link-text: "Find your medium →"
 
   - title: "Tactile thinking"
-    image: "/assets/images/headers/notre-dame-side-2.jpg"
+    image: "/assets/images/headers/margarita.jpg"
     text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
     link: "explore"
     link-text: "What we're investigating →"

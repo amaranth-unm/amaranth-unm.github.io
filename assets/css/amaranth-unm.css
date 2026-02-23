@@ -226,12 +226,16 @@ LAYOUT
   border-radius: var(--radius-lg);
 }
 
+/* Woodcut filter — subtle warmth for European woodcuts */
+.feature-block-image img.filter-woodcut {
+  filter: sepia(0.2);
+}
+
 .feature-block-text {
   flex: 1;
 }
 
 .feature-block-text h2 {
-  font-family: 'Space Mono', monospace;
   font-size: clamp(1.5rem, 2.2vw, 1.6rem);
   text-transform: uppercase;
   font-weight: 700;

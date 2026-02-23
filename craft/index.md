@@ -3,12 +3,12 @@ title: Craft
 layout: base
 date: 2024-10-26
 description: "Build websites, posters, and 3D prints with Amaranth at UNM. Every design choice is an argument—we help scholars and students craft digital work using open-source tools they actually own."
-header-image: /assets/images/headers/philosophy.jpg
+header-image: /assets/images/headers/margarita.jpg
 header-title: "Making is thinking"
 header-tier: section
 header-filter: photo
-header-zoom: 130%
-header-position: center center
+header-zoom: 110%
+header-position: 50% 35%
 ---
 
 ## Every design choice is an argument
