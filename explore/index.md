@@ -24,7 +24,7 @@ The most urgent question in our field isn't "how do we use AI?" It's something h
 
 At Amaranth, we're investigating what it looks like to put undergraduates—not just faculty researchers—at the center of this work. We're asking how the act of sharing your scholarship publicly changes the precision and ambition of your thinking. And we're building open, transparent workflows that model accountable engagement with AI rather than hiding it.
 
-[AI pedagogy at Amaranth →](/explore/ai-pedagogy)
+<p class="section-link-bar"><a href="/explore/ai-pedagogy">AI pedagogy at Amaranth →</a></p>
 
 
 ## 3D Pedagogy
@@ -33,7 +33,7 @@ What changes when students can hold a 3D-printed architectural capital instead o
 
 We're investigating how 3D fabrication changes learning and research in the humanities—how physical objects restore scale, texture, and direct comparison to inquiry that photographs can't. Our projects range from printing Romanesque and Gothic capitals for art history courses to creating terrain models that make geographic relationships tangible in ways no image can.
 
-[See our 3D pedagogy research →](/explore/3d-pedagogy)
+<p class="section-link-bar"><a href="/explore/3d-pedagogy">See our 3D pedagogy research →</a></p>
 
 
 ## Open scholarship and the Xanthan framework
@@ -42,18 +42,18 @@ Open scholarship isn't just a publishing preference. In an AI era, it changes th
 
 Xanthan is our open-source web framework for humanities projects, built from years of studio practice. It's free to host, requires no vendor lock-in, and is designed so that AI assistants can understand and modify it—making sophisticated web publishing accessible to scholars who've never written a line of code. Every site built on Xanthan is an experiment in what sustainable, scholar-owned digital work looks like.
 
-[Explore the Xanthan project →](/explore/xanthan)
+<p class="section-link-bar"><a href="/explore/xanthan">Explore the Xanthan project →</a></p>
 
 
 ## The Objex collection
 
 A curated archive of 3D-scanned objects—historical artifacts, architectural details, museum pieces—built to support teaching and research. Each scan in the collection is an experiment in what digital reproduction can reveal about material culture: what you gain when you can rotate an object on screen, and what you still lose compared to holding it.
 
-[Browse Objex →](/explore/objex)
+<p class="section-link-bar"><a href="/explore/objex">Browse Objex →</a></p>
 
 
 ## Student research
 
 The Amaranth Research Group brings undergraduates into live research questions at the intersection of humanities and emerging technology. Current projects include 3D printing for high school history classrooms, digitization of museum artifacts, campus food stories and oral history, and immersive technologies in museum interpretation.
 
-[Meet the research group →](/explore/arg)
+<p class="section-link-bar"><a href="/explore/arg">Meet the research group →</a></p>
