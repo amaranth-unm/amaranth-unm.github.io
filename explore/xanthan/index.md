@@ -1,34 +1,32 @@
 ---
 layout: base
 title: Xanthan
-description: "Xanthan is Amaranth's open-source Jekyll framework for academic websites. Free hosting, no vendor lock-in, AI-friendly design. Built from years of studio practice at UNM."
+description: "Xanthan is Amaranth's open-source Jekyll framework for academic websites. Free hosting, no vendor lock-in, AI-friendly design. Built from years of classroom use at UNM."
 header-image: /assets/images/headers/xanthan-bw.png
 header-tier: section
 header-filter: botanical
-header-title: "Built from practice"
+header-title: Build for stability and growth
 ---
 
 ## Grown from studio practice
 
-Xanthan and Amaranth grew up together. The framework started as a personal project---a set of Jekyll templates assembled to solve the problems that kept appearing in studio work---but it's long since stopped being one person's project. Every course, every consultation, every student site built in the studio has fed back into the framework. And the framework has shaped how the studio works: what we can offer, what we teach, what kinds of projects are possible. At this point, neither would exist in its current form without the other.
+Xanthan and Amaranth grew up together. The framework started as a personal experiment---whether GitHub could be used to create a shared repository for course work. That grew into a collaborative website. That grew into a framework for easily making websites. And it continues to evolve. Every course, every consultation, every student site built in the studio has fed back into the framework. And Xanthan itself has shaped how the studio works: what we can offer, what we teach, what kinds of projects are possible. 
 
 
-## A refusal of the standard bargain
+## A new kind of web publishing
 
-Most academic web publishing advice amounts to picking the least-bad platform. Squarespace if you want it to look decent. WordPress if you want flexibility. Institutional systems if you want to comply. The implicit promise is that you trade control for convenience---and when the platform changes its terms, updates its look, or sunsets your plan, you adapt.
+Most academic web publishing advice amounts to picking the least-bad platform. Squarespace if you want it to look decent. WordPress if you want flexibility. Institutional systems if you want to comply. The implicit promise is that you trade control and transparency for convenience---and when the platform changes, you adapt or walk away.
 
-Xanthan started as a refusal of that bargain. It's built on Jekyll and GitHub Pages: open source, free to host, no vendor lock-in, no subscription. Sites are plain-text files in a version-controlled repository. The infrastructure is as durable as the open web itself, which is the most durable thing we have.
+Xanthan priorities openeness and pedagogy. It's built on Jekyll and GitHub Pages: open source, free to host, no vendor lock-in, no subscription. Sites are plain-text files in a version-controlled repository. The infrastructure is as durable as the open web itself.
 
-That's not just a technical preference. It's an argument about what digital humanities work should be able to promise its audiences---that a site built today won't disappear behind a paywall next year, that a student portfolio will still exist when the student needs it, that a class archive will outlast the grant that funded it.
+That's not just a technical preference. It's an argument about what digital humanities work should be able to promise its audiences---that a site built today won't disappear after a security path, or move behind a higher paywall or that changing platforms means starting over with your content.
 
 
-## Why we keep improving it
+## Iterative improvement
 
-Every semester teaches us something a clean-room design process wouldn't. A student discovers that changing a font requires editing a file she's never seen. A professor needs to embed a map and the documentation doesn't cover it. A scroll narrative looks perfect on a laptop and breaks on a phone.
+Every project helps us clarify and improve. A student discovers that changing a font requires editing a file she's never seen. A professor needs to embed a map and the documentation doesn't cover it. A scroll narrative looks perfect on a laptop and breaks on a phone.
 
-These aren't failures---they're data. The framework is a record of everything we've learned about what academic web publishing actually requires, accumulated through real projects with real stakes.
-
-The newest frontier is AI legibility. We've been deliberately designing Xanthan so that AI assistants can understand and modify it precisely: semantic CSS variable names, modular components with documented parameters, YAML configuration instead of buried settings. That design decision reflects a broader claim about where humanities web publishing is headed---toward a model where the scholar holds editorial authority and AI handles technical translation, rather than the other way around.
+These aren't failures---they're teaching moments. The framework is a record of everything we've learned about what a useful platform actually requires, accumulated through real projects with real stakes.
 
 
 ## What Xanthan offers
@@ -37,8 +35,11 @@ Four templates (Portfolio, Class Project, ScrollStory, and a full-featured versi
 
 The documentation is at [xanthan-web.github.io](https://xanthan-web.github.io)---written for people who are new to these tools, with AI-assisted workflows throughout.
 
+The newest frontier is AI legibility. We've been deliberately designing Xanthan so that AI assistants can understand and modify it precisely: semantic CSS variable names, modular components with documented parameters, YAML configuration instead of buried settings. That design decision reflects a broader claim about where humanities web publishing is headed---toward a model where the scholar holds editorial authority and AI handles technical translation, rather than the other way around.
 
-## Built here
+
+
+## Built with Xanthan
 
 {::nomarkdown}
 </div>
