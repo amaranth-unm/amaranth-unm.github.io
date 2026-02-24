@@ -154,6 +154,14 @@ body > .container {
   max-width: 52rem;
 }
 
+/* Homepage intro paragraphs — larger lead text.
+   Targets the intro container specifically: it's the only .container
+   that has .showcase-strip as a subsequent sibling. */
+.container:has(~ .showcase-strip) p {
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
 /* Hero tier: flex centering in viewport */
 .header-studio--hero {
   display: flex;
@@ -225,17 +233,14 @@ body > .container {
 
 .feature-block-image {
   flex: 0 0 45%;
-}
-
-.feature-block-image img {
-  width: 100%;
   height: 280px;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   border-radius: var(--radius-lg);
 }
 
 /* Woodcut filter — subtle warmth for European woodcuts */
-.feature-block-image img.filter-woodcut {
+.feature-block-image.filter-woodcut {
   filter: sepia(0.2);
 }
 

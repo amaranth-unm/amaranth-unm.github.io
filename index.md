@@ -17,6 +17,8 @@ features:
     text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. Your colors, your typography, your layout---every site is different because the design decisions are yours."
     link: "craft"
     link-text: "Start building →"
+    zoom: 110%
+
 
   - title: "Medium &harr; message"
     image: "/assets/images/headers/scroll-journey.jpg"
@@ -29,6 +31,7 @@ features:
     text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
     link: "explore"
     link-text: "What we're investigating →"
+    zoom: 110%
 
   - title: "Let's work together"
     image: "/assets/images/headers/collaboration.jpg"
@@ -37,13 +40,13 @@ features:
     link-text: "Collaborate →"
 ---
 
-# We help you make things that matter
+# Keep the humanities vibrant
 
-Amaranth is UNM's digital humanities studio. We support students and faculty in building websites, oral histories, digital exhibits, and interactive narratives that carry scholarship into the world. You own your work, choose your medium intentionally, and communicate ideas that resonate with a broad audiences. We have slightly different [digital humanities priorities](studio/digital-humanities).
+Amaranth is UNM's digital humanities studio. **We focus on helping scholars and students use technology to *communicate* the significance of their work** reaaching broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure they control. Public scholarship and digital pedagogy isn't an add-on. It's the point. [Read how Amaranth fits into the digital humanities →](studio/digital-humanities)
 
-At Amaranth, [AI is both a building tool and a subject of inquiry](explore/ai-pedagogy). We use it to help scholars and students produce work faster than ever---lowering the technical barrier so ideas can take center stage. And we help people understand what AI actually does, what it gets wrong, and how to work with it in ways that keep human judgment in the driver's seat.
+**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical analysis---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through an iterative AI workflow, starting with technical work where feedback is immediate, building fluency that transfers into research, writing, and teaching. [How we approach AI pedagogy →](explore/ai-pedagogy)
 
-[There's also a reason we're called Amaranth](studio/why-amaranth). In Greek, *amarantos* means "unfading"---and the plant itself ranges from sacred grain to agricultural superweed depending on who's growing it and why. Both qualities inform what we do: a commitment to building things that last, and a belief that digital humanities is stronger when it grows in many directions at once.
+**We're practitioners, not evangelists.** We test tools in real classrooms and real projects, share what we learn honestly, and build on open-source infrastructure with stability at its core. This is a coaching studio, not a service desk---we work alongside you, teaching the thinking behind decisions so you can carry the work forward and keep learning. [Read more about our studio ethos →](studio)
 
 
 {% include feature-blocks.html title="" %}

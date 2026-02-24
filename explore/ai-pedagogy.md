@@ -69,4 +69,4 @@ That shift opens up digital humanities to a much wider community of practitioner
 
 Our work with AI isn't settled. We're learning semester by semester, project by project, constantly adjusting what we teach and how we guide people through these workflows. We document what we're discovering—what works, what doesn't, where the boundaries are—and share it as we go.
 
-If you're working with AI in your teaching, your research, or your digital projects and want to compare notes, [reach out](/collaborate). This is the right moment to be figuring it out together.
+If you're working with AI in your teaching, your research, or your digital projects and want to compare notes, [reach out](/collaborate). We all need to figure this out together.

@@ -11,8 +11,9 @@
 
     {% for feature in page.features %}
     <div class="feature-block {% if forloop.index == 2 or forloop.index == 4 %}feature-block-reverse{% endif %}">
-      <div class="feature-block-image">
-        <img src="{{ feature.image }}" alt="{{ feature.title }}"{% if feature.filter %} class="filter-{{ feature.filter }}"{% endif %}>
+      <div class="feature-block-image{% if feature.filter %} filter-{{ feature.filter }}{% endif %}"
+        style="background-image: url('{{ feature.image }}'); background-position: {{ feature.position | default: 'center' }}; background-size: {{ feature.zoom | default: 'cover' }};"
+        role="img" aria-label="{{ feature.title }}">
       </div>
       <div class="feature-block-text">
         <h2>{{ feature.title }}</h2>
