@@ -16,29 +16,23 @@ header-position: center 20%
 
 Artificial intelligence is reshaping how knowledge is made, organized, and interpreted. The debates it's generating—about authorship, bias, authority, and trust—are debates humanists have been having for decades. What makes a source reliable? Who decides what counts as knowledge? How do systems of power shape what gets preserved and what gets discarded?
 
-Humanists aren't on the outside of this moment looking in. They're in the middle of it. And the question isn't whether to engage with AI, but how—and on what terms.
+Humanists shouldn't be on the outside looking in. The question isn't whether to engage with AI, but how—and on what terms. We help faculty and students explore boundaries of AI through targeted technical interventions. 
 
 
 ## AI as a bridge to digital work
 
-For years, technical barriers have kept humanists from building the kinds of digital projects their scholarship deserved. You needed to learn HTML, CSS, version control, command-line tools—an entire stack of knowledge before you could make a website, build a digital exhibit, or publish an oral history online. Most scholars and students never cleared that threshold.
+For years, technical barriers have kept humanists from building the kinds of digital projects their scholarship deserved. Anything more than a Wordpress site full of ads was basically out of bounds, much less a design-forward digital exhibit, or a collaborative oral history project. Most scholars never cleared that threshold.
 
-AI changes what's possible. When working with clearly structured, well-documented systems—like Amaranth's [Xanthan](https://xanthan-web.github.io) framework—AI assistants can handle the technical details while you focus on intellectual decisions. You don't need to master CSS to adjust a site's typography. You don't need to understand Git workflows to publish your work. The technical knowledge is still there, still legible, but it's no longer a prerequisite for getting started.
+AI changes what's possible. When working with clearly structured, well-documented systems—like Amaranth's [Xanthan](https://xanthan-web.github.io) framework—AI assistants can handle the technical details while you focus on intellectual decisions. You don't need to master technical details to adjust a site's typography. You don't need to understand databases to organize your images. The technical code is still there (and adjustable once you learn more), but it's no longer a prerequisite for getting started.
 
-This isn't about replacing expertise. It's about letting people with humanistic vision shape their own work without spending a semester learning infrastructure first. And in the process of building something real—a website, a digital project, a public-facing piece of scholarship—they start to understand how digital systems actually work.
+This isn't about replacing or outsourcing expertise. It's about letting people with humanistic vision shape their own work and expand their technical skills without spending months learning infrastructure first. And in the process of building something real---a website, a digital project, a public-facing piece of scholarship---you start to understand how to push boundaries deliberately.
 
 
 ## Teaching an AI workflow, not doing it for you
 
-We don't tell people to "just use AI" and send them off. We don't do the work for them, either. We guide collaborators through an **iterative AI workflow**: prompting, evaluating output, refining requests, recognizing when AI is helping and when it's leading you astray. That process is the pedagogy.
+We don't tell people to "just use AI" and send them off. We don't do the work for them, either. We guide collaborators through an **iterative AI workflow**: prompting, evaluating output, refining requests, asking for explanations to recognize when AI is helping and when it's heading down the wrong path. 
 
-When someone works with us on a digital project, they're not just getting a website built. They're learning:
-- How to frame a technical question so AI can help
-- How to evaluate whether AI output actually solves the problem
-- When to trust AI suggestions and when to push back
-- How to iterate toward a solution rather than expecting it on the first try
-
-This is a transferable skill. Once you've learned to work with AI on technical problems—where the boundaries are clearer and the feedback is immediate—you've developed fluency that carries over into other contexts: research, teaching, writing, analysis.
+That iterative process is the pedagogy---and it can be used for humanist conversations as much as technical ones. Once you've learned to work with AI on technical problems—where the boundaries are clearer and the feedback is immediate—you've developed fluency that carries over into other contexts: research, teaching, writing, analysis.
 
 
 ## A gateway to broader AI engagement
