@@ -9,6 +9,7 @@ header-title: "What are we investigating?"
 header-tier: section
 header-filter: woodcut
 header-position: 0 80%
+header-zoom: 100%
 ---
 
 ## Tools that earn their place
