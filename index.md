@@ -39,7 +39,7 @@ features:
 
 # We help you make things that matter
 
-Amaranth is UNM's digital humanities studio. We support students and faculty in building websites, oral histories, digital exhibits, and interactive narratives that carry scholarship into the world. You own your work, choose your medium intentionally, and communicate ideas that resonate with a broad audiences. We have a slightly different [digital humanities priorities](studio/digital-humanities)
+Amaranth is UNM's digital humanities studio. We support students and faculty in building websites, oral histories, digital exhibits, and interactive narratives that carry scholarship into the world. You own your work, choose your medium intentionally, and communicate ideas that resonate with a broad audiences. We have slightly different [digital humanities priorities](studio/digital-humanities).
 
 At Amaranth, [AI is both a building tool and a subject of inquiry](explore/ai-pedagogy). We use it to help scholars and students produce work faster than ever---lowering the technical barrier so ideas can take center stage. And we help people understand what AI actually does, what it gets wrong, and how to work with it in ways that keep human judgment in the driver's seat.
 
