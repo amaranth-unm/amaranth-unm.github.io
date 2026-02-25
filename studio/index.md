@@ -5,7 +5,7 @@ author: Fred Gibbs
 date: 2025-01-01
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
 header-image: /assets/images/headers/pressing.webp
-header-title: The Studio
+header-title: Studio Ethos + Stuff
 header-tier: section
 header-filter: woodcut
 ---
@@ -27,6 +27,11 @@ Through collaborative projects, open-source tools, and hands-on experimentation,
 - **AI-assisted workflows** that put scholars in the editorial seat
 
 We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
+
+
+## Design resources
+
+Design is central to visual communication. To that end, the studio maintains a collection of introductory design books---basic principles, typography, design history, visual inspiration. Good design isn't about professional credentials, it's about taking seriously how your work reaches an audience. Whether you're designing a poster for a conference, laying out a website, or choosing typefaces for a digital exhibit, thoughtful visual decisions strengthen your argument. Come browse the collection during studio hours!
 
 
 ## Digital humanities at UNM
