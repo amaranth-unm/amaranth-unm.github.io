@@ -1,7 +1,7 @@
 ---
 title: Amaranth Digtial Humanities Studio @ UNM
 layout: base
-description: "Amaranth is UNM's Digital Humanit ies and Public Scholarship Studio. We help students and faculty build websites, podcasts, oral histories, 3D prints, and interactive narratives using open-source tools."
+description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio. We help students and faculty build websites, podcasts, oral histories, 3D prints, and interactive narratives using open-source tools."
 header-image: /assets/images/headers/palmer-sandia.png
 header-filter: botanical
 header-height: 100vh
