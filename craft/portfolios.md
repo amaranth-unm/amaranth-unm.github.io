@@ -36,6 +36,8 @@ Building a portfolio teaches you a lot about communication: how to highlight wha
 
 
 ## Getting started
-Check out a [demo portfolio site](https://xanthan-web.github.io/portfolio-template/) to get a sense of the basic template. 
+Check out the [Xanthan portfolio demo site](https://xanthan-web.github.io/portfolio-template/) to get a sense of the basic template. 
 
-Our [getting started guide](https://xanthan-web.github.io/docs/getting-started) walks through the process step by step. 
+Head over to the [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) to for step by step directions to have your site running (with placeholder content) in 10 minutes. Then the fun part of making it _yours_!
+
+When you need a hand, [head over to the studio](../collaborate)!

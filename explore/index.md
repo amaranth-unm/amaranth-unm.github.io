@@ -5,31 +5,29 @@ author: Fred Gibbs
 date: 2025-02-14
 description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—and how. AI pedagogy, 3D fabrication, open publishing, and what it means to share humanistic work in the AI era."
 header-image: /assets/images/headers/heavens.webp
-header-title: "What are we investigating?"
+header-title: Our Projects
 header-tier: section
 header-filter: woodcut
 header-position: 0 80%
 header-zoom: 100%
 ---
 
-## Tools that earn their place
+## Tech as means to an end
+At Amaranth, we investigate which tools, techniques, and technologies that can make humanities come alive outside the page. We're always exploring to see what's worth bringing to projects. We share what we learn honestly: what worked, what didn't, and what we'd do differently. Let's be clear: **technology is a means to an end, and the end is more visibility and vibrancy for the humanities**.
 
-Not every emerging technology deserves a place in humanities scholarship. Some tools add friction without adding understanding. Some produce impressive outputs that don't actually help anyone think better. At Amaranth, we investigate which ones genuinely deepen the work—and why—by testing them in real classrooms, real projects, and real consultations. Then we share what we learn honestly: what worked, what didn't, and what we'd do differently.
-
-This is active, ongoing research. The landscape shifts faster than any institution can track. What's true about AI this semester may not be true next year. What we know about 3D printing in the classroom keeps evolving as we do more of it. The questions below aren't settled. They're live.
+## Predictable Obsolenence
+Sometimes our reseaerch seems like quicksand. What's true about VR headsets, 3D printing, or AI this semester is not going to be true next year. But the work is still important. The library is filled with books that aren't relevant as current scholarship but played a key role in advancing understnadings in their day. **Our work contributes to not just current practice, but shaping how humanists can help shape these tools.**
 
 
 ## AI and the humanities
+The most urgent question in our studio isn't "how should we use AI?" It's something harder: **how can we help humanists help shape AI?** Humanists have spent centuries developing tools for exactly the problems AI raises—evaluating the authority of sources, understanding how knowledge gets constructed, asking who benefits from a particular framing. Those skills aren't supplementary to good AI use. They're foundational to it.
 
-The most urgent question in our field isn't "how do we use AI?" It's something harder: what does humanistic thinking offer to a world being reshaped by AI? Humanists have spent centuries developing tools for exactly the problems AI raises—evaluating the authority of sources, understanding how knowledge gets constructed, asking who benefits from a particular framing. Those skills aren't supplementary to good AI use. They're foundational to it.
-
-At Amaranth, we're investigating what it looks like to put undergraduates—not just faculty researchers—at the center of this work. We're asking how the act of sharing your scholarship publicly changes the precision and ambition of your thinking. And we're building open, transparent workflows that model accountable engagement with AI rather than hiding it.
+At Amaranth, we're investigating how simple technology work can be a great entry point into AI. We're asking how the act of sharing your scholarship publicly changes the precision and ambition of your thinking. And we're building open, transparent workflows that model accountable and guardrailed engagement with AI.
 
 <p class="section-link-bar"><a href="/explore/ai-pedagogy">AI pedagogy at Amaranth →</a></p>
 
 
 ## 3D Pedagogy
-
 What changes when students can hold a 3D-printed architectural capital instead of looking at a photograph? When a terrain map becomes something you can trace with your fingers rather than interpret through a flat screen?
 
 We're investigating how 3D fabrication changes learning and research in the humanities—how physical objects restore scale, texture, and direct comparison to inquiry that photographs can't. Our projects range from printing Romanesque and Gothic capitals for art history courses to creating terrain models that make geographic relationships tangible in ways no image can.
