@@ -65,8 +65,5 @@ Digital humanities thrives on critical engagement with tools. Beth’s project a
 
 Grace and Dillon are collecting food stories from across campus to understand how personal food memories shape identity, belonging, and community.
 
-Their project sits at the intersection of oral history and digital storytelling. By gathering narrative data and curating it for public engagement, they demonstrate how digital humanities methods amplify everyday experiences. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work makes clear how food experience informs personal and cultural understandings of food.
-
----
-
+Their project sits at the intersection of oral history and digital storytelling. By gathering narratives and curating and cohering them for public engagement, they demonstrate how digital humanities methods amplify everyday experiences and their echoes. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work makes clear how food experience informs personal and cultural understandings of food.
 
