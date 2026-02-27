@@ -4,10 +4,12 @@ title: The Studio
 author: Fred Gibbs
 date: 2025-01-01
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
-header-image: /assets/images/headers/pressing.webp
+header-image: /assets/images/headers/workshop2.jpg
 header-title: Studio Ethos + Stuff
 header-tier: section
 header-filter: woodcut
+header-zoom: 110%
+header-position: center 40%
 ---
 
 ## A workshop, not a service desk
