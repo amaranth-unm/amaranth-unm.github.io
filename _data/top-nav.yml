@@ -16,14 +16,17 @@
   items:
     - title: "Projects"
       url: "/explore"
+    - title: "Research Group"
+      url: "/explore/arg"
     - title: "Xanthan"
       url: "/explore/xanthan"
     - title: "3D Pedagogy"
       url: "/explore/3d-pedagogy"
-    - title: "AI Pedagogy"
-      url: "/explore/ai-pedagogy"
-    - title: "Research Group"
-      url: "/explore/arg"
+    - divider: true
+    - title: "AI Fluency"
+      url: "/explore/ai-fluency"
+    - title: "AI + Humanities"
+      url: "/explore/ai-humanities"
 
 
 - title: "Craft"

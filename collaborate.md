@@ -25,6 +25,12 @@ Whether you're a teacher looking for a digital home for a class project, a stude
 %}
 
 
+## Curious about AI?
+We're especially eager to help faculty and students explore how AI tools lower the floor and raise the ceiling of the technical components to digital humanities work. You don't need a technical background or a fully formed idea---just a question or a hunch. Maybe you have a collection of texts you'd like to search in new ways, or you're wondering whether AI could help students engage differently with primary sources. 
+
+If you're wondering what AI can actually do for humanities work, our [AI + Humanities](/explore/ai-humanities) page walks through real use cases---from searching across archival collections to helping students build projects that would have required a development team a few years ago. And if you're skeptical or cautious about AI (good---you should be), our [AI Fluency](/explore/ai-fluency) page makes the case that humanists are better prepared for this moment than they realize. The critical skills you already have---evaluating sources, recognizing bias, asking whose voices are missing---are exactly what separates meaningful AI use from mechanical AI use.
+
+
 ## Book time in the Studio
 If you're more of a scheduler, use our [bookings page](https://outlook.office.com/book/HistoryAmaranth@unmm.onmicrosoft.com/?ismsaljsauthenabled). This also helps ensure you get dedicated attention, especially during crunch times of the semester. Please describe as much as you can what you're interested in discussing or doing so we can be most prepared to help.
 
@@ -38,3 +44,5 @@ If you're writing a grant proposal, we can work with you to plan a realistic dig
 If you already have funding, we can serve as a production partner for the public-facing side of your project. We provide the design thinking, technical infrastructure, and hands-on support to turn research into something that communicates to a broader audience---without requiring your team to learn web development or manage hosting. Everything we build is open-source, sustainable, and yours to keep.
 
 This kind of collaboration works best when it starts early. If you're even thinking about a grant that might have a digital or public-facing dimension, reach out---the earlier we can talk about possibilities, the stronger the proposal.
+
+

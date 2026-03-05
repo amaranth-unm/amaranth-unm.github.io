@@ -29,7 +29,9 @@ Through collaborative projects, open-source tools, and hands-on experimentation,
 - **AI-assisted workflows** that put scholars in the editorial seat
 
 We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
+## On AI
 
+We think AI is one of the most interesting tools to arrive in the humanities in a long time---not because it replaces humanistic thinking, but because it lets more people do more of it. AI can help you search across hundreds of documents for patterns you'd never spot by hand, generate rough visualizations to think with, transcribe hours of oral histories in minutes, or explore questions at a scale that used to require a programming background. But AI also hallucinates, flattens nuance, and has no sense of what actually matters. That's where you come in. We help people use AI thoughtfully---as a starting point for inquiry, not an endpoint. If you're curious, skeptical, or somewhere in between, that's exactly the right place to start. [How we approach AI pedagogy →](/explore/ai-pedagogy)
 
 ## Design resources
 

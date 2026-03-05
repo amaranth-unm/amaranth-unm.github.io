@@ -42,3 +42,8 @@ Narrators are not sources---they are people with agency, rights, and histories. 
 Ritchie, Donald A. *Doing Oral History.* Third edition. New York, NY: Oxford University Press, 2015.
 
 Yow, Valerie Raleigh. *Recording Oral History: A Guide for the Humanities and Social Sciences.* 2nd edition. Walnut Creek, CA: AltaMira Press, 2005.
+
+
+## AI-assisted transcription
+
+Transcribing recorded interviews has always been one of the most time-consuming parts of oral history work. AI transcription tools can now produce solid first-draft transcripts in minutes rather than hours, making large collections much more manageable. The transcripts still need human review---AI gets names, places, and specialized terms wrong with some regularity---but starting from a machine-generated draft rather than a blank page saves enormous amounts of time. We can help you choose a tool and set up a workflow that fits your project. For projects with many hours of recordings, AI can also help you search across your full collection---finding every mention of a place, a person, or a theme across dozens of interviews.
