@@ -7,7 +7,7 @@ header-filter: botanical
 header-height: 100vh
 header-eyebrow: "UNM // Digital Humanities Studio"
 header-title: Amaranth
-header-subtitle: "Digital Humanities with AI"
+header-subtitle: "Humanities + Technology"
 nav-below-hero: false
 date: 2024-12-02
 features:
