@@ -40,9 +40,9 @@ features:
     link-text: "Collaborate →"
 
   - title: "AI for humanities projects"
-    image: "/assets/images/headers/ai-humanities.jpg"
+    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
     text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required."
-    link: "explore/ai-pedagogy"
+    link: "explore/ai-humanities"
     link-text: "Learn more →"
 ---
 

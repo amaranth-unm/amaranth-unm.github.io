@@ -4,7 +4,7 @@ title: AI + Humanities
 author: Fred Gibbs
 date: 2026-03-05
 description: "How AI tools can support humanities research, teaching, and public scholarship at UNM. Explore what's possible, what to watch for, and how to get started---no technical background required."
-header-image: /assets/images/headers/ai-humanities.jpg
+header-image: /assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg
 header-title: AI + Humanities
 header-tier: section
 header-filter: photo

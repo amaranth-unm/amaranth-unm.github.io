@@ -12,14 +12,15 @@ header-zoom: 110%
 header-position: center 40%
 ---
 
-## A workshop, not a service desk
-Amaranth is a studio in the original sense: a place where you come to learn, experiment, and make things---not to have things made for you. We don't write code or build websites that you'll never understand. We work alongside you, teaching the thinking behind technical and design decisions. When you leave, your comfort is a little higher and boundaries a litter further than they were. 
+## Let's experiment together
+Amaranth is a studio in the original sense: a place where you come to learn, experiment, fail and make things, even if they aren't what you had in mind. We work alongside you, exploring technical and design decisions. When you leave, your comfort is a little higher and your boundaries a little further than they were.
 
-We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* they made a particular design or technical choice is a stronger scholar than one who outsourced those decisions. We're building that understanding, one session at a time.
+We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* a particular design or technical choice works can continue to learn and innovate more than one who outsourced those decisions. 
+
+We make sure technology is always a means to an end--the end being the message you want to get across.
 
 
 ## What we do
-
 Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth supports:
 
 - **Public-facing websites** built on open infrastructure, owned by their creators, designed to last
