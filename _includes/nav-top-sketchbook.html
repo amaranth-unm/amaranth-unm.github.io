@@ -1,0 +1,34 @@
+<nav class="navbar navbar-sketchbook" aria-label="AI Sketchbook breadcrumb navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{site.baseurl}}/"><span>amaranth</span></a>
+    <div class="navbar-sketchbook-breadcrumb" aria-label="Breadcrumb">
+      <a href="{{site.baseurl}}/explore/ai-sketchbook/">AI Sketchbook</a>
+
+      {% if page.url contains '/explore/ai-sketchbook/teaching/' %}
+        <span class="breadcrumb-sep">/</span>
+        {% if page.url == '/explore/ai-sketchbook/teaching/' %}
+          <span class="current">Teaching</span>
+        {% else %}
+          <a href="{{site.baseurl}}/explore/ai-sketchbook/teaching/">Teaching</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="current">{{ page.title }}</span>
+        {% endif %}
+      {% elsif page.url contains '/explore/ai-sketchbook/research/' %}
+        <span class="breadcrumb-sep">/</span>
+        {% if page.url == '/explore/ai-sketchbook/research/' %}
+          <span class="current">Research</span>
+        {% else %}
+          <a href="{{site.baseurl}}/explore/ai-sketchbook/research/">Research</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="current">{{ page.title }}</span>
+        {% endif %}
+      {% elsif page.url == '/explore/ai-sketchbook/tags/' %}
+        <span class="breadcrumb-sep">/</span>
+        <span class="current">Tags</span>
+      {% elsif page.url == '/explore/ai-sketchbook/' %}
+        <span class="breadcrumb-sep">/</span>
+        <span class="current">Home</span>
+      {% endif %}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,881 @@
+/* AI Sketchbook — warm, light, paper-like aesthetic
+   Overrides amaranth-unm.css for the sketchbook subsite.
+   Load via front matter: css: sketchbook.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ─── Palette ─────────────────────────────────────────────────────────────── */
+:root {
+  --paper:          #f7f4ee;
+  --paper-warm:     #f0ebe0;
+  --paper-dark:     #e3dbd0;
+  --ink:            #2d2926;
+  --ink-mid:        #5c5349;
+  --ink-light:      #7a7060;
+  --ink-faint:      #aaa090;
+  --rule:           #d4ccc0;
+
+  --teach:          #b85c40;    /* terracotta */
+  --teach-soft:     #f8eee9;
+  --teach-mid:      #e8bfb0;
+
+  --research:       #3d6e7e;    /* slate */
+  --research-soft:  #e4eef1;
+  --research-mid:   #a8c8d0;
+
+  --gold:           #8a7030;    /* warm amber — general accent */
+  --sage:           #73886d;
+  --sage-soft:      #e6ece3;
+  --sage-mid:       #b7c5b1;
+  --clay-rose:      #b67d72;
+  --clay-soft:      #f2e6e2;
+  --wash-gold:      rgba(199, 170, 92, 0.14);
+  --wash-teach:     rgba(184, 92, 64, 0.10);
+  --wash-research:  rgba(61, 110, 126, 0.10);
+  --wash-sage:      rgba(115, 136, 109, 0.12);
+  --pencil:         rgba(92, 83, 73, 0.09);
+
+  /* Override Amaranth dark semantics */
+  --primary:        var(--research);
+  --surface:        var(--paper-warm);
+  --surface-hover:  var(--paper-dark);
+  --text-primary:   var(--ink);
+  --text-secondary: var(--ink-mid);
+  --text-muted:     var(--ink-light);
+  --border-color:   var(--rule);
+
+  --shadow-sm:  0 1px 3px rgba(45, 41, 38, 0.06);
+  --shadow-md:  0 4px 12px rgba(45, 41, 38, 0.10);
+  --shadow-lg:  0 8px 24px rgba(45, 41, 38, 0.14);
+
+  --caveat-display: clamp(1.7rem, 2.4vw, 2.15rem);
+  --caveat-label:   clamp(1.25rem, 1.8vw, 1.55rem);
+}
+
+
+/* ─── Base ────────────────────────────────────────────────────────────────── */
+body {
+  background-color: var(--paper) !important;
+  background-image:
+    radial-gradient(circle at 12% 10%, var(--wash-gold) 0, rgba(199, 170, 92, 0) 26%),
+    radial-gradient(circle at 86% 18%, var(--wash-research) 0, rgba(61, 110, 126, 0) 24%),
+    radial-gradient(circle at 28% 72%, var(--wash-sage) 0, rgba(115, 136, 109, 0) 22%),
+    radial-gradient(circle at 72% 78%, var(--wash-teach) 0, rgba(184, 92, 64, 0) 22%),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(122, 112, 96, 0.028) 0,
+      rgba(122, 112, 96, 0.028) 1px,
+      transparent 1px,
+      transparent 29px
+    );
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-attachment: fixed;
+}
+
+p, li {
+  color: var(--ink);
+}
+
+a {
+  color: var(--research);
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+hr {
+  border-color: var(--rule);
+  opacity: 1;
+}
+
+
+/* ─── Typography ──────────────────────────────────────────────────────────── */
+/* IM Fell English is already loaded by the Amaranth header — use it for h1/h2 */
+h1, h2 {
+  font-family: 'IM Fell English', 'Crimson Pro', Georgia, serif;
+  font-weight: 400;
+  color: var(--ink);
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+h3, h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  color: var(--ink-mid);
+}
+
+h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  color: var(--ink-light);
+}
+
+strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+
+/* ─── Navbar ──────────────────────────────────────────────────────────────── */
+.navbar {
+  background-color: var(--paper-warm) !important;
+  border-bottom: 1px solid var(--rule);
+  box-shadow: none !important;
+}
+
+.navbar-sketchbook {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.navbar-sketchbook .container-fluid {
+  min-height: 4.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.15rem;
+  padding-left: clamp(1rem, 3vw, 2.25rem);
+  padding-right: clamp(1rem, 3vw, 2.25rem);
+}
+
+.sketchbook-container {
+  padding-top: 1.5rem;
+}
+
+.navbar-brand {
+  color: var(--ink) !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1.05 !important;
+}
+
+.navbar-brand:hover {
+  color: var(--teach) !important;
+}
+
+.navbar-sketchbook-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: 0.15rem;
+  min-width: 0;
+}
+
+.navbar-sketchbook-breadcrumb a,
+.navbar-sketchbook-breadcrumb .current,
+.navbar-sketchbook-breadcrumb .breadcrumb-sep {
+  font-family: 'Caveat', cursive;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.navbar-sketchbook-breadcrumb a {
+  color: var(--ink-faint) !important;
+  text-decoration: none;
+}
+
+.navbar-sketchbook-breadcrumb a:hover {
+  color: var(--sage) !important;
+}
+
+.navbar-sketchbook-breadcrumb .breadcrumb-sep {
+  color: var(--rule);
+  opacity: 0.9;
+}
+
+.navbar-sketchbook-breadcrumb .current {
+  color: var(--ink-mid);
+}
+
+.nav-link {
+  color: var(--ink-mid) !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--teach) !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(0.4);
+}
+
+
+/* ─── Footer ──────────────────────────────────────────────────────────────── */
+footer,
+.site-footer {
+  background-color: var(--paper-warm) !important;
+  color: var(--ink-light) !important;
+  border-top: 1px solid var(--rule);
+}
+
+footer a,
+.site-footer a {
+  color: var(--ink-mid) !important;
+}
+
+footer a:hover,
+.site-footer a:hover {
+  color: var(--gold) !important;
+}
+
+footer h4,
+footer h5,
+.site-footer h4,
+.site-footer h5 {
+  color: var(--ink-mid) !important;
+}
+
+
+/* ─── Sketchbook page header ──────────────────────────────────────────────── */
+.sketchbook-page-header {
+  padding: 2.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.sketchbook-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  left: -0.4rem;
+  width: min(360px, 62vw);
+  height: 118px;
+  background:
+    radial-gradient(circle at 22% 35%, rgba(199, 170, 92, 0.18) 0, rgba(199, 170, 92, 0.06) 36%, rgba(199, 170, 92, 0) 72%),
+    radial-gradient(circle at 78% 34%, rgba(115, 136, 109, 0.12) 0, rgba(115, 136, 109, 0.04) 30%, rgba(115, 136, 109, 0) 70%),
+    radial-gradient(circle at 62% 56%, rgba(184, 92, 64, 0.11) 0, rgba(184, 92, 64, 0.05) 28%, rgba(184, 92, 64, 0) 66%);
+  filter: blur(10px);
+  transform: rotate(-2.2deg);
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.sketchbook-page-header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.sketchbook-page-header .eyebrow {
+  font-family: 'Caveat', cursive;
+  font-size: var(--caveat-display);
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.sketchbook-page-header h1 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+  transform: rotate(-0.45deg);
+  transform-origin: left center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.sketchbook-page-header .section-accent {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 0.75rem;
+  opacity: 0.85;
+  filter: blur(0.15px);
+}
+
+.sketchbook-page-header .section-accent.teach  { background: linear-gradient(90deg, rgba(184, 92, 64, 0.95), rgba(232, 191, 176, 0.8)); }
+.sketchbook-page-header .section-accent.research { background: linear-gradient(90deg, rgba(61, 110, 126, 0.95), rgba(168, 200, 208, 0.8)); }
+.sketchbook-page-header .section-accent.default { background: linear-gradient(90deg, rgba(138, 112, 48, 0.95), rgba(199, 170, 92, 0.78)); }
+
+
+/* ─── Landing nav cards ───────────────────────────────────────────────────── */
+.sketchbook-nav-card {
+  display: block;
+  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(255,255,255,0.28));
+  border: 1px solid rgba(212, 204, 192, 0.85);
+  border-radius: 10px 3px 8px 4px;
+  padding: 1.75rem;
+  text-decoration: none !important;
+  color: var(--ink) !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.sketchbook-nav-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(45, 41, 38, 0.11);
+  text-decoration: none;
+  background: linear-gradient(180deg, rgba(255,255,255,0.78), rgba(255,255,255,0.34));
+}
+
+.sketchbook-nav-card.teach {
+  background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3)),
+    linear-gradient(135deg, rgba(184, 92, 64, 0.08), rgba(199, 170, 92, 0.05) 42%, rgba(255,255,255,0) 70%);
+}
+
+.sketchbook-nav-card.research {
+  background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3)),
+    linear-gradient(135deg, rgba(115, 136, 109, 0.10), rgba(61, 110, 126, 0.05) 44%, rgba(255,255,255,0) 72%);
+}
+
+.sketchbook-nav-card::after {
+  content: "";
+  position: absolute;
+  top: 0.85rem;
+  right: 0.9rem;
+  width: 64px;
+  height: 64px;
+  background: radial-gradient(circle, rgba(255,255,255,0.34) 0, rgba(255,255,255,0) 68%);
+  pointer-events: none;
+}
+
+.sketchbook-nav-card.teach    { border-top: 4px solid var(--teach); }
+.sketchbook-nav-card.research { border-top: 4px solid var(--research); }
+
+.sketchbook-nav-card .card-eyebrow {
+  font-family: 'Caveat', cursive;
+  font-size: var(--caveat-display);
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.4rem;
+  line-height: 1;
+  transform: rotate(-1.4deg);
+  transform-origin: left center;
+}
+
+.sketchbook-nav-card.teach .card-eyebrow    { color: var(--teach); }
+.sketchbook-nav-card.research .card-eyebrow { color: var(--sage); }
+
+.sketchbook-nav-card h3 {
+  font-family: 'IM Fell English', 'Crimson Pro', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.sketchbook-nav-card p {
+  color: var(--ink-mid);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+.sketchbook-nav-card .card-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sketchbook-nav-card.teach .card-link    { color: var(--teach); }
+.sketchbook-nav-card.research .card-link { color: var(--sage); }
+
+
+/* ─── Sketch entries (open, no card box) ──────────────────────────────────── */
+/*
+  Entries are open — no border box, no shadow. Visual rhythm comes from the
+  top-rule divider, generous whitespace, and typography. The craft feel lives
+  in the fonts and prompt callouts, not in a container.
+*/
+
+.sketch-entry {
+  padding: 1.75rem 0 0.5rem;
+  border-top: 1px solid var(--rule);
+  margin-bottom: 0.25rem;
+}
+
+/* First entry in a group sits right under the section label — tighten spacing */
+.sketch-entries > .sketch-entry:first-child {
+  border-top-color: transparent;
+  padding-top: 0.25rem;
+}
+
+/* Section-colored top rule — apply to parent container */
+.sketch-entries.teach   .sketch-entry { border-top-color: var(--rule); }
+.sketch-entries.research .sketch-entry { border-top-color: var(--rule); }
+
+/* ── Entry header: title left, tags right ── */
+.sketch-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.sketch-entry-title {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: clamp(2.2rem, 3vw, 2.9rem);
+  color: var(--ink);
+  margin: 0;
+  line-height: 0.95;
+  flex: 1;
+  transform: rotate(-0.65deg);
+  transform-origin: left center;
+}
+
+/* ── Tags cluster (upper right) ── */
+.sketch-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  padding-top: 0.2rem;   /* align visually with title cap-height */
+}
+
+.sketch-tag {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 1.1rem;
+  padding: 1px 9px;
+  border-radius: 2px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* Status variants */
+.sketch-tag.rough {
+  background: rgba(240, 235, 224, 0.72);
+  color: var(--ink-light);
+  border: 1px dashed var(--ink-faint);
+}
+
+.sketch-tag.tested {
+  background: var(--research-soft);
+  color: var(--research);
+  border: 1px solid var(--research-mid);
+}
+
+.sketch-tag.refined {
+  background: linear-gradient(180deg, var(--clay-soft), rgba(255,255,255,0.6));
+  color: var(--clay-rose);
+  border: 1px solid rgba(182, 125, 114, 0.45);
+}
+
+/* Topic tags — neutral */
+.sketch-tag.topic {
+  background: rgba(230, 236, 227, 0.55);
+  color: var(--sage);
+  border: 1px solid rgba(115, 136, 109, 0.24);
+}
+
+/* ── Entry body ── */
+.sketch-entry p {
+  color: var(--ink-mid);
+  font-size: 0.97rem;
+  margin-bottom: 0.6rem;
+}
+
+.sketch-entry p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ── Prompt callout ── */
+.sketch-prompt {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.3), rgba(255,255,255,0.12)),
+    linear-gradient(90deg, rgba(199, 170, 92, 0.06), rgba(199, 170, 92, 0));
+  border-left: 3px solid var(--gold);
+  border-top: 1px solid rgba(199, 170, 92, 0.15);
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  border-radius: 0 6px 6px 2px;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--ink-mid);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.35);
+}
+
+.sketch-prompt-label {
+  display: block;
+  font-family: 'Caveat', cursive;
+  font-style: normal;
+  font-size: var(--caveat-label);
+  color: var(--sage);
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.03em;
+}
+
+/* ── Entry footer: read more right-aligned ── */
+.sketch-entry-footer {
+  margin-top: 1.25rem;
+  text-align: right;
+}
+
+.sketch-read-more {
+  font-family: 'Caveat', cursive;
+  font-size: var(--caveat-label);
+  color: var(--ink-faint);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.15s;
+}
+
+.sketch-read-more:hover {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.sketch-entries.teach .sketch-read-more:hover    { color: var(--teach); }
+.sketch-entries.research .sketch-read-more:hover { color: var(--research); }
+
+
+/* ─── Section label ───────────────────────────────────────────────────────── */
+.sketch-section-label {
+  font-family: 'Caveat', cursive;
+  font-size: var(--caveat-display);
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--rule);
+}
+
+
+/* ─── Sketchbook post pages ──────────────────────────────────────────────── */
+.sketchbook-post {
+  max-width: 860px;
+}
+
+.sketchbook-post > p:first-of-type {
+  font-size: 1.08rem;
+  color: var(--ink-mid);
+}
+
+.sketchbook-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+  padding: 0.45rem 0.65rem;
+  background: linear-gradient(90deg, rgba(230, 236, 227, 0.4), rgba(255,255,255,0));
+  border-left: 2px solid rgba(115, 136, 109, 0.28);
+}
+
+.sketchbook-post-meta a.sketch-tag,
+.sketchbook-intro-cards a.sketch-tag {
+  text-decoration: none;
+}
+
+.sketchbook-post-meta a.sketch-tag:hover,
+.sketchbook-intro-cards a.sketch-tag:hover {
+  color: var(--teach);
+  border-color: rgba(184, 92, 64, 0.32);
+  background: rgba(184, 92, 64, 0.08);
+}
+
+.sketchbook-post h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.sketchbook-post ul {
+  padding-left: 1.2rem;
+}
+
+.sketchbook-post li {
+  margin-bottom: 0.5rem;
+}
+
+.sketchbook-intro-cards {
+  margin: 2rem 0 2.5rem;
+}
+
+.sketchbook-intro-cards .card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 1.6rem 0;
+  position: relative;
+  transition: background-color 0.18s ease;
+}
+
+.sketchbook-intro-cards .card:hover {
+  box-shadow: none;
+  transform: none;
+  background: linear-gradient(90deg, rgba(240, 235, 224, 0.55) 0%, rgba(230, 236, 227, 0.22) 40%, rgba(240, 235, 224, 0.16) 64%, rgba(240, 235, 224, 0) 100%);
+}
+
+.sketchbook-intro-cards .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold) 0, var(--rule) 120px, transparent 100%);
+  transition: background 0.18s ease, height 0.18s ease;
+}
+
+.sketchbook-intro-cards .card:hover::before {
+  height: 3px;
+  background: linear-gradient(90deg, var(--sage) 0, var(--teach) 56px, var(--gold) 128px, var(--rule) 220px, transparent 100%);
+}
+
+.sketchbook-intro-cards .card::after {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  right: 0.8rem;
+  width: 72px;
+  height: 72px;
+  background: radial-gradient(circle, rgba(115, 136, 109, 0.08) 0, rgba(115, 136, 109, 0) 72%);
+  pointer-events: none;
+}
+
+.sketchbook-intro-cards .card:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: var(--rule);
+}
+
+.sketchbook-intro-cards .card .card-main-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sketchbook-intro-cards .card .card-main-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sketchbook-intro-cards .card-title {
+  position: relative;
+  z-index: 1;
+}
+
+.sketchbook-intro-cards .card .row {
+  align-items: stretch !important;
+  transition: transform 0.18s ease;
+}
+
+.sketchbook-intro-cards .card:hover .row {
+  transform: translateX(4px);
+}
+
+.sketchbook-intro-cards .card-image,
+.sketchbook-intro-cards .card-img-top {
+  border-radius: 2px !important;
+  height: 100% !important;
+  min-height: 220px;
+  margin: 0;
+  filter: saturate(0.88) contrast(0.96);
+  transition: filter 0.18s ease, transform 0.18s ease;
+}
+
+.sketchbook-intro-cards .card:hover .card-image,
+.sketchbook-intro-cards .card:hover .card-img-top {
+  filter: saturate(0.96) contrast(1);
+  transform: translateY(-1px);
+}
+
+.sketchbook-intro-cards .card .col-sm-4 {
+  padding-right: 1.4rem;
+}
+
+.sketchbook-intro-cards .card-horizontal .card-title,
+.sketchbook-intro-cards .card-title {
+  font-family: 'Caveat', cursive;
+  font-size: clamp(2rem, 2.8vw, 2.6rem);
+  font-weight: 400;
+  color: var(--ink) !important;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 0.95;
+  transform: rotate(-0.6deg);
+  transform-origin: left center;
+}
+
+.sketchbook-intro-cards .card-text {
+  color: var(--ink-mid) !important;
+}
+
+.sketchbook-intro-cards .sketch-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.95rem;
+  position: relative;
+  z-index: 2;
+}
+
+.sketchbook-intro-cards .card-body {
+  padding: 0.2rem 0 0.2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 220px;
+}
+
+.sketchbook-intro-cards .card-text {
+  font-size: 1.02rem;
+  line-height: 1.55;
+  max-width: 52ch;
+}
+
+.sketchbook-intro-cards .sketch-tag {
+  background: transparent;
+}
+
+.sketchbook-intro-cards a.sketch-tag {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sketchbook-intro-cards .card:hover .card-title {
+  color: var(--sage) !important;
+}
+
+.sketchbook-intro-cards .card:hover .card-text {
+  color: var(--ink) !important;
+}
+
+
+/* ─── Sketchbook tags page ──────────────────────────────────────────────── */
+.sketchbook-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.sketchbook-tag-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.8rem 0.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(115, 136, 109, 0.26);
+  background: linear-gradient(180deg, rgba(230, 236, 227, 0.74), rgba(255,255,255,0.38));
+  color: var(--sage) !important;
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 1.35rem;
+  line-height: 1;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.sketchbook-tag-badge:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(180deg, rgba(242, 230, 226, 0.76), rgba(255,255,255,0.42));
+  color: var(--teach) !important;
+}
+
+.sketchbook-tag-badge.active {
+  background: linear-gradient(180deg, rgba(184, 92, 64, 0.16), rgba(199, 170, 92, 0.12));
+  border-color: rgba(184, 92, 64, 0.34);
+  color: var(--teach) !important;
+}
+
+.sketchbook-tag-badge .tag-count {
+  font-size: 0.95rem;
+  color: var(--ink-faint);
+}
+
+.sketchbook-tag-summary,
+.sketchbook-tag-empty {
+  color: var(--ink-mid);
+  margin-bottom: 1rem;
+}
+
+.site-footer-sketchbook {
+  border-top: 1px solid rgba(199, 170, 92, 0.18);
+  background: rgba(240, 235, 224, 0.92) !important;
+}
+
+.site-footer-sketchbook .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-footer-sketchbook .footer-bottom-brand,
+.site-footer-sketchbook .footer-bottom-contact {
+  color: var(--ink-mid);
+}
+
+.site-footer-sketchbook .footer-brand {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  color: var(--unm-cherry);
+}
+
+.site-footer-sketchbook .footer-sep {
+  color: var(--ink);
+}
+
+.site-footer-sketchbook .footer-bottom-contact a {
+  color: var(--teach);
+  text-decoration: none;
+}
+
+.site-footer-sketchbook .footer-bottom-contact a:hover {
+  color: var(--sage);
+}
+
+@media (max-width: 768px) {
+  .navbar-sketchbook .container-fluid {
+    min-height: auto;
+    gap: 0.8rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .navbar-sketchbook-breadcrumb a,
+  .navbar-sketchbook-breadcrumb .current,
+  .navbar-sketchbook-breadcrumb .breadcrumb-sep {
+    font-size: 1.1rem;
+  }
+
+  .sketchbook-intro-cards .card {
+    padding: 1.25rem 0;
+  }
+
+  .sketchbook-intro-cards .card .col-sm-4 {
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .sketchbook-intro-cards .card-image,
+  .sketchbook-intro-cards .card-img-top,
+  .sketchbook-intro-cards .card-body {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sketch-entry-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sketch-tags {
+    justify-content: flex-start;
+  }
+}
