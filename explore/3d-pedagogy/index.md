@@ -20,7 +20,7 @@ cards:
     link: "terrain"
 
   - title: "Objex"
-    thumbnail: "/3d-printing/objex/images/com-print-done-cropped.jpg"
+    thumbnail: "/explore/objex/images/com-print-done-cropped.jpg"
     summary: A growing collection of 3D scans and prints---each one an experiment in what physical reproduction can reveal about scale, texture, and material presence.
     link: "/explore/objex"
 ---
