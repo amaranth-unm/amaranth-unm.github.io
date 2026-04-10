@@ -1088,12 +1088,17 @@ Typography-forward dark header with line grid + cherry bar
   font-family: 'IM Fell English', serif !important;
   font-size: clamp(4.8rem, 10.8vw, 7.8rem) !important;
   font-weight: 400 !important;
-  color: var(--amaranth) !important;
+  color: white !important;
   line-height: 1.0;
   margin-bottom: 0.4rem !important;
   text-shadow: none !important;
   text-indent: -0.06em; /* optical alignment — serif overhang */
   letter-spacing: 0 !important;
+}
+
+/* Hero title only — amaranth red */
+.header-studio--hero h1 {
+  color: var(--amaranth) !important;
 }
 
 .header-studio-divider {
