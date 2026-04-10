@@ -47,16 +47,19 @@
 <div class="header-studio header-studio--{{ tier }}"{% if include.height %} style="height: {{ include.height }};"{% endif %}>
   {% if img_url != '' %}
   <div class="header-studio-bg header-studio-bg--{{ filter }}" style="background-image: url('{{ img_url }}'); background-position: {{ include.bg-position | default: 'center right' }};{% if include.bg-opacity %} opacity: {{ include.bg-opacity }};{% endif %}{% if include.zoom %} background-size: {{ include.zoom }};{% endif %}"></div>
+  {% if filter == 'botanical' %}
+  <div class="header-studio-bg header-studio-bg--botanical-accent" style="background-image: url('{{ img_url }}'); background-position: {{ include.bg-position | default: 'center right' }};{% if include.zoom %} background-size: {{ include.zoom }};{% endif %}"></div>
+  {% endif %}
   {% endif %}
   <div class="header-studio-grid"></div>
   <div class="header-studio-bar"></div>
   <div class="header-studio-content">
     {% if tier == 'hero' %}
-      {% if include.eyebrow %}
-      <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
-      {% endif %}
       {% if include.title %}
       <h1>{{ include.title }}</h1>
+      {% endif %}
+      {% if include.eyebrow %}
+      <div class="header-studio-eyebrow">{{ include.eyebrow }}</div>
       {% endif %}
       {% if include.divider %}
       <div class="header-studio-divider">

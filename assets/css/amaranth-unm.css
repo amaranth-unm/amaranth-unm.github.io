@@ -237,11 +237,12 @@ body > .container {
   background-size: cover;
   background-position: center;
   border-radius: var(--radius-lg);
+  filter: grayscale(0.85) sepia(0.2) brightness(0.85);
 }
 
-/* Woodcut filter — subtle warmth for European woodcuts */
+/* Woodcut filter — additional warmth for European woodcuts */
 .feature-block-image.filter-woodcut {
-  filter: sepia(0.2);
+  filter: grayscale(0.85) sepia(0.3) brightness(0.85);
 }
 
 .feature-block-text {
@@ -1018,7 +1019,7 @@ Typography-forward dark header with line grid + cherry bar
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: #161618;
+  background: #4a2838;
   box-sizing: content-box;
   padding-bottom: 120px;
 }
@@ -1040,7 +1041,7 @@ Typography-forward dark header with line grid + cherry bar
   inset: 0;
   background-size: cover;
   background-position: center right;
-  opacity: 0.28;
+  opacity: 0.50;
 }
 
 .header-studio-grid {
@@ -1078,7 +1079,7 @@ Typography-forward dark header with line grid + cherry bar
   font-family: 'Space Mono', monospace;
   font-size: 0.85rem;
   letter-spacing: 0.3em;
-  color: var(--unm-cherry);
+  color: rgba(200, 200, 200, 0.7);
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -1087,7 +1088,7 @@ Typography-forward dark header with line grid + cherry bar
   font-family: 'IM Fell English', serif !important;
   font-size: clamp(4.8rem, 10.8vw, 7.8rem) !important;
   font-weight: 400 !important;
-  color: white !important;
+  color: var(--amaranth) !important;
   line-height: 1.0;
   margin-bottom: 0.4rem !important;
   text-shadow: none !important;
@@ -1105,20 +1106,20 @@ Typography-forward dark header with line grid + cherry bar
 .header-studio-divider-line {
   height: 1px;
   width: 60px;
-  background: rgba(255,255,255,0.12);
+  background: rgba(200, 200, 200, 0.2);
 }
 
 .header-studio-divider span {
   font-family: 'Space Mono', monospace;
   font-size: 0.75rem;
   letter-spacing: 0.3em;
-  color: rgba(255,255,255,0.28);
+  color: rgba(200, 200, 200, 0.45);
   text-transform: uppercase;
 }
 
 .header-studio p {
   font-size: 1.15rem;
-  color: rgba(255,255,255,0.45);
+  color: rgba(200, 200, 200, 0.55);
   line-height: 1.75;
   font-weight: 300;
   letter-spacing: 0.06em;
@@ -1237,8 +1238,40 @@ Typography-forward dark header with line grid + cherry bar
 
 /* --- Filter: Botanical (line-art engravings on white background) --- */
 .header-studio-bg--botanical {
-  filter: invert(1) sepia(0.6) hue-rotate(320deg) saturate(2.5);
+  filter: invert(1) sepia(0.3) hue-rotate(340deg) saturate(0.6) brightness(1.6);
   mix-blend-mode: screen;
+}
+
+/* Botanical accent layer — red-tinted version masked to the flower region.
+   Sits on top of the base botanical layer. The radial gradient mask
+   reveals this red layer only where the amaranth flower is. */
+.header-studio-bg--botanical-accent {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center right;
+  filter: invert(1) sepia(0.8) hue-rotate(320deg) saturate(4) brightness(1.0);
+  mix-blend-mode: screen;
+  opacity: 0.80;
+  -webkit-mask-image: radial-gradient(ellipse 45% 70% at 72% 55%, black 0%, transparent 70%);
+  mask-image: radial-gradient(ellipse 45% 70% at 72% 55%, black 0%, transparent 70%);
+}
+
+/* Botanical hero — dark background matching site, bright illustration lines. */
+.header-studio:has(.header-studio-bg--botanical) {
+  background: var(--unm-lobo-gray-dark);
+}
+
+.header-studio:has(.header-studio-bg--botanical) .header-studio-bg {
+  opacity: 0.7;
+}
+
+.header-studio:has(.header-studio-bg--botanical)::after {
+  background: linear-gradient(to bottom, transparent, #2a2d31);
+}
+
+.header-studio:has(.header-studio-bg--botanical) .header-studio-grid {
+  opacity: 0;
 }
 
 

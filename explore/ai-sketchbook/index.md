@@ -14,9 +14,11 @@ date: 2026-04-01
 </div>
 {:/nomarkdown}
 
-There is no shortage of AI advice. What is harder to find is something local — people who share your students, your classrooms, your institutional constraints, your campus culture, and some of your disciplinary habits. That is what this is trying to be.
+There is no shortage of AI advice. What is harder to find is something local — people who share students, classrooms, campus culture (and constraints and opportunities), and disciplinary habits. That is what this is trying to be. A place to build a community of practice.
 
-Nothing here is authoritative. The sketches are rough, the experiments are ongoing, and plenty of the ideas have been tried only a handful of times. The status tags — *rough*, *tested*, *refined* — are honest signals, not endorsements.
+Nothing here is authoritative. The sketches are rough, the experiments are ongoing, and plenty of the ideas have been tried only a handful of times. The status tags — *rough*, *tested*, *refined* — are meant to help you understand their context, but also the importance of ongoing experimentation.
+
+
 
 {::nomarkdown}
 <blockquote class="sketchbook-pull">Think of this less as a guidebook than as a set of working notes meant to support conversation, experimentation, and a shared local vocabulary.</blockquote>

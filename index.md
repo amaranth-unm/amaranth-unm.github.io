@@ -7,22 +7,21 @@ header-filter: botanical
 header-height: 100vh
 header-eyebrow: "UNM // Digital Humanities Studio"
 header-title: Amaranth
-header-subtitle: "humanities + technology"
 nav-below-hero: false
 date: 2024-12-02
 features:
-  - title: "Own your work"
+  - title: "Build something"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
-    text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. Your colors, your typography, your layout---every site is different because the design decisions are yours."
+    text: "A website for your research project or workshop. A portfolio for your aspirations and applications. A collaborative site for your class. We help you build it on open tools you actually own---your design, your content, no fees, no platform lock-in."
     link: "craft"
     link-text: "Start building →"
     zoom: 110%
 
 
-  - title: "Medium &harr; message"
+  - title: "Tell it your way"
     image: "/assets/images/headers/scroll-journey.jpg"
-    text: "An oral history argues through voice. A podcast argues through intimacy. A ScrollStory argues through pacing and image. The medium you choose shapes what your audience understands---we help you choose with intention."
+    text: "Oral histories. Podcasts. ScrollStories. Each form argues differently---through voice, through intimacy, through pacing and image. We help you match the medium to what you're trying to say, and then build it."
     link: "narrate"
     link-text: "Find your medium →"
 
@@ -33,20 +32,21 @@ features:
     link-text: "What we're investigating →"
     zoom: 110%
 
-  - title: "Let's work together"
-    image: "/assets/images/headers/collaboration.jpg"
-    text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
-    link: "collaborate"
-    link-text: "Collaborate →"
-
   - title: "AI for humanities projects"
     image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
     text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required."
     link: "explore/ai-humanities"
     link-text: "Learn more →"
+
+  - title: "Let's work together"
+    image: "/assets/images/headers/collaboration.jpg"
+    text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
+    link: "collaborate"
+    link-text: "Collaborate →"
 ---
 
-# Keep the humanities vibrant
+
+## Keep the humanities vibrant
 
 Amaranth is UNM's digital humanities studio. **We focus on helping scholars and students use technology to *communicate* the significance of their work** reaaching broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure they control. **Design matters**—not as decoration, but to help ideas reach people. You don't need professional training to make deliberate visual choices that strengthen your message and connect with your audience. Public scholarship and digital pedagogy isn't an add-on. It's the point. [Read how Amaranth fits into the digital humanities →](studio/digital-humanities)
 
