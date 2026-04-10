@@ -3,7 +3,7 @@ layout: sketchbook
 title: Generate 3D Prints from 2D Drawings
 description: "Creating a scale model of an IUD from the 1970s."
 summary: "AI can transform an image into a 3D printable file, adding another perspective for understanding the experiences of historical subjects."
-thumbnail: "/images/meshy-thumbnail.jpg"
+thumbnail: "images/meshy-thumbnail.jpg"
 css: sketchbook.css
 date: 2026-04-09
 status: tested

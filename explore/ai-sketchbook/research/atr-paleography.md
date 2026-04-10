@@ -3,7 +3,7 @@ layout: sketchbook
 title: Use LLMs to Read 14th Century Gothic Secretarial Hand
 description: "A workflow experiment in creating an agentic AI pipeline to create transcripts of digitized images from the Archive of the Crown of Aragon."
 summary: "An AI agent worked with Gemini and Claude to bulk process 300 images of archival documents."
-thumbnail: "/images/apr-11-aca-cr-r2053-f4r-violant-img10.jpg"
+thumbnail: "images/apr-11-aca-cr-r2053-f4r-violant-img10.jpg"
 css: sketchbook.css
 date: 2026-04-09
 status: tested
