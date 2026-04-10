@@ -30,7 +30,7 @@ History Doctoral Candidate Edrea Mendoza researches public health sex education 
 
 The web app [Meshy.ai](https://www.meshy.ai/) uses AI machine learning to generate 3D-printable files from 2D images. Previously, I had played with Meshy with varying success. High resolution photographs of museum objects often came through very distorted on Meshy, even when using the option to generate from multiple image files. However, when allowed to invent based on a line drawing, Meshy produced quite accurate representations. 
 
-For Meshy.ai, the prompt is simply uploading a photo. 
+For Meshy.ai, the prompt is simply uploading an image. 
 
 ## Sample Prompt
 

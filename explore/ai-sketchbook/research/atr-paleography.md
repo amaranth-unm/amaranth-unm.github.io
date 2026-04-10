@@ -30,7 +30,7 @@ The government of Spain hosts a website called [PARES](https://pares.cultura.gob
 
 {% include figure.html
   class="left"
-  width="40%"
+  width="50%"
   caption="An example of a folio from an ACA register, ACA CR R2053 f4r."
   image-path="images/apr-11-aca-cr-r2053-f4r-violant-img10.jpg"
 %}
