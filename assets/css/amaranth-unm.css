@@ -220,7 +220,28 @@ body > .container {
   align-items: center;
   gap: 3rem;
   padding: 2.5rem 0;
-  border-top: 2px solid var(--border-color);
+  border-top: none;
+  position: relative;
+  z-index: 0;
+}
+
+.feature-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+}
+
+.feature-block:nth-child(odd)::before {
+  background-color: var(--unm-lobo-gray-dark);
+}
+
+.feature-block:nth-child(even)::before {
+  background-color: #33373c;
 }
 
 .feature-block:first-of-type {

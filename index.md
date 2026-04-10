@@ -10,7 +10,22 @@ header-title: Amaranth
 nav-below-hero: false
 date: 2024-12-02
 features:
-  - title: "Build something"
+
+  - title: "Explore"
+    image: "/assets/images/headers/margarita.jpg"
+    text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
+    link: "explore"
+    link-text: "What we're investigating →"
+    zoom: 110%
+
+
+  - title: "AI for humanities projects"
+    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
+    text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
+    link: "explore/ai-humanities"
+    link-text: "Learn more →"
+
+  - title: "Craft"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
     text: "A website for your research project or workshop. A portfolio for your aspirations and applications. A collaborative site for your class. We help you build it on open tools you actually own---your design, your content, no fees, no platform lock-in."
@@ -19,25 +34,14 @@ features:
     zoom: 110%
 
 
-  - title: "Tell it your way"
+  - title: "Narrate"
     image: "/assets/images/headers/scroll-journey.jpg"
     text: "Oral histories. Podcasts. ScrollStories. Each form argues differently---through voice, through intimacy, through pacing and image. We help you match the medium to what you're trying to say, and then build it."
     link: "narrate"
     link-text: "Find your medium →"
 
-  - title: "Tactile thinking"
-    image: "/assets/images/headers/margarita.jpg"
-    text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
-    link: "explore"
-    link-text: "What we're investigating →"
-    zoom: 110%
-
-  - title: "AI for humanities projects"
-    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
-    text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required."
-    link: "explore/ai-humanities"
-    link-text: "Learn more →"
-
+  
+  
   - title: "Let's work together"
     image: "/assets/images/headers/collaboration.jpg"
     text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
@@ -86,7 +90,7 @@ Amaranth is UNM's digital humanities studio. **We focus on using technology to e
 {:/nomarkdown}
 
 
-## Come build something
+## Let's talk!
 Some of the most interesting projects start as a half-formed question, a vague idea, something you're not sure is even possible. We want to hear about it!
 
 Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
