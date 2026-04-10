@@ -45,9 +45,9 @@ It's worth being honest about this, because the hype around AI tends to skip the
 
 **AI flattens nuance.** It's very good at producing clear, confident, well-structured text. It's bad at ambiguity, contradiction, irony, and the kind of complexity that makes humanistic inquiry interesting. If you use AI to summarize, you'll get a summary---but you may lose what made the original worth reading.
 
-None of this means you shouldn't use AI. It means you should use it the way you'd use any powerful but imperfect tool: with clear eyes, critical judgment, and a humanist's sense of what matters. We can help you develop that workflow.
+Use AI in the way you'd use any powerful but imperfect tool: with clear eyes, critical judgment, and a humanist's sense of what matters. We can help you develop that practice.
 
-Recognizing these limitations clearly, and being able to explain them to students and colleagues, is itself a humanistic skill. Faculty and students who develop this critical fluency aren't just protecting their own scholarship—they become people who can help their institutions and communities navigate AI more thoughtfully. That's part of what we work on at Amaranth.
+Recognizing these limitations clearly, and being able to explain them to students and colleagues, is itself a humanistic skill. Faculty and students who develop this critical fluency can help their institutions and communities navigate AI more thoughtfully. These conversations happen constantly at Amaranth.
 
 
 ## Getting started
@@ -60,4 +60,4 @@ You don't need any technical background. You don't need a fully formed project. 
 
 **Email us.** [amaranth@unm.edu](mailto:amaranth@unm.edu). Even a one-line question is a great place to start.
 
-**Read about our approach.** [AI Fluency](/explore/ai-pedagogy) explains how we help people build critical AI practice through digital humanities work—and why starting with a website is a better on-ramp than you'd expect.
+**Read about our approach.** [AI Fluency](/explore/ai-fluency) explains how we help people build critical AI practice through digital humanities work—and why starting with a website is a better on-ramp than you'd expect.
