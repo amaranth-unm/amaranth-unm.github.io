@@ -47,12 +47,10 @@ features:
 
 
 ## Keep the humanities vibrant
+Amaranth is UNM's digital humanities studio. **We focus on using technology to expand the reach of the  humanities** engaging broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure. 
 
-Amaranth is UNM's digital humanities studio. **We focus on helping scholars and students use technology to *communicate* the significance of their work** reaching broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure they control. **Design matters**—not as decoration, but to help ideas reach people. You don't need professional training to make deliberate visual choices that strengthen your message and connect with your audience. Public scholarship and digital pedagogy isn't an add-on. It's the point. [Read how Amaranth fits into the digital humanities →](studio/digital-humanities)
+**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. AI opens new ways of exploring texts, images, archives, and ideas---and we help people use it with the critical judgment the humanities demand. [How we approach AI pedagogy →](explore/ai-pedagogy)
 
-**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical analysis---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through an iterative AI workflow, starting with technical work where feedback is immediate, building fluency that transfers into research, writing, and teaching. AI opens new ways of exploring texts, images, archives, and ideas---and we help people use it with the critical judgment the humanities demand. [How we approach AI pedagogy →](explore/ai-fluency)
-
-**We're practitioners, not evangelists.** We test tools in real classrooms and real projects, share what we learn honestly, and build on open-source infrastructure with stability at its core. This is a coaching studio, not a service desk---we work alongside you, teaching the thinking behind decisions so you can carry the work forward and keep learning. [Read more about our studio ethos →](studio)
 
 
 {% include feature-blocks.html title="" %}
@@ -89,13 +87,13 @@ Amaranth is UNM's digital humanities studio. **We focus on helping scholars and 
 
 
 ## Come build something
+Some of the most interesting projects start as a half-formed question, a vague idea, something you're not sure is even possible. We want to hear about it!
 
-Some of the best work starts as a half-formed question, a vague idea, something you're not sure is even possible. That's exactly the right time to talk.
+Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
 
-We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
+**We're practitioners more than evangelists.** We test tools and workflows all the time, share what we learn, and build on open-source infrastructure with stability at its core. We want to explore with you, not just complete a technical task for you. [Read more about our studio ethos →](studio)
 
 Drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
-
 
 ### Spring 2026 studio hours
 - Tuesdays & Thursdays: 9:30--11:00; 12:30--2:00
