@@ -28,7 +28,7 @@ Whether you're a teacher looking for a digital home for a class project, a stude
 ## Curious about AI?
 We're especially eager to help faculty and students explore how AI tools lower the floor and raise the ceiling of the technical components to digital humanities work. You don't need a technical background or a fully formed idea---just a question or a hunch. Maybe you have a collection of texts you'd like to search in new ways, or you're wondering whether AI could help students engage differently with primary sources. 
 
-If you're wondering what AI can actually do for humanities work, our [AI + Humanities](/explore/ai-humanities) page walks through real use cases---from searching across archival collections to helping students build projects that would have required a development team a few years ago. And if you're skeptical or cautious about AI (good---you should be), our [AI Fluency](/explore/ai-fluency) page makes the case that humanists are better prepared for this moment than they realize. The critical skills you already have---evaluating sources, recognizing bias, asking whose voices are missing---are exactly what separates meaningful AI use from mechanical AI use.
+If you're wondering what AI can actually do for humanities work, our [AI + Humanities](/explore/ai-humanities) suggests some real use cases---from searching across archival collections to helping students build projects that would have required a development team a few years ago. And if you're skeptical or cautious about AI (good!---you should be), our [AI Fluency](/explore/ai-fluency) page makes the case that humanists are both better prepared and more necessary for this moment than they may realize. The critical skills humanists constantly refine---evaluating sources, recognizing bias, asking whose voices are missing---are exactly what separates meaningful AI use from mechanical AI use.
 
 
 ## Book time in the Studio
@@ -36,7 +36,6 @@ If you're more of a scheduler, use our [bookings page](https://outlook.office.co
 
 
 ## Grant projects and public-facing research
-
 Many grants---from the NEH, Mellon, NSF, and others---now expect or encourage a public engagement component: a way for research to reach audiences beyond the academy. We can help you design and build that component.
 
 If you're writing a grant proposal, we can work with you to plan a realistic digital deliverable---a project website, a collection of ScrollStory essays, an interactive archive, an oral history series---and provide a credible description of the technical infrastructure and support for your proposal. We've helped faculty articulate digital components that strengthen applications by demonstrating concrete plans for public impact.

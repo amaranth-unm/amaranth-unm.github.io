@@ -19,12 +19,10 @@ date: 2026-04-01
 </div>
 {:/nomarkdown}
 
-Each teaching sketch now lives in its own folder with an `index.md` file carrying the metadata for that exercise: title, summary, thumbnail, tags, status, and card order. This page simply gathers those child pages and renders them as cards.
-
-[Browse all sketchbook tags →](/explore/ai-sketchbook/tags/)
-
 {::nomarkdown}
 <div class="sketchbook-intro-cards">
 {% include card-list.html pages=teaching_posts %}
 </div>
 {:/nomarkdown}
+
+[Browse all sketchbook tags →](/explore/ai-sketchbook/tags/)

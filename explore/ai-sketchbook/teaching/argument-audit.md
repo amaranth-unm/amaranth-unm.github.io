@@ -6,7 +6,7 @@ summary: "Students use AI-generated objections to test whether a thesis is vague
 thumbnail: "/assets/images/headers/wormiani.jpg"
 css: sketchbook.css
 date: 2026-04-09
-status: refined
+status: rough
 tags:
   - writing
   - argument

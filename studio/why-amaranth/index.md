@@ -14,7 +14,7 @@ header-opacity: 0.28
 
 ## The Unfading Flower
 
-{% include figure.html class="right" width="50%" caption="Globe amaranth flowers retain their color even after drying, embodying their Greek name meaning 'unfading.'" image-path="images/globe-amaranth-dried.jpg" %}
+{% include figure.html class="right" width="50%" caption="Globe amaranth flowers retain their color even after drying, embodying their Greek name meaning 'unfading.'" image-path="images/Gomphrena_globosa_2.jpg" %}
 
 When we chose a name for UNM's digital humanities studio, we wanted something that captured both the promise and the paradox of working with technology in the humanities. We landed on *amaranth*---a name with roots stretching back thousands of years, carrying meanings that still resonate today.
 
@@ -47,12 +47,12 @@ Milton imagines amaranth as originally growing in the Garden of Eden, near the T
 
 This imagery captures something important about what we try to do in digital humanities: create work that endures, that remains accessible and meaningful long after its creation. We may not achieve immortality, but we can aspire to projects that outlast the platforms they're built on.
 
+<br style="clear:both">
 
 ## Sacred Grain of the Americas
-
 But amaranth isn't just a symbol from Greek mythology and English poetry. It's also a plant---or rather, a family of more than sixty plant species---with a remarkable history in the Americas.
 
-{% include figure.html class="right" width="50%" caption="Amaranth grain, cultivated in the Americas for at least 8,000 years, was a dietary staple rivaling corn in importance." image-path="images/amaranth-seeds-bowl.jpg" %}
+{% include figure.html class="right" width="50%" caption="Amaranth grain, cultivated in the Americas for at least 8,000 years, was a dietary staple rivaling corn in importance." image-path="images/gemini-grains.png" %}
 
 Archaeological evidence suggests that people in Mesoamerica began cultivating amaranth around 6000 BCE, making it one of the oldest domesticated crops in the Western Hemisphere. By the time the Aztec Empire rose to power in the fifteenth century, amaranth---known as *huāuhtli* in Nahuatl---had become one of the three primary tribute crops, alongside maize and beans. Some scholars estimate that amaranth provided up to 80% of the Aztec diet's caloric energy.
 
@@ -169,23 +169,14 @@ Come by our studio in Mesa Vista Hall. Let's grow something together.
 
 * **Header Image (Botanical Plate):** [Curtis’s Botanical Magazine, Plate 137 (1791)](https://www.biodiversitylibrary.org/page/472628) via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/).
 * **Globe Amaranth Flowers:** [Gomphrena globosa 002.JPG](https://commons.wikimedia.org/wiki/File:Gomphrena_globosa_2.jpg) by [H. Zell](https://commons.wikimedia.org/wiki/User:Llez), Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
-* **Paradise Lost Illustration:** [*The Temptation and Fall of Eve* (1808)](https://diglib.library.vanderbilt.edu/act-imagelink.pl?RC=50212) by [William Blake](https://en.wikipedia.org/wiki/William_Blake), held by the [Museum of Fine Arts, Boston](https://www.google.com/search?q=https://collections.mfa.org/).
-* **Amaranth Seeds in Bowl:** [Amaranth Seeds](https://www.google.com/search?q=https://www.flickr.com/photos/alicehenneman/5106886981) by [Alice Henneman](https://www.google.com/search?q=https://www.flickr.com/photos/alicehenneman/), Licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+* **Paradise Lost Illustration:** [*The Temptation and Fall of Eve* (1808)](https://commons.wikimedia.org/wiki/File:William_Blake_-_The_Temptation_and_Fall_of_Eve_%28Illustration_to_Milton%27s_%22Paradise_Lost%22%29_-_Google_Art_Project.jpg)
+* **Amaranth Seeds in Bowl:** Created by Gemini.
 * **Palmer Amaranth (Pigweed):** [Amaranthus palmeri](https://azinvasiveplants.arizona.edu/invasive-plant/palmer-amaranth) by [Max Licher](https://www.google.com/search?q=http://swbiodiversity.org/seinet/taxa/index.php%3Ftaxon%3D161), via the [University of Arizona / SEINet](https://swbiodiversity.org/seinet/).
-* **Hopi Red Dye Amaranth:** [Komo (Hopi Red Dye)](https://www.nativeseeds.org/pages/hopi-red-dye-amaranth) via [Native Seeds/SEARCH](https://www.nativeseeds.org/).
+* **Hopi Red Dye Amaranth:** Created by Gemini.
 * **Alegría Candy:** [Alegrias03.JPG](https://commons.wikimedia.org/wiki/File:Alegrias03.JPG) by [AlejandroLinaresGarcia](https://commons.wikimedia.org/wiki/User:AlejandroLinaresGarcia), Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
 
----
-
-### **Quick Tips for Your Credits Section**
-
-* **Consistency:** Each entry now follows the format: **[Subject/Title]** by **[Author/Creator]** via **[Source Website/Organization]**, followed by the **[License Type]**.
-* **Linking:** It is best practice to keep the links active so visitors can find the original high-resolution files or verify the usage rights.
-
-**Would you like me to generate a "Creative Commons" notice that you can place at the very bottom of the page to cover your own original content as well?**
 
 ## Sources and Further Reading
-
 - Aesop. "The Rose and the Amaranth." *Aesop's Fables*.
 - Kauffman, C.S., and L.E. Weber. "Grain amaranth." *Advances in New Crops*. Timber Press, 1990.
 - Milton, John. *Paradise Lost*. 1667.
