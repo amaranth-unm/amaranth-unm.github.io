@@ -13,9 +13,9 @@ header-position: center 20%
 ---
 
 ## Humanists belong in this conversation
-Artificial intelligence is reshaping how knowledge is made, organized, and interpreted. The debates it generates—about authorship, bias, authority, expertise, and trust—are debates humanists have been having for decades. What makes a source reliable? Who decides what counts as knowledge? How do systems of power shape what gets preserved and what gets discarded? These aren't peripheral concerns. They're central to how AI systems are designed, evaluated, and used—and humanists are well-trained to ask them.
+Artificial intelligence is reshaping how knowledge is made, organized, and interpreted. The debates it generates—about authorship, bias, authority, expertise, and trust—are debates humanists have been having for decades. What makes a source reliable? Who decides what counts as knowledge? How do systems of power shape what gets preserved and what gets discarded? These questions are central to how AI systems are designed, evaluated, and used—and humanists are well-trained to ask them.
 
-It's easy to feel that AI is something happening *to* us, driven by product cycles we can't influence. But the values, workflows, and norms around AI are still being formed—in classrooms, in research practices, in what we teach students to expect from information systems. Humanists have always shaped how knowledge is made and evaluated. That role doesn't disappear when the tools change. The question isn't whether to engage, but how to engage in ways that matter. We think Amaranth can help with that.
+It's easy to feel that AI is something happening *to* us, driven by product cycles we can't influence. But the values, workflows, and norms around AI are still being formed in classrooms, in research practices, and in what we teach students to expect from information systems. Humanists have always shaped how knowledge is made and evaluated. That role doesn't disappear when the tools change. The question isn't whether to engage, but how to engage in ways that matter. We think Amaranth can help with that.
 
 
 ## Digital work as introduction to AI
@@ -23,7 +23,7 @@ For years, technical barriers have kept humanists from building the kinds of dig
 
 AI changes what's possible. When working with clearly structured, well-documented systems—like Amaranth's [Xanthan](https://xanthan-web.github.io) framework—AI assistants can handle the technical details while you focus on intellectual decisions. You don't need to master technical details to adjust a site's typography. You don't need to understand databases to organize your images. The technical code is still there (and adjustable once you learn more), but it's no longer a prerequisite for getting started.
 
-This isn't about replacing or outsourcing expertise. It's about letting people with humanistic vision shape their own work and expand their technical skills without spending months learning infrastructure first. And in the process of building something real---a website, a digital project, a public-facing piece of scholarship---you start to understand how to push boundaries deliberately.
+This process allows people with humanistic vision shape their own work and expand their technical skills without spending months learning infrastructure first. And in the process of building something real---a website, a digital project, a public-facing piece of scholarship---you start to understand how to push boundaries deliberately.
 
 
 ## From technical to critical
@@ -47,6 +47,6 @@ That shift opens up digital humanities to a much wider community of practitioner
 
 
 ## An evolving practice
-Our work with AI isn't settled. We're learning semester by semester, project by project, constantly adjusting what we teach and how we guide people through these workflows. We document what we're discovering—what works, what doesn't, where the boundaries are—and share it as we go.
+Our work with AI isn't settled. We're learning semester by semester, project by project, constantly adjusting what we teach and how we guide people through these workflows. In our [AI Sketchbook](/explore/ai-sketchbook), we document what we're discovering—what works, what doesn't, where the boundaries are—and share it as we go.
 
 If you're working with AI in your teaching, your research, or your digital projects and want to compare notes, [reach out](/collaborate). We all need to figure this out together.
