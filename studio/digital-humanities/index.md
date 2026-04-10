@@ -12,7 +12,7 @@ header-filter: etching
 
 ## What are the digital humanities?
 
-Digital humanities is a broad term for work that brings digital tools and methods and into conversation with humanistic inquiry. That conversation has taken many forms over the decades---from concordances and databases to text mining, mapping, 3D modeling, and interactive storytelling. What ties it together is less any single approach than a shared commitment: that the questions humanists ask about culture, history, language, and meaning can be enriched (and sometimes transformed) by digital approaches.
+Digital humanities is a broad term for work that brings digital tools and methods and into conversation with humanistic inquiry. That conversation has taken many forms over the decades---from concordances and databases to text mining, mapping, 3D modeling, and interactive storytelling. What ties it together is not any single approach but a shared commitment: that the questions humanists ask about culture, history, language, and meaning can be enriched (and sometimes transformed) by digital approaches.
 
 The term is intentionally capacious. Some digital humanities work looks like traditional scholarship augmented by new tools---a historian using GIS to map migration patterns, a literary scholar running computational analyses across thousands of novels. Other work is more experimental, building interactive archives, digital exhibits, podcasts, or immersive narratives that reach audiences well beyond the academy. The field has always moved between these poles of analysis and making, and both matter.
 

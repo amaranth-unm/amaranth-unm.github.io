@@ -17,8 +17,6 @@ Amaranth is a studio in the original sense: a place where you come to learn, exp
 
 We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* a particular design or technical choice works can continue to learn and innovate more than one who outsourced those decisions. 
 
-We make sure technology is always a means to an end--the end being the message you want to get across.
-
 
 ## What we do
 Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth supports:
@@ -32,7 +30,7 @@ Through collaborative projects, open-source tools, and hands-on experimentation,
 We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
 ## On AI
 
-We think AI is one of the most interesting tools to arrive in the humanities in a long time---not because it replaces humanistic thinking, but because it lets more people do more of it. AI can help you search across hundreds of documents for patterns you'd never spot by hand, generate rough visualizations to think with, transcribe hours of oral histories in minutes, or explore questions at a scale that used to require a programming background. But AI also hallucinates, flattens nuance, and has no sense of what actually matters. That's where you come in. We help people use AI thoughtfully---as a starting point for inquiry, not an endpoint. If you're curious, skeptical, or somewhere in between, that's exactly the right place to start. [How we approach AI pedagogy →](/explore/ai-pedagogy)
+We think AI is one of the most interesting tools to arrive in the humanities in a long time---not because it replaces humanistic thinking, but because it lets more people do more of it. AI can help you search across hundreds of documents for patterns you'd never spot by hand, generate rough visualizations to think with, transcribe hours of oral histories in minutes, or explore questions at a scale that used to require a programming background. But AI also hallucinates, flattens nuance, and has no sense of what actually matters. That's where you come in. We help people use AI thoughtfully---as a starting point for inquiry, not an endpoint. If you're curious, skeptical, or somewhere in between, that's exactly the right place to start. [How we approach AI pedagogy →](/explore/ai-fluency)
 
 ## Design resources
 
