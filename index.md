@@ -53,7 +53,9 @@ features:
 ## Keep the humanities vibrant
 Amaranth is UNM's digital humanities studio. **We focus on using technology to expand the reach of the  humanities** engaging broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure. 
 
-**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. AI opens new ways of exploring texts, images, archives, and ideas---and we help people use it with the critical judgment the humanities demand. [How we approach AI pedagogy →](explore/ai-pedagogy)
+**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. 
+
+[How we approach AI pedagogy →](explore/ai-fluency)
 
 
 
