@@ -24,7 +24,7 @@ permalink: /explore/ai-sketchbook/tags/
 {::nomarkdown}
 <div class="sketchbook-page-header">
   <h1>Sketchbook Tags</h1>
-  <p style="color: var(--ink-mid); max-width: 680px; margin: 0.75rem 0 0;">A way to browse the AI Sketchbook laterally rather than by section. Useful when the pattern you care about is something like writing, fabrication, archives, or source evaluation rather than whether a sketch started in teaching or research.</p>
+  <p>A way to browse the AI Sketchbook laterally rather than by section. Useful when the pattern you care about is something like writing, fabrication, archives, or source evaluation rather than whether a sketch started in teaching or research.</p>
   <span class="section-accent default"></span>
 </div>
 {:/nomarkdown}

@@ -402,12 +402,20 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
 
 .navbar > .container,
 .navbar > .container-fluid {
+  display: flex !important;
   align-items: center !important;
-  margin-bottom: 0 !important;
+  height: 52px !important;
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
-  height: 100% !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+  align-self: center !important;
 }
 
 .navbar + *,
@@ -428,6 +436,9 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
   padding: 0 !important;
   margin: 0 !important;
   text-transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 52px !important;
 }
 
 .navbar-brand span {
@@ -446,6 +457,7 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
 .navbar-nav {
   margin-bottom: 0 !important;
   align-items: center !important;
+  height: 52px !important;
   gap: 0.25rem !important;
 }
 

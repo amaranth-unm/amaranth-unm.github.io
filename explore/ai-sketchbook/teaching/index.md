@@ -7,15 +7,14 @@ date: 2026-04-01
 ---
 
 {% assign teaching_posts = site.pages
-  | where_exp: "item", "item.name == 'index.md'"
-  | where_exp: "item", "item.dir contains page.dir"
-  | where_exp: "item", "item.dir != page.dir"
+  | where_exp: "item", "item.dir == page.dir"
+  | where_exp: "item", "item.name != 'index.md'"
   | sort: "card_order" %}
 
 {::nomarkdown}
 <div class="sketchbook-page-header">
   <h1>Teaching Sketches</h1>
-  <p style="color: var(--ink-mid); max-width: 640px; margin: 0.75rem 0 0;">Assignments, discussion setups, and classroom experiments. The common thread: using AI in situations where critical thinking is the actual point, not an afterthought.</p>
+  <p>Assignments, discussion setups, and classroom experiments. The common thread: using AI in situations where critical thinking is the actual point, not an afterthought.</p>
   <span class="section-accent teach"></span>
 </div>
 {:/nomarkdown}

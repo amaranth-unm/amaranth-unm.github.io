@@ -17,15 +17,12 @@ card_order: 10
 {::nomarkdown}
 <div class="sketchbook-page-header sketchbook-post">
   <h1>Argument Audit</h1>
-  <p style="color: var(--ink-mid); max-width: 760px; margin: 0.75rem 0 0;">A classroom exercise for making students defend an argument more precisely by asking AI to generate objections they then have to sort, test, and answer.</p>
+  <p>A classroom exercise for making students defend an argument more precisely by asking AI to generate objections they then have to sort, test, and answer.</p>
   <span class="section-accent teach"></span>
-</div>
-{:/nomarkdown}
-
-{::nomarkdown}
-<div class="sketchbook-post-meta">
-  <span class="sketch-tag {{ page.status }}">{{ page.status }}</span>
-  {% for tag in page.tags %}<a class="sketch-tag topic" href="{{ '/explore/ai-sketchbook/tags/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+  <div class="sketchbook-post-meta">
+    <span class="sketch-tag {{ page.status }}">{{ page.status }}</span>
+    {% for tag in page.tags %}<a class="sketch-tag topic" href="{{ '/explore/ai-sketchbook/tags/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+  </div>
 </div>
 {:/nomarkdown}
 

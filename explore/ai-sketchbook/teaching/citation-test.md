@@ -18,15 +18,12 @@ card_order: 20
 {::nomarkdown}
 <div class="sketchbook-page-header sketchbook-post">
   <h1>Citation Test</h1>
-  <p style="color: var(--ink-mid); max-width: 760px; margin: 0.75rem 0 0;">A verification exercise that turns AI's polished but unreliable bibliographies into a concrete lesson about what counts as evidence.</p>
+  <p>A verification exercise that turns AI's polished but unreliable bibliographies into a concrete lesson about what counts as evidence.</p>
   <span class="section-accent teach"></span>
-</div>
-{:/nomarkdown}
-
-{::nomarkdown}
-<div class="sketchbook-post-meta">
-  <span class="sketch-tag {{ page.status }}">{{ page.status }}</span>
-  {% for tag in page.tags %}<a class="sketch-tag topic" href="{{ '/explore/ai-sketchbook/tags/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+  <div class="sketchbook-post-meta">
+    <span class="sketch-tag {{ page.status }}">{{ page.status }}</span>
+    {% for tag in page.tags %}<a class="sketch-tag topic" href="{{ '/explore/ai-sketchbook/tags/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
+  </div>
 </div>
 {:/nomarkdown}
 
