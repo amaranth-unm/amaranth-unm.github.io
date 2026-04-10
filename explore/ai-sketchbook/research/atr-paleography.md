@@ -1,6 +1,6 @@
 ---
 layout: sketchbook
-title: Use LLMs to Read 14th Century Gothic Secretarial Hand
+title: Use LLMs to Read Fourteenth-Century Gothic Secretarial Hand
 description: "A workflow experiment in creating an agentic AI pipeline to create transcripts of digitized images from the Archive of the Crown of Aragon."
 summary: "An AI agent worked with Gemini and Claude to bulk process 300 images of archival documents."
 thumbnail: "images/apr-11-aca-cr-r2053-f4r-violant-img10.jpg"
@@ -16,7 +16,7 @@ card_order: 10
 
 {::nomarkdown}
 <div class="sketchbook-page-header sketchbook-post">
-  <h1>Use LLMs to Read 14th Century Gothic Secretarial Hand</h1>
+  <h1>Use LLMs to Read Fourteenth-Century Gothic Secretarial Hand</h1>
   <p>A workflow experiment in creating an agentic AI pipeline to create transcripts of digitized images from the Archive of the Crown of Aragon.</p>
   <span class="section-accent teach"></span>
   <div class="sketchbook-post-meta">

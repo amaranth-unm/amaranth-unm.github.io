@@ -2,7 +2,7 @@
 layout: sketchbook
 title: Photos to Map Pins
 description: "A workflow experiment in vibe coding a website to display 200 geolocated photos of street cats."
-summary: "If you take dozens of photos during a research trip it now takes less than an hour to create map pins for them."
+summary: "Create a map with pins for hundreds of photos, in less than an hour."
 thumbnail: "images/marrakech-thumbnail.jpg"
 css: sketchbook.css
 date: 2026-04-09
