@@ -3,7 +3,7 @@ layout: sketchbook
 title: Columbus Day
 description: "A teaching sketch that uses AI-generated historical argument to examine filter bubbles."
 summary: "Students prompt AI to analyze a short newspaper article from 1892."
-thumbnail: "images/headers/columbus-day.png"
+thumbnail: "images/columbus-day.png"
 css: sketchbook.css
 date: 2026-04-09
 status: refined
