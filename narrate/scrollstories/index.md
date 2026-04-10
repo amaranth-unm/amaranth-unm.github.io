@@ -17,12 +17,17 @@ cards:
 
   - title: "Mesa Vista Hall"
     thumbnail: /assets/images/headers/mvh-construction.jpg
-    summary: This chapter explores the ceremonial and religious aspects of food in Viking society, examining feasts, sacrificial offerings, and mythological references to food and drink in Norse texts.
+    summary: A demo scrollstory with images from the history of the building that was once a dormitory and now houses many different types of university office, including the History Department.
     link: "mesa-vista-hall/"
+
+  - title: A Cultural History of Arkham Asylum
+    thumbnail: "/assets/images/projects/asylum.png"
+    summary: Deep scrollstory with many images, demonstrating how visual analysis and narrative layering explore complex cultural history
+    link: https://hadas496.github.io/comics-and-Reaganomics-/
 
   - title: Sugar, Emeralds, and Unicorn Horn
     thumbnail: "https://jeseyfried.github.io/sugar-emeralds-unicorn/images/davallano-1.jpg"
-    summary: In the spring of 1375, Matha d'Armagnac, the Duchess of Girona, drank a solution made with pulverized emeralds as a key ingredient. If the gemstones worked as predicted by the apothecary, Matha's pregnancy would result in the birth of a strong boy.
+    summary: A more beginner-level scrollstory that includes several images but lacks the immersive layering in the other examples.
     link: "https://jeseyfried.github.io/sugar-emeralds-unicorn/"
 ---
 
