@@ -57,15 +57,15 @@ The late 2000s and early 2010s saw a surge of institutional investment. The NEH 
 
 
 ## What Amaranth does differently
-Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis. This important work pushed methodological boundaries and invited new questions across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
+Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale: text mining, topic modeling, network analysis. This important work pushed methodological boundaries and invited new questions across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
 
 Amaranth takes a different approach, one that reflects where the field has arrived---and where it needs to go.
 
-**Scholarship should reach people.** The studio's emphasis on public scholarship isn't an add-on. It's the starting point. The most powerful humanistic work doesn't just produce knowledge---it communicates it. Amaranth supports faculty and students in building websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. The goal isn't to simplify scholarship for public consumption. It's to take communication as seriously as analysis.
+**Scholarship should reach people.** Amaranth supports faculty and students in building websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. The goal isn't to simplify scholarship for public consumption. It's to take communication as seriously as analysis.
 
-**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training---3D printers, audio recording gear, large-format printing, VR headsets---but the studio isn't organized around technology. It's organized around what people are trying to do. A faculty member developing an oral history project gets support for the entire workflow: planning, recording, editing, archiving, and publishing. The technology is instrumental, not the point.
+**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training---3D printers, audio recording gear, large-format printing, VR headsets---but the studio isn't organized around technology. It's organized around what people are trying to do. A faculty member developing an oral history project gets support for the entire workflow: planning, recording, editing, archiving, and publishing. The technology is instrumental, not an end in itself.
 
-**Course Integrations** We know many faculty want students to engage with digital media and think outside the traditional academic essay. But how? We handle that question for instructors, setting up the appropriate kind of site or platformn for their course, training them on how to use it, providing instructions for students on exactly what to do, offering classroom visits and studio hours to provide technical support.
+**Course Integrations** We know many faculty want students to engage with digital media and think outside the traditional academic essay. But how? We handle that question for instructors, setting up the appropriate kind of site or platform for their course, training them on how to use it, providing instructions for students on exactly what to do, offering classroom visits and studio hours to provide technical support.
 
 
 ## Digital humanities at UNM

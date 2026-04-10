@@ -13,7 +13,7 @@ cards:
   - title: "Why Amaranth?"
     thumbnail: /studio/why-amaranth/images/amaranth.jpg
     summary: From Greek mythology to Aztec sacred rituals to modern superweeds, the amaranth plant embodies the contradictions at the heart of digital humanities work.
-    link: "amaranth-name/"
+    link: "/studio/why-amaranth/"
 
   - title: "Mesa Vista Hall"
     thumbnail: /assets/images/headers/mvh-construction.jpg
