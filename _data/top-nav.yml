@@ -16,6 +16,8 @@
 
 - title: "Projects"
   items:
+    - title: "Overview"
+      url: "/projects/overview"
     - title: "Xanthan"
       url: "/projects/xanthan"
     - title: "AI Sketchbook"

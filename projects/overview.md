@@ -45,14 +45,12 @@ Xanthan is our open-source web framework for humanities projects, built from yea
 
 
 ## The Objex collection
-
 A curated archive of 3D-scanned objects—historical artifacts, architectural details, museum pieces—built to support teaching and research. Each scan in the collection is an experiment in what digital reproduction can reveal about material culture: what you gain when you can rotate an object on screen, and what you still lose compared to holding it.
 
 <p class="section-link-bar"><a href="/explore/objex">Browse Objex →</a></p>
 
 
 ## Student research
-
 The Amaranth Research Group brings undergraduates into live research questions at the intersection of humanities and emerging technology. Current projects include 3D printing for high school history classrooms, digitization of museum artifacts, campus food stories and oral history, and immersive technologies in museum interpretation.
 
 <p class="section-link-bar"><a href="/explore/arg">Meet the research group →</a></p>
