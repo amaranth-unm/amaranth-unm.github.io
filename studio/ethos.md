@@ -5,7 +5,7 @@ author: Fred Gibbs
 date: 2025-01-01
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
 header-image: /assets/images/headers/workshop2.jpg
-header-title: Studio Ethos + Stuff
+header-title: Ethos
 header-tier: section
 header-filter: woodcut
 header-zoom: 110%
@@ -28,22 +28,13 @@ Through collaborative projects, open-source tools, and hands-on experimentation,
 - **AI-assisted workflows** that put scholars in the editorial seat
 
 We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
-## On AI
 
-We think AI is one of the most interesting tools to arrive in the humanities in a long time---not because it replaces humanistic thinking, but because it lets more people do more of it. AI can help you search across hundreds of documents for patterns you'd never spot by hand, generate rough visualizations to think with, transcribe hours of oral histories in minutes, or explore questions at a scale that used to require a programming background. But AI also hallucinates, flattens nuance, and has no sense of what actually matters. That's where you come in. We help people use AI thoughtfully---as a starting point for inquiry, not an endpoint. If you're curious, skeptical, or somewhere in between, that's exactly the right place to start. [How we approach AI pedagogy →](/explore/ai-fluency)
 
 ## Design resources
-
 Design is central to visual communication. To that end, the studio maintains a collection of introductory design books---basic principles, typography, design history, visual inspiration. Good design isn't about professional credentials, it's about taking seriously how your work reaches an audience. Whether you're designing a poster for a conference, laying out a website, or choosing typefaces for a digital exhibit, thoughtful visual decisions strengthen your argument. Come browse the collection during studio hours!
 
 
-## Digital humanities at UNM
-
-Amaranth is UNM's home for digital humanities work—connecting people across departments who might not otherwise know they're working on related questions. If you're new to the field or want to understand where Amaranth fits in its history and current moment, the [digital humanities page](/studio/digital-humanities) is a good place to start.
-
-
 ## Why Amaranth?
-
 The name comes from the Greek *amarantos*: unfading. There's a deliberate irony in naming a digital humanities studio after a symbol of permanence, given how quickly technology becomes obsolete. We embrace the contradiction—and the richer story of a plant that has meant sacred grain, colonial threat, superfood, and superweed, depending on who's growing it and why.
 
 [Read the full story →](/studio/why-amaranth)

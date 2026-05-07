@@ -19,35 +19,27 @@ Every design choice is an argument. The structure of a website tells readers wha
 
 We help students, scholars, and communities build things worth building. Not as a service—as a collaboration. You bring the ideas; we help translate them into forms that reach people and last.
 
-
-## Websites
-
-The best humanities work deserves more than a PDF buried in a course management system. When students and scholars build on the open web, their work becomes public, durable, and visible to audiences beyond a single classroom or conference.
-
-Every site we build runs on [Xanthan](https://xanthan-web.github.io), our open-source template system—free to host, easy to maintain, and yours to keep. No subscription fees. No platform lock-in.
-
-- **[Class projects](class-projects)** — A collaborative website transforms a course assignment into a shared intellectual project. Students contribute work that adds up to something larger than any individual could build alone.
-- **[Portfolios](portfolios)** — Your professional identity shouldn't depend on a platform you don't control. A portfolio gives you a permanent home for your scholarship, teaching, and projects.
-- **[Communities](communities)** — Websites for organizations, archives, and groups who need a durable digital presence they actually own.
-- **[Gallery](gallery)** — See what others have built.
-
-<p class="section-link-bar"><a href="/websites">Explore website options and get started →</a></p>
-
-
 ## Posters
-
 A well-designed poster distills complex research into a visual argument that works at a glance. We help with design thinking—hierarchy, typography, visual rhythm—and provide large-format printing on our HP DesignJet T630.
 
 <p class="section-link-bar"><a href="/craft/posters">Learn about poster design →</a></p>
 
 
 ## 3D Prints
-
 Need to print a model for a class, a presentation, or an experiment? If you're interested in the research side of 3D printing in the humanities, see [Explore](/explore).
 
 <p class="section-link-bar"><a href="/craft/3d-printing">Get started with 3D printing →</a></p>
 
 
-## Getting started
+## Oral Histories
 
-You don't need to know how to code. If you can edit a text file, you can build a site. Our [getting started guide](https://xanthan-web.github.io/docs/getting-started) walks you through the process, and we're always happy to help in person at [studio hours](/collaborate) or over email at <amaranth@unm.edu>.
+An oral history is more than an interview. It's a relationship between narrator and listener shaped by trust, preparation, and ethical care. Done well, it preserves not just what someone said, but how they said it---and helps explain why it matters.
+
+<p class="section-link-bar"><a href="/narrate/oral-histories">Learn how we approach oral history →</a></p>
+
+
+## Podcasting
+
+A podcast lets you bring your ideas to people where they already are---on a commute, a walk, doing dishes. It demands a different kind of writing than academic prose: conversational, structured around curiosity, designed to hold attention through narrative rather than citation. That shift in register isn't a compromise. It's a skill.
+
+<p class="section-link-bar"><a href="/narrate/podcasting">Start building your podcast →</a></p>

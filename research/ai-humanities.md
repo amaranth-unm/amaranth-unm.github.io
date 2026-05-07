@@ -60,4 +60,4 @@ You don't need any technical background. You don't need a fully formed project. 
 
 **Email us.** [amaranth@unm.edu](mailto:amaranth@unm.edu). Even a one-line question is a great place to start.
 
-**Read about our approach.** [AI Fluency](/explore/ai-fluency) explains how we help people build critical AI practice through digital humanities work—and why starting with a website is a better on-ramp than you'd expect.
+**Read about our approach.** [AI Fluency](/studio/ai-fluency) explains how we help people build critical AI practice through digital humanities work—and why starting with a website is a better on-ramp than you'd expect.

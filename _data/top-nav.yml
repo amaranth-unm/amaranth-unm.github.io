@@ -1,61 +1,56 @@
 
-- title: "Studio"
+- title: "About"
   items:
     - title: "Ethos"
-      url: "/studio"
-    - title: "The Space"
+      url: "/studio/ethos"
+    - title: "The Studio"
       url: "/studio/space"
     - title: "Events"
       url: "/studio/events"
     - title: "Why Amaranth?"
       url: "/studio/why-amaranth"
+    - title: "AI Fluency"
+      url: "/studio/ai-fluency"
     - title: "Digital Humanities"
       url: "/studio/digital-humanities"
 
-- title: "Explore"
+- title: "Projects"
   items:
-    - title: "Projects"
-      url: "/explore"
-    - title: "Research Group"
-      url: "/explore/arg"
     - title: "Xanthan"
-      url: "/explore/xanthan"
-    - title: "3D Pedagogy"
-      url: "/explore/3d-pedagogy"
-    - divider: true
+      url: "/projects/xanthan"
     - title: "AI Sketchbook"
-      url: "/ai-sketchbook"
-    - title: "AI + Humanities"
-      url: "/explore/ai-humanities"
-    - title: "Building AI Fluency"
-      url: "/explore/ai-fluency"
+      url: "/projects/ai-sketchbook"
+    - title: "3D Pedagogy"
+      url: "/projects/3d-pedagogy"
+    - title: "Student Research Group"
+      url: "/projects/arg"
+
+
+- title: "Websites"
+  items:
+    - title: "Class Projects"
+      url: "/websites/class-projects"
+    - title: "Portfolios"
+      url: "/websites/portfolios"
+    - title: "ScrollStories"
+      url: "/websites/scrollstories"
+
+    - divider: true
+
+    - title: "Gallery"
+      url: "/websites/gallery"
+
 
 
 - title: "Craft"
   items:
-    - title: "Approach"
-      url: "/craft"
-    - title: "Class Projects"
-      url: "/craft/class-projects"
-    - title: "Portfolios"
-      url: "/craft/portfolios"
-    - title: "Gallery"
-      url: "/craft/gallery"
-
-    - divider: true
-
+    - title: "Our Approach"
+      url: "/craft/approach"
     - title: "Posters"
       url: "/craft/posters"
     - title: "3D Prints"
       url: "/craft/3d-printing"
-
-- title: "Narrate"
-  items:
-    - title: "Beyond Text"
-      url: "/narrate"
-    - title: "ScrollStories"
-      url: "/narrate/scrollstories"
     - title: "Oral Histories"
-      url: "/narrate/oral-histories"
+      url: "/craft/oral-histories"
     - title: "Podcasting"
-      url: "/narrate/podcasting"
+      url: "/craft/podcasting"
