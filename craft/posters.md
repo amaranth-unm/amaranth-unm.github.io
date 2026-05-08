@@ -3,10 +3,13 @@ layout: base
 title: Designing Posters
 date: 2025-02-01
 description: "Design and print academic posters at Amaranth. We help with visual hierarchy, typography, and layout—then print on our large-format HP DesignJet T630 in Mesa Vista Hall at UNM."
-header-image: /assets/images/headers/common-room-posters.jpg
+header-image: /assets/images/headers/1920px-Hereford-Karte.jpg
+header-caption: Hereford&nbsp; _Mappa Mundi_  &nbsp; c. 1300
+header-image-link: https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi
 header-tier: section
 header-filter: photo
 header-title: "Why make a poster?"
+header-position: 
 ---
 
 ## The canvas is the argument.
