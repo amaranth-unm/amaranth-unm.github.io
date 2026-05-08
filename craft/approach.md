@@ -3,10 +3,12 @@ title: Craft
 layout: base
 date: 2024-10-26
 description: "Build websites, posters, and 3D prints with Amaranth at UNM. Every design choice is an argument—we help scholars and students craft digital work using open-source tools they actually own."
-header-image: /assets/images/headers/margarita.jpg
+header-image: /assets/images/headers/Artwork_by_unknown_artist_-_St_Eligius_in_His_Workshop_-_WGA24034.jpg
+header-caption: Saint Eligius, the patron saint of goldsmiths, hammering a chalice on an anvil
+header-image-link: https://commons.wikimedia.org/wiki/File:Artwork_by_unknown_artist_-_St_Eligius_in_His_Workshop_-_WGA24034.jpg
 header-title: "Making is thinking"
 header-tier: section
-header-filter: photo
+header-filter: woodcut
 header-zoom: 110%
 header-position: 50% 35%
 ---
