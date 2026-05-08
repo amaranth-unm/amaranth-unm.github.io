@@ -35,9 +35,17 @@ Our portfolio sites run on GitHub Pages---free, open, and built on web standards
 Building a portfolio teaches you a lot about communication: how to highlight what's most important, how styling shapes design, how to match tone to audience, how to balance different facets of your public identity. You also learn how to organize and structure information for digtial display. Understanding how digital projects work is increasingly essential in every field, and the confidence that comes from building something real is invaluable.
 
 
+## AI does the technical work — you make the decisions
+Xanthan is designed so that AI assistants can read and modify it precisely. The file structure is flat, the configuration is plain-text front matter, and the conventions are consistent — which means you can describe what you want in ordinary language and let the AI handle the code.
+
+In practice, this starts simple: "make the header taller," "add a section about my teaching," "change the accent color to forest green." The AI finds the right file, makes the change, explains what it did. As you get comfortable, the tasks get more complex: adding a new page type, wiring up a custom layout, pulling in a new data source. The same conversation, just higher stakes.
+
+We work with you through that progression — helping you build the habit of directing an AI assistant through real technical decisions, so the confidence you gain here transfers to your research, writing, and any future project that touches code.
+
+
 ## Getting started
 Check out the [Xanthan portfolio demo site](https://xanthan-web.github.io/portfolio-template/) to get a sense of the basic template. 
 
 Head over to the [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) to for step by step directions to have your site running (with placeholder content) in 10 minutes. Then the fun part of making it _yours_!
 
-When you need a hand, [head over to the studio](../collaborate)!
+<p style="text-align: right"><a href="https://xanthan-web.github.io/docs/getting-started" class="btn-cta" target="_blank">Create your Portfolio! →</a></p>

@@ -8,6 +8,7 @@ header-image: /assets/images/headers/workshop2.jpg
 header-title: Ethos
 header-tier: section
 header-filter: woodcut
+header-caption: Early printing studio
 header-zoom: 110%
 header-position: center 40%
 ---

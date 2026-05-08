@@ -53,6 +53,11 @@
   {% endif %}
   <div class="header-studio-grid"></div>
   <div class="header-studio-bar"></div>
+  {% if include.caption %}
+  <div class="header-studio-caption">
+    {{ include.caption }}{% if include.image-link %}<a href="{{ include.image-link }}" target="_blank" rel="noopener" aria-label="Image source">↗</a>{% endif %}
+  </div>
+  {% endif %}
   <div class="header-studio-content">
     {% if tier == 'hero' %}
       {% if include.title %}

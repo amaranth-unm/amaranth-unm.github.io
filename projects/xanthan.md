@@ -20,19 +20,14 @@ Xanthan priorities openeness and pedagogy. It's built on Jekyll and GitHub Pages
 That's not just a technical preference. It's an argument about what digital humanities work should be able to promise its audiences---that a site built today won't disappear after a security patch, or move behind a higher paywall, or that changing platforms means starting over with your content.
 
 
-## Iterative improvement
-Every project helps us clarify and improve. A student discovers that changing a font requires editing a file she's never seen. A professor needs to embed a map and the documentation doesn't cover it. A scroll narrative looks perfect on a laptop and looks weird on a phone.
-
-These aren't failures---they're teaching moments for everyone. The framework is a record of everything we've learned about what a useful platform actually requires, accumulated through real projects and users who want to push things forward just a bit more.
-
-
 ## What Xanthan offers
-Three templates (Portfolio, Class Project, ScrollStory) set up the infrastructure for you. They require nothing beyond a GitHub account to publish. As much work as we've put into the code, we've put into the documentation at [xanthan-web.github.io](https://xanthan-web.github.io)---written for people who are new to these tools and processes.
+Three templates (Portfolio, Class Project, ScrollStory) set up the core files for you. They require nothing beyond a GitHub account to publish to a working website. As much work as we've put into the code, we've put into the documentation at [xanthan-web.github.io](https://xanthan-web.github.io)---written for people who are brand new to these tools and processes.
 
 The newest frontier is AI legibility. We've been deliberately designing Xanthan so that AI assistants can understand and modify it precisely. This design decision reflects a broader philsophy about where humanities web publishing is headed---toward a model where the scholar holds editorial authority and AI handles technical translation, rather than the other way around.
 
 
 ## Built with Xanthan
+Every semester we add a handful of new projects to our portfolio. Here are a few recent highlights.
 
 {::nomarkdown}
 </div>
@@ -60,7 +55,7 @@ The newest frontier is AI legibility. We've been deliberately designing Xanthan 
       </a>
     </div>
   </div>
-  <p class="mt-3" style="font-size:0.85rem;"><a href="/craft/gallery">See more in the gallery →</a></p>
+  <p class="mt-3 text-end"><a href="/craft/gallery" class="btn-cta">See more in the gallery →</a></p>
 </div>
 <div class="container">
 {:/nomarkdown}
@@ -70,4 +65,4 @@ The newest frontier is AI legibility. We've been deliberately designing Xanthan 
 
 The full Xanthan documentation covers everything from setting up your first site in 10 minutes to building a scroll-driven narrative with a custom theme. It's designed for people who haven't done this before---and for AI assistants who can do the technical work while you make the decisions.
 
-<a href="https://xanthan-web.github.io" class="btn-cta" target="_blank">Explore the Xanthan documentation →</a>
+<p style="text-align: right"><a href="https://xanthan-web.github.io" class="btn-cta" target="_blank">Make a website with Xanthan →</a></p>

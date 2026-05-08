@@ -2,44 +2,18 @@
   <div class="container">
     <div class="row row-cols-2 row-cols-md-4 g-4">
 
-      <div class="col">
-        <h4 class="footer-heading">studio</h4>
-        <ul class="footer-list">
-          <li><a href="{{site.baseurl}}/studio">Ethos</a></li>
-          <li><a href="{{site.baseurl}}/studio/why-amaranth">Why Amaranth?</a></li>
-          <li><a href="{{site.baseurl}}/studio/digital-humanities">Digital Humanities</a></li>
-          <li><a href="{{site.baseurl}}/collaborate">Collaborate</a></li>
-        </ul>
-      </div>
-
-      <div class="col">
-        <h4 class="footer-heading">explore</h4>
-        <ul class="footer-list">
-          <li><a href="{{site.baseurl}}/explore">Horizons</a></li>
-          <li><a href="{{site.baseurl}}/explore/arg">Research Group</a></li>
-          <li><a href="{{site.baseurl}}/explore/3d-pedagogy">3D Pedagogy</a></li>
-          <li><a href="{{site.baseurl}}/explore/ai-humanities">AI + Humanities</a></li>
-        </ul>
-      </div>
-
-      <div class="col">
-        <h4 class="footer-heading">craft</h4>
-        <ul class="footer-list">
-          <li><a href="{{site.baseurl}}/craft">Websites</a></li>
-          <li><a href="{{site.baseurl}}/craft/class-projects">Class Projects</a></li>
-          <li><a href="{{site.baseurl}}/craft/portfolios">Portfolios</a></li>
-          <li><a href="{{site.baseurl}}/craft/gallery">Gallery</a></li>
-        </ul>
-      </div>
-
-      <div class="col">
-        <h4 class="footer-heading">narrate</h4>
-        <ul class="footer-list">
-          <li><a href="{{site.baseurl}}/narrate">Beyond Text</a></li>
-          <li><a href="{{site.baseurl}}/narrate/scrollstories">ScrollStories</a></li>
-          <li><a href="{{site.baseurl}}/narrate/oral-histories">Oral Histories</a></li>
-        </ul>
-      </div>
+      {% for section in site.data.top-nav %}
+        <div class="col">
+          <h4 class="footer-heading">{{ section.title }}</h4>
+          <ul class="footer-list">
+            {% for item in section.items %}
+              {% unless item.divider or item.hidden or item.disabled %}
+                <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
 
     </div>
 

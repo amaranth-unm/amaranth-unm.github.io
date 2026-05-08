@@ -22,7 +22,7 @@ features:
   - title: "AI for humanities projects"
     image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
     text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
-    link: "explore/ai-humanities"
+    link: "projects/ai-sketchbook"
     link-text: "Learn more →"
 
   - title: "Craft"
@@ -55,7 +55,7 @@ Amaranth is UNM's digital humanities studio. **We focus on using technology to e
 
 **Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. 
 
-[How we approach AI pedagogy →](explore/ai-fluency)
+[How we approach AI pedagogy →](studio/ai-fluency)
 
 
 
@@ -95,12 +95,15 @@ Amaranth is UNM's digital humanities studio. **We focus on using technology to e
 ## Let's talk!
 Some of the most interesting projects start as a half-formed question, a vague idea, something you're not sure is even possible. We want to hear about it!
 
-Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
+Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety.
 
-**We're practitioners more than evangelists.** We test tools and workflows all the time, share what we learn, and build on open-source infrastructure with stability at its core. We want to explore with you, not just complete a technical task for you. [Read more about our studio ethos →](studio)
+[Read more about our studio ethos →](studio)
 
-Drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
-
-### Spring 2026 studio hours
-- Tuesdays & Thursdays: 9:30--11:00; 12:30--2:00
-- Wednesdays: 10:00--12:00
+<div class="alert-studio-hours">
+  <div class="alert-heading">Spring 2026 Studio Hours</div>
+  <ul>
+    <li>Tuesdays &amp; Thursdays: 9:30–11:00 · 12:30–2:00</li>
+    <li>Wednesdays: 10:00–12:00</li>
+  </ul>
+  <p>Mesa Vista Hall 2068 · <a href="mailto:amaranth@unm.edu">amaranth@unm.edu</a> · <a href="collaborate">book a consultation →</a></p>
+</div>

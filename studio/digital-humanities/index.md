@@ -67,11 +67,6 @@ Amaranth takes a different approach, one that reflects where the field has arriv
 
 **Course Integrations** We know many faculty want students to engage with digital media and think outside the traditional academic essay. But how? We handle that question for instructors, setting up the appropriate kind of site or platform for their course, training them on how to use it, providing instructions for students on exactly what to do, offering classroom visits and studio hours to provide technical support.
 
-
-## Digital humanities at UNM
-
-UNM doesn't have a formal digital humanities program or center, which makes Amaranth's role both more important and more unusual. The studio functions as a hub for DH-adjacent work across departments---History, English, Art, Communication, and beyond---connecting people who might not otherwise know they're working on related problems.
-
 ---
 
 Interested in what's possible? [Explore the studio](/studio) or [get in touch](/collaborate).

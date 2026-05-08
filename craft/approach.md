@@ -35,11 +35,11 @@ Need to print a model for a class, a presentation, or an experiment? If you're i
 
 An oral history is more than an interview. It's a relationship between narrator and listener shaped by trust, preparation, and ethical care. Done well, it preserves not just what someone said, but how they said it---and helps explain why it matters.
 
-<p class="section-link-bar"><a href="/narrate/oral-histories">Learn how we approach oral history →</a></p>
+<p class="section-link-bar"><a href="/craft/oral-histories">Learn how we approach oral history →</a></p>
 
 
 ## Podcasting
 
 A podcast lets you bring your ideas to people where they already are---on a commute, a walk, doing dishes. It demands a different kind of writing than academic prose: conversational, structured around curiosity, designed to hold attention through narrative rather than citation. That shift in register isn't a compromise. It's a skill.
 
-<p class="section-link-bar"><a href="/narrate/podcasting">Start building your podcast →</a></p>
+<p class="section-link-bar"><a href="/craft/podcasting">Start building your podcast →</a></p>
