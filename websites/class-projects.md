@@ -25,31 +25,31 @@ cards:
     link: https://historic-trails.unm.edu/
 ---
 
-## The audience is real.
-
+## Widen the audience
 A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web---visible to future students, to communities, to anyone searching for the topic. Each contribution is small, but together they create something no one person could build alone.
 
-That shift---from private exercise to public contribution---changes how students think about their work. They write more carefully, design more intentionally, and care more about clarity when they know real people will encounter what they've made.
+That shift---from private exercise to public contribution---changes how students think about their work. They write more carefully, design more intentionally, and care more about clarity.
 
 
 ## Designing for an audience
+Building a page on a collaborative website is a design challenge as much as a writing one. Students have to think about visual hierarchy: 
+- What does a reader see first? 
+- How do images and text work together to tell a story? 
+- How does the page guide someone through an argument? 
 
-Building a page on a collaborative website is a design challenge as much as a writing one. Students have to think about visual hierarchy: what does a reader see first? How do images and text work together to tell a story? How does the page guide someone through an argument? These are communication skills that transfer far beyond a single course---and they're exactly the kind of skills that humanities graduates need but rarely get to practice.
+These are communication skills that transfer far beyond a single course---and they're exactly the kind of skills that humanities graduates need but rarely get to practice.
 
 
 ## Digital literacy without coding
-
-Our platform teaches students how the web actually works---how content is structured, how styling shapes design, how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit text files, drag and drop them into GitHub, and see their work published. The process is simple enough to learn in a class session, but the understanding it builds lasts.
+Our platform teaches students how websites work---how simple code block display images, how metadata enables functionality, , how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files, and see their work published as a webpage. Not just webpages, but technology becomes a little less intimidating
 
 
 ## Built to last
-
-Commercial website builders lock content into proprietary platforms that charge subscription fees and can disappear without warning. Our sites run on GitHub Pages---free, open, and built on web standards that will still work decades from now. The Santa Fe Trail project below hasn't been touched in eight years and works exactly as it did on day one. That's sustainability by design, not by accident.
+Commercial website builders lock content into proprietary platforms that charge subscription fees. Our sites run on GitHub Pages---free, open, and built on web standards that will still work decades from now. Some early projects haven't been touched in almost a decade and they work exactly as they did at the end of the course that created them. Sustainability by design.
 
 
 ## How it works
-
-The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start adding pages. Students write in Markdown---a simple formatting syntax---and submit their work through GitHub. No special software, no server administration, no technical background required. Our [getting started guide](getting-started) walks through every step, and we're always happy to visit a class to help.
+The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start editing the sample pages. No coding, no special software, no server administration, no technical background required. Our [getting started guide](getting-started) walks through every step, and we're always happy to visit a class to help.
 
 {% include card-list.html
 cards = page.cards%}

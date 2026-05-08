@@ -7,6 +7,8 @@ header-image: /assets/images/headers/wormiani.jpg
 header-filter: woodcut
 header-tier: section
 header-title: "Own your professional identity"
+header-caption: _Musei Wormiani Historia_, the frontispiece from the Museum Wormianum depicting Ole Worm's cabinet of curiosities
+header-image-link: https://en.wikipedia.org/wiki/Cabinet_of_curiosities
 
 cards:
   - title: Fred Gibbs

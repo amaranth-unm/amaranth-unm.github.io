@@ -20,9 +20,9 @@ cards:
     link: "terrain"
 
   - title: "Objex"
-    thumbnail: "/explore/objex/images/com-print-done-cropped.jpg"
+    thumbnail: "/projects/objex/images/com-print-done-cropped.jpg"
     summary: A growing collection of 3D scans and prints---each one an experiment in what physical reproduction can reveal about scale, texture, and material presence.
-    link: "/explore/objex"
+    link: "/projects/objex"
 ---
 
 Images can show us what something looks like, but they can't tell us how it feels in our hands, how heavy it is, or how it compares in size to other objects. When studying material culture---artifacts, architecture, sculpture, terrain---the physical qualities of objects often matter as much as their appearance. A photograph of a medieval capital flattens its carved details; a map abstracts the landscape into lines and colors. 3D printed replicas restore some of what images remove: the ability to rotate an object, trace its contours, and place it alongside others for direct comparison.

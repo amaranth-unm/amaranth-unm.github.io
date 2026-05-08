@@ -55,7 +55,7 @@
   <div class="header-studio-bar"></div>
   {% if include.caption %}
   <div class="header-studio-caption">
-    {{ include.caption }}{% if include.image-link %}<a href="{{ include.image-link }}" target="_blank" rel="noopener" aria-label="Image source">↗</a>{% endif %}
+    {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if include.image-link %}<a href="{{ include.image-link }}" target="_blank" rel="noopener" aria-label="Image source">↗</a>{% endif %}
   </div>
   {% endif %}
   <div class="header-studio-content">
