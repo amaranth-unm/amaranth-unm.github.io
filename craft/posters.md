@@ -8,8 +8,9 @@ header-caption: Hereford&nbsp; _Mappa Mundi_  &nbsp; c. 1300
 header-image-link: https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi
 header-tier: section
 header-filter: photo
+header-zoom: 120%
 header-title: "Why make a poster?"
-header-position: 
+header-position: 40%
 ---
 
 ## The canvas is the argument.

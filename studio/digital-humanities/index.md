@@ -4,10 +4,11 @@ author: Fred Gibbs
 layout: base
 date: 2026-02-19
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio. Learn about the field's history, where it stands today, and how Amaranth supports digital scholarship at the University of New Mexico."
-header-image: /assets/images/headers/punch-card-warehouse.jpg
+header-image: /assets/images/headers/EDSAC_(12).jpg
 header-title: Digital Humanities
 header-tier: section
-header-filter: etching
+header-filter: photo
+header-caption: Maurice Wilkes and Bill Renwick in front of the complete EDSAC, one of the first stored-program computers (c. 1950).
 ---
 
 ## What are the digital humanities?

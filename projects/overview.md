@@ -4,12 +4,13 @@ title: Explore
 author: Fred Gibbs
 date: 2025-02-14
 description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—and how. AI pedagogy, 3D fabrication, open publishing, and what it means to share humanistic work in the AI era."
-header-image: /assets/images/headers/heavens.webp
+header-image: /assets/images/headers/DP826009.jpg
 header-title: Our Projects
 header-tier: section
 header-filter: woodcut
-header-position: 0 80%
-header-zoom: 100%
+header-caption: The Alchemist, Pieter Bruegel the Elder (after 1558)
+header-position: 40% 50%
+header-zoom: 110%
 ---
 
 ## Tech as means to an end
