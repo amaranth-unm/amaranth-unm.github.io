@@ -101,11 +101,11 @@ Some of the most interesting projects start as a half-formed question, a vague i
 
 Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. [Read more about our studio ethos →](studio)
 
-<div class="alert-studio-hours">
-  <div class="alert-heading">Spring 2026 Studio Hours</div>
-  <ul>
-    <li>Tuesdays &amp; Thursdays: 9:30–11:00 · 12:30–2:00</li>
-    <li>Wednesdays: 10:00–12:00</li>
-  </ul>
-  <p>Mesa Vista Hall 2068 · <a href="mailto:amaranth@unm.edu">amaranth@unm.edu</a> · <a href="collaborate">book a consultation →</a></p>
-</div>
+{% include callout.html
+  title="Spring 2026 Studio Hours"
+  text="
+- **Tuesdays & Thursdays:** 9:30–11:00 // 12:30–2:00
+- **Wednesdays:** 10:00–12:00
+- Mesa Vista Hall 2068
+- [amaranth@unm.edu](mailto:amaranth@unm.edu) // [book a consultation →](collaborate)
+" %}

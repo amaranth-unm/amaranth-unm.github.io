@@ -1611,7 +1611,7 @@ ALERTS & CALLOUTS
 *****************************************************/
 
 /* Studio Hours Callout — Amaranth-themed with gradient */
-.alert-studio-hours {
+.callout {
   position: relative;
   padding: 2rem 2rem 2rem 2.5rem;
   margin: 2.5rem 0;
@@ -1625,7 +1625,7 @@ ALERTS & CALLOUTS
   box-shadow: var(--shadow-md);
 }
 
-.alert-studio-hours .alert-heading {
+.callout .callout-heading {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -1635,20 +1635,20 @@ ALERTS & CALLOUTS
   letter-spacing: 0.05em;
 }
 
-.alert-studio-hours p {
+.callout p {
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--amaranth-pink);  /* soft warm pink for readability on gradient */
   margin-bottom: 0.5rem;
 }
 
-.alert-studio-hours ul {
+.callout ul {
   list-style: none;
   margin: 1rem 0 0 0;
   padding: 0;
 }
 
-.alert-studio-hours li {
+.callout li {
   font-size: 1.15rem;
   line-height: 2;
   color: var(--amaranth-pink);  /* matches paragraph text */
@@ -1656,7 +1656,7 @@ ALERTS & CALLOUTS
   position: relative;
 }
 
-.alert-studio-hours li::before {
+.callout li::before {
   content: "▸";
   position: absolute;
   left: 0;
@@ -1664,7 +1664,7 @@ ALERTS & CALLOUTS
   font-weight: bold;
 }
 
-.alert-studio-hours a {
+.callout a {
   color: var(--unm-turquoise-light);
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -1672,23 +1672,23 @@ ALERTS & CALLOUTS
   transition: var(--transition);
 }
 
-.alert-studio-hours a:hover {
+.callout a:hover {
   color: var(--amaranth-pink);
   text-decoration-color: var(--amaranth-pink);
 }
 
 @media (max-width: 768px) {
-  .alert-studio-hours {
+  .callout {
     padding: 1.5rem 1.5rem 1.5rem 2rem;
     border-left-width: 4px;
   }
 
-  .alert-studio-hours .alert-heading {
+  .callout .callout-heading {
     font-size: 1.3rem;
   }
 
-  .alert-studio-hours p,
-  .alert-studio-hours li {
+  .callout p,
+  .callout li {
     font-size: 1rem;
   }
 }
