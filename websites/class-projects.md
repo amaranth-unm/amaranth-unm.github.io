@@ -6,7 +6,9 @@ description: "Turn course assignments into public scholarship. Amaranth helps UN
 header-image: /assets/images/headers/oil-painting.jpg
 header-tier: section
 header-filter: woodcut
-header-title: "When student work becomes public scholarship"
+header-zoom: 110%
+header-position: center 40%
+header-title: Bring students together
 
 cards:
   - title: Campus Histories
@@ -25,10 +27,9 @@ cards:
     link: https://historic-trails.unm.edu/
 ---
 
-## Widen the audience
-A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web---visible to future students, to communities, to anyone searching for the topic. Each contribution is small, but together they create something no one person could build alone.
+A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity.
+{: .lead}
 
-That shift---from private exercise to public contribution---changes how students think about their work. They write more carefully, design more intentionally, and care more about clarity.
 
 
 ## Designing for an audience

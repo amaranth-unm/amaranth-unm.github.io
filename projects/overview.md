@@ -5,7 +5,7 @@ author: Fred Gibbs
 date: 2025-02-14
 description: "Amaranth investigates which emerging technologies genuinely deepen humanities scholarship—and how. AI pedagogy, 3D fabrication, open publishing, and what it means to share humanistic work in the AI era."
 header-image: /assets/images/headers/DP826009.jpg
-header-title: Our Projects
+header-title: Investigations underway
 header-tier: section
 header-filter: woodcut
 header-caption: The Alchemist, Pieter Bruegel the Elder (after 1558)
@@ -13,8 +13,8 @@ header-position: 40% 50%
 header-zoom: 110%
 ---
 
-## Tech as means to an end
 At Amaranth, we investigate which tools, techniques, and technologies that can make humanities come alive outside the page. We're always exploring to see what's worth bringing to projects. We share what we learn honestly: what worked, what didn't, and what we'd do differently. **Technology is a means to an end, and the end is more visibility and vibrancy for the humanities**.
+{: .lead}
 
 ## Predictable Obsolenence
 Sometimes our reseaerch seems like quicksand. What's true about VR headsets, 3D printing, or AI this semester is not going to be true next year. But the work is still important. For good reason, the library is filled with books that aren't relevant as current scholarship. They played a key role in advancing understandings in their day. **Our work contributes to not just current practice, but shapes how humanists might use these tools in future iterations.**

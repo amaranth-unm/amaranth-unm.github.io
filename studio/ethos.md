@@ -5,7 +5,7 @@ author: Fred Gibbs
 date: 2025-01-01
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
 header-image: /assets/images/headers/workshop2.jpg
-header-title: Ethos
+header-title: Let's experiment together
 header-tier: section
 header-filter: woodcut
 header-caption: Early printing studio
@@ -13,8 +13,8 @@ header-zoom: 110%
 header-position: center 40%
 ---
 
-## Let's experiment together
 Amaranth is a studio in the original sense: a place where you come to learn, experiment, fail and make things, even if they aren't what you had in mind. We work alongside you, exploring technical and design decisions. When you leave, your comfort is a little higher and your boundaries a little further than they were.
+{: .lead}
 
 We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* a particular design or technical choice works can continue to learn and innovate more than one who outsourced those decisions. 
 

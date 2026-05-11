@@ -8,12 +8,11 @@ header-tier: section
 header-filter: photo
 header-position: center center
 header-zoom: 50%
-header-title: "Share your thinking out loud"
+header-title: Write for the ear
 ---
 
-## Writing for the ear
-
-A podcast lets you bring your ideas to people where they already are---on a commute, a walk, doing dishes. It demands a different kind of writing than academic prose: conversational, structured around curiosity, designed to hold attention through narrative rather than citation. That shift in register isn't a compromise. It's a skill.
+A podcast lets you bring your ideas to people where they already are---on a commute, a walk, doing dishes. It demands a different kind of writing than academic prose: conversational, structured around curiosity, designed to hold attention through narrative rather than citation. That shift in register isn't a compromise; it's a skill.
+{: .lead}
 
 Podcasting is also a way to share work-in-progress. In a university setting, there's pressure to hold back your ideas until after several drafts and peer review. But sometimes sharing early opens up possibilities---unexpected connections, fruitful collaborations, the chance to think through an argument by explaining it to someone else.
 

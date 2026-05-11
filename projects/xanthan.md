@@ -8,9 +8,8 @@ header-filter: botanical
 header-title: Build for stability and growth
 ---
 
-## Grown from classroom experiments
-The Xanthan framework started as a personal experiment---whether GitHub could be used to create a shared repository for course work. That, unexpectedly, grew into a collaborative website. Students were excited. That grew into a general framework for aggregating student work over different semesters. Students loved reading previous students' work as an introduction to course material, making edits, adding their own essays. 
-
+The Xanthan framework started as an experiment to create a shared repository for course work. That, from unexpected student interest, grew into a general framework for aggregating student work over different semesters. 
+{: .lead}
 
 ## A new kind of web publishing
 Most academic web publishing advice amounts to picking the least-bad platform. Squarespace if you want it to look decent. WordPress if you want flexibility. Institutional systems if you want to comply. In almost all cases, you trade control and transparency for convenience---and when the platform changes, you adapt or walk away.

@@ -7,7 +7,8 @@ header-image: /assets/images/headers/scroll-journey.jpg
 header-title: "Stories designed to be experienced"
 header-tier: section
 header-filter: photo
-header-position: center 60%
+header-zoom: 130%
+header-position: 50% 80%
 
 cards:
   - title: "Why Amaranth?"
@@ -16,7 +17,7 @@ cards:
     link: "/studio/why-amaranth/"
 
   - title: "Mesa Vista Hall"
-    thumbnail: /assets/images/headers/mvh-construction.jpg
+    thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
     summary: A demo scrollstory with images from the history of the building that was once a dormitory and now houses many different types of university office, including the History Department.
     link: "mesa-vista-hall/"
 

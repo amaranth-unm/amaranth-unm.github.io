@@ -5,13 +5,16 @@ author: Fred Gibbs
 date: 2024-10-28
 description: "Work with Amaranth on digital humanities projects at UNM. Drop by studio hours, book a consultation, or email us about class projects, grant work, or public-facing research."
 header-image: /assets/images/headers/collaboration.jpg
-header-title: "Let's work together"
+header-title: Vague notions encouraged
 header-tier: section
 header-filter: photo
+header-caption: Artisans, from the series "An Up-to-Date Parody of the Four Classes", Utagawa Kunisada (Japanese, 1786–1864)
+header-image-link: https://www.metmuseum.org/art/collection/search/55723
 ---
 
-## Vague notions encouraged
 The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of an aesthetic, or a project you're not sure is even possible. We want to help brainstorm possibilities from the outset!
+{: .lead}
+
 
 Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, or a researcher showcasing your latest work, we can help you move from idea to reality.
 
