@@ -276,6 +276,7 @@ body > .container {
   font-weight: 700;
   letter-spacing: -0.0em;
   margin-top: 0;
+  color: var(--unm-cherry);
 }
 
 /* Showcase strip — homepage gallery preview */
@@ -871,7 +872,7 @@ BUTTONS
 }
 
 .btn-cta:focus {
-  background-color: var(--amaranth) !important;
+  background-color: var(--amaranth-red) !important;
   outline: none !important;
   box-shadow: 0 0 0 3px rgba(229, 43, 80, 0.4) !important;
 }

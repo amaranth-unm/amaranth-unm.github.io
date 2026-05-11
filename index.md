@@ -11,40 +11,49 @@ nav-below-hero: false
 date: 2024-12-02
 features:
 
-  - title: "Explore"
+
+  - title: "Ethos"
+    image: "/assets/images/headers/margarita.jpg"
+    text: "Amaranth is a studio in the original sense: a place to learn, experiment, and make things. We work alongside you—hands in the same clay—teaching the thinking behind technical and design decisions so you leave knowing how to do it yourself, not just holding something someone else built."
+    link: "studio/ethos"
+    link-text: "Check out the studio →"
+    zoom: 110%
+
+  
+  - title: "Projects"
     image: "/assets/images/headers/margarita.jpg"
     text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
-    link: "explore"
+    link: "projects/overview"
     link-text: "What we're investigating →"
     zoom: 110%
 
 
+  - title: "Websites"
+    image: "/assets/images/headers/scroll-journey.jpg"
+    text: "An academic portfolio, collected class essay, a community project. We help you build sites with free, open infrastructure that moves with you, costs nothing to maintain, and will still work years from now with zero upkeep. No AI slop, just simple text files you can understand and edit."
+    link: "websites/gallery"
+    link-text: "Find your medium →"
+
+
   - title: "AI for humanities projects"
     image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
-    text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
-    link: "projects/ai-sketchbook"
-    link-text: "Learn more →"
+    text: "Digital Humanities have always struggled with requiste technical skills. Now, AI makes technical work accessible in a whole new way. Use AI to explore patterns in texts, make digital maps, transcribe oral histories, visualize data, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
+    link: "projects/ai-fluency"
+    link-text: "Come experiment with us →"
 
+  
   - title: "Craft"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
-    text: "A website for your research project or workshop. A portfolio for your aspirations and applications. A collaborative site for your class. We help you build it on open tools you actually own---your design, your content, no fees, no platform lock-in."
-    link: "craft"
+    text: "Building is a form of thinking. When you make a poster, record an oral history, or 3D-print an object for class, you face decisions that prose alone never forces: Who is this for? What goes first? What does it feel like to encounter? Those aren't peripheral to your scholarship—they shape whether anyone engages with it at all."
+    link: "craft/approach"
     link-text: "Start building →"
     zoom: 110%
 
 
-  - title: "Narrate"
-    image: "/assets/images/headers/scroll-journey.jpg"
-    text: "Oral histories. Podcasts. ScrollStories. Each form argues differently---through voice, through intimacy, through pacing and image. We help you match the medium to what you're trying to say, and then build it."
-    link: "narrate"
-    link-text: "Find your medium →"
-
-  
-  
-  - title: "Let's work together"
+  - title: "Collaborate"
     image: "/assets/images/headers/collaboration.jpg"
-    text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
+    text: "We work with everyone: students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early so we can use our experience to make suggestions."
     link: "collaborate"
     link-text: "Collaborate →"
 ---
@@ -55,12 +64,7 @@ Amaranth is UNM's digital humanities studio. **We focus on using technology to e
 
 **Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. 
 
-[How we approach AI pedagogy →](studio/ai-fluency)
-
-
-
 {% include feature-blocks.html title="" %}
-
 
 {::nomarkdown}
 </div>
@@ -95,9 +99,7 @@ Amaranth is UNM's digital humanities studio. **We focus on using technology to e
 ## Let's talk!
 Some of the most interesting projects start as a half-formed question, a vague idea, something you're not sure is even possible. We want to hear about it!
 
-Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety.
-
-[Read more about our studio ethos →](studio)
+Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. [Read more about our studio ethos →](studio)
 
 <div class="alert-studio-hours">
   <div class="alert-heading">Spring 2026 Studio Hours</div>
