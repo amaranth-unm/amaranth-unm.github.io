@@ -43,15 +43,15 @@
       url: "/websites/gallery"
 
 
-
-- title: "Craft"
+- title: "Printing"
   items:
-    - title: "Our Approach"
-      url: "/craft/approach"
     - title: "Posters"
       url: "/craft/posters"
     - title: "3D Prints"
       url: "/craft/3d-printing"
+
+- title: "Recording"
+  items:
     - title: "Oral Histories"
       url: "/craft/oral-histories"
     - title: "Podcasting"
