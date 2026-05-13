@@ -38,7 +38,7 @@ features:
   - title: "AI for humanities projects"
     image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
     text: "Digital Humanities have always struggled with requiste technical skills. Now, AI makes technical work accessible in a whole new way. Use AI to explore patterns in texts, make digital maps, transcribe oral histories, visualize data, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
-    link: "projects/ai-fluency"
+    link: "studio/ai-fluency"
     link-text: "Come experiment with us →"
 
   

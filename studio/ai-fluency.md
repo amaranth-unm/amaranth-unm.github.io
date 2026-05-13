@@ -1,7 +1,6 @@
 ---
 layout: base
 title: AI Fluency
-permalink: /studio/ai-fluency
 author: Fred Gibbs
 date: 2025-02-14
 description: "How Amaranth helps humanists build AI fluency through digital projects—starting with technical work, developing critical judgment, and learning to engage AI as practitioners rather than experts."
