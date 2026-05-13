@@ -13,11 +13,10 @@ header-caption: A 3D print of Mesa Verde
 
 ---
 
-3D printing turns digital models into physical things you can hold, compare, and learn from. The process is simpler than it looks: find or scan a model, prepare it with slicing software, and send it to the printer. Most of the work is in the preparation---once your file is ready, the printer does the rest.
+3D printing turns digital models into physical things you can hold, compare, and learn from. The process is simpler than it looks: find or scan a model, prepare it with slicing software, and send it to the printer. 
 {: .lead}
 
-
-The guides below walk through each step.
+Most of the work is figuring out what you want to do with your replica. Once you identify a model to print, the printer does everything else. The guides below walk through each step.
 
 
 ## Getting a model
