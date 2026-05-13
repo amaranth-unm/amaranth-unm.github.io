@@ -12,9 +12,17 @@ header-filter: photo
 
 AI tools have gotten remarkably good at working with text, images, and data---and remarkably accessible to people without technical backgrounds. You don't need to write code or understand machine learning. If you can describe what you want to explore, you can start using AI to do it.
 
-That's a real shift for humanities research and teaching. It means a historian can ask questions across thousands of pages of archival material. A literature class can explore patterns across an entire genre. An oral history project can make decades of recordings searchable in an afternoon. A student can build an interactive archive that would have taken a development team a few years ago.
+That's a real shift for humanities research and teaching. Without any technical training, researchers  can ask questions across thousands of pages of archival material. A literature class can explore patterns across an entire genre. An oral history project can make decades of recordings searchable in an afternoon. A student can build an interactive archive that would have taken a development team a few years ago.
 
-We're here to help you figure out where AI fits into your work—and just as importantly, where it doesn't. The skills you've spent years developing—evaluating sources, recognizing bias, attending to what's missing from an account—are exactly what makes AI use meaningful rather than mechanical. You're better positioned for this than you might think. Drop by studio hours, bring a project idea or just a question, and we'll explore it together.
+These are not hypothetical capabilities. They are things happening now in humanities departments.
+
+That reach comes with real costs. AI fabricates sources with unearned confidence. It reflects the biases of its training data — disproportionately English-language, Western, recent, and already digitized. It produces authoritative prose that can be subtly or badly wrong. And it flattens exactly the kind of complexity and ambiguity that makes humanistic inquiry worth doing.
+
+Which is exactly why humanists need to be in this conversation — not just as users, but as critics, experimenters, and the people best positioned to say what matters and what doesn't.
+
+We're here to help you figure out where AI fits into your work—and just as importantly, where it doesn't. The skills you've spent years developing—evaluating sources, recognizing bias, attending to what's missing from an account—are exactly what makes AI use meaningful rather than mechanical. You're better positioned for this than you might think. 
+
+Drop by studio hours, bring a project idea or just a question, and we'll explore it together.
 
 ## What kinds of projects can AI help with?
 
