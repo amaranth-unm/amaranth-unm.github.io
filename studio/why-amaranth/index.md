@@ -16,11 +16,11 @@ header-opacity: 0.28
 
 {% include figure.html class="right" width="50%" caption="Globe amaranth flowers retain their color even after drying, embodying their Greek name meaning 'unfading.'" image-path="images/Gomphrena_globosa_2.jpg" %}
 
-When we chose a name for UNM's digital humanities studio, we wanted something that captured both the promise and the paradox of working with technology in the humanities. We landed on *amaranth*---a name with roots stretching back thousands of years, carrying meanings that still resonate today.
+When we chose a name for UNM's digital humanities studio, we wanted something that captured both the promise and the paradox of working with technology in the humanities. We landed on *amaranth*---a name with roots stretching back thousands of years, still relevant today, and carrying contradictory meanings that characterize much of the humanities.
 
-The word comes from the Greek *amarantos* (ἀμάραντος), meaning "unfading" or "one that does not wither." The Greeks associated amaranth with immortality. They hung wreaths of it in temples, used it to decorate images of the gods, and placed it on tombs as a symbol of eternal remembrance. According to legend, amaranth flowers sprang from the blood of Adonis when he died, and garlands of amaranth adorned the mourning of Achilles.
+The word comes from the Greek *amarantos* (ἀμάραντος), meaning "unfading" or "one that does not wither." Associating it with immortality. The Greeks hung amaranth wreaths in temples, used it to decorate images of the gods, and placed it on tombs as a symbol of eternal remembrance.  Amaranth flowers sprang from the blood of Adonis when he died, and garlands of amaranth adorned the mourning of Achilles.
 
-There's a playful irony in naming a digital humanities studio after a symbol of permanence. Digital technology is notorious for its rapid obsolescence---file formats become unreadable, platforms disappear, links rot, and today's cutting-edge tool becomes tomorrow's abandoned project. We hope our work with open source tools and sustainable processes lengthens the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than the ancient flower ever did.
+There's a playful irony in naming a digital humanities studio after a symbol of permanence. Digital technology is notorious for its rapid obsolescence---file formats become unreadable, platforms disappear, links rot, and today's cutting-edge tool becomes tomorrow's abandoned project. We embrace this challenge, and we hope our tools and processes lengthen the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than our ancient flower ever did.
 
 
 {% include scrollybox/bg.html
