@@ -18,13 +18,7 @@ The best collaborations start before you have it figured out. Please come with a
 
 Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, or a researcher showcasing your latest work, we can help you move from idea to reality.
 
-{% include callout.html
-  title="Studio Hours (Spring 2026)"
-  text="
-- **Tuesdays & Thursdays:** 9:30–11:00 · 12:30–2:00
-- **Wednesdays:** 10:00–12:00
-- **Email anytime:** [amaranth@unm.edu](mailto:amaranth@unm.edu)
-" %}
+{% include studio-hours.html %}
 
 
 ## Curious about AI?

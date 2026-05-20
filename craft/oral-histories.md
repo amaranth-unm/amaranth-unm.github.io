@@ -2,48 +2,43 @@
 title: Oral Histories
 layout: base
 date: 2025-11-07
-description: "A practical guide to oral history at UNM. Planning, interviewing, recording, ethics, and preservation—from the Amaranth Digital Humanities Studio."
-header-image: /assets/images/headers/oral-history.png
+description: "How oral history changes the questions you ask—and what you find. Amaranth supports brainstorming, recording, transcription, and sharing at UNM."
+header-image: /assets/images/headers/oral-history.jpg
 header-tier: section
 header-filter: woodcut
 header-position: center 20%
-header-title: "More than an interview"
+header-title: "What the archive can't hold"
 ---
 
-## What written records miss
+Most research starts with what has already been written down. Oral history starts somewhere else: with living people, spoken memory, and the knowledge that never made it into the archive because it didn't need to—it was passed on in conversation, in practice, in the places people moved through.
+{: .lead}
 
-An oral history is a relationship between narrator and listener. Done well, it preserves not just what someone said, but how they said it---the pauses, the laughter, the moments where language fails. It captures knowledge that written records miss: lived experience, community memory, the stories people carry but rarely write down.
+## The interview teaches you what to ask
 
-The work starts long before you press record. It begins with trust, preparation, and a clear sense of why this story matters and who it's for. The guidelines below, adapted from the [Oral History Association](https://oralhistory.org/), walk through the process from planning to ethics.
+You arrive with questions you think are the right ones. A good narrator dismantles them. The best oral history interviews don't confirm what you already knew—they surface the gaps in your framework. A narrator who pauses before answering, who circles back to a detail you thought was minor, who laughs at a question you meant seriously: these moments are data. They tell you where your model of the world is wrong.
 
+That's what makes oral history valuable not just as documentation, but as *method*. The process of listening carefully to someone else's account of an experience changes how you think about the experience itself.
 
-## The relationship comes first
-Before you interview anyone, get clear on what you're doing and why. What will this project document---a person, a community, an event, a place? Who is the audience? How will the material be used and preserved? Check whether similar collections already exist, and consider how your project might add voices that aren't yet heard.
+## What text can't carry
 
+A transcript is a record of words. A recording carries something else: the shift in someone's voice when a subject becomes difficult, the laughter that undercuts a formal answer, the pause that tells you the question touched something real. These are part of the meaning—and they're lost the moment you reduce the interview to prose.
 
-## Build relationships with narrators
-Choose narrators whose experiences are relevant to your topic and who bring diverse perspectives. Before any interview, meet with them to explain the project, the process, and their rights. Be transparent about how the recording will be used, what review rights they have, and what happens to transcripts. Narrators should always know they can decline topics, pause recording, or withdraw entirely.
+This isn't an argument against transcription. Transcripts are essential for searching and citation. It's an argument for keeping the recording alongside the transcript—and for treating the recording as a primary source in its own right.
 
+## Your recordings become an archive
 
-## Prepare for the interview
-Do your homework. Research the topic, the community, and the relevant history so you can ask informed follow-up questions and contextualize what narrators share. Prepare an interview guide with open-ended questions and topic areas rather than a rigid script. Test your equipment, check the sound environment, and have backup plans for batteries and storage. If your project requires consent or release forms, prepare those in advance.
+What you collect doesn't have to stay on your hard drive. Oral history recordings deposited with a library or community organization become usable by future researchers, by the communities whose stories they hold, by the narrators themselves. Projects that feel modest in scope—a semester of conversations with longtime neighborhood residents, twelve interviews with retired faculty—often turn out to be exactly what someone needs fifteen years later.
 
+Thinking about preservation early makes the work more valuable. We can help you plan for it from the start.
 
-## During the interview
-Start with warm-up questions---name, place of birth, early life---to help the narrator relax. Use open-ended prompts ("Can you describe...", "What was it like when...") rather than yes/no or leading questions. Listen actively. Follow up. Allow silences---they often lead to the most honest moments. Be sensitive to difficult topics; build trust and let the narrator set boundaries.
+## How Amaranth can help
 
+We're not a recording service—we're a collaborator. Bring us a project at any stage:
 
-## Ethical care
-Narrators are not sources---they are people with agency, rights, and histories. Consider the power dynamics between interviewer and narrator. Be clear about how the interview might be used in publications, websites, or exhibitions, and make sure narrators genuinely understand and agree. Respect confidentiality: some material may need to be redacted or embargoed. And think about reciprocity---how might the narrators or their communities benefit from this work?
+- **Early**: you have a subject but aren't sure what you're asking—we can help you think through the design and the questions
+- **Middle**: you have recordings and need to transcribe, organize, or present them
+- **Anywhere**: you want to understand what AI transcription can do, how to structure consent, or how to share recordings in a way that's accessible and lasts
 
+We have equipment, quiet recording space, and experience with the full workflow from first conversation to finished archive.
 
-## Further reading
-
-Ritchie, Donald A. *Doing Oral History.* Third edition. New York, NY: Oxford University Press, 2015.
-
-Yow, Valerie Raleigh. *Recording Oral History: A Guide for the Humanities and Social Sciences.* 2nd edition. Walnut Creek, CA: AltaMira Press, 2005.
-
-
-## AI-assisted transcription
-
-Transcribing recorded interviews has always been one of the most time-consuming parts of oral history work. AI transcription tools can now produce solid first-draft transcripts in minutes rather than hours, making large collections much more manageable. The transcripts still need human review---AI gets names, places, and specialized terms wrong with some regularity---but starting from a machine-generated draft rather than a blank page saves enormous amounts of time. We can help you choose a tool and set up a workflow that fits your project. For projects with many hours of recordings, AI can also help you search across your full collection---finding every mention of a place, a person, or a theme across dozens of interviews.
+<p style="text-align: right"><a href="/craft/oral-history-guide" class="btn-cta">How to do it →</a></p>

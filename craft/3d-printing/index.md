@@ -5,7 +5,7 @@ subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
 description: "A step-by-step guide to 3D printing at Amaranth. From finding or scanning a model, to slicing with Orca Slicer, to printing on our Anycubic Kobra 3 at UNM."
-header-image: /assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.png
+header-image: /assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.jpg
 header-filter: photo
 header-tier: section
 header-title: Rescale reality

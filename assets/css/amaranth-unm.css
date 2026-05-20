@@ -1506,13 +1506,14 @@ FOOTER
 .footer-list li a:hover { color: var(--amaranth-bright); text-decoration: none; }
 .footer-heading {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 0.75rem;
 }
+.footer-list li a { font-size: 0.78rem; }
 
 .footer-brand {
   font-family: 'Space Grotesk', sans-serif;
