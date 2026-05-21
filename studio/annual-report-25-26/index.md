@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Annual Report Fall 2025-Spring 2026
+title: Annual Report
 author: Jonathan Seyfried
 date: 2026-05-21
 description: "A summary of the activity of the Amaranth Digital Humanities Studio in the first year of its operation."
@@ -34,7 +34,7 @@ images/hist-337-website.png" | split: ','
 %}
 
 
-{% include images/carousel.html
+{% include carousel.html
   width="80%"
   class="center"
   images=images
