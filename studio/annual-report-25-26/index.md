@@ -9,13 +9,14 @@ header-title: "Year One"
 header-tier: section
 header-filter: photo
 header-height: 60vh
+header-position: center 70%
 ---
 
 # A Very Active Year Indeed
 
 The first year of operation for the Amaranth Digital Humanities Studio resulted in several successful course integrations, dozens of student research projects, and participation in events almost every month.
 
-Our active campus partnerships include: Center for the Southwest, Institute for Medieval Studies, School of Architecture Fab Lab, Maxwell Museum, WGSS, Sustainability Studies, Liberal Arts & Integrative Studies, University Libraries, Center for Teaching & Learning.
+Our active campus partnerships initiated this year include: Center for the Southwest, Institute for Medieval Studies, School of Architecture Fab Lab, Maxwell Museum, WGSS, Sustainability Studies, Liberal Arts & Integrative Studies, University Libraries, Center for Teaching & Learning.
 
 ## Collaborative Websites
 
