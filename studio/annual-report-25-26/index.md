@@ -9,7 +9,7 @@ header-title: "Year One"
 header-tier: section
 header-filter: photo
 header-height: 60vh
-header-position: center 120%
+header-position: center 30%
 ---
 
 # A Very Active Year Indeed
@@ -50,13 +50,13 @@ images/hist-337-website.png" | split: ','
 The Studio developed and supported research efforts in several key areas during the 2025-2026 academic year.
 
 ### AI and Digital Humanities
-In an effort to cut through the hype and articulate the potential of AI for Humanities, we developed [AI Sketchbook](projects/ai-sketchbook), a repository for short case studies on the use of AI in Humanities reasearch and teaching.
+In an effort to cut through the hype and articulate the potential of AI for Humanities, we developed [AI Sketchbook](/projects/ai-sketchbook), a repository for short case studies on the use of AI in Humanities reasearch and teaching.
 
 ### 3D Pedagogy
-We printed replicas of IUDs manufactured in Mexico during the 1970s, a model of the Jewish neighborhood in medieval Worms, ancient Mesopotamian cylinder seals, the terrain of the Santa Fe trail and so much more. These projects aim to demonstrate the potential for authentic tactile learning. Read more on our [3D Pedagogy](projects/3d-pedagogy/) section.
+We printed replicas of IUDs manufactured in Mexico during the 1970s, a model of the Jewish neighborhood in medieval Worms, ancient Mesopotamian cylinder seals, the terrain of the Santa Fe trail and so much more. These projects aim to demonstrate the potential for authentic tactile learning. Read more on our [3D Pedagogy](/projects/3d-pedagogy/) section.
 
 ### Emerging Technologies and Consumption of History
-A group of independent study students explored how digital tools reshape storytelling, preservation, pedagogy, and public memory. Read more about the [Amaranth Really Robust Reserach Group](projects/arg).
+A group of independent study students explored how digital tools reshape storytelling, preservation, pedagogy, and public memory. Read more about the [Amaranth Really Robust Reserach Group](/projects/arg).
 
 ## Events
 
