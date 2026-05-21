@@ -35,15 +35,14 @@ images/hist-337-website.png" | split: ','
 
 
 {% include carousel.html
-  width="80%"
+  width="100%"
   class="center"
   images=images
   headers=headers
   captions=captions
 %}
 
-This particular assignment of creating a website finally changed the locks inside my brain and opened a door to a world of visualization and language that actually has the ability to communicate with others, mortal human beings outside academia... It had forced me to struggle with the concept of designing something that is pleasing to the eye, and create a text that wouldn't bore the reader. When transforming into the virtual space of a website, I felt like I have to make an effort into writing in a way that is engaging, that you would want to continue scrolling down.
-History Graduate Student, HIST 596-003, Madness in America
+>"This particular assignment of creating a website finally changed the locks inside my brain and opened a door to a world of visualization and language that actually has the ability to communicate with others, mortal human beings outside academia... It had forced me to struggle with the concept of designing something that is pleasing to the eye, and create a text that wouldn't bore the reader. When transforming into the virtual space of a website, I felt like I have to make an effort into writing in a way that is engaging, that you would want to continue scrolling down." History Graduate Student, HIST 596-003, Madness in America
 
 ## Events
 
