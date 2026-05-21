@@ -9,7 +9,7 @@ header-title: "Year One"
 header-tier: section
 header-filter: photo
 header-height: 60vh
-header-position: center 70%
+header-position: center 120%
 ---
 
 # A Very Active Year Indeed
@@ -45,7 +45,22 @@ images/hist-337-website.png" | split: ','
 
 >"This particular assignment of creating a website finally changed the locks inside my brain and opened a door to a world of visualization and language that actually has the ability to communicate with others, mortal human beings outside academia... It had forced me to struggle with the concept of designing something that is pleasing to the eye, and create a text that wouldn't bore the reader. When transforming into the virtual space of a website, I felt like I have to make an effort into writing in a way that is engaging, that you would want to continue scrolling down." History Graduate Student, HIST 596-003, Madness in America
 
+## Research
+
+The Studio developed and supported research efforts in several key areas during the 2025-2026 academic year.
+
+### AI and Digital Humanities
+In an effort to cut through the hype and articulate the potential of AI for Humanities, we developed [AI Sketchbook](projects/ai-sketchbook), a repository for short case studies on the use of AI in Humanities reasearch and teaching.
+
+### 3D Pedagogy
+We printed replicas of IUDs manufactured in Mexico during the 1970s, a model of the Jewish neighborhood in medieval Worms, ancient Mesopotamian cylinder seals, the terrain of the Santa Fe trail and so much more. These projects aim to demonstrate the potential for authentic tactile learning. Read more on our [3D Pedagogy](projects/3d-pedagogy/) section.
+
+### Emerging Technologies and Consumption of History
+A group of independent study students explored how digital tools reshape storytelling, preservation, pedagogy, and public memory. Read more about the [Amaranth Really Robust Reserach Group](projects/arg).
+
 ## Events
+
+Listed in order from the Fall to the Spring, here are the events at which Amaranth participated during the year.
 
 - Amaranth Open House
 - History Dept. at Welcome Back Days 
@@ -74,4 +89,4 @@ In the Fall of 2026 we plan to guide website creation for the following courses:
 - Gender, War & Memory (History)
 
 
-To our active campus partnerships we hope to add the Department of Geography & Environmental Studies, the Center for Regional Studies, New Mexico Community Resilience Group, and UNM IT Makerspaces.
+We hope to add to our active campus partnerships: the Center for Regional Studies, New Mexico Community Resilience Group, and UNM IT Makerspaces.
