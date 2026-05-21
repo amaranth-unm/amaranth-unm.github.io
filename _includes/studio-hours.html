@@ -1,0 +1,15 @@
+{% assign sh = site.data.studio-hours %}
+{% assign term = sh.terms[sh.current_term] %}
+<div class="callout">
+  <div class="callout-heading">Studio Hours ({{ term.label }})</div>
+  {% if term.message %}
+    <p>{{ term.message }} <a href="mailto:{{ term.email }}">{{ term.email }}</a></p>
+  {% else %}
+    <ul>
+      {% for slot in term.hours %}
+        <li><strong>{{ slot.day }}:</strong> {{ slot.time }}</li>
+      {% endfor %}
+    </ul>
+    <ul><li><strong>Email anytime:</strong> <a href="mailto:{{ term.email }}">{{ term.email }}</a></li></ul>
+  {% endif %}
+</div>

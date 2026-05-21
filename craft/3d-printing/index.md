@@ -5,17 +5,18 @@ subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
 description: "A step-by-step guide to 3D printing at Amaranth. From finding or scanning a model, to slicing with Orca Slicer, to printing on our Anycubic Kobra 3 at UNM."
-header-image: /assets/images/headers/terrain.jpg
+header-image: /assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.jpg
 header-filter: photo
 header-tier: section
-header-title: "From screen to object"
+header-title: Rescale reality
+header-caption: A 3D print of Mesa Verde
+
 ---
 
-## It's simpler than it looks.
+3D printing turns digital models into physical things you can hold, compare, and learn from. The process is simpler than it looks: find or scan a model, prepare it with slicing software, and send it to the printer. 
+{: .lead}
 
-3D printing turns digital models into physical things you can hold, compare, and learn from. The process is simpler than it looks: find or scan a model, prepare it with slicing software, and send it to the printer. Most of the work is in the preparation---once your file is ready, the printer does the rest.
-
-The guides below walk through each step.
+Most of the work is figuring out what you want to do with your replica. Once you identify a model to print, the printer does everything else. The guides below walk through each step.
 
 
 ## Getting a model

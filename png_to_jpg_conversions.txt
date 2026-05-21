@@ -1,0 +1,6 @@
+assets/images/headers/xanthan-bw.png -> assets/images/headers/xanthan-bw.jpg
+assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.png -> assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.jpg
+assets/images/headers/amaranth-flower.png -> assets/images/headers/amaranth-flower.jpg
+assets/images/headers/oral-history.png -> assets/images/headers/oral-history.jpg
+assets/images/headers/amaranth-flower-etch.png -> assets/images/headers/amaranth-flower-etch.jpg
+assets/images/headers/palmer-sandia.png -> assets/images/headers/palmer-sandia.jpg

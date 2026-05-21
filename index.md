@@ -2,61 +2,69 @@
 title: Amaranth Digital Humanities Studio @ UNM
 layout: base
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio. We help students and faculty build websites, podcasts, oral histories, 3D prints, and interactive narratives using open-source tools."
-header-image: /assets/images/headers/palmer-sandia.png
+header-image: /assets/images/headers/palmer-sandia.jpg
 header-filter: botanical
 header-height: 100vh
 header-eyebrow: "UNM // Digital Humanities Studio"
 header-title: Amaranth
-header-subtitle: "humanities + technology"
 nav-below-hero: false
 date: 2024-12-02
 features:
-  - title: "Own your work"
+
+
+  - title: "Ethos"
+    image: "/assets/images/headers/margarita.jpg"
+    text: "Amaranth is a studio in the original sense: a place to learn, experiment, and make things. We work alongside you—hands in the same clay—teaching the thinking behind technical and design decisions so you leave knowing how to do it yourself, not just holding something someone else built."
+    link: "studio/ethos"
+    link-text: "Check out the studio →"
+    zoom: 110%
+
+  
+  - title: "Projects"
+    image: "/assets/images/headers/margarita.jpg"
+    text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
+    link: "projects/overview"
+    link-text: "What we're investigating →"
+    zoom: 110%
+
+
+  - title: "Websites"
+    image: "/assets/images/headers/scroll-journey.jpg"
+    text: "An academic portfolio, collected class essay, a community project. We help you build sites with free, open infrastructure that moves with you, costs nothing to maintain, and will still work years from now with zero upkeep. No AI slop, just simple text files you can understand and edit."
+    link: "websites/gallery"
+    link-text: "Find your medium →"
+
+
+  - title: "AI for humanities projects"
+    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
+    text: "Digital Humanities have always struggled with requiste technical skills. Now, AI makes technical work accessible in a whole new way. Use AI to explore patterns in texts, make digital maps, transcribe oral histories, visualize data, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required--just an open mind."
+    link: "studio/ai-fluency"
+    link-text: "Come experiment with us →"
+
+  
+  - title: "Craft"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
-    text: "Websites, portfolios, community archives---built on open tools you actually own. No subscription fees, no platform lock-in, no software to maintain. Your colors, your typography, your layout---every site is different because the design decisions are yours."
-    link: "craft"
+    text: "Building is a form of thinking. When you make a poster, record an oral history, or 3D-print an object for class, you face decisions that prose alone never forces: Who is this for? What goes first? What does it feel like to encounter? Those aren't peripheral to your scholarship—they shape whether anyone engages with it at all."
+    link: "craft/approach"
     link-text: "Start building →"
     zoom: 110%
 
 
-  - title: "Medium &harr; message"
-    image: "/assets/images/headers/scroll-journey.jpg"
-    text: "An oral history argues through voice. A podcast argues through intimacy. A ScrollStory argues through pacing and image. The medium you choose shapes what your audience understands---we help you choose with intention."
-    link: "narrate"
-    link-text: "Find your medium →"
-
-  - title: "Tactile thinking"
-    image: "/assets/images/headers/margarita.jpg"
-    text: "We investigate how emerging technologies can deepen the questions humanists ask. 3D-printed replicas, terrain maps, open-source frameworks---each project tests what happens when you make abstract scholarship physical, holdable, comparable."
-    link: "explore"
-    link-text: "What we're investigating →"
-    zoom: 110%
-
-  - title: "Let's work together"
+  - title: "Collaborate"
     image: "/assets/images/headers/collaboration.jpg"
-    text: "We work with students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early---before you have it figured out. That's exactly the right time."
+    text: "We work with everyone: students building their first digital project, faculty bringing research into public view, and community partners whose stories deserve more than a PDF. Come talk to us early so we can use our experience to make suggestions."
     link: "collaborate"
     link-text: "Collaborate →"
-
-  - title: "AI for humanities projects"
-    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
-    text: "Use AI to explore patterns in texts, transcribe oral histories, analyze images, and ask new questions of familiar sources---with the critical thinking that makes it meaningful. No technical background required."
-    link: "explore/ai-humanities"
-    link-text: "Learn more →"
 ---
 
-# Keep the humanities vibrant
 
-Amaranth is UNM's digital humanities studio. **We focus on helping scholars and students use technology to *communicate* the significance of their work** reaaching broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure they control. **Design matters**—not as decoration, but to help ideas reach people. You don't need professional training to make deliberate visual choices that strengthen your message and connect with your audience. Public scholarship and digital pedagogy isn't an add-on. It's the point. [Read how Amaranth fits into the digital humanities →](studio/digital-humanities)
+## Keep the humanities vibrant
+Amaranth is UNM's digital humanities studio. **We focus on using technology to expand the reach of the  humanities** engaging broad audiences with collaborative websites, oral histories, podcasts, virtual and augmented reality, 3D printing, and interactive narratives built on open infrastructure. 
 
-**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical analysis---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through an iterative AI workflow, starting with technical work where feedback is immediate, building fluency that transfers into research, writing, and teaching. AI opens new ways of exploring texts, images, archives, and ideas---and we help people use it with the critical judgment the humanities demand. [How we approach AI pedagogy →](explore/ai-pedagogy)
-
-**We're practitioners, not evangelists.** We test tools in real classrooms and real projects, share what we learn honestly, and build on open-source infrastructure with stability at its core. This is a coaching studio, not a service desk---we work alongside you, teaching the thinking behind decisions so you can carry the work forward and keep learning. [Read more about our studio ethos →](studio)
-
+**Central to our mission: humanists need to help guide AI practices**. The interpretive habits built through close reading, archival research, and critical interpretation---evaluating sources, questioning frames, recognizing biases---are exactly what responsible AI use requires. We guide collaborators through iterative AI workflows, starting with technical work where stakes are low and feedback is immediate, building comfort and fluency that transfers into research, writing, and teaching. 
 
 {% include feature-blocks.html title="" %}
-
 
 {::nomarkdown}
 </div>
@@ -88,15 +96,16 @@ Amaranth is UNM's digital humanities studio. **We focus on helping scholars and 
 {:/nomarkdown}
 
 
-## Come build something
+## Let's talk!
+Some of the most interesting projects start as a half-formed question, a vague idea, something you're not sure is even possible. We want to hear about it!
 
-Some of the best work starts as a half-formed question, a vague idea, something you're not sure is even possible. That's exactly the right time to talk.
+Our space and our approach is more like a workshop, not a service desk. We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. [Read more about our studio ethos →](studio)
 
-We work alongside you, teaching the thinking behind technical and design decisions so you can carry it forward. Whether it's a class assignment, a research project, or something you haven't quite figured out yet---action reduces anxiety. 
-
-Drop by studio hours, email us at <amaranth@unm.edu>, or [book a consultation](collaborate).
-
-
-### Spring 2026 studio hours
-- Tuesdays & Thursdays: 9:30--11:00; 12:30--2:00
-- Wednesdays: 10:00--12:00
+{% include callout.html
+  title="Spring 2026 Studio Hours"
+  text="
+- **Tuesdays & Thursdays:** 9:30–11:00 // 12:30–2:00
+- **Wednesdays:** 10:00–12:00
+- Mesa Vista Hall 2068
+- [amaranth@unm.edu](mailto:amaranth@unm.edu) // [book a consultation →](collaborate)
+" %}

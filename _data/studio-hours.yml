@@ -1,0 +1,21 @@
+# Studio hours by term code (YYYYSS: 10=spring, 60=summer, 80=fall)
+# Set current_term to the active term key.
+# For a term with regular hours, list entries under `hours`.
+# For a term without regular hours, use `message` instead.
+
+current_term: "202660"
+
+terms:
+  "202660":
+    label: "Summer 2026"
+    message: "No scheduled studio hours this summer, but we'd love to connect—email us anytime to set up a consultation."
+    email: "amaranth@unm.edu"
+
+  "202680":
+    label: "Fall 2026"
+    email: "amaranth@unm.edu"
+    hours:
+      - day: "Tuesdays & Thursdays"
+        time: "9:30–11:00 · 12:30–2:00"
+      - day: "Wednesdays"
+        time: "10:00–12:00"
