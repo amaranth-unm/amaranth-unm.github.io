@@ -1,0 +1,6 @@
+<div class="callout">
+  {% if include.title %}
+  <div class="callout-heading">{{ include.title }}</div>
+  {% endif %}
+  {{ include.text | markdownify }}
+</div>

@@ -220,7 +220,28 @@ body > .container {
   align-items: center;
   gap: 3rem;
   padding: 2.5rem 0;
-  border-top: 2px solid var(--border-color);
+  border-top: none;
+  position: relative;
+  z-index: 0;
+}
+
+.feature-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+}
+
+.feature-block:nth-child(odd)::before {
+  background-color: var(--unm-lobo-gray-dark);
+}
+
+.feature-block:nth-child(even)::before {
+  background-color: #33373c;
 }
 
 .feature-block:first-of-type {
@@ -237,11 +258,12 @@ body > .container {
   background-size: cover;
   background-position: center;
   border-radius: var(--radius-lg);
+  filter: grayscale(0.85) sepia(0.2) brightness(0.85);
 }
 
-/* Woodcut filter — subtle warmth for European woodcuts */
+/* Woodcut filter — additional warmth for European woodcuts */
 .feature-block-image.filter-woodcut {
-  filter: sepia(0.2);
+  filter: grayscale(0.85) sepia(0.3) brightness(0.85);
 }
 
 .feature-block-text {
@@ -254,6 +276,7 @@ body > .container {
   font-weight: 700;
   letter-spacing: -0.0em;
   margin-top: 0;
+  color: var(--unm-cherry);
 }
 
 /* Showcase strip — homepage gallery preview */
@@ -380,7 +403,7 @@ a {
 }
 
 a:hover {
-  color: var(--unm-turquoise-light);
+  color: var(--amaranth-bright);
   text-decoration: underline;
 }
 
@@ -398,16 +421,25 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
   top: 0 !important;
   z-index: 1030 !important;
   margin-bottom: 0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
 .navbar > .container,
 .navbar > .container-fluid {
+  display: flex !important;
   align-items: center !important;
-  margin-bottom: 0 !important;
+  height: 52px !important;
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
-  height: 100% !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+  align-self: center !important;
 }
 
 .navbar + *,
@@ -428,6 +460,9 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
   padding: 0 !important;
   margin: 0 !important;
   text-transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 52px !important;
 }
 
 .navbar-brand span {
@@ -446,6 +481,7 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
 .navbar-nav {
   margin-bottom: 0 !important;
   align-items: center !important;
+  height: 52px !important;
   gap: 0.25rem !important;
 }
 
@@ -535,12 +571,22 @@ Aesthetic: specimen-sheet lightness, cherry-tinted dark
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-/* Mobile: collapsed nav needs explicit background — background-color is not inherited */
+/* Mobile: position collapse absolutely below the fixed-height navbar bar */
 @media (max-width: 991px) {
   .navbar-collapse {
+    position: absolute !important;
+    top: 52px !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1029 !important;
     background-color: rgba(20, 5, 10, 0.99) !important;
-    padding: 0.5rem 0 0.75rem;
-    border-top: 1px solid rgba(186, 12, 47, 0.2);
+    padding: 0.5rem 1rem 0.75rem !important;
+    border-top: 1px solid rgba(186, 12, 47, 0.2) !important;
+  }
+
+  .navbar-nav {
+    height: auto !important;
+    align-items: flex-start !important;
   }
 
   .dropdown-menu {
@@ -795,13 +841,13 @@ GRIDS
 BUTTONS
 *****************************************************/
 .btn-primary {
-  background: var(--unm-turquoise);
+  background: var(--amaranth);
   color: white;
   border: none;
 }
 
 .btn-primary:hover {
-  background: #008f9d;
+  background: var(--amaranth-red);
   transform: translateY(-1px);
 }
 
@@ -817,12 +863,12 @@ BUTTONS
 }
 
 .btn-cta {
-  background-color: var(--unm-turquoise) !important;
+  background-color: var(--amaranth-bright) !important;
   color: white !important;
   font-family: 'Space Grotesk', sans-serif !important;
   font-weight: 600 !important;
-  font-size: 1.3rem !important;
-  padding: 1rem 3.5rem !important;
+  font-size: 1rem !important;
+  padding: 0.7rem 2.25rem !important;
   border: none !important;
   border-radius: var(--radius-md) !important;
   text-decoration: none !important;
@@ -831,14 +877,14 @@ BUTTONS
 }
 
 .btn-cta:hover {
-  background-color: #008f9d !important;
+  background-color: var(--amaranth-red) !important;
   transform: translateY(-1px) !important;
 }
 
 .btn-cta:focus {
-  background-color: var(--unm-turquoise) !important;
+  background-color: var(--amaranth-red) !important;
   outline: none !important;
-  box-shadow: 0 0 0 3px rgba(0, 122, 134, 0.4) !important;
+  box-shadow: 0 0 0 3px rgba(229, 43, 80, 0.4) !important;
 }
 
 .btn-cta-nav {
@@ -1006,7 +1052,7 @@ Typography-forward dark header with line grid + cherry bar
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: #161618;
+  background: #4a2838;
   box-sizing: content-box;
   padding-bottom: 120px;
 }
@@ -1028,7 +1074,7 @@ Typography-forward dark header with line grid + cherry bar
   inset: 0;
   background-size: cover;
   background-position: center right;
-  opacity: 0.28;
+  opacity: 0.50;
 }
 
 .header-studio-grid {
@@ -1042,12 +1088,39 @@ Typography-forward dark header with line grid + cherry bar
 }
 
 .header-studio-bar {
+  display: none;
+}
+
+.header-studio-caption {
   position: absolute;
-  left: 0;
-  top: 0;
   bottom: 0;
-  width: 4px;
-  background: var(--unm-cherry);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem 1.25rem;
+  background: rgba(0, 0, 0, 0.35);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.55);
+  pointer-events: none;
+}
+
+.header-studio-caption a {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: auto;
+  margin-left: 0.35em;
+  opacity: 0.8;
+}
+
+.header-studio-caption a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  opacity: 1;
 }
 
 .header-studio-content {
@@ -1059,14 +1132,13 @@ Typography-forward dark header with line grid + cherry bar
   height: 100%;
   padding: 3rem 5rem;
   margin-left: 3rem;
-  border-left: 2px solid rgba(186, 12, 47, 0.4);
 }
 
 .header-studio-eyebrow {
   font-family: 'Space Mono', monospace;
   font-size: 0.85rem;
   letter-spacing: 0.3em;
-  color: var(--unm-cherry);
+  color: rgba(200, 200, 200, 0.7);
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -1083,6 +1155,11 @@ Typography-forward dark header with line grid + cherry bar
   letter-spacing: 0 !important;
 }
 
+/* Hero title only — amaranth red */
+.header-studio--hero h1 {
+  color: var(--amaranth) !important;
+}
+
 .header-studio-divider {
   display: flex;
   align-items: center;
@@ -1093,20 +1170,20 @@ Typography-forward dark header with line grid + cherry bar
 .header-studio-divider-line {
   height: 1px;
   width: 60px;
-  background: rgba(255,255,255,0.12);
+  background: rgba(200, 200, 200, 0.2);
 }
 
 .header-studio-divider span {
   font-family: 'Space Mono', monospace;
   font-size: 0.75rem;
   letter-spacing: 0.3em;
-  color: rgba(255,255,255,0.28);
+  color: rgba(200, 200, 200, 0.45);
   text-transform: uppercase;
 }
 
 .header-studio p {
   font-size: 1.15rem;
-  color: rgba(255,255,255,0.45);
+  color: rgba(200, 200, 200, 0.55);
   line-height: 1.75;
   font-weight: 300;
   letter-spacing: 0.06em;
@@ -1225,8 +1302,40 @@ Typography-forward dark header with line grid + cherry bar
 
 /* --- Filter: Botanical (line-art engravings on white background) --- */
 .header-studio-bg--botanical {
-  filter: invert(1) sepia(0.6) hue-rotate(320deg) saturate(2.5);
+  filter: invert(1) sepia(0.3) hue-rotate(340deg) saturate(0.6) brightness(1.6);
   mix-blend-mode: screen;
+}
+
+/* Botanical accent layer — red-tinted version masked to the flower region.
+   Sits on top of the base botanical layer. The radial gradient mask
+   reveals this red layer only where the amaranth flower is. */
+.header-studio-bg--botanical-accent {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center right;
+  filter: invert(1) sepia(0.8) hue-rotate(320deg) saturate(4) brightness(1.0);
+  mix-blend-mode: screen;
+  opacity: 0.80;
+  -webkit-mask-image: radial-gradient(ellipse 45% 70% at 72% 55%, black 0%, transparent 70%);
+  mask-image: radial-gradient(ellipse 45% 70% at 72% 55%, black 0%, transparent 70%);
+}
+
+/* Botanical hero — dark background matching site, bright illustration lines. */
+.header-studio:has(.header-studio-bg--botanical) {
+  background: var(--unm-lobo-gray-dark);
+}
+
+.header-studio:has(.header-studio-bg--botanical) .header-studio-bg {
+  opacity: 0.7;
+}
+
+.header-studio:has(.header-studio-bg--botanical)::after {
+  background: linear-gradient(to bottom, transparent, #2a2d31);
+}
+
+.header-studio:has(.header-studio-bg--botanical) .header-studio-grid {
+  opacity: 0;
 }
 
 
@@ -1328,6 +1437,28 @@ Typography-forward dark header with line grid + cherry bar
 
 
 /*****************************************************
+LEAD PARAGRAPH
+Usage: <p class="lead">First paragraph of a page.</p>
+*****************************************************/
+.lead {
+  font-family: 'IM Fell English', serif;
+  /* font-style: italic; */
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-weight: 100;
+  letter-spacing: 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.lead::first-line {
+  letter-spacing: 0.07em;
+  font-weight: 400;
+}
+
+
+/*****************************************************
 SECTION LINK BAR
 Section-end navigation link — cherry left bar with woven link text.
 Usage: <p class="section-link-bar"><a href="...">text →</a></p>
@@ -1372,16 +1503,17 @@ FOOTER
 .footer-list { list-style: none; padding-left: 0; margin-left: 0; }
 .footer-list li { margin-bottom: 0.5rem; }
 .footer-list li a { color: var(--text-secondary); text-decoration: none; }
-.footer-list li a:hover { color: var(--unm-turquoise-light); text-decoration: none; }
+.footer-list li a:hover { color: var(--amaranth-bright); text-decoration: none; }
 .footer-heading {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 0.75rem;
 }
+.footer-list li a { font-size: 0.78rem; }
 
 .footer-brand {
   font-family: 'Space Grotesk', sans-serif;
@@ -1416,7 +1548,7 @@ FOOTER
 }
 
 .footer-bottom-contact a:hover {
-  color: var(--unm-turquoise-light);
+  color: var(--amaranth-bright);
 }
 
 .footer-sep {
@@ -1490,7 +1622,7 @@ ALERTS & CALLOUTS
 *****************************************************/
 
 /* Studio Hours Callout — Amaranth-themed with gradient */
-.alert-studio-hours {
+.callout {
   position: relative;
   padding: 2rem 2rem 2rem 2.5rem;
   margin: 2.5rem 0;
@@ -1504,7 +1636,7 @@ ALERTS & CALLOUTS
   box-shadow: var(--shadow-md);
 }
 
-.alert-studio-hours .alert-heading {
+.callout .callout-heading {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -1514,20 +1646,20 @@ ALERTS & CALLOUTS
   letter-spacing: 0.05em;
 }
 
-.alert-studio-hours p {
+.callout p {
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--amaranth-pink);  /* soft warm pink for readability on gradient */
   margin-bottom: 0.5rem;
 }
 
-.alert-studio-hours ul {
+.callout ul {
   list-style: none;
   margin: 1rem 0 0 0;
   padding: 0;
 }
 
-.alert-studio-hours li {
+.callout li {
   font-size: 1.15rem;
   line-height: 2;
   color: var(--amaranth-pink);  /* matches paragraph text */
@@ -1535,7 +1667,7 @@ ALERTS & CALLOUTS
   position: relative;
 }
 
-.alert-studio-hours li::before {
+.callout li::before {
   content: "▸";
   position: absolute;
   left: 0;
@@ -1543,7 +1675,7 @@ ALERTS & CALLOUTS
   font-weight: bold;
 }
 
-.alert-studio-hours a {
+.callout a {
   color: var(--unm-turquoise-light);
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -1551,23 +1683,23 @@ ALERTS & CALLOUTS
   transition: var(--transition);
 }
 
-.alert-studio-hours a:hover {
+.callout a:hover {
   color: var(--amaranth-pink);
   text-decoration-color: var(--amaranth-pink);
 }
 
 @media (max-width: 768px) {
-  .alert-studio-hours {
+  .callout {
     padding: 1.5rem 1.5rem 1.5rem 2rem;
     border-left-width: 4px;
   }
 
-  .alert-studio-hours .alert-heading {
+  .callout .callout-heading {
     font-size: 1.3rem;
   }
 
-  .alert-studio-hours p,
-  .alert-studio-hours li {
+  .callout p,
+  .callout li {
     font-size: 1rem;
   }
 }

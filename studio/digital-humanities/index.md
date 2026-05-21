@@ -4,15 +4,16 @@ author: Fred Gibbs
 layout: base
 date: 2026-02-19
 description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio. Learn about the field's history, where it stands today, and how Amaranth supports digital scholarship at the University of New Mexico."
-header-image: /assets/images/headers/punch-card-warehouse.jpg
+header-image: /assets/images/headers/EDSAC_(12).jpg
 header-title: Digital Humanities
 header-tier: section
-header-filter: etching
+header-filter: photo
+header-caption: Maurice Wilkes and Bill Renwick in front of the complete EDSAC, one of the first stored-program computers (c. 1950).
 ---
 
 ## What are the digital humanities?
 
-Digital humanities is a broad term for work that brings digital tools and methods and into conversation with humanistic inquiry. That conversation has taken many forms over the decades---from concordances and databases to text mining, mapping, 3D modeling, and interactive storytelling. What ties it together is less any single approach than a shared commitment: that the questions humanists ask about culture, history, language, and meaning can be enriched (and sometimes transformed) by digital approaches.
+Digital humanities is a broad term for work that brings digital tools and methods and into conversation with humanistic inquiry. That conversation has taken many forms over the decades---from concordances and databases to text mining, mapping, 3D modeling, and interactive storytelling. What ties it together is not any single approach but a shared commitment: that the questions humanists ask about culture, history, language, and meaning can be enriched (and sometimes transformed) by digital approaches.
 
 The term is intentionally capacious. Some digital humanities work looks like traditional scholarship augmented by new tools---a historian using GIS to map migration patterns, a literary scholar running computational analyses across thousands of novels. Other work is more experimental, building interactive archives, digital exhibits, podcasts, or immersive narratives that reach audiences well beyond the academy. The field has always moved between these poles of analysis and making, and both matter.
 
@@ -57,20 +58,15 @@ The late 2000s and early 2010s saw a surge of institutional investment. The NEH 
 
 
 ## What Amaranth does differently
-Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale---text mining, topic modeling, network analysis. This important work pushed methodological boundaries and invited new questions across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
+Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale: text mining, topic modeling, network analysis. This important work pushed methodological boundaries and invited new questions across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
 
 Amaranth takes a different approach, one that reflects where the field has arrived---and where it needs to go.
 
-**Scholarship should reach people.** The studio's emphasis on public scholarship isn't an add-on. It's the starting point. The most powerful humanistic work doesn't just produce knowledge---it communicates it. Amaranth supports faculty and students in building websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. The goal isn't to simplify scholarship for public consumption. It's to take communication as seriously as analysis.
+**Scholarship should reach people.** Amaranth supports faculty and students in building websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. The goal isn't to simplify scholarship for public consumption. It's to take communication as seriously as analysis.
 
-**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training---3D printers, audio recording gear, large-format printing, VR headsets---but the studio isn't organized around technology. It's organized around what people are trying to do. A faculty member developing an oral history project gets support for the entire workflow: planning, recording, editing, archiving, and publishing. The technology is instrumental, not the point.
+**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training---3D printers, audio recording gear, large-format printing, VR headsets---but the studio isn't organized around technology. It's organized around what people are trying to do. A faculty member developing an oral history project gets support for the entire workflow: planning, recording, editing, archiving, and publishing. The technology is instrumental, not an end in itself.
 
-**Course Integrations** We know many faculty want students to engage with digital media and think outside the traditional academic essay. But how? We handle that question for instructors, setting up the appropriate kind of site or platformn for their course, training them on how to use it, providing instructions for students on exactly what to do, offering classroom visits and studio hours to provide technical support.
-
-
-## Digital humanities at UNM
-
-UNM doesn't have a formal digital humanities program or center, which makes Amaranth's role both more important and more unusual. The studio functions as a hub for DH-adjacent work across departments---History, English, Art, Communication, and beyond---connecting people who might not otherwise know they're working on related problems.
+**Course Integrations** We know many faculty want students to engage with digital media and think outside the traditional academic essay. But how? We handle that question for instructors, setting up the appropriate kind of site or platform for their course, training them on how to use it, providing instructions for students on exactly what to do, offering classroom visits and studio hours to provide technical support.
 
 ---
 
