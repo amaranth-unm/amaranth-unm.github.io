@@ -3,23 +3,22 @@
   items:
     - title: "Ethos"
       url: "/studio/ethos"
+    - title: "Making as Method"
+      url: "/studio/making-as-method"
     - title: "The Studio"
       url: "/studio/space"
-    - title: "The Name"
-      url: "/studio/why-amaranth"
-    - title: "Events"
-      url: "/studio/events"
-    - title: "AI Fluency"
-      url: "/studio/ai-fluency"
     - title: "Digital Humanities"
       url: "/studio/digital-humanities"
+    - title: "Future Directions"
+      url: "/studio/future-directions"
+
 
 - title: "Projects"
   items:
     - title: "Overview"
       url: "/projects/overview"
-    - title: "Xanthan"
-      url: "/projects/xanthan"
+    - title: "AI + Humanities"
+      url: "/projects/ai-humanities"
     - title: "AI Sketchbook"
       url: "/projects/ai-sketchbook"
     - title: "3D Pedagogy"
@@ -36,6 +35,9 @@
       url: "/websites/portfolios"
     - title: "ScrollStories"
       url: "/websites/scrollstories"
+    - title: "Xanthan"
+      url: "/projects/xanthan"
+
 
     - divider: true
 

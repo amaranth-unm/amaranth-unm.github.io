@@ -12,7 +12,7 @@ header-caption: A 3D printed wax seal from Mesopotamia (c. 2026 BCE) embossed in
 cards:
   - title: "Tactile Architecture"
     thumbnail: "/assets/images/site/capitals-together-small.jpg"
-    summary: This project explores the parameters of using 3D prints to deepen understanding of the transition from Romanseque to Gothic architectural styles.
+    summary: This project explores the parameters of using 3D prints to deepen understanding of the transition from Romanesque to Gothic architectural styles.
     link: "capitals"
 
   - title: "Terrain Maps"
@@ -26,7 +26,7 @@ cards:
     link: "/projects/objex"
 ---
 
-3D printing can struggle with object fideltiy, but it still provides tactile experience with material culture, physical comparisons that photos fail to capture, and new perspectives on landscape.
+3D printing can struggle with object fidelity, but it still provides tactile experience with material culture, physical comparisons that photos fail to capture, and new perspectives on landscape.
 {: .lead} 
 
 When studying material culture---artifacts, architecture, sculpture, terrain---the physical qualities of objects often matter as much as their appearance. A photograph of a medieval capital flattens its carved details; a map abstracts the landscape into lines and colors. 3D printed replicas restore some of what images remove: the ability to rotate an object, trace its contours, and place it alongside others for direct comparison.

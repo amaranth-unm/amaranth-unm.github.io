@@ -14,10 +14,10 @@ This document lists the images needed for the scrollstory, with suggested source
   - Wikimedia Commons: search "Gomphrena globosa dried"
   - These flowers beautifully demonstrate the "unfading" quality
 
-### Aesop's Fable (scrollybox background)
-- **aesop-rose-amaranth.jpg** - Illustration of a rose and amaranth, or any classic Aesop illustration
-  - Public domain Aesop illustration collections
-  - Or: a simple image of both flowers together
+### Seventeenth-Century Amaranth (scrollybox background)
+- **parkinson-amaranthus-1629.jpg** - Page 373 plate from John Parkinson's *Paradisi in Sole Paradisus Terrestris* (1629), showing "Flower gentle" / amaranthus varieties
+  - Source: Internet Archive scan used by Project Gutenberg eBook #69425
+  - Public domain in the United States
 
 ### Milton / Paradise Lost
 - **blake-paradise-lost.jpg** - William Blake's illustrations for Paradise Lost (1808)

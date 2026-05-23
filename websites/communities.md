@@ -2,8 +2,8 @@
 title: Academic Communities
 layout: base
 date: 2024-10-26
-description: "Keep workshop and conference scholarship alive online. Amaranth builds free, permanent websites for academic communities and working groups using open-source tools."
-header-image: /assets/images/headers/workshop.jpg
+description: "Keep workshop and conference scholarship alive online with open, durable websites for academic communities and working groups."
+header-image: /assets/images/headers/archive/workshop.jpg
 header-tier: section
 header-filter: woodcut
 header-title: "Keep the conversation alive"
@@ -21,9 +21,9 @@ You've organized an important workshop that gathers leading scholars of your fie
 
 Scholarship deserves better than a forgotten folder called "Workshop2023_FINAL_v2_REALFINAL.pdf."
 
-We make it easy to keep papers online, organized, and accessible---no expensive hosting, no institutional servers that mysteriously disappear, no endless email chains asking "Hey, do you still have a copy of that thing?" Our sites run on GitHub Pages, a free, stable platform that keeps workshop and conference work available to anyone in the world, long after the event itself is over.
+We make it easier to keep papers online, organized, and accessible: no expensive hosting, no institutional servers that mysteriously disappear, no endless email chains asking "Hey, do you still have a copy of that thing?" Our sites run on GitHub Pages, a free, stable platform that keeps workshop and conference work available long after the event itself is over.
 
-The sites are built with [Xanthan](https://xanthan-web.github.io), which provides a clean, elegant design without requiring web development skills. You focus on the ideas; the platform handles the rest. It's a model built on the values of open scholarship: transparency, sustainability, and access for everyone.
+The sites are built with [Xanthan](https://xanthan-web.github.io), which provides a clean design and plain-text structure without requiring web development skills. You keep control of the ideas and the files. The model is simple: transparency, sustainability, and access.
 
 
 ## Histories of the Future

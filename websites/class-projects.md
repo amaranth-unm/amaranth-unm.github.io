@@ -13,12 +13,12 @@ header-title: Bring students together
 cards:
   - title: Campus Histories
     thumbnail: "/assets/images/projects/campus.jpg"
-    summary: Built on our latest version of Xanthan, essays here have the most functionality of the bunch. The site is wrapped in the standard UNM web style.
+    summary: Built on the newest version of Xanthan, this site gives student essays richer navigation and wraps the project in the standard UNM web style.
     link: https://amaranth-unm.github.io/campus-history/
 
   - title: Metahistory
     thumbnail: "/assets/images/projects/metahistory.jpg"
-    summary: This site shows a permanent left-nav feature and a table of contents page. As students add their pages, the website automatically grabs metadata from their new page to add it to the table of contents.
+    summary: This site uses a permanent left navigation and an automatically generated table of contents. As students add pages, the site reads their metadata and updates the collection.
     link: https://unm-historiography.github.io/metahistory/
 
   - title: Santa Fe Trail Sites
@@ -27,7 +27,7 @@ cards:
     link: https://historic-trails.unm.edu/
 ---
 
-A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity.
+A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity—and they leave with something more durable than a grade: the experience of directing a real project, making it work, and putting it in front of an audience.
 {: .lead}
 
 
@@ -42,7 +42,7 @@ These are communication skills that transfer far beyond a single course---and th
 
 
 ## Digital literacy without coding
-Our platform teaches students how websites work---how simple code block display images, how metadata enables functionality, , how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files, and see their work published as a webpage. Not just webpages, but technology becomes a little less intimidating
+Our platform teaches students how websites work---how simple code blocks display images, how metadata enables functionality, and how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files and see their work published as webpages. Many students also use AI to handle technical decisions while keeping their focus on the intellectual argument—learning to direct AI rather than be directed by it. Technology becomes a little less intimidating, and the confidence that comes from building something real is something students carry forward.
 
 
 ## Built to last
@@ -50,7 +50,7 @@ Commercial website builders lock content into proprietary platforms that charge 
 
 
 ## How it works
-The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start editing the sample pages. No coding, no special software, no server administration, no technical background required. Our [getting started guide](getting-started) walks through every step, and we're always happy to visit a class to help.
+The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start editing the sample pages. No coding, no special software, no server administration. The [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) walks through every step, and we're always happy to visit a class to help.
 
 {% include card-list.html
 cards = page.cards%}
