@@ -6,13 +6,19 @@
     display: grid;
     grid-template-columns: repeat({{ cols }}, 1fr);
     gap: 6px;
-    width: 100%;
-    margin: 1.5rem 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0 6px;
+    box-sizing: border-box;
   }
   .image-strip-gallery .gallery-item {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 4 / 3;
     display: block;
     text-decoration: none;
   }
