@@ -30,28 +30,7 @@ This year, Amaranth helped instructors to guide their students in constructing a
 
 {% include gallery.html items=site.data.collab-websites cols=5 %}
 
-## Old Carousel
 
-{% assign images =
-"images/silk-road-website.png,
-images/disrupt-expertise-website.png,
-images/music-history-website.png,
-images/food-stories-website.png,
-images/adv-hist-website.png,
-images/antifascist-women-website.png,
-images/farmer-histories-website.png,
-images/hist-1105-website.png,
-images/hist-337-website.png" | split: ','
-%}
-
-
-{% include carousel.html
-  width="100%"
-  class="center"
-  images=images
-  headers=headers
-  captions=captions
-%}
 
 >"This particular assignment of creating a website finally changed the locks inside my brain and opened a door to a world of visualization and language that actually has the ability to communicate with others, mortal human beings outside academia... It had forced me to struggle with the concept of designing something that is pleasing to the eye, and create a text that wouldn't bore the reader. When transforming into the virtual space of a website, I felt like I have to make an effort into writing in a way that is engaging, that you would want to continue scrolling down." History Graduate Student, HIST 596-003, Madness in America
 
