@@ -1,0 +1,21 @@
+sections:
+  - label: "Course Integrations"
+    value: 12
+    icon: "📚"
+    description: "Courses supported this year"
+  - label: "Student Projects"
+    value: 47
+    description: "Individual research projects completed"
+    icon: "🎓"
+  - label: "Campus Partners"
+    value: 10
+    description: "Active institutional partnerships"
+    icon: "🤝"
+  - label: "Events"
+    value: 9
+    description: "Workshops and public events hosted"
+    icon: "📅"
+  - label: "Visitors"
+    value: 300
+    description: "Estimated studio visits"
+    icon: "🚪"

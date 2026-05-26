@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Annual Report
+title: Year in Review
 author: Jonathan Seyfried
 date: 2026-05-21
 description: "A summary of the activity of the Amaranth Digital Humanities Studio in the first year of its operation."
@@ -17,6 +17,12 @@ header-position: center 30%
 The first year of operation for the Amaranth Digital Humanities Studio resulted in several successful course integrations, dozens of student research projects, and participation in events almost every month.
 
 Our active campus partnerships initiated this year include: Center for the Southwest, Institute for Medieval Studies, School of Architecture Fab Lab, Maxwell Museum, WGSS, Sustainability Studies, Liberal Arts & Integrative Studies, University Libraries, Center for Teaching & Learning.
+
+
+## Dashboard
+The following dashboard shows last year's activity of the Amaranth Digital Humanities Studio by the numbers.
+
+{% include dashboard.html %}
 
 ## Collaborative Websites
 

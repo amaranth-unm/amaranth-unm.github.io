@@ -1,0 +1,87 @@
+<div class="amaranth-dashboard">
+    {% for section in site.data.dashboard.sections %}
+    <div class="dashboard-section">
+      {% if section.icon %}
+      <div class="dashboard-icon">{{ section.icon }}</div>
+      {% endif %}
+      <div class="dashboard-value">{{ section.value }}</div>
+      <div class="dashboard-label">{{ section.label }}</div>
+      {% if section.description %}
+      <div class="dashboard-description">{{ section.description }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  
+  <style>
+    .amaranth-dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      background-color: #4a1942;
+      color: #ffffff;
+    }
+  
+    .dashboard-section {
+      flex: 1 1 0;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  
+    .dashboard-section:last-child {
+      border-right: none;
+    }
+  
+    .dashboard-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .dashboard-value {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+  
+    .dashboard-label {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+  
+    .dashboard-description {
+      font-size: 0.8rem;
+      opacity: 0.75;
+      line-height: 1.3;
+    }
+  
+    @media (max-width: 768px) {
+      .amaranth-dashboard {
+        flex-direction: column;
+      }
+  
+      .dashboard-section {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 1.5rem 1rem;
+      }
+  
+      .dashboard-section:last-child {
+        border-bottom: none;
+      }
+    }
+  </style>
