@@ -28,6 +28,10 @@ The following dashboard shows last year's activity of the Amaranth Digital Human
 
 This year, Amaranth helped instructors to guide their students in constructing a collaborative website. We got a lot of positive feedback about the experience and we also learned a lot about how to introduce people to using [Xanthan](https://xanthan-web.github.io/) templates.
 
+{% include gallery.html items=site.data.collab-websites cols=5 %}
+
+## Old Carousel
+
 {% assign images =
 "images/silk-road-website.png,
 images/disrupt-expertise-website.png,
