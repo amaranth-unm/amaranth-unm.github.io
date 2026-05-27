@@ -18,6 +18,11 @@ Amaranth is a collaborative studio that brings the humanities and technology tog
 We work alongside you as we explore AI research workflows, design decisions, and technical challenges. When you leave, your comfort should be a little higher and your reach a little further than when you arrived. We don't pretend to have it figured out. We're humanists who work with these tools constantly, and we're learning alongside you where they help and where they mislead. That honesty is part of what we offer.
 {: .lead}
 
+## Human-centered technology
+Amaranth's work starts with people, sources, communities, and questions, not tools. That matters most with AI. We are interested in AI when it helps humanists see across larger collections, structure messy materials, compare images, or make public projects possible sooner. We are not interested in AI as a substitute for interpretation, accountability, or care.
+
+Human-centered AI means keeping the researcher close to the evidence: prompts that can be inspected, outputs that can be checked, sources that remain traceable, and communities that are treated as partners rather than data. The point is not to automate humanities work. The point is to make more of the work visible, discussable, and responsible.
+
 
 ## Our interests and focus
 - Developing AI-assisted research workflows that expand what humanists can study and ask
@@ -30,7 +35,7 @@ We work alongside you as we explore AI research workflows, design decisions, and
 ## Forms we work in
 We're not organized around equipment or software. We're organized around what people are trying to communicate and who they are trying to reach. Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth works in forms like:
 
-- **Public-facing websites** built on open infrastructure, owned by their creators, designed to last
+- **Public websites** built on open infrastructure, owned by their creators, designed to last
 - **Audio and narrative work**—oral histories, podcasts, ScrollStory essays—where medium and message reinforce each other
 - **3D fabrication** for teaching, research, and exhibition
 - **Poster design and large-format printing** for conferences and public display

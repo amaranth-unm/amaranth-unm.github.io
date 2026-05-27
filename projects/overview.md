@@ -16,6 +16,11 @@ header-zoom: 110%
 At Amaranth, we investigate which tools, techniques, and workflows can expand what humanists can study, ask, and share. We're always exploring to see what's worth bringing to projects. We share what we learn honestly: what worked, what didn't, and what we'd do differently. **The tool is never the point. The point is whether more people can encounter humanities work with curiosity, context, and care**.
 {: .lead}
 
+## How the pieces connect
+Our research agenda is a pipeline, not a set of unrelated experiments. AI-assisted analysis helps researchers work across larger collections. 3D scanning and modeling create richer records of material culture. 3D printing turns some of those records into objects that can travel into classrooms and community conversations. Xanthan gives the work a public, durable home. Documentation makes the process reusable instead of mysterious.
+
+The human-centered part is the throughline. We want students, faculty, and community partners to understand how the work was made, where judgment entered, what the tools missed, and what another person could responsibly do next.
+
 ## Predictable Obsolescence
 Sometimes our research seems like quicksand. What's true about VR headsets, 3D printing, or AI this semester is not going to be true next year. But the work is still important. For good reason, the library is filled with books that aren't relevant as current scholarship. They played a key role in advancing understanding in their day. **Our work contributes not just to current practice, but to how humanists might use these tools in future iterations.**
 

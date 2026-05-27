@@ -17,6 +17,13 @@ That's a genuine shift—not just in what's accessible, but in the kinds of ques
 That reach comes with real costs, which we'll get to. But the starting point is possibility: AI has opened research territory that was previously out of bounds, and we want to help you explore it.
 {: .lead}
 
+## Human-centered AI
+Human-centered AI at Amaranth means the person doing the research stays responsible for the question, the evidence, the interpretation, and the audience. AI can help search, sort, describe, compare, and draft. It cannot decide what matters.
+
+That is why we care about provenance and documentation. A useful AI workflow should make its steps visible: what sources were included, how they were prepared, what the model was asked to do, where the output came from, how it was checked, and what claims survived human review. If no one can explain how an AI-assisted interpretation was produced, it is not ready to become scholarship.
+
+Some projects also need researcher-controlled or institutionally accountable AI. Community oral histories, Indigenous collections, unpublished archives, and sensitive cultural materials should not be treated as generic input for whatever tool is convenient. Human-centered AI asks who has a stake in the material, what permissions matter, and how the process can remain answerable to the people whose histories are involved.
+
 
 ## Research workflows we support
 
@@ -35,6 +42,13 @@ That reach comes with real costs, which we'll get to. But the starting point is 
 **Student projects that would have been impossible.** With some guidance, students can use AI to build things that previously required significant coding skills: searchable archives, interactive timelines, annotated maps, text analysis projects, even simple web applications that present research to real audiences. The technical ceiling for humanities projects is genuinely higher than it was two years ago.
 
 **Community and interdisciplinary projects.** Some of the most interesting work happens at the edges of disciplines and between the university and the communities it exists alongside. AI has particular value here: oral history collections in community hands can become searchable archives; materials that were sitting in folders can be analyzed, published, and shared. We actively seek out collaborations that cross departmental lines and connect scholarly work to broader audiences and partners.
+
+
+## Workflows as scholarship
+
+The workflow itself can be a research output. Not just the article, exhibit, or website that comes at the end, but the documented record of how the work was done: what was tried, what the model produced, what failed, what needed human correction, and how someone else could reproduce or adapt the method.
+
+This is the practical layer the field needs more of. Humanists do not only need claims about AI. We need examples of careful practice: prompts, source preparation, model limits, verification steps, and plain accounts of where the work got strange. That documentation is part of the scholarship because it lets others inspect the method instead of trusting the result.
 
 
 ## How we work with you
