@@ -3,7 +3,7 @@ layout: base
 title: Poster Design Guide
 date: 2025-02-01
 description: "Core design principles for academic humanities posters: visual hierarchy, alignment, repetition, and how to embrace the iterative process."
-header-image: /assets/images/headers/common-room-posters.jpg
+header-image: /assets/images/headers/archive/common-room-posters.jpg
 header-tier: section
 header-filter: photo
 header-title: "Design your poster"
@@ -11,7 +11,7 @@ header-title: "Design your poster"
 
 ## Design is a decision, not decoration
 
-You don't need a design background to make a good poster. But a handful of core principles---borrowed from design thinking and adapted for humanities work---can transform a cluttered draft into something that actually communicates.
+You don't need a design background to make a good poster. But a handful of core principles, borrowed from design thinking and adapted for humanities work, can turn a cluttered draft into something that actually communicates.
 
 
 ## Visual hierarchy

@@ -16,7 +16,7 @@ Especially when starting out with 3D printing, it's often difficult to judge how
 
 ## The Jaguars
 
-For our [instructions on 3D scanning](https://amaranth-unm.github.io/equipment/3d-scanner/), we used a replica of a jaguar purchased at the museum store of the Museo Nacional de Antropología in Mexico City. We now want to demonstrate how changing the detail setttings on Orca Slicer will produce different outcomes.
+For our [instructions on 3D scanning](https://amaranth-unm.github.io/equipment/3d-scanner/), we used a replica of a jaguar purchased at the museum store of the Museo Nacional de Antropología in Mexico City. We now want to demonstrate how changing the detail settings on Orca Slicer will produce different outcomes.
 
 We printed the jaguar three times, selecting three of the print quality settings: 
 1. High Detail at 0.08mm layer height

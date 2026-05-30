@@ -18,19 +18,19 @@ cards:
 
   - title: Metahistory
     thumbnail: "/assets/images/projects/metahistory.jpg"
-    summary: Another multi-course collaboration, demonstrating various layout variations and more "traditional" essays as student projects
+    summary: A multi-course collaboration showing how traditional essays can become part of a larger public project
     link: https://unm-historiography.github.io/metahistory/
 
 
   - title: A Cultural History of Arkham Asylum
     thumbnail: "/assets/images/projects/asylum.png"
-    summary: Deep scrollstory with many images, demonstrating how visual analysis and narrative layering explore complex cultural history
+    summary: A deep ScrollStory with many images, showing how visual analysis and narrative layering can explore complex cultural history
     link: https://hadas496.github.io/comics-and-Reaganomics-/
 
 
   - title: Medieval Elite Marriages
     thumbnail: "/assets/images/projects/medieval-marriages.png"
-    summary: Object-centric website featuring various historical artifacts their  significance in medieval society
+    summary: Object-centered website featuring historical artifacts and their significance in medieval society
     link: https://jeseyfried.github.io/medieval-marriages/
 
 
@@ -42,7 +42,7 @@ cards:
   
   - title: Histories of the Future 
     thumbnail: "/assets/images/projects/histscifi.jpg"
-    summary: This website uses Xanthan to preserve the work a small workshop. The thematic essay collection explores how historians and science fiction imagine technological futures
+    summary: A Xanthan site preserving the work of a small workshop on how historians and science fiction imagine technological futures
     link: http://histscifi.com
 
 
@@ -50,7 +50,7 @@ cards:
 
 ## What gets built here
 
-We welcome collaboration of all kinds! Below are a few examples of websites we've helped get started with one of our [Xanthan templates](https://xanthan-web.github.io). This is just to showcase the variety of sites, projects, and collaborations underway. We hope you'll [get in touch](../collaborate) about your next digital project!
+Below are a few examples of websites built with Amaranth and [Xanthan templates](https://xanthan-web.github.io). They show the range of work that can live well on the open web: class projects, portfolios, ScrollStories, workshop proceedings, and public research. [Get in touch](/collaborate) if you have a project taking shape.
 
 
 {% include card-list.html 

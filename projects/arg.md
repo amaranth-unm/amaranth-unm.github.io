@@ -3,7 +3,7 @@ layout: base
 title: Amaranth Research Group 
 author: Fred Gibbs
 date: 2025-02-14
-description: "The Amaranth Research Group (ARG) is a crew of undergrads investigating topics at the intersection of humanities and technology and storytelling."
+description: "The Amaranth Research Group (ARG) is a crew of undergrads investigating how digital tools reshape humanities research, storytelling, pedagogy, and public memory."
 header-image: /assets/images/headers/pirates.jpeg
 header-title: ARRRG!
 header-tier: section
@@ -11,7 +11,7 @@ header-filter: photo
 header-position: 0 80%
 ---
 
-## Amaranth Really Robust Reserach Group (ARRRG!)
+## Amaranth Really Robust Research Group (ARRRG!)
 
 This semester’s independent study students are exploring how digital tools reshape storytelling, preservation, pedagogy, and public memory. Their projects reflect the heart of digital humanities: combining technical experimentation with human questions about culture, history, and experience.
 
@@ -23,9 +23,9 @@ Together, these projects demonstrate a constellation of practices common to digi
 
 **3D Printing for High School History Classrooms**
 
-Damian is exploring how 3D printing can transform history teaching in high schools. By designing and producing tactile historical objects, he investigates how materiality shapes student learning and engagement.
+Damian is exploring what changes when high school history students can handle tactile historical objects instead of only reading about them or seeing them on a screen. By designing and producing 3D-printed teaching materials, he investigates how materiality shapes student learning and engagement.
 
-In digital humanities terms, this work bridges fabrication and pedagogy. It asks how digital models become physical artifacts that invite embodied learning. Rather than treating history as abstract text on a page, 3D printing reintroduces scale, texture, and spatial thinking into historical inquiry. Damian’s project highlights how emerging technologies can deepen access and spark creativity in classroom environments.
+In digital humanities terms, this work bridges fabrication and pedagogy. It asks how digital models become physical artifacts that invite embodied learning. Rather than treating history as abstract text on a page, 3D printing reintroduces scale, texture, and spatial thinking into historical inquiry. Damian's project asks how carefully made replicas can deepen access and spark creativity in classroom environments.
 
 ---
 
@@ -45,7 +45,7 @@ One main challenge is visualizing the *flows* rather than the *stops*—the move
 
 Vanessa is conducting high-resolution 3D scans of Peruvian artifacts housed at the Maxwell Museum. Her project focuses not only on digitization, but on documenting workflows and establishing best practices for future scanning initiatives.
 
-This work contributes to digital humanities by strengthening the infrastructure of preservation and crearting a pipeline for digital engagement with fascinating cultural artefacts. Careful documentation of process ensures that digital surrogates are not simply technical outputs, but responsibly created cultural records. By formalizing workflows, Vanessa’s research supports sustainability, reproducibility, and ethical stewardship in museum digitization projects.
+This work contributes to digital humanities by strengthening the infrastructure of preservation and creating a pipeline for digital engagement with fascinating cultural artifacts. Careful documentation of process ensures that digital surrogates are not simply technical outputs, but responsibly created cultural records. By formalizing workflows, Vanessa’s research supports sustainability, reproducibility, and ethical stewardship in museum digitization projects.
 
 ---
 
@@ -65,5 +65,4 @@ Digital humanities thrives on critical engagement with tools. Beth’s project a
 
 Grace and Dillon are collecting food stories from across campus to understand how personal food memories shape identity, belonging, and community.
 
-Their project sits at the intersection of oral history and digital storytelling. By gathering narratives and curating and cohering them for public engagement, they demonstrate how digital humanities methods amplify everyday experiences and their echoes. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work makes clear how food experience informs personal and cultural understandings of food.
-
+Their project brings oral history and digital storytelling together. By gathering narratives and shaping them for public engagement, they demonstrate how digital humanities methods can give everyday experiences a wider echo. Food becomes an archive of emotion, migration, ritual, and care. Through structured collection and presentation, their work makes clear how food experience informs personal and cultural understandings of food.

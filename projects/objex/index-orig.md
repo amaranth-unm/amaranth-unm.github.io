@@ -2,7 +2,7 @@
 title: Objex
 layout: base
 date: 2025-08-03
-header-image: /assets/images/headers/jaguars-temp.png
+header-image: /assets/images/headers/jaguars-temp.jpg
 header-height: 40vh
 header-position: center
 header-size: 100%

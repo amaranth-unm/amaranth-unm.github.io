@@ -3,7 +3,7 @@ layout: base
 title: The Studio
 author: Fred Gibbs
 date: 2025-01-01
-description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio—a coaching space where humanists learn to build, communicate, and publish scholarship that reaches the world."
+description: "Amaranth is UNM's Digital Humanities and Public Scholarship Studio, a collaborative space where humanists learn to build, communicate, and publish work with care."
 header-image: /assets/images/headers/workshop2.jpg
 header-title: Let's experiment together
 header-tier: section
@@ -13,32 +13,45 @@ header-zoom: 110%
 header-position: center 40%
 ---
 
-Amaranth is a studio in the original sense: a place where you come to learn, experiment, fail and make things, even if they aren't what you had in mind. We work alongside you, exploring technical and design decisions. When you leave, your comfort is a little higher and your boundaries a little further than they were.
+Amaranth is a collaborative studio that brings the humanities and technology together. It's a place where you come to learn, experiment, fail, and make things, even when they aren't what you had in mind.
+
+We work alongside you as we explore AI research workflows, design decisions, and technical challenges. When you leave, your comfort should be a little higher and your reach a little further than when you arrived. We don't pretend to have it figured out. We're humanists who work with these tools constantly, and we're learning alongside you where they help and where they mislead. That honesty is part of what we offer.
 {: .lead}
 
-We liken it to a pottery wheel: the clay is yours, the ideas are yours. We're at the wheel with you, hands in the same clay, teaching the motion. When the session ends, you leave knowing how to center the clay—not just holding a pot someone else threw. A humanist who understands *why* a particular design or technical choice works can continue to learn and innovate more than one who outsourced those decisions. 
+## Human-centered technology
+Amaranth's work starts with people, sources, communities, and questions, not tools. That matters most with AI. We are interested in AI when it helps humanists see across larger collections, structure messy materials, compare images, or make public projects possible sooner. We are not interested in AI as a substitute for interpretation, accountability, or care.
+
+Human-centered AI means keeping the researcher close to the evidence: prompts that can be inspected, outputs that can be checked, sources that remain traceable, and communities that are treated as partners rather than data. The point is not to automate humanities work. The point is to make more of the work visible, discussable, and responsible.
 
 
-## What we do
-Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth supports:
+## Our interests and focus
+- Developing AI-assisted research workflows that expand what humanists can study and ask
+- Interdisciplinary collaborations across the humanities and social sciences
+- Community-engaged projects that connect scholarly work to broader audiences and partners
+- Building student capability and confidence through real projects with real stakes
+- Designing public research from first idea through finished form
 
-- **Public-facing websites** built on open infrastructure, owned by their creators, designed to last
+
+## Forms we work in
+We're not organized around equipment or software. We're organized around what people are trying to communicate and who they are trying to reach. Through collaborative projects, open-source tools, and hands-on experimentation, Amaranth works in forms like:
+
+- **Public websites** built on open infrastructure, owned by their creators, designed to last
 - **Audio and narrative work**—oral histories, podcasts, ScrollStory essays—where medium and message reinforce each other
 - **3D fabrication** for teaching, research, and exhibition
 - **Poster design and large-format printing** for conferences and public display
 - **AI-assisted workflows** that put scholars in the editorial seat
 
-We're not organized around equipment or software. We're organized around what people are trying to communicate—and who they're trying to reach.
-
 
 ## Design resources
-Design is central to visual communication. To that end, the studio maintains a collection of introductory design books---basic principles, typography, design history, visual inspiration. Good design isn't about professional credentials, it's about taking seriously how your work reaches an audience. Whether you're designing a poster for a conference, laying out a website, or choosing typefaces for a digital exhibit, thoughtful visual decisions strengthen your argument. Come browse the collection during studio hours!
+Design is central to visual communication. To that end, the studio maintains a collection of introductory design books: basic principles, typography, design history, visual inspiration. Good design isn't about professional credentials. It is about taking seriously how your work reaches an audience. Whether you're designing a poster for a conference, laying out a website, or choosing typefaces for a digital exhibit, thoughtful visual decisions strengthen your argument. Come browse the collection during studio hours.
+
+
+## Amaranth at UNM
+Amaranth serves UNM's priorities in ways that feel natural rather than institutional: experiential learning through projects students actually care about, university research connected to community partners, digital literacy across tools and workflows, and humanities voices in the AI conversations already happening across campus. New Mexico makes this feel less like a strategic priority and more like an obvious necessity.
 
 
 ## Why Amaranth?
-The name comes from the Greek *amarantos*: unfading. There's a deliberate irony in naming a digital humanities studio after a symbol of permanence, given how quickly technology becomes obsolete. We embrace the contradiction—and the richer story of a plant that has meant sacred grain, colonial threat, superfood, and superweed, depending on who's growing it and why.
-
-[Read the full story →](/studio/why-amaranth)
+The name comes from the Greek *amarantos*: unfading. There's a deliberate irony in naming a digital humanities studio after a symbol of permanence, given how quickly technology becomes obsolete. We embrace the contradiction—and the richer story of a plant that has meant sacred grain, colonial threat, superfood, and superweed, depending on who's growing it and why. [Read the full story →](/studio/why-amaranth)
 
 
 ## Team

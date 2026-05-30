@@ -15,7 +15,7 @@ For full instructions and documentation visit the [support page](https://onlinem
 ## Recording Video
 
 - Start recording a video by simply clicking the button on the camera.
-- After recording, connect the camera through a USB-C cable to one of the Mac workstations in the Lab.
+- After recording, connect the camera through a USB-C cable to one of the Mac workstations in the studio.
 
 ## Editing a 360 Video
 
@@ -27,7 +27,7 @@ For full instructions and documentation visit the [support page](https://onlinem
 ## Creating a 360 Photo
 
 - The process for a 360 photo differs from a video since there's only one frame you can't edit yourself out.
-- For a 360 photo without the person taking the photo appearing in it, download the Insta360 app to your phone and connect to the camera through bluetooth.
+- For a 360 photo without the person taking the photo appearing in it, download the Insta360 app to your phone and connect to the camera through Bluetooth.
 - Use the app on your phone to take the photo as you stand out of view.
 - After connecting the camera to the Mac workstation, you can export the photo from Insta360 Studio.
 
@@ -36,6 +36,6 @@ For full instructions and documentation visit the [support page](https://onlinem
 - Unfortunately, the Insta360 Studio app does not have the capability to include info hotspots on a 360 photo. You will need to use a web-app called [Marzipano](https://www.marzipano.net).
 - Export the 360 photo from Insta360 Studio as a JPG file.
 - Upload the JPG to Marzipano and add info hotspots. This is a user-friendly process on the Marzipano web-app interface.
-- The only export format allowed from Marzipano is a zipped folder. The folder will likely contain over 100 files and this quantity might cause complications when trying to upload to spaces such as Github. We have a workaround for this if you need help.
+- The only export format allowed from Marzipano is a zipped folder. The folder will likely contain over 100 files, which can cause complications when trying to upload to spaces such as GitHub. We have a workaround for this if you need help.
 
 <br style="clear: both">

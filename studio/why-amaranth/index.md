@@ -18,22 +18,32 @@ header-opacity: 0.28
 
 When we chose a name for UNM's digital humanities studio, we wanted something that captured both the promise and the paradox of working with technology in the humanities. We landed on *amaranth*---a name with roots stretching back thousands of years, still relevant today, and carrying contradictory meanings that characterize much of the humanities.
 
-The word comes from the Greek *amarantos* (ἀμάραντος), meaning "unfading" or "one that does not wither." Associating it with immortality. The Greeks hung amaranth wreaths in temples, used it to decorate images of the gods, and placed it on tombs as a symbol of eternal remembrance.  Amaranth flowers sprang from the blood of Adonis when he died, and garlands of amaranth adorned the mourning of Achilles.
+The word comes from the Greek *amarantos* (ἀμάραντος), meaning "unfading" or "one that does not wither." That association with endurance made amaranth useful for thinking about immortality, memory, and grief. The Greeks hung amaranth wreaths in temples, used it to decorate images of the gods, and placed it on tombs as a symbol of eternal remembrance. Amaranth flowers sprang from the blood of Adonis when he died, and garlands of amaranth adorned the mourning of Achilles.
 
-There's a playful irony in naming a digital humanities studio after a symbol of permanence. Digital technology is notorious for its rapid obsolescence---file formats become unreadable, platforms disappear, links rot, and today's cutting-edge tool becomes tomorrow's abandoned project. We embrace this challenge, and we hope our tools and processes lengthen the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than our ancient flower ever did.
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+A flower that does not fade becomes a way to think about what cultures hope will last: memory, honor, grief, beauty, and the desire to remain connected to what time takes away.
+</div>
+
+There's a playful irony in naming a digital humanities studio after a symbol of permanence. Digital technology is notorious for its rapid obsolescence---file formats become unreadable, platforms disappear, links rot, and today's impressive tool becomes tomorrow's abandoned project. We embrace this challenge, and we hope our tools and processes lengthen the lifespan of our projects. But we also acknowledge the contradiction: we're building with materials that fade faster than our ancient flower ever did.
 
 
 {% include scrollybox/bg.html
   height="220"
-  image-path="images/aesop-rose-amaranth.jpg"
+  image-path="images/parkinson-amaranthus-1629.jpg"
   pre-box-space="100"
-  box-content="In Aesop's fable *The Rose and the Amaranth*, the rose acknowledges its brief beauty while the amaranth replies: 'I am immortal and dost never fade, but bloomest for ever in renewed youth.'"
+  box-content="In John Parkinson's 1629 *Paradisi in Sole Paradisus Terrestris*, amaranthus appears as Flower-gentle: a plant valued because its gathered flowers could retain their color long after cutting."
 %}
+
+### From Garden Book to Epic Poem
+
+By the seventeenth century, amaranth was not only an ancient emblem. It was also a living garden plant, named and pictured in English books, valued for the same quality that made it symbolically useful: it seemed to resist fading. That gives later literary uses of amaranth a local, material context as well as a mythic one.
 
 
 ## Milton's Immortal Amarant
 
-The association between amaranth and immortality found its way into English literature through John Milton's *Paradise Lost* (1667). In Book III, Milton describes angels in heaven casting down their crowns, woven with "amarant and gold":
+Milton is not the reason Amaranth exists, but his use of the flower shows how far the "unfading" idea traveled. In *Paradise Lost* (1667), he gathers the plant's botanical reputation and symbolic history into a single image: angels in heaven casting down crowns woven with "amarant and gold":
 
 > Immortal amarant, a flower which once
 > In Paradise, fast by the Tree of Life,
@@ -41,11 +51,17 @@ The association between amaranth and immortality found its way into English lite
 > To Heaven removed, where first it grew, there grows
 > And flowers aloft shading the Fount of Life...
 
-{% include figure.html class="left" width="45%" caption="William Blake's illustration for *Paradise Lost* (1808). Milton imagined amaranth as a heavenly flower, removed from Eden after the Fall." image-path="images/blake-paradise-lost.jpg" %}
+{% include figure.html class="left" width="45%" caption="William Blake's *The Temptation and Fall of Eve* (1808), an illustration for *Paradise Lost*. The image belongs to the poem's visual tradition, though it does not depict Milton's amaranth passage directly." image-path="images/blake-paradise-lost.jpg" %}
 
-Milton imagines amaranth as originally growing in the Garden of Eden, near the Tree of Life. After humanity's fall, God transplanted it to heaven, where it continues to bloom eternally, shading the "Fount of Life." The angels weave it into their crowns precisely because it never fades.
+Milton imagines amaranth as originally growing in the Garden of Eden, near the Tree of Life. After humanity's fall, God transplants it to heaven, where it continues to bloom eternally, shading the "Fount of Life." The angels weave it into their crowns precisely because it never fades.
 
-This imagery captures something important about what we try to do in digital humanities: create work that endures, that remains accessible and meaningful long after its creation. We may not achieve immortality, but we can aspire to projects that outlast the platforms they're built on.
+That is the useful part of the Milton thread for us: not immortality as a promise, but endurance as an aspiration. Digital humanities projects do not escape time. But they can be built with enough care, openness, and community investment to remain accessible and meaningful longer than the platforms around them.
+
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+Milton turns the unfading flower into an image of care after loss: something removed from Eden, preserved elsewhere, and made meaningful through memory.
+</div>
 
 <br style="clear:both">
 
@@ -58,6 +74,15 @@ Archaeological evidence suggests that people in Mesoamerica began cultivating am
 
 The Aztecs didn't just eat amaranth. They considered it sacred. During religious festivals, they mixed amaranth flour with honey (and sometimes blood from ritual sacrifices) to create a dough called *tzoalli*. They shaped this dough into figures of their gods, particularly Huitzilopochtli, the god of war and the sun. At the end of the festival of Panquetzaliztli, priests would break apart the amaranth statues and distribute pieces to the people, who consumed them as a form of communion with the divine.
 
+> The meaning of amaranth was never contained in the plant alone. It lived in the rituals, stories, prohibitions, markets, and memories built around it.
+{: .pull-quote}
+
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+A crop becomes more than nutrition when it carries ritual, identity, and shared practice. The humanities help us see food as culture, not just calories.
+</div>
+
 
 ## The Forbidden Grain
 
@@ -67,6 +92,8 @@ The Aztecs didn't just eat amaranth. They considered it sacred. During religious
   image-path="images/codex-mendoza-tribute.jpg"
   pre-box-space="0"
 %}
+
+The Codex Mendoza image behind this section shows tribute accounting, not amaranth itself. The visible gloss identifies dried chile bundles. That distinction matters: the image is useful here as evidence of the colonial recordkeeping world in which tribute crops, sacred foods, and indigenous practices were named, categorized, and controlled.
 
 When Spanish conquistadors arrived in the sixteenth century, they immediately recognized amaranth's spiritual significance---and saw it as a threat to their mission of Christian conversion.
 
@@ -84,6 +111,12 @@ Despite the prohibition, amaranth never disappeared. Indigenous farmers continue
 
 This history of suppression and survival resonates with broader patterns in the humanities. Powerful institutions often try to control what knowledge gets preserved and transmitted. Sometimes the most important cultural materials are the ones that persist despite official neglect or active destruction.
 
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+The same plant that sustained one community became threatening to another system of power. Preservation is never only technical; it is cultural, political, and often contested.
+</div>
+
 {% include scrollybox/bg-multi-long-close.html %}
 
 
@@ -99,6 +132,12 @@ Today, amaranth is cultivated commercially on several continents. You can find i
 
 The grain that colonial powers tried to eradicate is now marketed as a "superfood." What was once forbidden is now fashionable.
 
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+Revival is not the same as repair. When old practices become new commodities, humanists ask what has been recovered, what has been renamed, and who benefits from the return.
+</div>
+
 
 ## Superfoods and Superweeds
 
@@ -113,6 +152,12 @@ Palmer amaranth (*Amaranthus palmeri*), commonly known as pigweed, is native to 
 A single Palmer amaranth plant can produce 400,000 seeds. It grows up to three inches per day, quickly overtaking crops and reaching heights of six to eight feet. In cotton fields, it can destroy harvesting equipment. Some Georgia farmers have simply abandoned fields to the weed.
 
 The real crisis began in 2006, when populations of Palmer amaranth started showing resistance to glyphosate, the active ingredient in Roundup and the world's most widely used herbicide. The resistance spread rapidly. Scientists discovered that resistant plants had amplified their EPSPS gene---the enzyme that glyphosate targets---sometimes producing over a hundred copies instead of the usual one or two. The plants simply overwhelm the herbicide with sheer genetic abundance.
+
+<div class="meaning-note" markdown="1">
+<span class="meaning-note__label">What amaranth means here</span>
+
+Survival can look like resilience in one context and resistance in another. Meaning depends on where you stand, what you value, and what you are trying to protect.
+</div>
 
 
 ## The Contradictions Humanists Explore
@@ -135,20 +180,34 @@ Amaranth represents the inherent contradictions that humanists explore. The same
 
 Throughout history and into the present, people have used dozens of amaranth species for an astonishing range of purposes: food, medicine, dye, religious ritual, and decoration. The Hopi used red amaranth to color their traditional piki bread. Ayurvedic practitioners prescribed it for inflammation and digestive troubles. Ancient Greeks hung it in temples; modern farmers curse it in their fields.
 
-This diversity of uses---and meanings---makes amaranth a fitting metaphor for digital humanities work. Over the last few decades, a new set of digital tools and techniques has emerged to provide humanists with many options for projects and research. Text analysis, mapping, visualization, digital archives, 3D modeling, virtual reality---the possibilities multiply every year. Like amaranth itself, digital humanities grows in many directions, adapts to many contexts, and serves many purposes.
+This diversity of uses---and meanings---makes amaranth a fitting metaphor for digital humanities work. Text analysis, mapping, visualization, digital archives, 3D modeling, virtual reality, oral history, web publishing---the possibilities multiply every year. Like amaranth itself, digital humanities grows in many directions, adapts to many contexts, and serves many purposes.
+
+<div class="studio-bridge" markdown="1">
+
+## What This Has To Do With a Digital Humanities Studio
+
+The humanities help us ask how meanings change: how a plant becomes a memorial flower, a sacred food, a banned substance, a commodity, a weed, or a metaphor. Those meanings are never built into the plant itself. They come from culture, power, memory, use, and interpretation.
+
+That is also how we approach digital work. A website is never just a website. An archive is never just a collection of files. A map is never just points on a screen. Digital projects make arguments about what matters, who gets represented, how evidence is organized, and what future readers will be able to find.
+
+Amaranth exists to help students, faculty, and community partners make those choices deliberately. We help people build public humanities projects that are engaging, accessible, and sustainable, while also asking the humanistic questions that keep technology from becoming merely technical: What should we preserve? Who is it for? What context does it need? What could this tool make visible, and what might it hide?
+</div>
 
 
 ## The Promise and the Paradox
 
 We don't pretend that digital projects achieve immortality. File formats change. Platforms shut down. Funding ends. Even well-maintained projects eventually face the question of what happens next. The digital realm is, in many ways, the opposite of unfading.
 
-But the aspiration matters. We try to build projects that outlast their initial funding, that remain accessible after the conference presentation, that can be preserved and migrated and kept alive. We work with open source tools and sustainable practices precisely because we've seen what happens when projects depend on proprietary platforms or abandoned software.
+But the aspiration matters. We try to build projects that outlast their initial funding, that remain accessible after the conference presentation, that can be preserved and migrated and kept alive. We work with open source tools and sustainable practices because we have seen what happens when projects depend on proprietary platforms or abandoned software.
 
-> We chose *amaranth* because it captures both the hope and the irony of working at the intersection of technology and the humanities.
+> We chose *amaranth* because it captures both the hope and the irony of bringing technology and the humanities together.
 
 The name also reminds us that preservation isn't just a technical problem. The Spanish couldn't eradicate amaranth because people cared enough to keep growing it, even at great personal risk. Digital projects survive when communities care enough to maintain them. The tools matter, but the commitment matters more.
 
-Finally, amaranth reminds us that context determines meaning. A plant that's a sacred food in one setting becomes an invasive pest in another. A digital tool that empowers one community might surveil another. The humanities help us think through these contradictions, to ask not just "what can we build?" but "what should we build?" and "for whom?"
+> Digital projects last when people keep caring for them: documenting choices, maintaining context, migrating files, teaching others, and remembering why the work mattered.
+{: .pull-quote}
+
+Finally, amaranth reminds us that context determines meaning. A plant that's a sacred food in one setting becomes an invasive pest in another. A digital tool that gives one community more control might surveil another. The humanities help us think through these contradictions, to ask not just "what can we build?" but "what should we build?" and "for whom?"
 
 
 ## Growing Something Together
@@ -165,19 +224,28 @@ Come by our studio in Mesa Vista Hall. Let's grow something together.
 
 ---
 
-## Image credits
+## References
 
-* **Header Image (Botanical Plate):** [Curtis’s Botanical Magazine, Plate 137 (1791)](https://www.biodiversitylibrary.org/page/472628) via the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/).
-* **Globe Amaranth Flowers:** [Gomphrena globosa 002.JPG](https://commons.wikimedia.org/wiki/File:Gomphrena_globosa_2.jpg) by [H. Zell](https://commons.wikimedia.org/wiki/User:Llez), Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
-* **Paradise Lost Illustration:** [*The Temptation and Fall of Eve* (1808)](https://commons.wikimedia.org/wiki/File:William_Blake_-_The_Temptation_and_Fall_of_Eve_%28Illustration_to_Milton%27s_%22Paradise_Lost%22%29_-_Google_Art_Project.jpg)
-* **Amaranth Seeds in Bowl:** Created by Gemini.
-* **Palmer Amaranth (Pigweed):** [Amaranthus palmeri](https://azinvasiveplants.arizona.edu/invasive-plant/palmer-amaranth) by [Max Licher](https://www.google.com/search?q=http://swbiodiversity.org/seinet/taxa/index.php%3Ftaxon%3D161), via the [University of Arizona / SEINet](https://swbiodiversity.org/seinet/).
-* **Hopi Red Dye Amaranth:** Created by Gemini.
-* **Alegría Candy:** [Alegrias03.JPG](https://commons.wikimedia.org/wiki/File:Alegrias03.JPG) by [AlejandroLinaresGarcia](https://commons.wikimedia.org/wiki/User:AlejandroLinaresGarcia), Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+{% include expandable/open.html title="Image Credits" %}
+
+* **Header image (botanical plate):** Botanical illustration labeled "Amaranth Plant," Plate 28 / Plate 137. Source file in repo does not include reliable provenance metadata; previous attribution to *Curtis's Botanical Magazine*, Plate 137 could not be confirmed from the displayed image.
+* **Globe amaranth flowers:** *Gomphrena globosa* photograph. Source file in repo does not include reliable provenance metadata; previous Wikimedia/H. Zell attribution could not be confirmed from the displayed image.
+* **Parkinson amaranthus background:** John Parkinson, [*Paradisi in Sole Paradisus Terrestris*](https://www.gutenberg.org/cache/epub/69425/pg69425-images.html), 1629, page 373, "Flower gentle." Image drawn from the [Internet Archive scan](https://archive.org/details/paradisiinsolepa00parkrich/page/373/mode/1up) used for Project Gutenberg eBook #69425; public domain in the United States.
+* **Paradise Lost illustration:** William Blake, [*The Temptation and Fall of Eve (Illustration to Milton's Paradise Lost)*](https://commons.wikimedia.org/wiki/File:William_Blake_-_The_Temptation_and_Fall_of_Eve_%28Illustration_to_Milton%27s_%22Paradise_Lost%22%29_-_Google_Art_Project.jpg), 1808. Public domain.
+* **Amaranth grain images:** Created with Gemini.
+* **Codex Mendoza tribute detail:** Detail from the [*Codex Mendoza*](https://medieval.bodleian.ox.ac.uk/catalog/work_11054), Bodleian Libraries, University of Oxford, MS. Arch. Selden. A. 1. The visible gloss identifies dried chile tribute bundles ("cargas de axi seco"), not amaranth.
+* **Burning codices / colonial destruction background:** Diego Rivera mural detail photographed by [Wolfgang Sauber](https://commons.wikimedia.org/wiki/File:Murales_Rivera_-_Treppenhaus_9_B%C3%BCcherverbrennung.jpg), showing the burning of Maya literature in the Palacio Nacional, Mexico City. Licensed under CC BY-SA 3.0 / GFDL.
+* **Palmer amaranth (pigweed):** [*Amaranthus palmeri*](https://azinvasiveplants.arizona.edu/invasive-plant/palmer-amaranth) photograph by Max Licher, via SEINet / Arizona Invasive Plants.
+* **Amaranth varieties background:** Source file in repo does not include reliable provenance metadata.
+* **Hopi Red Dye amaranth:** Created with Gemini.
+* **Alegría candy:** [Alegrias03.JPG](https://commons.wikimedia.org/wiki/File:Alegrias03.JPG) by [AlejandroLinaresGarcia](https://commons.wikimedia.org/wiki/User:AlejandroLinaresGarcia). Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+{% include expandable/close.html %}
 
 
-## Sources and Further Reading
-- Aesop. "The Rose and the Amaranth." *Aesop's Fables*.
+{% include expandable/open.html title="Sources and Further Reading" %}
+
+- Parkinson, John. *Paradisi in Sole Paradisus Terrestris*. 1629.
 - Kauffman, C.S., and L.E. Weber. "Grain amaranth." *Advances in New Crops*. Timber Press, 1990.
 - Milton, John. *Paradise Lost*. 1667.
 - Sauer, Jonathan D. "The Grain Amaranths and Their Relatives: A Revised Taxonomic and Geographic Survey." *Annals of the Missouri Botanical Garden*, 1967.
@@ -185,3 +253,5 @@ Come by our studio in Mesa Vista Hall. Let's grow something together.
 - [Whole Grains Council: Amaranth](https://wholegrainscouncil.org/whole-grains-101/grain-month-calendar/amaranth-may-grain-month)
 - [Genetic Literacy Project: Palmer Amaranth Superweed](https://geneticliteracyproject.org/2020/02/28/how-the-pigweed-palmer-amaranth-became-a-super-weed-and-what-it-tells-us-about-preventing-herbicide-resistance/)
 - [United Nations University: Rethinking a Weed](https://ourworld.unu.edu/en/rethinking-a-weed-the-truth-about-amaranth)
+
+{% include expandable/close.html %}
