@@ -1,0 +1,66 @@
+{% assign gallery_items = include.items %}
+{% assign cols = include.cols | default: 5 %}
+
+<style>
+  .image-strip-gallery {
+    display: grid;
+    grid-template-columns: repeat({{ cols }}, 1fr);
+    gap: 6px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  .image-strip-gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    display: block;
+    text-decoration: none;
+  }
+  .image-strip-gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .image-strip-gallery .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+  .image-strip-gallery .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 4px 6px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .image-strip-gallery .gallery-item:hover .gallery-caption {
+    opacity: 1;
+  }
+</style>
+
+<div class="image-strip-gallery">
+  {% for item in gallery_items %}
+    {% assign raw_path = item.image | strip %}
+    {% if raw_path contains "://" %}
+      {% assign img_src = raw_path %}
+    {% else %}
+      {% assign img_src = page.dir | append: raw_path | prepend: site.baseurl %}
+    {% endif %}
+    <a class="gallery-item" href="{{ item.url }}" target="_blank" rel="noopener">
+      <img src="{{ img_src }}" alt="{{ item.caption | strip }}">
+      <span class="gallery-caption">{{ item.caption | strip }}</span>
+    </a>
+  {% endfor %}
+</div>
