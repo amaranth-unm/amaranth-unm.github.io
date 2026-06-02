@@ -32,10 +32,10 @@ Some of the most interesting work we do connects university research to communit
 
 Community-engaged projects often look different from traditional research collaborations: they take longer to scope, they require sustained relationships, and the questions of who the work is for matter as much as the methods. We welcome that complexity. If you're thinking about a project that involves community partners—whether you're a faculty member, a student, or a community organization—come talk to us early. These conversations are better before the scope is set.
 
-
+<!--
 ## Book time in the Studio
 If you're more of a scheduler, use our [bookings page](https://outlook.office.com/book/HistoryAmaranth@unmm.onmicrosoft.com/?ismsaljsauthenabled). This also helps ensure you get dedicated attention, especially during crunch times of the semester. Please describe as much as you can what you're interested in discussing or doing so we can be most prepared to help.
-
+-->
 
 ## Grants and public research
 Many grants from the NEH, Mellon, NSF, and others now expect or encourage public engagement: a way for research to reach audiences beyond the academy. We can help you design that work so it is more than an afterthought.

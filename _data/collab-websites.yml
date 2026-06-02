@@ -1,27 +1,40 @@
 - image: images/silk-road-website.png
   caption: "Silk Road"
-  url: "https://example.com/silk-road"
-- image: images/disrupt-expertise-website.png
-  caption: "Disrupting Expertise"
-  url: "https://example.com/disrupt-expertise"
-- image: images/music-history-website.png
-  caption: "20th Century Music History"
-  url: "https://example.com/music-history"
-- image: images/food-stories-website.png
-  caption: "Food Stories"
-  url: "https://example.com/food-stories"
-- image: images/adv-hist-website.png
-  caption: "Advanced Historiography"
-  url: "https://example.com/adv-hist"
-- image: images/antifascist-women-website.png
-  caption: "Antifascist Women"
-  url: "https://example.com/antifascist-women"
+  url: "https://amaranth.unm.edu/silk-road/"
+  description: "Students traced the movement of goods, ideas, and cultures across Central Asia, producing a multi-authored digital narrative that weaves together primary sources, maps, and original research."
+
 - image: images/farmer-histories-website.png
   caption: "Rio Grande Farmer Oral Histories"
-  url: "https://example.com/farmer-histories"
-- image: images/hist-1105-website.png
-  caption: "AAPI Experiences in New Mexico"
-  url: "https://example.com/hist-1105"
+  url: "https://amaranth.unm.edu/farming-oral-histories/"
+  description: "Students conducted and archived oral history interviews with farmers along the Rio Grande, creating a searchable public record of agricultural knowledge, land memory, and community resilience."
+
+- image: images/antifascist-women-website.png
+  caption: "Antifascist Women"
+  url: "https://ginambenavidez.github.io/antifascist-women/"
+  description: "A research site documenting the lives and activism of women who resisted fascism across Europe and Latin America, recovering figures often absent from mainstream historical narratives."
+
+- image: images/music-history-website.png
+  caption: "20th Century Music History"
+  url: "https://amaranth.unm.edu/music-history/"
+  description: "Students explored the social and political contexts of twentieth-century music, building a site that connects sound to history through annotated listening, timelines, and original analysis."
+
 - image: images/hist-337-website.png
   caption: "US Culture & Society Since 1945"
-  url: "https://example.com/hist-337"
+  url: "https://profpurplekale.github.io/History-337/"
+  description: "Students built thematic essays on postwar American culture — suburbanization, counterculture, media, and identity — weaving together primary sources and historiographical context."
+
+- image: images/hist-1105-website.png
+  caption: "AAPI Experiences in New Mexico"
+  url: "https://profpurplekale.github.io/History-1105/"
+  description: "An introductory history course produced this collaborative site documenting Asian American and Pacific Islander communities in New Mexico, drawing on local archives, interviews, and census records."
+
+- image: images/food-stories-website.png
+  caption: "Food Stories"
+  url: "https://amaranth.unm.edu/food-stories/"
+  description: "A student-built archive of stories about food, memory, and identity, collecting personal essays and oral history excerpts that reveal how what we eat shapes who we are."
+
+- image: images/adv-hist-website.png
+  caption: "Advanced Historiography"
+  url: "https://amaranth.unm.edu/historiography-podcasts/"
+  description: "Graduate students engaged foundational questions of historical method by writing public-facing essays that make debates about evidence, narrative, and interpretation accessible to general readers."
+

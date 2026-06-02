@@ -3,7 +3,7 @@ layout: base
 title: Future Directions
 author: Fred Gibbs
 date: 2026-05-23
-description: "A short overview of where Amaranth is headed: human-centered AI research, digital cultural heritage, tactile pedagogy, open documentation, and public scholarship at UNM."
+description: "Where Amaranth is headed next: shared AI infrastructure for humanities research, AI-assisted mapping, public data visualization, expanded partnerships, and more researchers publishing openly."
 header-image: /assets/images/headers/TERRA_AUSTRALIS_INCOGNITA,_Hondius,_1618.jpg
 header-title: Future directions
 header-tier: section
@@ -11,37 +11,32 @@ header-filter: photo
 header-position: center 45%
 ---
 
-Amaranth is building toward a studio model where AI research, digital cultural heritage, classroom integration, and public scholarship strengthen each other. The work is practical, but the question is humanistic: how can digital methods help people understand sources, communities, places, and arguments with more care?
+What comes next at Amaranth is both an extension of what we already do and a push into new terrain. These are keys initiatives we're actively pursuing.
 {: .lead}
 
-We are not chasing novelty for its own sake. We are trying to build habits, workflows, and public examples that help humanists use powerful tools without surrendering judgment to them.
+
+## Shared AI Infrastructure
+
+We are working on building a local AI workstation—running large open-weight models trained on data sets we can control. The goal isn't just a machine: it's a shared sandbox with documented workflows, so that other humanities faculty can see what AI-assisted research actually looks like and where new methodological questions need to be answered.
+
+## AI-Assisted Mapping
+
+We are developing workflows that use AI to handle the tedious technical work of historical map georectification, layer alignment, and feature extraction—without surrendering interpretive decisions to the model. AI does the lift; humanists do the reading. This opens up spatial analysis to researchers who have the questions but not the technical fluency to traverse the many technologies employed for this kind of work.
+
+## Public Data Visualization
+
+Humanistic data—maps, timelines, networks, demographic patterns—rarely reaches public audiences in forms that invite engagement rather than mystification. We're developing visualization approaches designed from the start for general audiences: things you can explore without training, that still carry the interpretive weight of the scholarship behind them.
 
 
-## What We Are Developing
+## Higher Fidelity, Harder Questions
 
-**Human-centered AI research.** We are developing AI workflows that keep people close to the sources: transparent prompts, traceable outputs, verifiable claims, and enough documentation that another researcher can understand what happened. AI should widen what humanists can examine, not replace the interpretive work that makes humanities research matter.
-
-**Digital cultural heritage pipelines.** We are connecting 3D scanning, modeling, AI-assisted analysis, public interpretation, and physical reproduction. The pipeline matters because each stage changes what can be seen, taught, shared, and questioned.
-
-**Tactile pedagogy and community engagement.** Research-grounded replicas, terrain maps, and scanned objects can travel into classrooms, K-12 programs, exhibitions, and community conversations. A physical object does not automatically teach. It becomes pedagogical when it changes the questions people can ask together.
-
-**Open documentation as scholarship.** The workflow is part of the research output. We want to publish not only finished projects, but the decisions behind them: what worked, what failed, where AI misled us, how sources were prepared, and what another humanist could adapt.
+We are moving toward significantly higher-resolution scanning and higher-quality fabrication—clay and dual-nozzle printing that can reproduce tooling marks, surface texture, and fine detail that standard filament printing flattens out. The difference matters: a reproduction that captures the exact curvature of a vessel or the wear pattern on a tool changes what students and researchers can notice and argue about. As with all our technical work, we're documenting the scanning and printing workflows so others can replicate and adapt them. That process also surfaces harder questions about reproduction rights, repatriation, and what it means to hold a copy of something whose original has a contested ownership history.
 
 
-## Why Here
+## More People + More Partnerships 
 
-New Mexico makes these questions concrete. Indigenous collections, community oral histories, regional archives, family-held materials, built environments, and museum objects all require careful decisions about provenance, access, representation, and control. A terms-of-service agreement is not an ethics plan.
+Amaranth has built tools and workflows for open web publishing—now we want more faculty who want to put their scholarship online in durable, scholar-controlled formats: research websites, annotated document collections, interactive exhibits. The work already happening here is a perfect proof-of-concept.
 
-That is why Amaranth is interested in researcher-controlled workflows, local or institutionally accountable AI infrastructure, open publishing, and classroom practice. We want students, faculty, and community partners to understand enough of the process to ask better questions of it.
-
-
-## Read More
-
-- [AI + Humanities Research](/projects/ai-humanities): how we think about human-centered AI workflows for texts, images, oral histories, and public research.
-- [3D Pedagogy](/projects/3d-pedagogy): how scanning, printing, and tactile learning connect.
-- [Projects Overview](/projects/overview): the broader research agenda across AI, 3D work, Xanthan, Objex, and student research.
-- [Making as Method](/studio/making-as-method): why websites, podcasts, posters, oral histories, and physical objects are forms of argument.
-
-We are still building this, and that is part of the point. The questions are moving. The important thing is to learn in public, keep humans in the loop, and make the process legible enough that others can join it.
+We seek to cultivate institutional partnerships where scanning, analysis, and fabrication serve community needs and research simultaneously. We're building toward more of these—with archives, K-12 programs, and museums—and hopefully positioning UNM for external funding as an AI-and-cultural-heritage hub.
 
 <p class="section-link-bar"><a href="/collaborate">Bring us a question →</a></p>
