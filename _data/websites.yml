@@ -1,0 +1,111 @@
+# Central data source for all showcase websites.
+# category: class-project | portfolio | scrollstory
+# featured: true → appears in gallery
+
+# Class projects
+
+- title: Campus Histories
+  thumbnail: /assets/images/projects/campus.jpg
+  features:
+    - Multi-semester project — each cohort builds on what previous students made
+    - UNM site styling baked in via Xanthan
+    - Card-based navigation through individual building histories
+  link: https://amaranth.unm.edu/campus-history/
+  category: class-project
+  featured: true
+
+- title: Metahistory
+  thumbnail: /assets/images/projects/metahistory.jpg
+  features:
+    - Spans multiple courses and years of student contributions
+    - Permanent left sidebar with auto-generated table of contents
+    - New pages picked up automatically as students add them
+  link: https://unm-historiography.github.io/metahistory/
+  category: class-project
+  featured: true
+
+- title: Medieval Elite Marriages
+  thumbnail: /assets/images/projects/medieval-marriages.png
+  features:
+    - Each page centers on a single historical artifact
+    - Shows how material objects can anchor historical argument
+  link: https://jeseyfried.github.io/medieval-marriages/
+  category: class-project
+  featured: true
+
+- title: Santa Fe Trail Sites
+  thumbnail: /assets/images/projects/trails.png
+  features:
+    - Map integration with linked individual location pages
+    - Geographic navigation as the primary entry point
+    - Still running without maintenance after nearly a decade
+  link: https://historic-trails.unm.edu/
+  category: class-project
+  featured: true
+
+- title: Histories of the Future
+  thumbnail: /assets/images/projects/histscifi.jpg
+  features:
+    - Workshop proceedings preserved as a permanent public site
+    - Shows how event output can have lasting web presence
+  link: http://histscifi.com
+  category: class-project
+  featured: true
+
+
+# Portfolios
+
+- title: Fred Gibbs
+  thumbnail: /assets/images/projects/campus.jpg
+  features:
+    - Syllabi and teaching materials alongside research and CV
+    - Integrated blog archive
+    - Easter egg poster gallery
+  link: https://fredgibbs.net
+  category: portfolio
+
+- title: Jonathan Seyfried
+  thumbnail: /assets/images/projects/metahistory.jpg
+  features:
+    - Clean implementation of the basic portfolio structure
+    - Permanent left sidebar layout
+  link: https://jonathanseyfried.net
+  category: portfolio
+
+
+# ScrollStories
+
+- title: A Cultural History of Arkham Asylum
+  thumbnail: /assets/images/projects/asylum.png
+  features:
+    - Dense visual narrative with many layered images
+    - Shows how cultural criticism can work as a scroll-driven experience
+    - Complex interplay of text, image, and pacing
+  link: https://hadas496.github.io/comics-and-Reaganomics-/
+  category: scrollstory
+  featured: true
+
+- title: Sugar, Emeralds, and Unicorn Horn
+  thumbnail: https://jeseyfried.github.io/sugar-emeralds-unicorn/images/davallano-1.jpg
+  features:
+    - Accessible starting point for ScrollStory work
+    - Straightforward pacing with several images
+    - Good model before attempting complex layering
+  link: https://jeseyfried.github.io/sugar-emeralds-unicorn/
+  category: scrollstory
+
+- title: Why Amaranth?
+  thumbnail: /studio/name-origins/images/amaranth.jpg
+  features:
+    - Internal demo of the scrollstory format
+    - Rich use of botanical and historical imagery
+  link: /studio/name-origins/
+  category: scrollstory
+
+- title: Mesa Vista Hall
+  thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
+  features:
+    - Demo scrollstory using archival UNM photographs
+    - Good preview of the format before committing to a full project
+  link: /websites/scrollstories/mesa-vista-hall/
+  category: scrollstory

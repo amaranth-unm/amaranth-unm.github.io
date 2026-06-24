@@ -48,6 +48,18 @@ Then visit http://localhost:4000
 
 ## Content Guidelines
 
+### Lead paragraph
+The first paragraph of body text on every page (immediately after the frontmatter, before any `##` heading) must use lead styling and be exactly one paragraph:
+
+```markdown
+This is the opening paragraph that sets up the page.
+{: .lead}
+```
+
+- Only one paragraph gets `{: .lead}` — always the first one, never a later one
+- Do not apply `{: .lead}` to a paragraph that follows a `##` heading
+- Keep the lede to 2–4 sentences; it should orient the reader, not summarize the whole page
+
 ### Tone & Voice
 - **Inspirational and approachable** - we want to excite people about possibilities
 - **Avoid sycophantic language** - no excessive praise or over-the-top enthusiasm

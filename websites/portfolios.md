@@ -10,17 +10,6 @@ header-title: "Own your professional identity"
 header-caption: _Musei Wormiani Historia_, the frontispiece from the Museum Wormianum depicting Ole Worm's cabinet of curiosities
 header-image-link: https://en.wikipedia.org/wiki/Cabinet_of_curiosities
 
-cards:
-  - title: Fred Gibbs
-    thumbnail: "/assets/images/projects/campus.jpg"
-    summary: Hosts typical portfolio pages, plus syllabi, archived blog posts, and an easter egg poster gallery.
-    link: https://fredgibbs.net
-
-  - title: Jonathan Seyfried
-    thumbnail: "/assets/images/projects/metahistory.jpg"
-    summary: Features the basic portfolio components with a permanent left sidebar.
-    link: https://jonathanseyfried.net
-
 ---
 
 ## Don't build on borrowed ground
@@ -43,6 +32,12 @@ Xanthan is designed so that AI assistants can read and modify it precisely. The 
 In practice, this starts simple: "make the header taller," "add a section about my teaching," "change the accent color to forest green." The AI finds the right file, makes the change, explains what it did. As you get comfortable, the tasks get more complex: adding a new page type, wiring up a custom layout, pulling in a new data source. The same conversation, just higher stakes.
 
 We work with you through that progression, helping you build the habit of directing an AI assistant through real technical decisions so the confidence you gain here transfers to your research, writing, and any future project that touches code.
+
+
+## Portfolio examples
+
+{% assign sites = site.data.websites | where: "category", "portfolio" %}
+{% include card-list.html cards = sites %}
 
 
 ## Getting started

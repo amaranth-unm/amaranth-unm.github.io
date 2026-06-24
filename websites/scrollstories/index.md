@@ -10,26 +10,6 @@ header-filter: photo
 header-zoom: 130%
 header-position: 50% 80%
 
-cards:
-  - title: "Why Amaranth?"
-    thumbnail: /studio/why-amaranth/images/amaranth.jpg
-    summary: From Greek mythology to Aztec sacred rituals to modern superweeds, the amaranth plant embodies the contradictions at the heart of digital humanities work.
-    link: "/studio/why-amaranth/"
-
-  - title: "Mesa Vista Hall"
-    thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
-    summary: A demo scrollstory with images from the history of the building that was once a dormitory and now houses many different types of university office, including the History Department.
-    link: "mesa-vista-hall/"
-
-  - title: A Cultural History of Arkham Asylum
-    thumbnail: "/assets/images/projects/asylum.png"
-    summary: Deep scrollstory with many images, demonstrating how visual analysis and narrative layering explore complex cultural history
-    link: https://hadas496.github.io/comics-and-Reaganomics-/
-
-  - title: Sugar, Emeralds, and Unicorn Horn
-    thumbnail: "https://jeseyfried.github.io/sugar-emeralds-unicorn/images/davallano-1.jpg"
-    summary: A more beginner-level scrollstory that includes several images but lacks the immersive layering in the other examples.
-    link: "https://jeseyfried.github.io/sugar-emeralds-unicorn/"
 ---
 
 ## Not a document. A journey.
@@ -40,8 +20,5 @@ ScrollStories are built on the same open-source platform as all our websites, wh
 
 You don't need to be a designer or a developer to build one. If you can write in Markdown and choose images that matter, you can create a ScrollStory. We provide the templates, you bring the narrative, and AI helps smooth over technical bumps.
 
-{% assign cards = page.cards %}
-
-{% include card-list.html
-cards = cards
-%}
+{% assign sites = site.data.websites | where: "category", "scrollstory" %}
+{% include card-list.html cards = sites %}

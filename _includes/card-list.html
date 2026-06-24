@@ -16,7 +16,7 @@
   <div class="row g-0 align-items-center">
     {% if card_thumbnail %}
     <div class="col-sm-4">                
-      <img src="{{site.baseurl}}{{ card_thumbnail }}" class="img-fluid rounded-start card-image" alt="{{ item.title | escape }}" style="object-fit: cover; height: 200px; width: 100%;">
+      <img src="{{site.baseurl}}{{ card_thumbnail }}" class="img-fluid rounded-start card-image" alt="{{ item.title | escape }}" style="object-fit: cover; height: 150px; width: 100%;">
     </div>
     <div class="col-sm-8 d-flex align-items-center">
     {% else %}
@@ -30,7 +30,9 @@
             {% for tag in item.tags limit: 3 %}<a class="sketch-tag topic" href="{{ '/explore/ai-sketchbook/tags/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>{% endfor %}
           </p>
           {% endif %}
-          <p class="card-text"> {{ card_summary }} </p>
+          {% if item.features %}
+          <ul class="card-features">{% for f in item.features %}<li>{{ f }}</li>{% endfor %}</ul>
+          {% elsif card_summary %}<p class="card-text"> {{ card_summary }} </p>{% endif %}
       </div>
     </div>
   </div>

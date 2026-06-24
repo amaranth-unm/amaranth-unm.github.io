@@ -611,8 +611,8 @@ CARDS
   background: #30343799;
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: 1.25rem;
-  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   transition: var(--transition);
   position: relative;
   overflow: hidden;
@@ -623,8 +623,8 @@ CARDS
 
 .card:hover {
   background: var(--surface);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,0.3));
   border-color: var(--unm-turquoise);
 }
 
@@ -668,7 +668,6 @@ CARDS
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  min-height: 120px;
 }
 
 /* Card images */
@@ -712,6 +711,29 @@ CARDS
 
 .card-horizontal .card-text {
   color: #d0d0d0 !important;
+}
+
+.card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.card-features li {
+  padding-left: 1.2em;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+
+.card-features li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--amaranth);
+  opacity: 0.5;
 }
 
 
