@@ -1,13 +1,14 @@
-<!-- change row-cols-md-3 to 2 or 4 for different number of cols -->
+<!-- change include.cols (default 3) for different number of columns -->
 {% assign grid_cards = include.cards | default: page.cards %}
-{% assign row_class = "row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-4 gy-5" %}
+{% assign _cols = include.cols | default: 3 %}
+{% assign row_class = "row row-cols-1 row-cols-sm-2 row-cols-md-" | append: _cols | append: " gx-4 gy-5" %}
 {% if include.gallery %}{% assign row_class = row_class | append: " tile-grid-gallery" %}{% endif %}
 <div class="{{ row_class }}">
 
 {% for card in grid_cards %}
 {% assign card_img = card.image | default: card.thumbnail %}
 <div class="col">
-  <a class="tile-card" href="{{ card.link }}">
+  <a class="tile-card" href="{{ card.link }}" target="_blank" rel="noopener noreferrer">
     <div class="tile-img-wrap">
       <img src="{{ card_img }}" alt="{{ card.title | escape }}">
       {% if card.features %}

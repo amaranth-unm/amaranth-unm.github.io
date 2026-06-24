@@ -33,16 +33,19 @@ In practice, this starts simple: "make the header taller," "add a section about 
 
 We work with you through that progression, helping you build the habit of directing an AI assistant through real technical decisions so the confidence you gain here transfers to your research, writing, and any future project that touches code.
 
-
-## Portfolio examples
-
-{% assign sites = site.data.websites | where: "category", "portfolio" | sort: "display-order" %}
-{% include card-list.html cards = sites %}
-
-
 ## Getting started
 Check out the [Xanthan portfolio demo site](https://xanthan-web.github.io/portfolio-template/) to get a sense of the basic template. 
 
 Head over to the [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) for step-by-step directions to have your site running (with placeholder content) in 10 minutes. Then comes the fun part of making it _yours_.
 
 <p style="text-align: right"><a href="https://xanthan-web.github.io/docs/getting-started" class="btn-cta" target="_blank">Create your Portfolio! →</a></p>
+
+
+## A few examples
+
+{% assign sites = site.data.websites | where: "category", "portfolio" | sort: "display-order" %}
+{% include card-grid.html cards=sites title-only=true gallery=true cols=2 %}
+
+<p class="mt-3 text-end"><a href="/websites/gallery" class="btn-cta">See all examples →</a></p>
+
+

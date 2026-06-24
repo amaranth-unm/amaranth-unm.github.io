@@ -12,8 +12,22 @@ header-title: "Website Gallery"
 
 ## What gets built here
 
-Below are a few examples of websites built with Amaranth and [Xanthan templates](https://xanthan-web.github.io). They show the range of work that can live well on the open web: class projects, portfolios, ScrollStories, workshop proceedings, and public research. [Get in touch](/collaborate) if you have a project taking shape.
+All the websites below were built by UNM students and faculty using Amaranth and [Xanthan templates](https://xanthan-web.github.io). They show the range of work that can live well on the open web. [Get in touch](/collaborate) if you have a project taking shape.
 
+## Class Projects
+{: .gallery-heading}
 
-{% assign sites = site.data.websites | where: "featured", true | sort: "display-order" %}
-{% include card-list.html cards = sites %}
+{% assign class_sites = site.data.websites | where: "category", "class-project" | sort: "display-order" %}
+{% include card-grid.html cards=class_sites title-only=true gallery=true %}
+
+## Portfolios
+{: .gallery-heading}
+
+{% assign portfolio_sites = site.data.websites | where: "category", "portfolio" | sort: "display-order" %}
+{% include card-grid.html cards=portfolio_sites title-only=true gallery=true cols=2 %}
+
+## ScrollStories
+{: .gallery-heading}
+
+{% assign scroll_sites = site.data.websites | where: "category", "scrollstory" | sort: "display-order" %}
+{% include card-grid.html cards=scroll_sites title-only=true gallery=true %}

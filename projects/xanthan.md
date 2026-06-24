@@ -6,6 +6,10 @@ header-image: /assets/images/headers/xanthan-bw.jpg
 header-tier: section
 header-filter: botanical
 header-title: Build for stability and growth
+showcase_sites:
+  - Campus Histories
+  - Metahistory
+  - Medieval Elite Marriages
 ---
 
 The Xanthan framework started as an experiment to create a shared repository for course work. What began modestly grew, through unexpected student interest, into a general framework for aggregating and sustaining student work across semesters—and eventually into Amaranth's open-source web publishing infrastructure for scholars, students, and community partners.
@@ -28,36 +32,14 @@ The next test is AI legibility. We've been deliberately designing Xanthan so tha
 ## Built with Xanthan
 Every semester we add a handful of new projects to our portfolio. Here are a few recent highlights.
 
-{::nomarkdown}
-</div>
-<div class="container py-4">
-  <div class="row g-4">
-    <div class="col-md-4">
-      <a href="https://amaranth.unm.edu/campus-history/" target="_blank" class="d-block text-decoration-none">
-        <img src="/assets/images/projects/campus.jpg" alt="Campus Histories" class="img-fluid rounded mb-2" style="height:180px; width:100%; object-fit:cover; object-position:top;">
-        <p class="mb-0" style="font-size:0.9rem; color:var(--text-secondary);">Campus Histories</p>
-        <p style="font-size:0.8rem; color:var(--text-muted);">ScrollStory archive of UNM campus spaces and their histories</p>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://unm-historiography.github.io/metahistory/" target="_blank" class="d-block text-decoration-none">
-        <img src="/assets/images/projects/metahistory.jpg" alt="Metahistory" class="img-fluid rounded mb-2" style="height:180px; width:100%; object-fit:cover; object-position:top;">
-        <p class="mb-0" style="font-size:0.9rem; color:var(--text-secondary);">Metahistory</p>
-        <p style="font-size:0.8rem; color:var(--text-muted);">A collaborative class project on historiography, built across multiple semesters</p>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://jeseyfried.github.io/medieval-marriages/" target="_blank" class="d-block text-decoration-none">
-        <img src="/assets/images/projects/medieval-marriages.png" alt="Medieval Marriages" class="img-fluid rounded mb-2" style="height:180px; width:100%; object-fit:cover; object-position:top;">
-        <p class="mb-0" style="font-size:0.9rem; color:var(--text-secondary);">Medieval Marriages</p>
-        <p style="font-size:0.8rem; color:var(--text-muted);">Student research portfolio examining medieval marriage practices and law</p>
-      </a>
-    </div>
-  </div>
-  <p class="mt-3 text-end"><a href="/websites/gallery" class="btn-cta">See more in the gallery →</a></p>
-</div>
-<div class="container">
-{:/nomarkdown}
+{% assign showcase = "" | split: "" %}
+{% for t in page.showcase_sites %}
+  {% assign match = site.data.websites | where: "title", t | first %}
+  {% if match %}{% assign showcase = showcase | push: match %}{% endif %}
+{% endfor %}
+{% include card-grid.html cards=showcase title-only=true gallery=true %}
+
+<p class="mt-3 text-end"><a href="/websites/gallery" class="btn-cta">See more in the gallery →</a></p>
 
 
 ## Try it!

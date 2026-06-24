@@ -759,8 +759,8 @@ CARDS
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.78);
-  color: #e8e8e8;
-  font-size: 0.8rem;
+  color: #b8b8b8;
+  font-size: 0.9rem;
   line-height: 1.45;
   padding: 0.6rem 0.8rem;
   transform: translateY(100%);
@@ -772,7 +772,7 @@ CARDS
 }
 
 .tile-tooltip span + span {
-  margin-top: 0.25rem;
+  margin-top: 0.6rem;
 }
 
 /* Gallery breakout — escapes the prose column on wide screens */
@@ -781,10 +781,20 @@ CARDS
   margin-right: -6vw;
 }
 
+.gallery-heading {
+  margin-left: -6vw;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--amaranth-bright);
+  margin-bottom: 1.5rem;
+}
+
 @media (min-width: 900px) {
   .tile-grid-gallery {
     margin-left: -10vw;
     margin-right: -10vw;
+  }
+  .gallery-heading {
+    margin-left: -10vw;
   }
 }
 
