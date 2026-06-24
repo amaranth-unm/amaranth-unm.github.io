@@ -1,11 +1,13 @@
 # Central data source for all showcase websites.
 # category: class-project | portfolio | scrollstory
 # featured: true → appears in gallery
+# display-order: controls sort order within each category
 
 # Class projects
 
 - title: Campus Histories
   thumbnail: /assets/images/projects/campus.jpg
+  display-order: 1
   features:
     - Multi-semester project — each cohort builds on what previous students made
     - UNM site styling baked in via Xanthan
@@ -16,6 +18,7 @@
 
 - title: Metahistory
   thumbnail: /assets/images/projects/metahistory.jpg
+  display-order: 2
   features:
     - Spans multiple courses and years of student contributions
     - Permanent left sidebar with auto-generated table of contents
@@ -24,8 +27,31 @@
   category: class-project
   featured: true
 
+- title: The Silk Road
+  thumbnail: /assets/images/projects/silk-road.jpg
+  display-order: 3
+  features:
+    - Object pages with images, metadata, and interpretive essays
+    - Thematic essays connecting multiple objects and historical patterns
+    - Map-based view of places and materials connected through exchange
+  link: https://amaranth.unm.edu/silk-road/
+  category: class-project
+  featured: true
+
+- title: Farming the Middle Rio Grande
+  thumbnail: /assets/images/projects/farming-oral-histories.jpg
+  display-order: 4
+  features:
+    - Farmer profiles combining oral history interviews and student-written web pages
+    - Cross-course collaboration between qualitative methods and local food systems courses
+    - Recordings archived in the UNM Digital Repository
+  link: https://oral-histories-mrg.github.io/oral-histories-of-farming/
+  category: class-project
+  featured: true
+
 - title: Medieval Elite Marriages
   thumbnail: /assets/images/projects/medieval-marriages.png
+  display-order: 5
   features:
     - Each page centers on a single historical artifact
     - Shows how material objects can anchor historical argument
@@ -35,6 +61,7 @@
 
 - title: Santa Fe Trail Sites
   thumbnail: /assets/images/projects/trails.png
+  display-order: 6
   features:
     - Map integration with linked individual location pages
     - Geographic navigation as the primary entry point
@@ -45,6 +72,7 @@
 
 - title: Histories of the Future
   thumbnail: /assets/images/projects/histscifi.jpg
+  display-order: 7
   features:
     - Workshop proceedings preserved as a permanent public site
     - Shows how event output can have lasting web presence
@@ -56,7 +84,8 @@
 # Portfolios
 
 - title: Fred Gibbs
-  thumbnail: /assets/images/projects/campus.jpg
+  thumbnail: /assets/images/projects/fred-gibbs.jpg
+  display-order: 1
   features:
     - Syllabi and teaching materials alongside research and CV
     - Integrated blog archive
@@ -65,7 +94,8 @@
   category: portfolio
 
 - title: Jonathan Seyfried
-  thumbnail: /assets/images/projects/metahistory.jpg
+  thumbnail: /assets/images/projects/jonathan-seyfried.jpg
+  display-order: 2
   features:
     - Clean implementation of the basic portfolio structure
     - Permanent left sidebar layout
@@ -77,6 +107,7 @@
 
 - title: A Cultural History of Arkham Asylum
   thumbnail: /assets/images/projects/asylum.png
+  display-order: 1
   features:
     - Dense visual narrative with many layered images
     - Shows how cultural criticism can work as a scroll-driven experience
@@ -87,6 +118,7 @@
 
 - title: Sugar, Emeralds, and Unicorn Horn
   thumbnail: https://jeseyfried.github.io/sugar-emeralds-unicorn/images/davallano-1.jpg
+  display-order: 2
   features:
     - Accessible starting point for ScrollStory work
     - Straightforward pacing with several images
@@ -96,6 +128,7 @@
 
 - title: Why Amaranth?
   thumbnail: /studio/name-origins/images/amaranth.jpg
+  display-order: 3
   features:
     - Internal demo of the scrollstory format
     - Rich use of botanical and historical imagery
@@ -104,6 +137,7 @@
 
 - title: Mesa Vista Hall
   thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
+  display-order: 4
   features:
     - Demo scrollstory using archival UNM photographs
     - Good preview of the format before committing to a full project

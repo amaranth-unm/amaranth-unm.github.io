@@ -15,5 +15,5 @@ header-title: "Website Gallery"
 Below are a few examples of websites built with Amaranth and [Xanthan templates](https://xanthan-web.github.io). They show the range of work that can live well on the open web: class projects, portfolios, ScrollStories, workshop proceedings, and public research. [Get in touch](/collaborate) if you have a project taking shape.
 
 
-{% assign sites = site.data.websites | where: "featured", true %}
+{% assign sites = site.data.websites | where: "featured", true | sort: "display-order" %}
 {% include card-list.html cards = sites %}

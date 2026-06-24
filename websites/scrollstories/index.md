@@ -20,5 +20,5 @@ ScrollStories are built on the same open-source platform as all our websites, wh
 
 You don't need to be a designer or a developer to build one. If you can write in Markdown and choose images that matter, you can create a ScrollStory. We provide the templates, you bring the narrative, and AI helps smooth over technical bumps.
 
-{% assign sites = site.data.websites | where: "category", "scrollstory" %}
+{% assign sites = site.data.websites | where: "category", "scrollstory" | sort: "display-order" %}
 {% include card-list.html cards = sites %}

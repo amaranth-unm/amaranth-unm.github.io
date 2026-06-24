@@ -36,7 +36,7 @@ We work with you through that progression, helping you build the habit of direct
 
 ## Portfolio examples
 
-{% assign sites = site.data.websites | where: "category", "portfolio" %}
+{% assign sites = site.data.websites | where: "category", "portfolio" | sort: "display-order" %}
 {% include card-list.html cards = sites %}
 
 

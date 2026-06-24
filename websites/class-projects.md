@@ -2,7 +2,7 @@
 title: Collaborative Class Projects
 layout: base
 date: 2024-10-26
-description: "Turn course assignments into public scholarship. Amaranth helps UNM instructors build collaborative class websites where student work lives on the open web—free, durable, and built to last."
+description: "Turn course assignments into public scholarship. Amaranth helps UNM instructors showcase class research with websites that are free, durable, and fundamentally collaborative."
 header-image: /assets/images/headers/oil-painting.jpg
 header-tier: section
 header-filter: woodcut
@@ -12,7 +12,7 @@ header-title: Bring students together
 
 ---
 
-A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity—and they leave with something more durable than a grade: the experience of directing a real project, making it work, and putting it in front of an audience.
+A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity.
 {: .lead}
 
 
@@ -37,5 +37,5 @@ Commercial website builders lock content into proprietary platforms that charge 
 ## How it works
 The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start editing the sample pages. No coding, no special software, no server administration. The [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) walks through every step, and we're always happy to visit a class to help.
 
-{% assign sites = site.data.websites | where: "category", "class-project" %}
+{% assign sites = site.data.websites | where: "category", "class-project" | sort: "display-order" %}
 {% include card-list.html cards = sites %}
