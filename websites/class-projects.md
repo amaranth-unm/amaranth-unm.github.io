@@ -38,4 +38,4 @@ Commercial website builders lock content into proprietary platforms that charge 
 The process is the same for instructors and students: create a free GitHub account, duplicate the project template, and start editing the sample pages. No coding, no special software, no server administration. The [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started) walks through every step, and we're always happy to visit a class to help.
 
 {% assign sites = site.data.websites | where: "category", "class-project" | sort: "display-order" %}
-{% include card-list.html cards = sites %}
+{% include card-grid.html cards=sites title-only=true gallery=true %}

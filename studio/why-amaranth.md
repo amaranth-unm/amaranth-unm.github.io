@@ -10,6 +10,27 @@ header-tier: section
 header-filter: photo
 header-zoom: 110%
 header-position: 50% 35%
+starting_points:
+  - title: Posters
+    thumbnail: /assets/images/headers/1920px-Hereford-Karte.jpg
+    summary: "A well-designed poster distills complex research into a visual argument that works at a glance. We help with design thinking: hierarchy, typography, and what a viewer should understand first."
+    link: /craft/posters
+  - title: 3D Printing
+    thumbnail: /assets/images/headers/Gemini_Generated_Image_8u1zjh8u1zjh8u1z.jpg
+    summary: "Physical replicas can make scale, comparison, and material encounter available in ways that images cannot. We can help you figure out whether 3D printing serves your question and how to get started."
+    link: /craft/3d-printing/
+  - title: Oral Histories
+    thumbnail: /assets/images/headers/oral-history.jpg
+    summary: "An oral history is more than an interview. It is a relationship shaped by trust, preparation, and ethical care—often a collaboration with the communities whose stories are being told."
+    link: /craft/oral-histories
+  - title: Podcasting
+    thumbnail: /assets/images/headers/bells.jpg
+    summary: "A podcast lets you bring your ideas to people where they already are. It demands writing that is conversational, structured around curiosity, and designed to hold attention through narrative."
+    link: /craft/podcasting
+  - title: Class Websites
+    thumbnail: /assets/images/headers/oil-painting.jpg
+    summary: "Collaborative class websites turn individual assignments into public scholarship. Students learn to write and make design decisions for real readers while contributing to a shared project."
+    link: /websites/class-projects
 ---
 
 Most people who walk into Amaranth aren't sure exactly what they need. They have a project that could reach more people, a class that could do more, or a story worth telling in a way they haven't figured out yet. That hesitation is reasonable—learning new tools takes time, and rethinking how you communicate your work is genuinely hard. 
@@ -47,34 +68,4 @@ The guides below are good entry points if you want to explore a specific form. B
 
 ## Starting points
 
-## Posters
-A well-designed poster distills complex research into a visual argument that works at a glance. We help with design thinking: hierarchy, typography, visual rhythm, and what a viewer should understand first.
-
-<p class="section-link-bar"><a href="/craft/posters">Learn about poster design →</a></p>
-
-
-## 3D Prints
-3D printing matters most when the object is tied to a research, teaching, or community question. Physical replicas can make scale, comparison, and material encounter available in ways that images cannot.
-
-<p class="section-link-bar"><a href="/craft/3d-printing">Get started with 3D printing →</a></p>
-
-
-## Oral Histories
-
-An oral history is more than an interview. It is a relationship between narrator and listener shaped by trust, preparation, and ethical care, and often a collaboration with the communities whose stories are being told.
-
-<p class="section-link-bar"><a href="/craft/oral-histories">Learn how we approach oral history →</a></p>
-
-
-## Podcasting
-
-A podcast lets you bring your ideas to people where they already are: on a commute, a walk, doing dishes. It demands writing that is conversational, structured around curiosity, and designed to hold attention through narrative rather than citation.
-
-<p class="section-link-bar"><a href="/craft/podcasting">Start building your podcast →</a></p>
-
-
-## Class Websites
-
-Collaborative class websites turn individual assignments into public scholarship. Students learn to write, organize evidence, and make design decisions for real readers while contributing to a shared project that can last beyond the semester.
-
-<p class="section-link-bar"><a href="/websites/class-projects">Explore collaborative class projects →</a></p>
+{% include card-grid.html cards=page.starting_points %}

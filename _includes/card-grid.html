@@ -1,17 +1,24 @@
-<!-- change row-cold-md-2 to 3 or 4 for different number of cols -->
-<div class="row row-cols-1 row-cols-md-3 g-4">
+<!-- change row-cols-md-3 to 2 or 4 for different number of cols -->
+{% assign grid_cards = include.cards | default: page.cards %}
+{% assign row_class = "row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-4 gy-5" %}
+{% if include.gallery %}{% assign row_class = row_class | append: " tile-grid-gallery" %}{% endif %}
+<div class="{{ row_class }}">
 
-{% for card in page.cards %}
+{% for card in grid_cards %}
+{% assign card_img = card.image | default: card.thumbnail %}
 <div class="col">
-  <div class="card v-card">
-    <a href="{{card.link}}">
-    <img src="{{ card.image }}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h3 class="card-title">{{ card.title }}</h3>
-      <p class="card-text">{{ card.summary }}</p>
+  <a class="tile-card" href="{{ card.link }}">
+    <div class="tile-img-wrap">
+      <img src="{{ card_img }}" alt="{{ card.title | escape }}">
+      {% if card.features %}
+      <div class="tile-tooltip">{% for f in card.features %}<span>{{ f }}</span>{% endfor %}</div>
+      {% elsif card.summary %}
+      <div class="tile-tooltip">{{ card.summary }}</div>
+      {% endif %}
     </div>
-    </a>
-  </div>
+    <h3>{{ card.title }}</h3>
+    {% unless include.title-only %}<p>{{ card.summary }}</p>{% endunless %}
+  </a>
 </div>
 {% endfor %}
 
