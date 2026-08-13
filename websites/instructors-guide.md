@@ -40,10 +40,10 @@ We recommend a four week timeline from when the students first fork the site to 
 - Week 9: Presentations on webpage works-in-progress
 - Week 10: Due date for the project and Amaranth staff guides the instructor through the final merge
 
-## Pitfalls and Pressure Points
+## Pro Tips
 The integration of a Xanthan class website into your course will proceed more smoothly if you keep the following pitfalls and pressure points in mind.
 
-- Working with Xanthan offers students the chance to see some of the behind-the-scenes aspects of web design but they often express frustration with the level of detail required for troubleshooting. Frontloading the importance of attention to detail and the utility of detail-heavy experiences helps to get students' expectations ready. Providing students with a clear rationale for this type of project, versus a traditional essay for example, helps them to approach detail work with a more productive attitude.
-- Students often want to procrastinate on the unfamiliar web design processes. Students who attempt to draft their full website on Word or Google Docs run into serious problems later in the process. To address this, we recommend that students have starter content on their webpages graded as a separate assignment, scored one week after receiving initial instructions. 
-- The end of the semester makes sense for a nice cumulative project like a class website, but students had difficulties when combining the technology learning curve with end-of-semester stress. In the crunch time of the end of the semester, students sometimes made troubleshooting worse because they had no patience for the detail work of web editing. With this in mind, we recommend making the class project website a midterm grade. 
-- Due to the way that GitHub merges the students' work back into the original website, making this into a group work assignment poses significant challenges. In group work settings, students get tempted to dump all of the web design work onto one group member. If you want to have a group of students work together on a single webpage, then we recommend doing a separate website is a trail run, a mini-project that is low stakes and allows every student to gain practice with markdown and image files in Xanthan.
+- Tell students that this project will help them practice close attention to details
+- Assign a small starter web edit for a significant grade very early
+- Technology-heavy assignments work best in the middle of the semester
+- This process works best when each student creates their own webpage
