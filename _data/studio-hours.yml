@@ -3,7 +3,7 @@
 # For a term with regular hours, list entries under `hours`.
 # For a term without regular hours, use `message` instead.
 
-current_term: "202660"
+current_term: "202680"
 
 terms:
   "202660":
@@ -15,7 +15,9 @@ terms:
     label: "Fall 2026"
     email: "amaranth@unm.edu"
     hours:
-      - day: "Tuesdays & Thursdays"
-        time: "9:30–11:00 · 12:30–2:00"
+      - day: "Tuesdays"
+        time: "12:30-3:00"
       - day: "Wednesdays"
-        time: "10:00–12:00"
+        time: "2:00–3:00"
+      - day: "Thursdays"
+        time: "2:00–3:00"

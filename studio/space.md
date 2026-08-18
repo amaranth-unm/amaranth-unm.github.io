@@ -20,10 +20,13 @@ You don't need an appointment to stop by during studio hours. Bring your laptop,
 
 ## Come by
 
-**Spring 2026 studio hours:** Tuesdays & Thursdays 9:30--11:00 and 12:30--2:00, Wednesdays 10:00--12:00.
+{% include studio-hours.html %}
 
 Or email us at <amaranth@unm.edu> to [book a consultation](/collaborate).
 
+## Directions
+
+<iframe width="200" height="400" src="https://www.youtube.com/embed/_u1CbUogvb8" title="How to Find the Amaranth Digital Humanities Studio at UNM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## What's here
 
