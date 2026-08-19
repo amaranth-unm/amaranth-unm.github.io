@@ -47,7 +47,7 @@ We maintain a range of tools for humanities projects---all available for student
 
 ## A look inside
 
-Below is a 360 tour from the very first incarnation of the studio. Stop by to see how much has changed!
+Below is a 360 tour from our August 2025 Open House.
 
 <iframe
   src="https://jeseyfried.github.io/amaranth-holding-area/app-files/index.html"
