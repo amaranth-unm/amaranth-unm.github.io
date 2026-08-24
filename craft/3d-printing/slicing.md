@@ -8,7 +8,7 @@ header-image: images/notre-dame-sliced.jpg
 ---
 
 ## Preparing the Print File
-- Open the Orca app and ensure that the Anycubic Kobra 3 printer is selected. The printer settings should look like the below screenshot.
+- Open the [Orca app](https://www.orcaslicer.com/download/) and ensure that the Anycubic Kobra 3 printer is selected. The printer settings should look like the below screenshot.
 {% include figure.html
   class="left"
   width="60%"
