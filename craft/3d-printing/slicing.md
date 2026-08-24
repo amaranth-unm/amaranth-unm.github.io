@@ -5,6 +5,7 @@ subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
 header-image: images/notre-dame-sliced.jpg
+header-height: 30vh
 ---
 
 ## Preparing the Print File
