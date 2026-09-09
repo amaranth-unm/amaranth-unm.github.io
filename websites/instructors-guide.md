@@ -21,7 +21,7 @@ In working with instructors on integrating a class project website into their co
 Instructors create a website using a Xanthan template. They then have their students **fork** that site, meaning that the students each have a full copy of the entire website that they edit individually. After the students finish editing, GitHub manages the merging of all the students changes back into the instructor's original site. 
 
 ## From the Template to Your Course Information
-Once you have created a website using the [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started), you have a template that you will then need to make a few changes to before the students begin their work.
+The Amaranth staff will set up a website for your course using the [Xanthan getting started guide](https://xanthan-web.github.io/docs/getting-started). You will then have an original site that the students will fork. On that site, you can make some initial edits: 
 
 - Write a couple sentences describing the purpose of the website
 - Choose an image for the site's landing page
@@ -30,17 +30,15 @@ Once you have created a website using the [Xanthan getting started guide](https:
 The Amaranth staff will help you to format the sample student essay. When the students have their GitHub accounts set up, an Amaranth staff member will guide them through the process of making their fork and the first edits to their own essay.
 
 ## Recommended Timeframe
-We recommend a four week timeline from when the students first fork the site to the final due date of the project. If they have only a couple weeks, the students won't have enough time to get well-practiced enough with editing in Xanthan and GitHub Pages. However, if these processes are introduced to early, the students might put the project on the back burner and will need a full re-teaching. Class collaborative websites work best in the middle of the semester.
+We recommend a four week timeline from when the students first fork the site to the final due date of the project. If they have only a couple weeks, the students won't have enough time to get well-practiced enough with editing in Xanthan and GitHub Pages. However, if these processes are introduced too early, the students might put the project on the back burner and will need a full re-teaching. Class collaborative websites work best in the middle of the semester.
 
-## Sample Timeframe in the Middle of the Semester
-- Week 5: Instructor creates the site from a Xanthan template
-- Week 6: Instructor completes initial content
-- Week 7: Amaranth staff member visits the class to train students on GitHub Pages and markdown editing
-- Week 8: As a significant graded assignment, students must have at least two paragraphs and two images on their pages
-- Week 9: Presentations on webpage works-in-progress
-- Week 10: Due date for the project and Amaranth staff guides the instructor through the final merge
+## Key Milestones
+- Amaranth staff member visits the class to train students on GitHub Pages and markdown editing
+- As a significant graded assignment, students must have at least two paragraphs and two images on their pages the following week
+- During the third week, students present their webpages as works-in-progress
+- Four or five weeks after the initial introduction of the project, the students have a deadline for all their changes and the Amaranth staff guides the instructor through the final merge
 
-## Pro Tips
+## What We Have Learned
 The integration of a Xanthan class website into your course will proceed more smoothly if you keep the following pitfalls and pressure points in mind.
 
 - Tell students that this project will help them practice close attention to details
