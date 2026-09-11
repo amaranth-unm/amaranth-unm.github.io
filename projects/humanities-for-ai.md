@@ -18,10 +18,10 @@ The first humanists ran toward the new technology of their age. Turning our back
 
 {% include figure.html class="right" width="40%" image-path="/assets/images/projects/durer-erasmus-1526.jpg" caption="Albrecht Dürer's 1526 engraving of Erasmus. The Greek line promises that his writings will show a better likeness than the picture." source-url="https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Erasmus_of_Rotterdam,_1526,_NGA_6672.jpg" %}
 
-From January to September of 1508, Erasmus lived and worked in the Venice household of the printer Aldus Manutius. He had come with a collection of classical proverbs he wanted to expand, and the shop gave him what no single library could: a circle of Greek scholars, their manuscripts, and a press that could carry the result across Europe. That September, Aldus published a new *Adages* with more than three thousand entries, up from about eight hundred in the first edition. It became one of the most widely read books of the century.[^geanakoplos]
+From January to September of 1508, Erasmus lived and worked in the Venice household of the printer Aldus Manutius. He had come with a collection of classical proverbs he wanted to expand, and the shop gave him what no single library could: a circle of Greek scholars, their manuscripts, and a press that could carry the result across Europe. That September, Erasmus published a new *Adages* with more than three thousand entries, up from about eight hundred in the first edition. It became one of the most widely read books of the century.[^geanakoplos]
 {: .dropcap}
 
-Aldus was a humanist before he was a printer. He spent years as a tutor to young princes before opening his shop in 1495, and he treated the press as an instrument of learning. He published Greek texts that had barely circulated in the West, and in 1501, with a Virgil set in a new italic type, he began producing small editions of the classics that a student could carry in a pocket rather than consult at a lectern. On the title page of the *Adages*, his note to readers addresses them as *studiosi*, those who study, and begins: *Quia nihil aliud cupio quam prodesse vobis*—because I want nothing more than to be useful to you.[^titlepage]
+Aldus was a humanist before he was a printer. He spent years as a tutor to young princes before opening his shop in 1495, and he treated the press as an instrument of learning. He published Greek texts that had barely circulated in the West, and in 1501, with a Virgil set in a new italic type, he began producing small editions of the classics that a student could carry in a pocket rather than consult at a lectern. On the title page of the *Adages*, the note Erasmus wrote to readers addresses them as *studiosi*, those who study, and begins: *Quia nihil aliud cupio quam prodesse vobis*—because I want nothing more than to be useful to you.[^titlepage]
 
 {% include figure.html class="left" width="36%" image-path="/assets/images/projects/aldine-adagia-1508.jpg" caption="Title page of the 1508 *Adages*, with Aldus's note to readers and his anchor-and-dolphin mark." source-url="https://commons.wikimedia.org/wiki/File:Erasmus_Adagia,_Aldine_1508_(Basel_Univ_Lib).jpg" %}
 
@@ -44,7 +44,6 @@ We understand the impulse. But turning our backs on AI is the least humanistic r
 > The humanities have never been about avoiding the technologies that shape how people read, write, and think. They have been about understanding those technologies better than anyone else and bending them toward human ends.
 {: .pull-quote}
 
-Erasmus didn't refuse the press. He moved in.
 
 * * *
 {: .section-break}
@@ -63,7 +62,7 @@ Those are also questions about the people inside the machine. In August 2026, Am
 
 {% include figure.html class="right" width="34%" image-path="/assets/images/projects/aldine-virgil-1501.jpg" caption="Aldus's pocket Virgil of 1501, the first book printed in italic type. The borders were painted by hand after printing." source-url="https://commons.wikimedia.org/wiki/File:Page_from_the_edition_of_Virgil_printed_by_Aldus_Manutius_in_1501.jpg" %}
 
-None of this means dismissing the technology's promise, which is real, especially in education. In a randomized trial at Harvard, students in an introductory physics course who worked with an AI tutor learned more, in less time, than students in an active-learning classroom.[^kestin] The tutor worked because teachers designed it around how people learn: it offered hints one step at a time instead of handing over answers. A field experiment with nearly a thousand high-school math students showed the other side. Students given unrestricted access to GPT-4 did better on practice problems, but once the tool was taken away they performed worse than students who had never used it. A version designed to coach rather than answer largely avoided the damage.[^bastani] The lesson of both studies is the same: what makes AI good or bad for learning isn't the model. It's the teaching around it, which is to say it's us.
+None of this means dismissing the technology's promise, which is real, especially in education. In a randomized trial at Harvard, students in an introductory physics course who worked with an AI tutor learned more, in less time, than students in an active-learning classroom.[^kestin] The tutor worked because teachers designed it around how people learn: it offered hints one step at a time instead of handing over answers. A field experiment with nearly a thousand high-school math students showed the other side. Students given unrestricted access to GPT-4 did better on practice problems, but once the tool was taken away they performed worse than students who had never used it. A version designed to coach rather than answer largely avoided the damage.[^bastani] The lesson of both studies is the same: what makes AI good or bad for learning is how its taught.
 
 Our students are already using these tools, whether we allow it or not. The question is whether anyone will teach them to use them well. In a 2025 survey of 319 knowledge workers, the more people trusted AI, the less critical thinking they reported doing; the more confident they were in their own expertise, the more critically they engaged with its output.[^lee] That is an argument for exactly the kind of education the humanities provide: not training in how to operate a tool, but the formation of judgment strong enough to question one.
 
@@ -74,7 +73,7 @@ That starts with learning the tools ourselves, and many humanists have been poor
 
 - Brief it the way you'd brief a new research assistant: the project, the sources, the audience, and what you already know.
 - Try it on material you know cold, so you can see exactly where it's right, wrong, or merely plausible.
-- Treat the first answer as a draft to argue with, not a verdict. Ask follow-up questions, and ask it to push back.
+- Treat the first answer as a draft to argue with and ask follow-up questions.
 - Check every citation. The machine will sometimes invent them.
 </div>
 
@@ -94,7 +93,7 @@ The same judgment is what lets AI amplify creativity instead of flattening it. I
 > It takes something else—taste, voice, a sense of what hasn't been said—to make the result worth reading. That something else is what we teach.
 {: .pull-quote}
 
-In our own studio, AI has lowered the technical barriers that used to keep student projects small: students who have never written code can now build searchable archives, interactive maps, and public websites for their research. What they need from us isn't permission. It's guidance about what's worth building, and the judgment to notice when the tool is leading them astray.
+In our own studio, AI has lowered the technical barriers that used to keep student projects small: students who have never written code can now build searchable archives, interactive maps, and public websites for their research. They need guidance about what's worth building, and the judgment to notice when the tool is leading them astray.
 
 * * *
 {: .section-break}
@@ -114,7 +113,7 @@ Some of that work has begun. The Modern Language Association and the Conference 
 
 **Of humanists:** learn these tools well enough to teach them, and to criticize them from knowledge rather than rumor. Try them on the materials you know best, and write down what happens.
 
-**Of departments:** teach students to learn with AI, and to refuse it when refusing is right. Build that into the curriculum rather than leaving it to individual syllabi. And count the work: a documented AI-assisted workflow that others can inspect and adapt is a scholarly contribution.
+**Of departments:** teach students to learn with AI, and to refuse it when refusing is the right call. Build that into the curriculum rather than leaving it to individual syllabi. And count the work: a documented AI-assisted workflow that others can inspect and adapt is a scholarly contribution.
 
 **Of universities:** put humanists in the room when AI initiatives are designed, not after the contracts are signed.
 </div>
