@@ -19,7 +19,7 @@ features:
     zoom: 110%
 
   - title: "AI for humanities research"
-    image: "/assets/images/headers/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
+    image: "/assets/images/headers/eniac-programmers.jpg"
     text: "AI is not a shortcut around humanistic judgment. It is a new research environment that needs close reading, source criticism, provenance, and ethical attention. We build accountable methods for transcription, corpus exploration, image description, structured data, and public research."
     link: "projects/ai-humanities"
     link-text: "Explore AI + research →"
@@ -101,11 +101,6 @@ Some of the most interesting collaborations start as a half-formed research ques
 
 We work alongside you from the first question through the public life of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, the point is not simply to produce a thing. The point is to learn what the process makes thinkable. [Read more about our studio ethos →](/studio/ethos)
 
-{% include callout.html
-  title="Spring 2026 Studio Hours"
-  text="
-- **Tuesdays & Thursdays:** 9:30–11:00 // 12:30–2:00
-- **Wednesdays:** 10:00–12:00
-- Mesa Vista Hall 2068
-- [amaranth@unm.edu](mailto:amaranth@unm.edu) // [book a consultation →](collaborate)
-" %}
+{% include studio-hours.html %}
+
+Find us in Mesa Vista Hall 2068, or [book a consultation →](collaborate)

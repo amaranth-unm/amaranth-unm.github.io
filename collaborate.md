@@ -24,7 +24,7 @@ Whether you're a teacher looking for a digital home for a class project, a stude
 ## Curious about AI?
 We're especially eager to help faculty and students explore how AI can make technical beginnings less intimidating without making judgment optional. You don't need a technical background or a fully formed idea, just a question or a hunch. Maybe you have a collection of texts you'd like to search in new ways, or you're wondering whether AI could help students engage differently with primary sources.
 
-If you're wondering what AI can actually do for humanities research, our [AI + Humanities Research](/projects/ai-humanities) page walks through real use cases: exploring patterns across archival collections, making oral histories searchable, and helping students build projects that would have required a development team a few years ago. Humanists are not late to this conversation. The skills humanists constantly refine, including evaluating sources, recognizing bias, and asking whose voices are missing, are exactly what separates meaningful AI use from mechanical AI use.
+If you're wondering what AI can actually do for humanities research, our [AI for Humanities Research](/projects/ai-humanities) page walks through real use cases: exploring patterns across archival collections, making oral histories searchable, and helping students build projects that would have required a development team a few years ago. Humanists are not late to this conversation. The skills humanists constantly refine, including evaluating sources, recognizing bias, and asking whose voices are missing, are exactly what separates meaningful AI use from mechanical AI use.
 
 
 ## Community-engaged projects

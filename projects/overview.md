@@ -30,7 +30,7 @@ AI has opened research territory that was genuinely out of bounds before: explor
 
 That work raises a harder question too: **how can we help humanists help shape AI?** Humanists have spent centuries developing tools for exactly the problems AI raises—evaluating the authority of sources, understanding how knowledge gets constructed, asking who benefits from a particular framing. We're building open, transparent workflows that model accountable, critical engagement with AI—and we document what we learn as we go.
 
-<p class="section-link-bar"><a href="/projects/ai-humanities">AI + Humanities Research →</a></p>
+<p class="section-link-bar"><a href="/projects/ai-humanities">AI for Humanities Research →</a><br><a href="/projects/humanities-for-ai">Humanities for AI →</a></p>
 
 
 ## 3D Pedagogy

@@ -1,10 +1,8 @@
 
 - title: "About"
   items:
-    - title: "Ethos"
+    - title: "Philosophy"
       url: "/studio/ethos"
-    - title: "Why Amaranth?"
-      url: "/studio/why-amaranth"
     - title: "The Studio"
       url: "/studio/space"
     - title: "Digital Humanities"
@@ -15,31 +13,28 @@
       url: "/studio/future-directions"
 
 
-- title: "Projects"
+- title: "AI"
   items:
-    - title: "Overview"
-      url: "/projects/overview"
-    - title: "AI + Humanities"
+    - title: "AI for Humanities"
       url: "/projects/ai-humanities"
+    - title: "Humanities for AI"
+      url: "/projects/humanities-for-ai"
     - title: "AI Sketchbook"
       url: "/projects/ai-sketchbook"
-    - title: "3D Pedagogy"
-      url: "/projects/3d-pedagogy"
-    - title: "Student Research Group"
-      url: "/projects/arg"
 
 
-- title: "Websites"
+- title: "Public Scholarship"
   items:
-    - title: "Class Projects"
+    - title: "Xanthan"
+      url: "/projects/xanthan"
+    - title: "Class Websites"
       url: "/websites/class-projects"
-    - title: "Portfolios"
+    - title: "Portfolio Websites"
       url: "/websites/portfolios"
     - title: "ScrollStories"
       url: "/websites/scrollstories"
-    - title: "Xanthan"
-      url: "/projects/xanthan"
-
+    - title: "Posters"
+      url: "/craft/posters"
 
     - divider: true
 
@@ -47,16 +42,11 @@
       url: "/websites/gallery"
 
 
-- title: "Printing"
+- title: "3D Pedagogy"
   items:
-    - title: "Posters"
-      url: "/craft/posters"
+    - title: "Tactile Learning"
+      url: "/projects/3d-pedagogy"
     - title: "3D Prints"
       url: "/craft/3d-printing"
-
-- title: "Recording"
-  items:
-    - title: "Oral Histories"
-      url: "/craft/oral-histories"
-    - title: "Podcasting"
-      url: "/craft/podcasting"
+    - title: "Objex"
+      url: "/projects/objex"

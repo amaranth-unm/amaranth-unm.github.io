@@ -16,7 +16,7 @@ terms:
     email: "amaranth@unm.edu"
     hours:
       - day: "Tuesdays"
-        time: "12:30-3:00"
+        time: "12:30–3:00"
       - day: "Wednesdays"
         time: "2:00–3:00"
       - day: "Thursdays"

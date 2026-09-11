@@ -126,8 +126,9 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
+/* Base body-text size. Lists below match it; headings and .lead set their own. */
 p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
 }
@@ -1113,7 +1114,26 @@ blockquote.pull-quote p {
   line-height: inherit;
 }
 
-.meaning-note {
+/* Optional attribution line in markdown:  > <cite>Name, source, date</cite> */
+blockquote.pull-quote p:has(> cite) {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+blockquote.pull-quote cite {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+blockquote.pull-quote cite::before { content: "— "; }
+
+/* .note-box is the general-purpose name for the same highlight box */
+.meaning-note,
+.note-box {
   clear: both;
   margin: 2rem 0;
   padding: 1.25rem 1.5rem;
@@ -1123,7 +1143,8 @@ blockquote.pull-quote p {
   box-shadow: var(--shadow-sm);
 }
 
-.meaning-note__label {
+.meaning-note__label,
+.note-box__label {
   display: block;
   margin-bottom: 0.4rem;
   color: var(--amaranth-pink);
@@ -1134,12 +1155,35 @@ blockquote.pull-quote p {
   text-transform: uppercase;
 }
 
-.meaning-note p {
+.meaning-note p,
+.note-box p {
   margin-bottom: 0;
   color: var(--text-primary);
-  font-size: 1.05rem;
+  font-size: 1.125rem;
   line-height: 1.65;
 }
+
+/* Color variants: <div class="note-box note-box--rose" markdown="1">
+                   <div class="note-box note-box--purple" markdown="1"> */
+.note-box--rose {
+  background:
+    linear-gradient(rgba(229, 43, 80, 0.12), rgba(229, 43, 80, 0.12)),
+    rgba(58, 61, 64, 0.78);
+}
+
+.note-box--purple {
+  border-left-color: var(--amaranth-muted);
+  background:
+    linear-gradient(rgba(159, 43, 104, 0.18), rgba(159, 43, 104, 0.18)),
+    rgba(58, 61, 64, 0.78);
+}
+
+/* lighter than --amaranth-muted so the label reads on the purple tint (5.3:1) */
+.note-box--purple .note-box__label { color: #d9a6c8; }
+
+.note-box ul { margin-bottom: 0; }
+.note-box ul + p { margin-top: 1rem; }   /* space before a second subheading */
+.note-box li { color: var(--text-primary); font-size: 1.125rem; }
 
 .studio-bridge {
   clear: both;
@@ -1160,10 +1204,44 @@ blockquote.pull-quote p {
 
 
 /*****************************************************
+ESSAY TYPOGRAPHY
+Optional touches for long-form essays. In markdown:
+  {: .dropcap}         on the line after a paragraph:
+                       large initial letter
+  * * *                a section break; add
+  {: .section-break}   on the next line for a centered
+                       ornament instead of a plain rule
+*****************************************************/
+p.dropcap::first-letter {
+  float: left;
+  margin: 0.08em 0.12em 0 0;
+  color: var(--amaranth-pink);
+  font-family: 'IM Fell English', Georgia, serif;
+  font-size: 3.6em;
+  line-height: 0.8;
+}
+
+hr.section-break {
+  clear: both;
+  height: auto;
+  margin: 2rem auto;
+  border: 0;
+  opacity: 1;
+  text-align: center;
+}
+
+hr.section-break::after {
+  content: "⁂";
+  color: var(--amaranth-pink);
+  font-size: 1.4rem;
+}
+
+
+/*****************************************************
 LISTS
 *****************************************************/
-ul, ol { margin-left: 1.5rem; margin-bottom: 1.5rem; font-size: 1rem; }
-li { color: var(--text-secondary); margin-bottom: 0.5rem; font-size: 1rem; }
+ul, ol { margin-left: 1.5rem; margin-bottom: 1.5rem; font-size: 1.125rem; }
+li { color: var(--text-secondary); margin-bottom: 0.5rem; font-size: 1.125rem; }
 
 
 /*****************************************************
@@ -1281,6 +1359,7 @@ Typography-forward dark header with line grid + cherry bar
   inset: 0;
   background-size: cover;
   background-position: center right;
+  background-repeat: no-repeat;  /* lets header-zoom shrink an image without tiling it */
   opacity: 0.50;
 }
 
@@ -1677,6 +1756,80 @@ Usage: <p class="section-link-bar"><a href="...">text →</a></p>
   font-family: 'Space Mono', monospace;
   color: var(--text-secondary);
 }
+
+
+/*****************************************************
+FOOTNOTES
+Write [^label] in the text and "[^label]: citation" at the
+bottom of the markdown file. littlefoot (loaded in
+bottom-js.html) turns each reference into a numbered button
+that opens the note in a popup. The plain list below is what
+shows when printing or if JavaScript doesn't load.
+*****************************************************/
+/* Compiled bibliography (e.g., inside an expandable drawer).
+   In markdown, put {: .bibliography} on the line after the list. */
+.bibliography {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.5em;
+}
+
+.bibliography li {
+  text-indent: -1.5em;   /* hanging indent */
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(186, 12, 47, 0.55);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+/* littlefoot is themed through its own CSS variables.
+   Buttons are hollow circles: the number and its outline share one color. */
+.littlefoot {
+  --button-background-color: transparent;
+  --button-active-background-color: transparent;
+  --button-text-color: var(--text-muted);
+  --button-active-text-color: var(--amaranth-pink);
+  --button-border: 1px solid currentColor;
+  --button-border-radius: 50%;
+  --button-height: 1.15rem;
+  --button-padding: 0;
+  --button-font-size: 0.65rem;
+  --button-font-weight: 500;
+  --popover-background-color: var(--surface);
+  --popover-text-color: var(--text-primary);
+  --popover-border: 1px solid var(--border-color);
+  --popover-border-radius: var(--radius-md);
+  --popover-shadow: var(--shadow-md);
+  --popover-font-family: 'Inter', sans-serif;
+  --popover-font-size: 0.9rem;
+  --popover-width: 24rem;
+  --popover-scroll-indicator-color: var(--text-muted);
+}
+
+.littlefoot__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.15rem;   /* same as the height, so single digits make a circle */
+  position: relative;
+  top: -0.15em;
+  margin: 0 0.1em;
+}
+
+.littlefoot__button:hover,
+.littlefoot__button:focus {
+  color: var(--amaranth-pink);
+}
+
+.littlefoot__content { line-height: 1.6; }
+.littlefoot__content p { margin: 0 0 0.5rem 0; font-size: inherit; color: inherit; }
+.littlefoot__content p:last-child { margin-bottom: 0; }
 
 
 /*****************************************************
