@@ -1,7 +1,7 @@
 # Team names, titles and social links
 people:
 - name: Fred Gibbs
-  pic: gibbs.jpg
+  pic: assets/images/team/gibbs_bio_photo.jpeg
   position: Director
   bio: Fred sets strategic direction for Amaranth, with a focus on outreach, grant writing, and lowering technical barriers for humanists.
   link: https://fredgibbs.net 

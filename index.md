@@ -11,48 +11,67 @@ nav-below-hero: false
 date: 2024-12-02
 features:
 
-  - title: "Classroom integrations"
-    image: "/assets/images/headers/oil-painting.jpg"
-    text: "We work with instructors to make digital work part of humanities courses without turning the course into a tech demo: collaborative class sites, AI-assisted primary-source projects, public exhibits, maps, audio, and physical models. The goal is students who can direct a digital project, evaluate its outputs, and explain why their choices matter."
-    link: "websites/class-projects"
-    link-text: "Bring students into the work →"
+  - title: "About the studio"
+    image: "/assets/images/headers/DP826009.jpg"
+    text: "The studio keeps a public record of its own thinking: how we approach collaboration, what digital humanities means at UNM, what a year of projects actually produced, and where the work goes next. Our research agenda runs from AI-assisted humanities workflows to digital cultural heritage, tactile pedagogy, open documentation, and community collaboration."
+    link: "/studio/ethos"
+    link-text: "How we work →"
     zoom: 110%
+    more:
+      - title: "The Studio"
+        url: "/studio/space"
+      - title: "Digital Humanities"
+        url: "/studio/digital-humanities"
+      - title: "AY 25-26 in Review"
+        url: "/studio/annual-report-25-26"
+      - title: "Future Directions"
+        url: "/studio/future-directions"
 
   - title: "AI for humanities research"
     image: "/assets/images/headers/eniac-programmers.jpg"
     text: "AI is not a shortcut around humanistic judgment. It is a new research environment that needs close reading, source criticism, provenance, and ethical attention. We build accountable methods for transcription, corpus exploration, image description, structured data, and public research."
-    link: "projects/ai-humanities"
+    link: "/projects/ai-humanities"
     link-text: "Explore AI + research →"
+    more:
+      - title: "Humanities for AI"
+        url: "/projects/humanities-for-ai"
+      - title: "AI Sketchbook"
+        url: "/projects/ai-sketchbook"
 
-
-  - title: "Research agenda"
-    image: "/assets/images/headers/DP826009.jpg"
-    text: "Amaranth's research program runs from AI-assisted humanities workflows to digital cultural heritage, tactile pedagogy, open documentation, and community collaboration. We experiment carefully, document what happens, and share what we learn before it hardens into boilerplate."
-    link: "studio/future-directions"
-    link-text: "Where we're headed →"
+  - title: "Public scholarship"
+    image: "/assets/images/headers/press.webp"
+    filter: "woodcut"
+    text: "Websites, exhibits, posters, and scroll-driven narratives are not containers for scholarship after the real work is done. They are forms of argument. We work with instructors and researchers to build them on open infrastructure the authors own: class sites where students write for readers beyond the instructor, portfolios that move with a scholar between institutions, and projects that stay online after the semester ends."
+    link: "/websites/class-projects"
+    link-text: "Bring students into the work →"
     zoom: 110%
-
+    more:
+      - title: "Xanthan"
+        url: "/projects/xanthan"
+      - title: "Portfolio Websites"
+        url: "/websites/portfolios"
+      - title: "ScrollStories"
+        url: "/websites/scrollstories"
+      - title: "Posters"
+        url: "/craft/posters"
+      - title: "Gallery"
+        url: "/websites/gallery"
 
   - title: "3D pedagogy"
     image: "/assets/images/headers/com-statue-close.jpg"
     text: "A 3D print is not automatically pedagogy. It becomes useful when it helps students compare, handle, question, and remember. We study how replicas, terrain models, and scanned objects can make scale, texture, and spatial relationships part of humanities learning."
-    link: "projects/3d-pedagogy"
+    link: "/projects/3d-pedagogy"
     link-text: "Tactile learning →"
-
-  
-  - title: "Making as method"
-    image: "/assets/images/headers/press.webp"
-    filter: "woodcut"
-    text: "Websites, oral histories, podcasts, exhibits, and interactive narratives are not containers for scholarship after the real work is done. They are forms of argument. So are the workflows behind them: documented, version-controlled, reusable records of how knowledge was made."
-    link: "studio/making-as-method"
-    link-text: "Think through form →"
-    zoom: 110%
-
+    more:
+      - title: "3D Prints"
+        url: "/craft/3d-printing"
+      - title: "Objex"
+        url: "/projects/objex"
 
   - title: "Collaborate"
     image: "/assets/images/headers/collaboration.jpg"
     text: "We work with faculty, students, interdisciplinary teams, and community partners from the first question through the public life of a project. Come early, before the format has hardened. The best conversations are about what the work is trying to discover, teach, preserve, or make possible."
-    link: "collaborate"
+    link: "/collaborate"
     link-text: "Collaborate →"
 ---
 

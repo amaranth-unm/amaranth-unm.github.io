@@ -1,3 +1,10 @@
+{% comment %}
+  Feature blocks from page.features. Each entry takes:
+    title, text, image (+ optional position / zoom / filter),
+    link + link-text for the main button, and an optional `more:` list of
+    {title, url} — the rest of that section's top-nav items, so a block shows
+    the same shape as the menu it corresponds to.
+{% endcomment %}
 {::nomarkdown}
 </div>
 {:/nomarkdown}
@@ -20,6 +27,13 @@
         <p>{{ feature.text }}</p>
         {% if feature.link %}
         <a href="{{ feature.link }}" class="btn-cta">{{ feature.link-text | default: "Learn more →" }}</a>
+        {% endif %}
+        {% if feature.more %}
+        <ul class="feature-block-links">
+          {% for entry in feature.more %}
+          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
         {% endif %}
       </div>
     </div>
