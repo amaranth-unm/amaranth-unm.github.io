@@ -13,7 +13,7 @@ header-position: "90% 35%"
 header-caption: "Festina lente: Aldus's anchor-and-dolphin mark, from his 1502 edition of Dante"
 ---
 
-The first humanists ran toward the new technology of their age. Turning our backs on AI would abandon that tradition, and our students with it.
+The humanities have never been about avoiding the technologies that shape how people read, write, and think. They have been about understanding those technologies better than anyone else and bending them toward human ends.
 {: .lead}
 
 {% include figure.html class="right" width="40%" image-path="/assets/images/projects/durer-erasmus-1526.jpg" caption="Albrecht Dürer's 1526 engraving of Erasmus. The Greek line promises that his writings will show a better likeness than the picture." source-url="https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Erasmus_of_Rotterdam,_1526,_NGA_6672.jpg" %}
@@ -40,9 +40,6 @@ The motto yokes two opposites, and Aldus's mark draws them: the dolphin, swiftes
 Five centuries later, the humanities face a new machine for producing text, and many of us have chosen to stand outside the shop. We ban it from our syllabi. We run student essays through detection software that researchers have found consistently misclassifies writing by non-native English speakers as machine-generated.[^liang] We reassure one another that AI can't really read, or write, or think. The scholar Leif Weatherby calls that last reflex "remainder humanism": the habit of saying that "machines can do x, but we can do it better or more truly." It turns every encounter into a John Henry contest, and it keeps us from engaging seriously with the technology itself.[^weatherby]
 
 We understand the impulse. But turning our backs on AI is the least humanistic response available to us.
-
-> The humanities have never been about avoiding the technologies that shape how people read, write, and think. They have been about understanding those technologies better than anyone else and bending them toward human ends.
-{: .pull-quote}
 
 
 * * *
