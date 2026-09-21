@@ -27,7 +27,7 @@ The term is intentionally capacious. Some digital humanities work looks like tra
   image-path="images/busa-index-thomisticus.jpg"
 %}
 
-The roots of digital humanities stretch back further than most people realize. In 1949, an Italian Jesuit named Roberto Busa began working with IBM to create a computer-generated concordance of the works of Thomas Aquinas. The project took decades. It was painstaking, unglamorous, and utterly foundational---it demonstrated that computation could serve humanistic scholarship, not just scientific or military purposes.
+The roots of digital humanities stretch back further than most people realize. In 1949, an Italian Jesuit named Roberto Busa began working with IBM to create a computer-generated concordance of the works of Thomas Aquinas. The project took decades. It was painstaking and unglamorous, but truly  foundational---it demonstrated that computation could serve humanistic scholarship, not just scientific or military purposes.
 
 For most of the second half of the twentieth century, this kind of work went by the name **humanities computing**. It was a small, specialist community focused on text encoding, linguistic analysis, and database construction. The work was rigorous and technically demanding, and it remained marginal to mainstream humanities departments. Most humanists didn't encounter it, and many who did weren't sure what to make of it.
 
@@ -42,6 +42,8 @@ The shift to "digital humanities" as a term---catalyzed by the publication of th
 
 The late 2000s and early 2010s saw a surge of institutional investment. The NEH Office of Digital Humanities (established 2008) began funding projects. Major universities created DH centers. Foundations like Mellon and ACLS launched fellowship programs. For a while, digital humanities carried an almost messianic energy---declarations that DH would "save the humanities" or that every humanist would need to code. Conference panels debated whether DH was a field, a method, a community, or a moment.
 
+* * *
+{: .section-break}
 
 ## Where the field stands now
 
@@ -49,28 +51,28 @@ The late 2000s and early 2010s saw a surge of institutional investment. The NEH 
 
 **The questions have deepened.** Early DH work was sometimes criticized for being method-driven---applying tools because they existed rather than because they answered interesting questions. The best current work reverses this. Scholars start with humanistic questions---about power, representation, absence, memory---and reach for digital methods when they genuinely serve the inquiry. Critical data studies, algorithmic bias research, postcolonial digital humanities, and community-driven archiving have brought sharper political and ethical awareness to the field.
 
-**Public-facing work has gained legitimacy.** Digital exhibits, podcasts, community archives, documentary projects, and interactive narratives are increasingly recognized as serious scholarly contributions, not just outreach or service. This matters enormously. It means that work aimed at public audiences---work that communicates, engages, and invites participation---can be central to a scholar's intellectual life, not peripheral to it.
+**Public-facing work has gained legitimacy.** Digital exhibits, podcasts, community archives, documentary projects, and interactive narratives are increasingly recognized as serious scholarly contributions, not just outreach or service. This matters enormously. It means that work aimed at public audiences---work that communicates, engages, and invites participation---can be central to a scholar's intellectual life.
 
 
 **The institutional picture is mixed.** Some DH centers have thrived; others have lost funding or been folded into libraries and IT units. The field continues to face structural challenges in higher education: tenure and promotion systems that undervalue digital work, precarious labor for the staff who build and maintain projects, and the ongoing difficulty of sustaining digital projects over time. None of these are solved. But the intellectual vitality of the field isn't in question.
 
-**AI has changed the conversation.** The emergence of large language models and generative AI has reshaped the landscape dramatically. Humanists are now grappling with questions about authorship, creativity, bias, and the nature of knowledge that have been core to their disciplines for centuries, but in a new and urgent register. At the same time, AI has lowered the barrier to technical work in ways that make digital humanities methods more accessible than ever. You no longer need to learn a programming language to do sophisticated text analysis or build a compelling interactive project. You need good questions and editorial judgment.
+**AI has changed the conversation.** The emergence of large language models and generative AI has reshaped the landscape dramatically. Humanists are now grappling with questions about authorship, creativity, bias, and the nature of knowledge that have been core to their disciplines for centuries, but in a new and urgent register. At the same time, AI has lowered the barrier to technical work in ways that make digital humanities methods more accessible than ever. You no longer need to learn a programming language to do sophisticated text analysis or build a compelling interactive project.
 
 
 ## What Amaranth does differently
 Much of digital humanities over the last two decades has explored tools and techniques to analyze materials at scale: text mining, topic modeling, network analysis. This important work pushed methodological boundaries and invited new questions across the humanities. But truly sharing humanities scholarship---how ideas take shape, how arguments find their form, how the work actually reaches people and whether it survives---has been a secondary concern.
 
-Amaranth takes a different approach, one that reflects where the field has arrived---and where it needs to go.
+Amaranth takes a different approach, one that reflects where the field has arrived and where it needs to go.
 
-**Scholarship should reach people.** Amaranth works with faculty and students on websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. The goal isn't to simplify scholarship for public consumption. It's to take communication as seriously as analysis.
+**Scholarship should reach people.** Amaranth works with faculty and students on websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. Our approach takes communication as seriously as analysis, with the goal of maintaining complexity while also creating for public consumption.
 
-**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training, including 3D printers, audio recording gear, large-format printing, and VR headsets, but the studio isn't organized around technology. It's organized around what people are trying to do. A faculty member developing an oral history project needs more than a microphone: planning, recording, editing, archiving, publishing, and a clear sense of whom the work serves. The technology is instrumental, not an end in itself.
+**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training, including 3D printers, audio recording gear, large-format printing, and VR headsets, but the studio is organized around the goals of the project. A faculty member developing an oral history project needs more than a microphone: planning, recording, editing, archiving, publishing, and a clear sense of whom the work serves. 
 
-**Community engagement is part of the work.** Digital humanities at its best connects university research to communities whose histories and materials deserve scholarly attention. Amaranth actively seeks projects that bring community partners into the research process—not as subjects, but as collaborators. This kind of work takes longer and requires more care, and it's worth it.
+**Community engagement is part of the work.** Digital humanities at its best connects university research to communities whose histories and materials deserve scholarly attention. Amaranth actively seeks projects that bring community partners into the research process as partners and collaborators. This kind of work takes longer and requires more care, and it's worth it.
 
-**Course integrations.** Many faculty want students to engage with digital media and think outside the traditional academic essay. Amaranth works with instructors to choose an appropriate site or platform, set up a sustainable structure, prepare student-facing instructions, and provide classroom visits and studio hours for technical support. The goal isn't just a finished course site—it's students who leave with real capability and confidence: who understand how to direct a digital or AI-assisted project, evaluate its outputs, and take intellectual responsibility for the result.
+**Course integrations.** Many faculty want students to engage with digital media and think outside the traditional academic essay. Amaranth works with instructors to choose an appropriate site or platform, set up a sustainable structure, prepare student-facing instructions, and provide classroom visits and studio hours for technical support. Students leave with real capability and confidence because they understand how to direct a digital or AI-assisted project, evaluate its outputs, and take intellectual responsibility for the result.
 
-**Amaranth and UNM.** Amaranth helps make UNM a place where AI in the humanities and social sciences is practical, ethical, and publicly accountable. That means experiential learning, digital literacy across tools and workflows, university work connected to community partners, and humanities research that people can actually encounter. These aren't incidental benefits. They're the point.
+**Amaranth and UNM.** Amaranth helps make UNM a place where [AI in the humanities](/projects/ai-humanities) and social sciences is practical, ethical, and publicly accountable. That means experiential learning, digital literacy across tools and workflows, university work connected to community partners, and humanities research that people can actually encounter. 
 
 ---
 
