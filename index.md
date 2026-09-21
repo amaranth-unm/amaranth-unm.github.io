@@ -29,7 +29,7 @@ features:
 
   - title: "AI for humanities research"
     image: "/assets/images/headers/eniac-programmers.jpg"
-    text: "AI is not a shortcut around humanistic judgment. It is a new research environment that needs close reading, source criticism, provenance, and ethical attention. We build accountable methods for transcription, corpus exploration, image description, structured data, and public research."
+    text: "AI enables new research workflows that need close reading, source criticism, provenance, and ethical attention. We help scholars develop accountable methods for using AI for research tasks like transcription, paleography, bibliography, and mapping."
     link: "/projects/ai-humanities"
     link-text: "Explore AI + research →"
     more:
@@ -41,7 +41,7 @@ features:
   - title: "Public scholarship"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
-    text: "Websites, exhibits, posters, and scroll-driven narratives are not containers for scholarship after the real work is done. They are forms of argument. We work with instructors and researchers to build them on open infrastructure the authors own: class sites where students write for readers beyond the instructor, portfolios that move with a scholar between institutions, and projects that stay online after the semester ends."
+    text: "Websites, exhibits, posters, and scroll-driven narratives are forms of argument. We work with instructors and researchers to build them on open infrastructure that the authors own: class sites where students write for readers beyond the instructor, portfolios that move with a scholar between institutions, and projects that stay online long after the semester ends."
     link: "/websites/class-projects"
     link-text: "Bring students into the work →"
     zoom: 110%
@@ -59,7 +59,7 @@ features:
 
   - title: "3D pedagogy"
     image: "/assets/images/headers/com-statue-close.jpg"
-    text: "A 3D print is not automatically pedagogy. It becomes useful when it helps students compare, handle, question, and remember. We study how replicas, terrain models, and scanned objects can make scale, texture, and spatial relationships part of humanities learning."
+    text: "3D printing becomes pedagogically useful when it helps students compare, handle, question, and remember. We study how replicas, terrain models, and scanned objects can make scale, texture, and spatial relationships part of humanities learning."
     link: "/projects/3d-pedagogy"
     link-text: "Tactile learning →"
     more:
@@ -70,16 +70,16 @@ features:
 
   - title: "Collaborate"
     image: "/assets/images/headers/collaboration.jpg"
-    text: "We work with faculty, students, interdisciplinary teams, and community partners from the first question through the public life of a project. Come early, before the format has hardened. The best conversations are about what the work is trying to discover, teach, preserve, or make possible."
+    text: "We work with faculty, students, interdisciplinary teams, and community partners from the moment of their first question through the public life of their project. Come early, before the format has hardened. The best conversations are about what the work is trying to discover, teach, preserve, or make possible."
     link: "/collaborate"
     link-text: "Collaborate →"
 ---
 
-Amaranth is UNM's digital humanities studio: a research and teaching space where faculty, students, and community partners investigate how digital methods can deepen humanistic inquiry, strengthen public scholarship, and build the digital literacy students need for an AI-shaped world.
+Amaranth is UNM's digital humanities studio: a research and teaching space where faculty, students, and community partners investigate how digital methods can deepen humanistic inquiry, strengthen public scholarship, and build the digital and AI literacy students need.
 {: .lead}
 
 ## What we are here to do
-Amaranth is not a makerspace or a service shop. The equipment, software, and publishing systems matter, but only because they let us ask better questions: How can AI help humanists work across larger archives without giving up interpretive control? What happens when students build public work instead of disposable assignments? How can community projects preserve context, credit, and care? What forms of scholarship become possible when research is designed for readers, listeners, viewers, and participants beyond the classroom?
+Amaranth exists to be much more than a makerspace or a service shop. The equipment, software, and publishing systems matter, but only because they let us ask better questions: How can AI help humanists work across larger archives without giving up interpretive control? What happens when students build public work instead of disposable assignments? How can community projects preserve context, credit, and care? What forms of scholarship become possible when research is designed for readers, listeners, viewers, and participants beyond the classroom?
 
 Our work is deliberately pedagogical. We help people build things, but the deeper goal is capability: students who understand how digital systems shape knowledge; faculty who can integrate emerging methods into courses without surrendering intellectual rigor; community partners who can share materials in forms that remain useful and accountable.
 
@@ -118,7 +118,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
 ## Bring the question early
 Some of the most interesting collaborations start as a half-formed research question, a course you want students to experience differently, a collection that deserves a public life, or a digital method you are not sure how to evaluate. We want to hear about it.
 
-We work alongside you from the first question through the public life of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, the point is not simply to produce a thing. The point is to learn what the process makes thinkable. [Read more about our studio ethos →](/studio/ethos)
+We work alongside you through the entire duration of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, we not only help you build the thing itself but guide you through the learning that comes from creating. [Read more about our studio ethos →](/studio/ethos)
 
 {% include studio-hours.html %}
 
