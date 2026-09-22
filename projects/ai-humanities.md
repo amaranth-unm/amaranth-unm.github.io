@@ -31,7 +31,7 @@ None of this happens on its own. AI output needs checking, workflows need design
 
 **Structuring messy data.** Archival material often arrives in inconsistent formats—variant spellings, mixed date formats, incomplete records. AI can help normalize and structure that data so you can actually analyze it, map it, or visualize it. The results need spot-checking, but this unglamorous work is often what makes a digital project possible.
 
-**Thinking and writing tools.** You have a rough argument and want to pressure-test it. AI can help you identify gaps in your reasoning, suggest counterarguments, reframe your claims for different audiences, or help you restructure a draft. This isn't about AI writing for you—it's about using AI to think more rigorously about what you're trying to say.
+**Thinking and writing tools.** You have a rough argument and want to pressure-test it. AI can help you identify gaps in your reasoning, suggest counterarguments, reframe your claims for different audiences, or help you restructure a draft. Use AI to think more rigorously about what you're trying to say.
 
 We document what we learn from projects like these in the [AI Sketchbook](/projects/ai-sketchbook): what worked, what didn't, and where the edges are.
 
@@ -49,11 +49,11 @@ We want to be part of the research conversation early, not brought in for techni
 **Sensitive materials.** Community oral histories, Indigenous collections, unpublished archives, and other sensitive materials shouldn't go into whatever AI tool happens to be convenient. Talk with us before uploading anything. We'll help you think through who has a stake in the material, what permissions matter, and which tools fit, including the [local AI workstation](/studio/future-directions) we're building.
 
 
-## Building capability, not dependency
+## Building capability
 
-The goal of working with AI isn't to hand off intellectual work. It's to expand what you can do and ask—and to build the judgment to know when AI is helping and when it's misleading you.
+The goal of working with AI is to expand what you can do and ask—and to build the judgment to know when AI is helping and when it's misleading you.
 
-Faculty who work through AI-assisted research projects develop the kind of critical fluency that shapes how they design courses and advise students. Students leave with skills and confidence that transfer well beyond a single assignment. And the documented workflow can itself count as a research output, not just the article or exhibit at the end.
+Faculty who work through AI-assisted research projects develop the kind of critical fluency that shapes how they design courses and advise students. Students leave with skills and confidence that transfer well beyond a single assignment. And, in addition to the final product, the documented workflow can itself count as a research output.
 
 That judgment matters because AI has real limits. It can be confidently wrong, it sometimes invents sources, it reflects the gaps and biases in its training data, and it flattens nuance. Humanists are well equipped to catch these problems, and the field needs them to.
 

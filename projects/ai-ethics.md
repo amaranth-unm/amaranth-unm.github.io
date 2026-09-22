@@ -5,7 +5,8 @@ author: Jonathan Seyfried
 date: 2026-09-10
 description: "How to choose what type of AI product to use with ethical considerations in mind. Amaranth offer guidance for navigating the opportunities and challenges of AI from an ethical standpoint."
 header-image: /assets/images/headers/justice-virtues.jpg
-header-zoom: 80%
+header-zoom: 100%
+header-height: 60vh
 header-title: AI and Ethics
 header-tier: section
 header-filter: photo
