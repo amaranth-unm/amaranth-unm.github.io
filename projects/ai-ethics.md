@@ -7,6 +7,7 @@ description: "How to choose what type of AI product to use with ethical consider
 header-image: /assets/images/headers/justice-virtues.jpg
 header-zoom: 100%
 header-height: 60vh
+header-position: center 30%
 header-title: AI and Ethics
 header-tier: section
 header-filter: photo

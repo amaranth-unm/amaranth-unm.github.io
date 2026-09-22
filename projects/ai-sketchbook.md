@@ -14,7 +14,7 @@ Nobody has AI in humanities teaching and research fully figured out. The AI Sket
 
 
 ## The Sketchbook
-The AI Sketchbook is Amaranth's running record of real experiments with AI in teaching and research. Not best practices. Not polished success stories. Not step-by-step tutorials. Just honest accounts of what was tried, what the AI produced, what worked, what didn't, and what questions it raised—written close to the experience, while the surprises are still fresh.
+The AI Sketchbook is Amaranth's running record of real experiments with AI in teaching and research. Not best practices. Not polished success stories. Not step-by-step tutorials. Just honest accounts of what was tried, what the AI produced, what worked, what didn't, and what questions it raised. The sketches are written close to the experience, while the surprises are still fresh.
 
 **Teaching sketches** document assignments and classroom setups where AI becomes a thinking partner as well as an object of critical inquiry—where students learn something about how knowledge gets made, evaluated, and trusted, not just how to produce text faster.
 
