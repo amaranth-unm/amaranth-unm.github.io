@@ -5,13 +5,14 @@ author: Jonathan Seyfried
 date: 2026-09-10
 description: "How to choose what type of AI product to use with ethical considerations in mind. Amaranth offer guidance for navigating the opportunities and challenges of AI from an ethical standpoint."
 header-image: /assets/images/headers/justice-virtues.jpg
+header-zoom: 80%
 header-title: AI and Ethics
 header-tier: section
 header-filter: photo
 header-caption: Justice by Nicolaes de Bruyn, 1648
 ---
 
-In the months and years since ChatGPT gained national prominence in November 2022, the ethical facets of AI use have become more and more complicated. Amaranth helps humanists to navigate the fast-changing dynamics of the debates over ethical uses of generative AI products.
+Since ChatGPT gained national prominence in November 2022, the ethical facets of AI use have become more and more complicated. Amaranth helps humanists to navigate the fast-changing dynamics of the debates over ethical uses of generative AI products.
 {: .lead}
 
 ## The University of New Mexico's Statement of Values

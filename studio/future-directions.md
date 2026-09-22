@@ -27,7 +27,7 @@ Our first year showed that student research can find a real public audience when
 
 ## More People + More Partnerships
 
-In year one, our tools and workflows for open web publishing supported 14 courses and 180 students, along with workshops on portfolio websites. They're ready for more people. We want to work with more faculty who want to put their scholarship online in durable, scholar-controlled formats: research websites, annotated document collections, interactive exhibits. The class sites already built here show what's possible.
+In year one, our tools and workflows for open web publishing supported 14 courses and 180 students, along with workshops on portfolio websites. They're ready for more people. We want to work with more faculty who want to put their scholarship online in durable, scholar-controlled formats: research websites, annotated document collections, interactive exhibits. The [class sites](/websites/class-projects) already built here show what's possible.
 
 Partnerships are growing the same way. We worked with eight campus partners in our first year and scanned artifacts at the Maxwell Museum, while student researchers took on 3D printing for high school history classrooms. We're building toward more partnerships where scanning, analysis, and fabrication serve research and community needs at once—with archives, K-12 programs, and museums—and toward positioning UNM for external funding as a hub for AI and cultural heritage.
 
