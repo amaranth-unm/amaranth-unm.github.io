@@ -7,11 +7,11 @@ description: "An introduction to using local LLMs."
 header-image: /assets/images/headers/lindisfarne.jpg
 header-zoom: 100%
 header-height: 60vh
-header-position: center 30%
+header-position: center 20%
 header-title: Local LLM
 header-tier: section
 header-filter: photo
-header-caption: Lindisfarne Castle by Thomas Girtin, 1648
+header-caption: Lindisfarne Castle by Thomas Girtin, 1796
 ---
 
 A local LLM runs a compressed AI model on your own device. With a local LLM, you can keep all of your interactions with generative AI on your own device, never interacting with corporate data centers after the initial download.

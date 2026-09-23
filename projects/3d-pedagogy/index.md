@@ -17,7 +17,7 @@ cards:
 
   - title: "Terrain Maps"
     thumbnail: "/assets/images/site/acrylic-terrain.jpg"
-    summary: You may have noticed that screens are flat. 3D printed maps that illustrate topography, political expansion, and cultural influence help contextualize space and geography.
+    summary: A 2D map inevitably distorts the representation of topography. 3D printed maps present a different view of topography, political expansion, and cultural influence help contextualize space and geography.
     link: "terrain"
 
   - title: "Objex"
@@ -34,9 +34,9 @@ When studying material culture---artifacts, architecture, sculpture, terrain---t
 Physical objects also change how we learn. Holding a palm-sized replica of a 20-foot statue raises immediate questions about scale and presence. Arranging a series of architectural details side by side reveals stylistic differences that verbal descriptions struggle to convey. Terrain maps printed with exaggerated elevation make geographic relationships tangible in ways that flat screens simply cannot. These aren't replacements for original artifacts or fieldwork, but they offer something valuable: a hands-on way to engage with material that would otherwise remain distant or abstract.
 
 ## From scan to classroom
-The most interesting 3D work is a pipeline, not a print queue. A useful object may begin with a scan, a model from a cultural heritage repository, a terrain dataset, or a research question from an instructor. From there, the work becomes interpretive: what details matter, what scale teaches best, what gets lost in reproduction, what context students need, and whether the object should travel beyond the classroom.
+The most interesting 3D work focuses on process. A useful object may begin with a scan, a model from a cultural heritage repository, a terrain dataset, or a research question from an instructor. From there, the work becomes interpretive: what details matter, what scale teaches best, what gets lost in reproduction, what context students need, and whether the object should travel beyond the classroom.
 
-That pipeline connects 3D pedagogy to Amaranth's larger research agenda. Scanning and modeling create records that can support visual analysis, AI-assisted comparison, public documentation, and physical replicas. Printing makes some of that work tangible. Teaching and community use reveal what the object actually helps people understand.
+The above process connects 3D pedagogy to Amaranth's larger research agenda. Scanning and modeling 3D objects creates records that can support a range of other outputs:  visual analysis, AI-assisted comparison, public documentation, and physical replicas. Teaching and community use reveal what the object actually helps people understand.
 
 The projects below document some of our experiments with 3D printing for teaching and learning. We hope they spark ideas for how physical replicas might support your own courses and research.
 
