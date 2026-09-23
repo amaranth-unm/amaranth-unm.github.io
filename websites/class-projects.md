@@ -23,11 +23,11 @@ Building a page on a collaborative website is a design challenge as much as a wr
 - How do images and text work together to tell a story? 
 - How does the page guide someone through an argument? 
 
-These are communication skills that transfer far beyond a single course---and they're exactly the kind of skills that humanities graduates need but rarely get to practice.
+These are communication skills that transfer far beyond a single course. Humanities graduates need to build these visual-based skills no matter what they do next, but they rarely get to practice them in humanities coursework.
 
 
 ## Digital literacy without coding
-Our platform teaches students how websites work---how simple code blocks display images, how metadata enables functionality, and how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files and see their work published as webpages. Many students also use AI to handle technical decisions while keeping their focus on the intellectual argument—learning to direct AI rather than be directed by it. Technology becomes a little less intimidating, and the confidence that comes from building something real is something students carry forward.
+Our platform teaches students how websites work---how simple code blocks display images, how metadata enables functionality, and how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files and see their work published as webpages. Many students also use AI to handle technical decisions while keeping their focus on the intellectual argument, gaining practice making thoughtful choices about how to direct AI assistance. Technology becomes a little less intimidating, and the confidence that comes from building something real is something students carry forward.
 
 
 ## Built to last
