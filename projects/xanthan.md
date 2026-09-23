@@ -18,15 +18,15 @@ The Xanthan framework started as an experiment to create a shared repository for
 ## A new kind of web publishing
 Most academic web publishing advice amounts to picking the least-bad platform. Squarespace if you want it to look decent. WordPress if you want flexibility. Institutional systems if you want to comply. In almost all cases, you trade control and transparency for convenience---and when the platform changes, you adapt or walk away.
 
-Xanthan prioritizes openness and pedagogy. It's built on Jekyll and GitHub Pages: open source, free to host, no subscription. Sites are created from easily accessible and editable plain-text files. The infrastructure is so basic to web fundamentals, it's not going anywhere.
+Xanthan prioritizes openness and pedagogy. It's built on Jekyll and GitHub Pages: open source, free to host, no subscription. Sites are created from easily accessible and editable plain-text files. This infrastructure is so basic to web fundamentals that Xanthan can be counted on as a long-term sustainable platform.
 
-That's not just a technical preference. It's an argument about what digital humanities work should be able to promise its audiences---that a site built today won't disappear after a security patch, or move behind a higher paywall, or that changing platforms means starting over with your content.
+We argue that digital humanities work should be able to fulfill a sustainabilty promise its audiences---that a site built today won't disappear after a security patch, or move behind a higher paywall. This also means that changing platforms should not require you to over with your content.
 
 
 ## What Xanthan offers
-Three templates (Portfolio, Class Project, ScrollStory) set up the core files for you. They require nothing beyond a GitHub account to publish to a working website. As much work as we've put into the code, we've put into the documentation at [xanthan-web.github.io](https://xanthan-web.github.io)---written for people who are brand new to these tools and processes.
+Four templates (Portfolio, Class Project, Object Collection, ScrollStory) set up the core files for you. They require nothing beyond a GitHub account to publish to a working website. As much work as we've put into the code, we've put into the documentation at [xanthan-web.github.io](https://xanthan-web.github.io)---written for people who are brand new to these tools and processes.
 
-The next test is AI legibility. We've been deliberately designing Xanthan so that AI assistants can understand and modify it precisely. That reflects a broader argument about humanities web publishing: the scholar should hold editorial authority while AI handles technical translation, not the other way around. The same structured, legible design also makes Xanthan sites useful platforms for AI-assisted research, where humanists need infrastructure they understand, control, and can document.
+The next test is AI legibility. We've been deliberately designing Xanthan so that AI assistants can understand and modify it precisely. That reflects a broader argument about humanities web publishing: the scholar should hold editorial authority while AI handles technical translation, not the other way around. A structured, legible design also makes Xanthan sites useful platforms for AI-assisted research, where humanists need infrastructure they understand, control, and can document.
 
 
 ## Built with Xanthan
