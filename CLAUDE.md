@@ -41,8 +41,9 @@ Then visit http://localhost:4000
 │   ├── site/            # General site assets (1600px max)
 │   └── team/            # Team photos (1200px max)
 ├── scripts/             # Utility scripts
-│   ├── optimize-images.sh
-│   └── update-image-refs.sh
+│   ├── README.md            # shared with Xanthan — don't edit
+│   ├── optimize-images.sh   # shared with Xanthan — don't edit
+│   └── update-image-refs.sh # shared with Xanthan — don't edit
 └── [content folders]    # websites/, audio/, 3d-printing/, equipment/, etc.
 ```
 
@@ -72,7 +73,7 @@ Remember readers may be:
 - Use lowercase with hyphens: `poster-printer.jpg`, `vr-headsets.jpg`
 - Prefer JPG for photos, PNG for graphics with transparency, SVG for icons
 - Place in appropriate `assets/images/[type]/` folder
-- Run `bash scripts/optimize-images.sh --preview` before committing large images
+- Optimize large images before committing (see Image Management below)
 
 ### Front Matter
 Standard page front matter:
@@ -91,14 +92,36 @@ header-height: 60vh  # optional, defaults vary
 ### Adding New Images
 1. Place in the correct `assets/images/[type]/` folder
 2. Use descriptive, hyphenated lowercase names
-3. Preview optimization: `bash scripts/optimize-images.sh --preview`
-4. Run optimization: `bash scripts/optimize-images.sh`
-5. Verify images display correctly locally
+3. Optimize them — one run per size in the table below (see "Optimizing images")
+4. Verify images display correctly locally
+
+### Optimizing images
+The image scripts and the **Optimize Images** workflow are shared, unmodified, with
+Xanthan and its sites; `scripts/README.md` documents them. Don't edit them here —
+copy newer versions from xanthan-web. What's specific to Amaranth is the sizes:
+
+- **No command line:** Actions tab → Optimize Images → Run workflow. Set *Folder*
+  and *Longest edge* from the table (e.g. `assets/images/headers` at `2000`), run
+  once unticked to preview, then again with *Actually change the files* ticked.
+  The job limits the *longest* edge, so a tall image comes out smaller than the
+  width-based commands below would make it; use those for portrait images.
+- **Locally:** add `--preview` first to see what would change.
+  ```bash
+  bash scripts/optimize-images.sh --no-backup --folder headers --width 2000
+  bash scripts/optimize-images.sh --no-backup --recursive --base-dir studio/name-origins --width 2000
+  bash scripts/optimize-images.sh --no-backup --folder team --width 1200
+  # everything else at the default 1600 — name the folders you've added images to
+  bash scripts/optimize-images.sh --no-backup --recursive --base-dir craft --base-dir projects
+  bash scripts/update-image-refs.sh   # once at the end, if any PNGs became JPGs
+  ```
+  Don't run it with no options or `--base-dir .` — that would shrink the 2000px
+  images to 1600px.
 
 ### Size Guidelines
 | Type | Max Width | Use Case |
 |------|-----------|----------|
 | headers | 2000px | Page heroes |
+| ScrollStory backgrounds (`studio/name-origins/images`) | 2000px | Full-screen `scrollybox/bg` images |
 | events/posters/projects/services/site | 1600px | General content |
 | team | 1200px | Portraits |
 

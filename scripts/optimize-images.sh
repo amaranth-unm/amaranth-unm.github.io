@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# Image Optimization Script for Amaranth Site
-# Optimizes images in-place within their respective folders
+# Image Optimization Script for Xanthan Sites
+# Optimizes images in-place within image folders
 # Skips images that are already optimized to avoid re-processing
+#
+# This one file is shared by Xanthan core, every starter template, and the
+# sites made from them, and it runs both on laptops (macOS) and on GitHub's
+# Linux runners through .github/workflows/optimize-images.yml. Keep it to
+# tools both have: bash, find, awk and ImageMagick — no bc, no stat flags.
 
 # Colors for output
 RED='\033[0;31m'
@@ -17,7 +22,31 @@ MAX_WIDTH=1600
 MAX_HEIGHT=0  # 0 means unlimited height
 MAX_EDGE=0    # 0 means disabled (use width/height instead)
 QUALITY=85
-TARGET_FOLDER=""  # Empty means process all folders
+SMALL_BYTES=300000  # under this, and within the size limits, counts as done
+TARGET_FOLDER=""  # Empty means process all subfolders
+
+# Base directories to search (can specify multiple with --base-dir)
+BASE_DIRS=()
+RECURSIVE=false
+MAKE_BACKUP=true   # copies of changed files in .image-backups/; pointless where git already has them
+
+# Folders that hold copies or third-party files, never a site's own images.
+# _site/ in particular mirrors every image on a Jekyll site, so a whole-project
+# run would otherwise optimize each image twice, and the next build overwrites
+# the _site/ copies anyway.
+SKIP_DIRS=(_site .git .jekyll-cache .sass-cache node_modules vendor .image-backups)
+PRUNE_ARGS=()
+for d in "${SKIP_DIRS[@]}"; do PRUNE_ARGS+=(-name "$d" -o); done
+PRUNE_ARGS+=(-name "*-backup-*")   # backups made by older versions of this script
+
+IMAGE_FIND=(\( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \))
+
+# In a git repository, anything git ignores is skipped too — built output,
+# caches, and backups under whatever name an older script gave them. SKIP_DIRS
+# covers the same ground for a folder that isn't a git repository.
+is_ignored() {
+    [ "$IN_GIT" = true ] && git -C "$PROJECT_ROOT" check-ignore -q "$1" 2>/dev/null
+}
 
 # Parse command line arguments
 PREVIEW_MODE=false
@@ -30,6 +59,18 @@ while [[ $# -gt 0 ]]; do
         --folder)
             TARGET_FOLDER="$2"
             shift 2
+            ;;
+        --base-dir)
+            BASE_DIRS+=("$2")
+            shift 2
+            ;;
+        --recursive)
+            RECURSIVE=true
+            shift
+            ;;
+        --no-backup)
+            MAKE_BACKUP=false
+            shift
             ;;
         --max-edge)
             MAX_EDGE="$2"
@@ -57,20 +98,26 @@ while [[ $# -gt 0 ]]; do
             echo ""
             echo "Options:"
             echo "  --preview              Show what would be optimized (no changes)"
-            echo "  --folder NAME          Process only a specific folder (e.g., 'events', 'posters')"
-            echo "  --max-edge N           Limit longest edge to N pixels (width/height)"
+            echo "  --base-dir PATH        Base image directory to process (default: assets/images)"
+            echo "                         Can be specified multiple times for multiple directories"
+            echo "  --no-backup            Skip the backup copy. Safe inside a git repository,"
+            echo "                         where the originals are already in history"
+            echo "  --recursive            Find all image-containing directories within each base dir"
+            echo "                         Use with --base-dir to scan a whole folder tree"
+            echo "  --folder NAME          Process only a specific subfolder within each base dir"
+            echo "  --max-edge N           Limit longest edge to N pixels"
             echo "  --width N              Max width in pixels (default: 1600)"
             echo "  --height N             Max height in pixels (default: unlimited)"
             echo "  --quality N            JPEG quality 1-100 (default: 85)"
             echo ""
-            echo "Available folders: events, posters, projects, services, site, team"
-            echo ""
             echo "Examples:"
             echo "  bash optimize-images.sh --preview"
-            echo "  bash optimize-images.sh --folder tutorials --max-edge 800 --quality 75"
-            echo "  bash optimize-images.sh --max-edge 1200 --quality 80"
-            echo "  bash optimize-images.sh --width 1200 --quality 80"
-            echo "  bash optimize-images.sh --folder events --preview"
+            echo "  bash optimize-images.sh"
+            echo "  bash optimize-images.sh --base-dir . --recursive"
+            echo "  bash optimize-images.sh --base-dir assets/images --max-edge 1600"
+            echo "  bash optimize-images.sh --base-dir alice/images --base-dir bob/images"
+            echo "  bash optimize-images.sh --base-dir essays/ --recursive"
+            echo "  bash optimize-images.sh --folder backgrounds --max-edge 2000"
             exit 0
             ;;
         *)
@@ -81,7 +128,33 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-echo -e "${GREEN}=== Amaranth Image Optimizer ===${NC}"
+# Resolve script directory so relative paths work from any CWD
+SCRIPT_DIR="$(cd -- "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+BACKUP_ROOT="$PROJECT_ROOT/.image-backups"
+IN_GIT=false
+git -C "$PROJECT_ROOT" rev-parse --is-inside-work-tree &>/dev/null && IN_GIT=true
+CONVERSION_LOG="$PROJECT_ROOT/png_to_jpg_conversions.txt"
+
+# Default to assets/images if no base dirs specified
+if [ ${#BASE_DIRS[@]} -eq 0 ]; then
+    BASE_DIRS=("$PROJECT_ROOT/assets/images")
+fi
+
+# Resolve all base dirs to absolute paths
+RESOLVED_DIRS=()
+for dir in "${BASE_DIRS[@]}"; do
+    # If relative, resolve from project root
+    if [[ "$dir" != /* ]]; then
+        dir="$PROJECT_ROOT/$dir"
+    fi
+    # Normalize "." and trailing slashes, so --base-dir . labels folders as
+    # craft/images rather than ./craft/images
+    [ -d "$dir" ] && dir="$(cd "$dir" && pwd)"
+    RESOLVED_DIRS+=("$dir")
+done
+
+echo -e "${GREEN}=== Xanthan Image Optimizer ===${NC}"
 echo -e "${BLUE}Settings:${NC}"
 if [ "$MAX_EDGE" -gt 0 ]; then
     echo "  Max Edge:   ${MAX_EDGE}px (longest dimension)"
@@ -94,10 +167,12 @@ else
     fi
 fi
 echo "  Quality:    ${QUALITY}"
+echo "  Base dirs:"
+for dir in "${RESOLVED_DIRS[@]}"; do
+    if [ "$dir" = "$PROJECT_ROOT" ]; then echo "    . (the whole site)"; else echo "    ${dir#$PROJECT_ROOT/}"; fi
+done
 if [ -n "$TARGET_FOLDER" ]; then
-    echo "  Target:     $TARGET_FOLDER/ (specific folder)"
-else
-    echo "  Target:     all folders"
+    echo "  Subfolder:  $TARGET_FOLDER/"
 fi
 if [ "$PREVIEW_MODE" = true ]; then
     echo -e "${PURPLE}[PREVIEW MODE - No files will be modified]${NC}"
@@ -107,218 +182,241 @@ echo ""
 # Check if ImageMagick is installed and determine command
 if command -v magick &> /dev/null; then
     MAGICK_CMD="magick"
+    IDENTIFY_CMD="magick identify"
 elif command -v convert &> /dev/null; then
     MAGICK_CMD="convert"
+    IDENTIFY_CMD="identify"
 else
     echo -e "${RED}Error: ImageMagick is not installed.${NC}"
     echo "Install it with: brew install imagemagick"
     exit 1
 fi
 
-# Resolve script directory so paths work from any CWD
-SCRIPT_DIR="$(cd -- "$(dirname "$0")" && pwd)"
-BASE_DIR="$SCRIPT_DIR/../assets/images"
+# Preview renders each image for real, into here, so it reports actual sizes
+# rather than a guess
+WORK_DIR=$(mktemp -d "${TMPDIR:-/tmp}/optimize-images.XXXXXX")
+trap 'rm -rf "$WORK_DIR"' EXIT
 
-# Check if base directory exists
-if [ ! -d "$BASE_DIR" ]; then
-    echo -e "${RED}Error: $BASE_DIR not found${NC}"
-    exit 1
-fi
+file_bytes() {
+    wc -c < "$1" | tr -d ' '
+}
 
-# Create backup directory (skip in preview mode)
-if [ "$PREVIEW_MODE" = false ]; then
-    BACKUP_DIR="assets/images/backup-$(date +%Y%m%d-%H%M%S)"
-    echo -e "${YELLOW}Creating backup at: $BACKUP_DIR${NC}"
-    mkdir -p "$BACKUP_DIR"
-    cp -r "$BASE_DIR"/* "$BACKUP_DIR/" 2>/dev/null || true
-    echo -e "${GREEN}✓ Backup created${NC}"
-    # Clear conversion log
-    rm -f png_to_jpg_conversions.txt
-else
-    echo -e "${BLUE}ℹ Backup skipped (preview mode)${NC}"
-fi
-echo ""
+kb() {
+    echo $(( $1 / 1024 ))KB
+}
 
 # Function to check if PNG has transparency
-# Checks if any pixel actually uses transparency (not just if alpha channel exists)
 has_transparency() {
     local file=$1
-    # Check if image has alpha channel first
-    local has_alpha=$(identify -format "%A" "$file" 2>/dev/null)
-    if [[ "$has_alpha" != "Blend" && "$has_alpha" != "True" ]]; then
-        return 1  # No alpha channel = no transparency
+    local has_alpha=$($IDENTIFY_CMD -format "%A" "$file" 2>/dev/null)
+    if [[ "$has_alpha" != "Blend" && "$has_alpha" != "True" && "$has_alpha" != "On" ]]; then
+        return 1
     fi
-    
-    # Check if any pixel actually uses transparency
-    # Get the minimum alpha value (works for both 8-bit and 16-bit)
-    local alpha_min=$(identify -format "%[fx:minima.a]" "$file" 2>/dev/null)
-    # If alpha_min is less than 1.0, there's transparency being used
-    [[ -n "$alpha_min" ]] && (( $(echo "$alpha_min < 1.0" | bc -l) ))
+    local alpha_min=$($IDENTIFY_CMD -format "%[fx:minima.a]" "$file" 2>/dev/null)
+    [[ -n "$alpha_min" ]] && awk "BEGIN { exit !($alpha_min < 1.0) }"
 }
 
-# Function to check if image is already optimized
-# Images are considered optimized if they're under the max size for their category
-is_optimized() {
-    local file=$1
-    local max_size=$2
-    local file_size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
-    
-    # If file size is less than max, assume it's already optimized
-    [ "$file_size" -lt "$max_size" ]
+# Does a WIDTHxHEIGHT image already fit the size limits?
+fits_limits() {
+    local w=$1 h=$2
+    if [ "$MAX_EDGE" -gt 0 ]; then
+        [ "$w" -le "$MAX_EDGE" ] && [ "$h" -le "$MAX_EDGE" ]
+    else
+        [ "$w" -le "$MAX_WIDTH" ] && { [ "$MAX_HEIGHT" -eq 0 ] || [ "$h" -le "$MAX_HEIGHT" ]; }
+    fi
 }
 
-# Function to optimize images in a folder
-optimize_folder() {
-    local folder=$1
-    local max_width=$2
-    local max_size=$3
-    local category=$4
-    
-    if [ ! -d "$BASE_DIR/$folder" ]; then
-        echo -e "${BLUE}ℹ No $folder directory found${NC}"
+# Resize and compress $1 into $2 with the current settings. -auto-orient bakes
+# in a phone photo's rotation before -strip discards the tag that records it;
+# without it, photos taken holding the phone upright come out sideways.
+render() {
+    local geometry
+    if [ "$MAX_EDGE" -gt 0 ]; then
+        geometry="${MAX_EDGE}x${MAX_EDGE}>"
+    elif [ "$MAX_HEIGHT" -gt 0 ]; then
+        geometry="${MAX_WIDTH}x${MAX_HEIGHT}>"
+    else
+        geometry="${MAX_WIDTH}x>"
+    fi
+    $MAGICK_CMD "$1" -auto-orient -resize "$geometry" -quality "$QUALITY" -strip "$2"
+}
+
+# Copy a file into .image-backups/<stamp>/ under its path in the project,
+# before it is changed. The folder ignores itself, so it never gets committed
+# even on a site whose .gitignore predates it; Jekyll skips dot-folders.
+backup() {
+    [ "$MAKE_BACKUP" = true ] || return 0
+    local rel="${1#$PROJECT_ROOT/}"
+    mkdir -p "$BACKUP_ROOT/$BACKUP_STAMP/$(dirname "$rel")"
+    [ -f "$BACKUP_ROOT/.gitignore" ] || echo '*' > "$BACKUP_ROOT/.gitignore"
+    cp -p "$1" "$BACKUP_ROOT/$BACKUP_STAMP/$rel"
+}
+
+# Process one image. Prints one line saying what happened, plus sizes.
+optimize_image() {
+    local img=$1
+    local filename=$(basename "$img")
+    local ext_lc=$(echo "${filename##*.}" | tr '[:upper:]' '[:lower:]')
+    local dims=$($IDENTIFY_CMD -format "%w %h" "$img[0]" 2>/dev/null)
+    local w=${dims% *} h=${dims#* }
+    local size_before=$(file_bytes "$img")
+
+    if [ -z "$dims" ]; then
+        echo -e "  ${YELLOW}⚠ Can't read, skipping: $filename${NC}"
         return
     fi
-    
-    echo -e "${BLUE}Processing $category images in: $folder/${NC}"
-    
-    local count=0
-    local skipped=0
-    local converted=0
-    
-    # Process all image files in folder (using process substitution to avoid subshell scope issues)
-    while IFS= read -r img; do
-        filename=$(basename "$img")
-        
-        # Convert PNG to JPG if no transparency (combine with optimization in one step)
-        if [[ $filename == *.png ]]; then
-            if ! has_transparency "$img"; then
-                local base="${img%.png}"
-                local jpg_file="${base}.jpg"
-                
-                if [ "$PREVIEW_MODE" = true ]; then
-                    echo -e "  ${PURPLE}⚙ WOULD convert & optimize: $filename → JPG${NC}"
-                    size_before_bytes=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
-                    size_before=$(du -h "$img" | cut -f1)
-                    size_after_est=$(echo "$size_before_bytes * 0.4 / 1" | bc)
-                    size_after_kb=$(echo "$size_after_est / 1024" | bc)
-                    savings=$(echo "$size_before_bytes - $size_after_est" | bc)
-                    savings_kb=$(echo "$savings / 1024" | bc)
-                    echo -e "    Original PNG: ${YELLOW}${size_before}${NC}"
-                    echo -e "    Estimated JPG: ${GREEN}~${size_after_kb}KB${NC}"
-                    echo -e "    Savings: ${BLUE}-${savings_kb}KB${NC}"
-                else
-                    echo -e "  ${YELLOW}🔄 Converting & optimizing: $filename → JPG${NC}"
-                    size_before_bytes=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
-                    size_before=$(du -h "$img" | cut -f1)
-                    
-                    # Convert + resize + compress in one operation
-                    if [ "$MAX_EDGE" -gt 0 ]; then
-                        $MAGICK_CMD "$img" -resize "${MAX_EDGE}x${MAX_EDGE}>" -quality "$QUALITY" -strip "$jpg_file"
-                    elif [ "$MAX_HEIGHT" -gt 0 ]; then
-                        $MAGICK_CMD "$img" -resize "${max_width}x${MAX_HEIGHT}>" -quality "$QUALITY" -strip "$jpg_file"
-                    else
-                        $MAGICK_CMD "$img" -resize "${max_width}x>" -quality "$QUALITY" -strip "$jpg_file"
-                    fi
-                    
-                    rm "$img"
-                    # Log relative path from assets/images for easier reference updates
-                    relative_old="${img#$BASE_DIR/}"
-                    relative_new="${jpg_file#$BASE_DIR/}"
-                    echo "assets/images/$relative_old -> assets/images/$relative_new" >> png_to_jpg_conversions.txt
-                    
-                    size_after_bytes=$(stat -f%z "$jpg_file" 2>/dev/null || stat -c%s "$jpg_file" 2>/dev/null)
-                    size_after=$(du -h "$jpg_file" | cut -f1)
-                    savings=$(echo "$size_before_bytes - $size_after_bytes" | bc)
-                    savings_kb=$(echo "$savings / 1024" | bc)
-                    savings_pct=$(echo "scale=1; $savings * 100 / $size_before_bytes" | bc)
-                    echo -e "    Original PNG: ${YELLOW}${size_before}${NC}"
-                    echo -e "    New JPG: ${GREEN}${size_after}${NC}"
-                    echo -e "    Savings: ${BLUE}-${savings_kb}KB (${savings_pct}%)${NC}"
-                fi
-                ((converted++))
-                ((count++))
-                continue
-            fi
-        fi
-        
-        # Skip SVGs and small files (likely already optimized)
-        if is_optimized "$img" "$max_size"; then
-            echo -e "  ${GREEN}✓ Already optimized: $filename${NC}"
-            ((skipped++))
-            continue
-        fi
-        
-        if [ "$PREVIEW_MODE" = true ]; then
-            echo -e "  ${PURPLE}⚙ WOULD optimize: $filename${NC}"
-            size_before_bytes=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
-            size_before=$(du -h "$img" | cut -f1)
-            # Estimate ~60% compression
-            size_after_est=$(echo "$size_before_bytes * 0.6 / 1" | bc)
-            size_after_kb=$(echo "$size_after_est / 1024" | bc)
-            savings=$(echo "$size_before_bytes - $size_after_est" | bc)
-            savings_kb=$(echo "$savings / 1024" | bc)
-            echo -e "    Original:   ${YELLOW}${size_before}${NC}"
-            echo -e "    Estimated:  ${GREEN}~${size_after_kb}KB${NC}"
-            echo -e "    Savings:    ${BLUE}-${savings_kb}KB${NC}"
+
+    local fits=false
+    fits_limits "$w" "$h" && fits=true
+
+    # Small and already within the limits: nothing to gain
+    if [ "$fits" = true ] && [ "$size_before" -lt "$SMALL_BYTES" ]; then
+        echo -e "  ${GREEN}✓ Already optimized: $filename${NC}"
+        skipped=$((skipped + 1))
+        return
+    fi
+
+    # PNGs without transparency become JPGs — unless a JPG of the same name is
+    # already there, which converting would overwrite
+    local convert_to=""
+    if [ "$ext_lc" = "png" ] && ! has_transparency "$img"; then
+        local jpg_file="${img%.*}.jpg"
+        if [ -e "$jpg_file" ]; then
+            echo -e "  ${YELLOW}⚠ $(basename "$jpg_file") already exists, so $filename stays a PNG${NC}"
         else
-            echo -e "  ${YELLOW}⚙ Optimizing: $filename${NC}"
-            size_before_bytes=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
-            size_before=$(du -h "$img" | cut -f1)
-            
-            # Optimize based on type
-            if [[ $filename == *.svg ]]; then
-                echo -e "    (SVG - skipping conversion)"
-            else
-                # Resize and compress
-                if [ "$MAX_EDGE" -gt 0 ]; then
-                    $MAGICK_CMD "$img" -resize "${MAX_EDGE}x${MAX_EDGE}>" -quality "$QUALITY" -strip "$img.tmp"
-                elif [ "$MAX_HEIGHT" -gt 0 ]; then
-                    $MAGICK_CMD "$img" -resize "${MAX_WIDTH}x${MAX_HEIGHT}>" -quality "$QUALITY" -strip "$img.tmp"
-                else
-                    $MAGICK_CMD "$img" -resize "${MAX_WIDTH}x>" -quality "$QUALITY" -strip "$img.tmp"
-                fi
-                mv "$img.tmp" "$img"
-            fi
-            
-            # Get file size after
-            size_after_bytes=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
-            size_after=$(du -h "$img" | cut -f1)
-            savings=$(echo "$size_before_bytes - $size_after_bytes" | bc)
-            savings_kb=$(echo "$savings / 1024" | bc)
-            savings_pct=$(echo "scale=1; $savings * 100 / $size_before_bytes" | bc)
-            echo -e "    Original:  ${YELLOW}${size_before}${NC}"
-            echo -e "    New size:  ${GREEN}${size_after}${NC}"
-            echo -e "    Savings:   ${BLUE}-${savings_kb}KB (${savings_pct}%)${NC}"
+            convert_to="$jpg_file"
         fi
-        ((count++))
-    done < <(find "$BASE_DIR/$folder" -maxdepth 1 -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \))
-    
-    echo -e "${GREEN}✓ Processed $count new images, skipped $skipped already-optimized"
-    if [ $converted -gt 0 ]; then
-        echo -e "  Converted $converted PNG→JPG (no transparency)${NC}"
+    fi
+
+    local out="$WORK_DIR/out.${ext_lc}"
+    [ -n "$convert_to" ] && out="$WORK_DIR/out.jpg"
+    rm -f "$out"
+    if ! render "$img" "$out" 2>/dev/null || [ ! -s "$out" ]; then
+        echo -e "  ${RED}✗ ImageMagick couldn't process $filename — left as is${NC}"
+        return
+    fi
+    local size_after=$(file_bytes "$out")
+
+    # Keep the original unless the new file is meaningfully smaller. An image
+    # that already fits must shrink by 10% to be worth re-encoding: JPEG loses
+    # a little more each time, and without this every run re-compressed every
+    # large JPEG again for no gain.
+    local threshold=$size_before
+    [ "$fits" = true ] && threshold=$(( size_before * 9 / 10 ))
+    if [ "$size_after" -ge "$threshold" ]; then
+        echo -e "  ${GREEN}✓ Already well compressed: $filename ($(kb $size_before))${NC}"
+        skipped=$((skipped + 1))
+        return
+    fi
+
+    local saved=$(( (size_before - size_after) * 100 / size_before ))
+    local would="optimize" did="Optimized" target="$img"
+    if [ -n "$convert_to" ]; then
+        would="convert to JPG"
+        did="Converted to JPG"
+        target="$convert_to"
+    fi
+    if [ "$PREVIEW_MODE" = true ]; then
+        echo -e "  ${PURPLE}⚙ WOULD ${would}: $filename${NC}  $(kb $size_before) → $(kb $size_after) (-${saved}%)"
     else
-        echo -e "${NC}"
+        backup "$img"
+        mv "$out" "$target"
+        if [ -n "$convert_to" ]; then
+            rm "$img"
+            # Log conversion for update-image-refs.sh
+            echo "${img#$PROJECT_ROOT/} -> ${convert_to#$PROJECT_ROOT/}" >> "$CONVERSION_LOG"
+        fi
+        echo -e "  ${YELLOW}⚙ ${did}: $filename${NC}  $(kb $size_before) → $(kb $size_after) (-${saved}%)"
+    fi
+    [ -n "$convert_to" ] && converted=$((converted + 1))
+    count=$((count + 1))
+}
+
+# Function to optimize all images in a given directory (not recursive)
+optimize_dir() {
+    local dir_path=$1   # absolute path to the directory to process
+    local label=$2      # display label
+
+    if [ ! -d "$dir_path" ]; then
+        echo -e "${BLUE}ℹ No directory found: $dir_path${NC}"
+        return
+    fi
+    if is_ignored "$dir_path"; then
+        return
+    fi
+
+    echo -e "${BLUE}Processing: $label${NC}"
+
+    count=0
+    skipped=0
+    converted=0
+
+    while IFS= read -r img; do
+        optimize_image "$img"
+    done < <(find "$dir_path" -maxdepth 1 -type f "${IMAGE_FIND[@]}" | sort)
+
+    if [ "$PREVIEW_MODE" = true ]; then
+        echo -e "${GREEN}✓ Would process $count images, skip $skipped already optimized${NC}"
+        [ $converted -gt 0 ] && echo -e "  Would convert $converted PNG→JPG (no transparency)"
+    else
+        echo -e "${GREEN}✓ Processed $count images, skipped $skipped already optimized${NC}"
+        [ $converted -gt 0 ] && echo -e "  Converted $converted PNG→JPG (no transparency)"
     fi
     echo ""
 }
 
-# Process each image category
+# Main processing
 echo -e "${YELLOW}Starting optimization...${NC}"
 echo ""
 
-# Process all subdirectories in assets/images
-if [ -n "$TARGET_FOLDER" ]; then
-    # Process only the specified folder
-    optimize_folder "$TARGET_FOLDER" "1600" "300000" "Target Image"
-else
-    # Process all folders
-    optimize_folder "headers" "2000" "500000" "Header Image"
-    optimize_folder "events" "1600" "300000" "Event Image"
-    optimize_folder "posters" "1600" "300000" "Poster Image"
-    optimize_folder "projects" "1600" "300000" "Project Image"
-    optimize_folder "site" "1600" "300000" "Site Image"
-    optimize_folder "team" "1200" "200000" "Team Photo"
-fi
+# Conversions are appended to png_to_jpg_conversions.txt, never cleared here:
+# a site with several image sizes runs this once per size, and clearing on
+# each run lost every conversion but the last run's. update-image-refs.sh
+# removes the log once it has applied it.
+
+BACKUP_STAMP=$(date +%Y%m%d-%H%M%S)
+
+for BASE_DIR in "${RESOLVED_DIRS[@]}"; do
+
+    if [ ! -d "$BASE_DIR" ]; then
+        echo -e "${RED}Warning: Directory not found, skipping: $BASE_DIR${NC}"
+        echo ""
+        continue
+    fi
+
+    if [ -n "$TARGET_FOLDER" ]; then
+        optimize_dir "$BASE_DIR/$TARGET_FOLDER" "${BASE_DIR#$PROJECT_ROOT/}/$TARGET_FOLDER"
+    elif [ "$RECURSIVE" = true ]; then
+        # Find all directories that contain at least one image file, at any
+        # depth, without descending into SKIP_DIRS or backups
+        while IFS= read -r img_dir; do
+            label="${img_dir#$PROJECT_ROOT}"
+            optimize_dir "$img_dir" "${label#/}"
+        done < <(find "$BASE_DIR" -mindepth 1 \( "${PRUNE_ARGS[@]}" \) -prune \
+                      -o -type f "${IMAGE_FIND[@]}" -print \
+                 | while IFS= read -r f; do dirname "$f"; done | sort -u)
+    else
+        for dir in "$BASE_DIR"/*/; do
+            [ -d "$dir" ] || continue
+            folder=$(basename "$dir")
+            # Skip backups and generated/third-party folders
+            [[ "$folder" == *-backup-* ]] && continue
+            [[ " ${SKIP_DIRS[*]} " == *" $folder "* ]] && continue
+            optimize_dir "${dir%/}" "${BASE_DIR#$PROJECT_ROOT/}/$folder"
+        done
+
+        # This mode looks one level down, at subfolders. Images sitting loose in
+        # the base directory are not touched, which reads as the script doing
+        # nothing at all. Say so rather than exiting quietly.
+        loose=$(find "$BASE_DIR" -maxdepth 1 -type f "${IMAGE_FIND[@]}" | wc -l | tr -d ' ')
+        if [ "$loose" -gt 0 ]; then
+            echo -e "${YELLOW}Note: $loose image(s) sit directly in ${BASE_DIR#$PROJECT_ROOT/} and were skipped.${NC}"
+            echo -e "${YELLOW}      This mode only walks subfolders. Use --recursive to include them.${NC}"
+            echo ""
+        fi
+    fi
+
+done
 
 echo -e "${GREEN}=== Optimization Complete! ===${NC}"
 echo ""
@@ -326,35 +424,19 @@ echo ""
 if [ "$PREVIEW_MODE" = true ]; then
     echo -e "${PURPLE}[PREVIEW MODE COMPLETE]${NC}"
     echo ""
-    echo -e "${YELLOW}To actually optimize the images and create a backup, run:${NC}"
-    echo "  bash optimize-images.sh"
+    echo -e "${YELLOW}To actually optimize, run the same command without --preview.${NC}"
     echo ""
 else
-    echo -e "${YELLOW}Summary:${NC}"
-    echo "Images are organized in:"
-    echo "  • $BASE_DIR/headers/    (page headers/hero images)"
-    echo "  • $BASE_DIR/events/     (event images)"
-    echo "  • $BASE_DIR/posters/    (poster images)"
-    echo "  • $BASE_DIR/projects/   (project images)"
-    echo "  • $BASE_DIR/services/   (service images)"
-    echo "  • $BASE_DIR/site/       (site assets)"
-    echo "  • $BASE_DIR/team/       (team photos)"
-    echo ""
-    echo "Your original images are backed up in:"
-    echo "  $BACKUP_DIR"
-    echo ""
-    
-    if [ -f png_to_jpg_conversions.txt ]; then
-        echo ""
+    if [ -f "$CONVERSION_LOG" ]; then
         echo -e "${YELLOW}⚠ PNG→JPG conversions detected!${NC}"
-        echo "Update markdown references with:"
+        echo "Point pages, data files and styles at the new .jpg names with:"
         echo "  bash scripts/update-image-refs.sh"
+        echo ""
     fi
-    echo -e "${GREEN}Use this to see space saved:${NC}"
-    echo "  du -sh $BACKUP_DIR $BASE_DIR/*/."
-    echo ""
     echo -e "${YELLOW}Next steps:${NC}"
-    echo "  • Verify the optimized images look good"
-    echo "  • Run again anytime to optimize newly-added images"
-    echo "  • Already-optimized images will be skipped automatically"
+    echo "  • Verify the optimized images look good in your browser"
+    echo "  • Run again anytime — already-optimized images are skipped"
+    if [ "$MAKE_BACKUP" = true ] && [ -d "$BACKUP_ROOT/$BACKUP_STAMP" ]; then
+        echo "  • Originals are in .image-backups/$BACKUP_STAMP — delete it once you're happy"
+    fi
 fi
