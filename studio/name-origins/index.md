@@ -66,7 +66,7 @@ Milton turns the unfading flower into an image of care after loss: something rem
 <br style="clear:both">
 
 ## Sacred Grain of the Americas
-But amaranth isn't just a symbol from Greek mythology and English poetry. It's also a plant---or rather, a family of more than sixty plant species---with a remarkable history in the Americas.
+Amaranth is also more than a symbol from Greek mythology and English poetry: a plant, or rather a family of more than sixty plant species, with a remarkable history in the Americas.
 
 {% include figure.html class="right" width="50%" caption="Amaranth grain, cultivated in the Americas for at least 8,000 years, was a dietary staple rivaling corn in importance." image-path="images/gemini-grains.png" %}
 

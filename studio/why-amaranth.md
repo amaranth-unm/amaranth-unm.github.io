@@ -2,7 +2,7 @@
 title: Why Amaranth?
 layout: base
 date: 2024-10-26
-description: "Amaranth helps humanists leverage digital tools—websites, podcasts, 3D printing, AI workflows—that seemed out of reach. Real humans, real projects, no prior expertise required."
+description: "Amaranth helps humanists work with digital tools—websites, podcasts, 3D printing, AI workflows—that seemed out of reach. Real humans, real projects, no prior expertise required."
 header-image: /assets/images/headers/letterforms.webp
 header-caption: Wood type letterforms
 header-title: "Why bother?"

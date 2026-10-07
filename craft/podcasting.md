@@ -23,7 +23,7 @@ A podcast episode forces an answer. You have fifteen minutes, a listener who has
 
 There are people who would find your work genuinely interesting—who care about history, culture, language, place, community, ideas—and who will never read the journal article. Not because they're unwilling, but because the form doesn't reach them. They're already listening to podcasts. They're just not hearing from you.
 
-Public scholarship isn't a compromise on rigor. It's a different discipline: one that asks you to communicate without sacrificing substance, to find the story inside the argument, to trust that your audience can follow you if you give them a way in.
+Public scholarship is a different discipline from academic rigor, not a compromise of it: one that asks you to communicate without sacrificing substance, to find the story inside the argument, and to trust that your audience can follow you if you give them a way in.
 
 ## Sharing work in progress opens doors
 

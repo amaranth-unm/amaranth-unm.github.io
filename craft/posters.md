@@ -20,7 +20,7 @@ A poster forces you to do something that most academic writing avoids: communica
 ## Clarity through constraint
 That challenge is the point. The brainstorming, sketching, and rearranging that goes into a poster reveals things about your argument that writing alone rarely does. What's the core question? What's the one image that anchors the whole thing? Which details are essential and which are filler? These are design questions, but they're also intellectual ones.
 
-Humanities posters are different from the dense, data-heavy posters common in the sciences. **A humanities poster should *invite* people in---through a striking image, a provocative question, or a visual structure that makes someone curious enough to read further and start a conversation.** The poster isn't the paper. It's the hook.
+Humanities posters are different from the dense, data-heavy posters common in the sciences. **A humanities poster should *invite* people in---through a striking image, a provocative question, or a visual structure that makes someone curious enough to read further and start a conversation.** Think of the poster as the hook, with the paper still to come.
 
 For more on why posters belong in humanities scholarship, see [Consider the Poster](https://fredgibbs.net/archive/consider-the-poster).
 

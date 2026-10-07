@@ -30,7 +30,7 @@ If you're wondering what AI can actually do for humanities research, our [AI for
 ## Community-engaged projects
 Some of the most interesting work we do connects university research to communities whose histories, materials, and stories deserve scholarly attention and public visibility. We've helped community partners make oral history collections searchable, built public archives from materials that were sitting in boxes, and worked with faculty on projects that reach well beyond the academy.
 
-Community-engaged projects often look different from traditional research collaborations: they take longer to scope, they require sustained relationships, and the questions of who the work is for matter as much as the methods. We welcome that complexity. If you're thinking about a project that involves community partners—whether you're a faculty member, a student, or a community organization—come talk to us early. These conversations are better before the scope is set.
+Community-engaged projects often look different from traditional research collaborations: they take longer to scope, they require sustained relationships, and the questions of who the work is for matter as much as the methods. We welcome that complexity. If you're thinking about a project that involves community partners, come talk to us early, no matter whether you're on faculty, a student, or part of a community organization. These conversations are better before the scope is set.
 
 <!--
 ## Book time in the Studio

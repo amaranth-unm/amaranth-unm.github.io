@@ -8,7 +8,7 @@ header-image: /assets/images/headers/com-statue-close.jpg
 ---
 
 # Printing Texture
-In our 3D printing journey, we've sometimes felt disappointed at the lack of surface texture that gets picked up by 3D scanners. 
+Across our 3D printing work, we've sometimes felt disappointed by the lack of surface texture that gets picked up by 3D scanners. 
 
 The human eye ascertains depth through color shading but a computer can't do that very easily. To capture texture, the 3D scanning process must include creating data on depth, using technology such as LiDAR or infrared, which can be tricky to do well. This is the reason that so many 3D scanned models lack texture. 
 

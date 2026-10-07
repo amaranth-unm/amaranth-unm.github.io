@@ -43,4 +43,4 @@ Once you have a layout you like, start to build it digitally. Iterate. Again. An
 
 Canva, Google Slides, and PowerPoint all work for poster layout. When you're ready to print, our [poster printing guide](/equipment/poster-printer) walks through the process with the studio's HP DesignJet printer.
 
-The goal isn't perfection. It's intentionality and connection. It's making something that communicates your ideas visually---and learning something about your own argument in the process.
+Aim for intentionality and connection, not perfection: a poster that communicates your ideas visually, and teaches you something about your own argument in the process.
