@@ -8,6 +8,7 @@
 - title: Campus Histories
   thumbnail: /assets/images/projects/campus.jpg
   display-order: 1
+  description: Each semester, a new cohort of students researches and writes the history of a UNM building, adding another layer to a growing public record of the campus.
   features:
     - Multi-semester project — each cohort builds on what previous students made
     - UNM site styling baked in via Xanthan
@@ -19,6 +20,7 @@
 - title: Metahistory
   thumbnail: /assets/images/projects/metahistory.jpg
   display-order: 2
+  description: A shared encyclopedia of historiography that keeps growing as new courses contribute pages, with a sidebar table of contents that updates itself as the collection expands.
   features:
     - Spans multiple courses and years of student contributions
     - Permanent left sidebar with auto-generated table of contents
@@ -30,6 +32,7 @@
 - title: The Silk Road
   thumbnail: /assets/images/projects/silk-road.jpg
   display-order: 3
+  description: Object pages and thematic essays trace how materials, ideas, and people moved along the Silk Road, with a map tying places and objects together.
   features:
     - Object pages with images, metadata, and interpretive essays
     - Thematic essays connecting multiple objects and historical patterns
@@ -41,6 +44,7 @@
 - title: Farming the Middle Rio Grande
   thumbnail: /assets/images/projects/farming-oral-histories.jpg
   display-order: 4
+  description: Farmer profiles pair recorded oral histories with student-written pages, connecting a qualitative methods course with local food-systems research.
   features:
     - Farmer profiles combining oral history interviews and student-written web pages
     - Cross-course collaboration between qualitative methods and local food systems courses
@@ -52,6 +56,7 @@
 - title: Medieval Elite Marriages
   thumbnail: /assets/images/projects/medieval-marriages.png
   display-order: 5
+  description: Each page builds an argument about medieval elite marriage around a single historical artifact, showing how an object can carry historical interpretation.
   features:
     - Each page centers on a single historical artifact
     - Shows how material objects can anchor historical argument
@@ -62,6 +67,7 @@
 - title: Santa Fe Trail Sites
   thumbnail: /assets/images/projects/trails.png
   display-order: 6
+  description: A map-first site lets visitors navigate historic Santa Fe Trail locations geographically, still running untouched nearly a decade after students built it.
   features:
     - Map integration with linked individual location pages
     - Geographic navigation as the primary entry point
@@ -73,6 +79,7 @@
 - title: Histories of the Future
   thumbnail: /assets/images/projects/histscifi.jpg
   display-order: 7
+  description: Proceedings from a 2015 Princeton workshop on history and science fiction, preserved as a permanent public site instead of disappearing after the event.
   features:
     - Workshop proceedings preserved as a permanent public site
     - Shows how event output can have lasting web presence

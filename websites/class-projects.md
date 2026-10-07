@@ -12,7 +12,7 @@ header-title: Bring students together
 
 ---
 
-A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only one person reads, students contribute to a shared project that lives on the open web. Each contribution is small, but together they create something no one person could build alone. Students write more carefully, design more intentionally, and care more about clarity.
+A collaborative class website changes the stakes of a course assignment. Instead of writing a paper that only the instructor reads, students build a shared project that lives on the open web — one a future student, a journalist, or a stranger who finds it through a search engine might actually read. Each contribution is small, but together they build something no single student could pull off alone. Students write more carefully, design more intentionally, and care more about clarity when they know the audience is bigger than one grader.
 {: .lead}
 
 
@@ -27,11 +27,11 @@ These are communication skills that transfer far beyond a single course. Humanit
 
 
 ## Digital literacy without coding
-Our platform teaches students how websites work---how simple code blocks display images, how metadata enables functionality, and how version control lets a group collaborate without overwriting each other's work---without requiring them to learn programming. They edit simple text files and see their work published as webpages. Many students also use AI to handle technical decisions while keeping their focus on the intellectual argument, gaining practice making thoughtful choices about how to direct AI assistance. Technology becomes a little less intimidating, and the confidence that comes from building something real is something students carry forward.
+Students edit plain text files and watch them turn into live webpages within minutes — which is how they start to understand how websites actually work: how a simple code block displays an image, how metadata quietly does the work of organizing a site, how version control lets a dozen people edit the same project without anyone overwriting anyone else's work. Many students also bring AI into the process, directing it on technical decisions while keeping their own focus on the argument. Learning to make those calls well — when to hand something off, when to double-check it, when to do it yourself — is its own kind of literacy, and it's one they carry into every project after this one.
 
 
 ## Built to last
-Commercial website builders lock content into proprietary platforms that charge subscription fees. Our sites run on GitHub Pages---free, open, and built on web standards that will still work decades from now. Some early projects haven't been touched in almost a decade and they work exactly as they did at the end of the course that created them. Sustainability by design.
+Commercial website builders lock content into proprietary platforms that charge subscription fees. Our sites run on GitHub Pages---free, open, and built on web standards that will still work decades from now. Some early class projects haven't been touched since the semester that produced them, nearly a decade ago, and they still load exactly as they did on the last day of class — by design, not by luck.
 
 
 ## How it works
@@ -42,6 +42,6 @@ The process is the same for instructors and students: create a free GitHub accou
 
 {% assign all_sites = site.data.websites | where: "category", "class-project" | sort: "display-order" %}
 {% assign sites = all_sites | slice: 0, 3 %}
-{% include card-grid.html cards=sites title-only=true gallery=true %}
+{% include card-list.html cards=sites image-height=280 %}
 
 <p class="mt-3 text-end"><a href="/websites/gallery" class="btn-cta">See all examples →</a></p>
