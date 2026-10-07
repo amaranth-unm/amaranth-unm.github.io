@@ -14,65 +14,71 @@
     - UNM site styling baked in via Xanthan
     - Card-based navigation through individual building histories
   link: https://amaranth.unm.edu/campus-history/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
 - title: Metahistory
   thumbnail: /assets/images/projects/metahistory.jpg
   display-order: 2
-  description: A shared encyclopedia of historiography that keeps growing as new courses contribute pages, with a sidebar table of contents that updates itself as the collection expands.
+  description: Students in UNM's historiography courses each write an essay on a period or historian, growing a shared encyclopedia of the history of history from antiquity to the present.
   features:
     - Spans multiple courses and years of student contributions
     - Permanent left sidebar with auto-generated table of contents
     - New pages picked up automatically as students add them
   link: https://unm-historiography.github.io/metahistory/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
 - title: The Silk Road
   thumbnail: /assets/images/projects/silk-road.jpg
   display-order: 3
-  description: Object pages and thematic essays trace how materials, ideas, and people moved along the Silk Road, with a map tying places and objects together.
+  description: Students researched individual objects and wrote thematic essays tracing how materials, ideas, and people moved along the Silk Road, tied together with an interactive map.
   features:
     - Object pages with images, metadata, and interpretive essays
     - Thematic essays connecting multiple objects and historical patterns
     - Map-based view of places and materials connected through exchange
   link: https://amaranth.unm.edu/silk-road/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
 - title: Farming the Middle Rio Grande
   thumbnail: /assets/images/projects/farming-oral-histories.jpg
   display-order: 4
-  description: Farmer profiles pair recorded oral histories with student-written pages, connecting a qualitative methods course with local food-systems research.
+  description: Students conducted and recorded oral history interviews with Rio Grande farmers, then wrote profiles pairing those interviews with research on local food systems.
   features:
     - Farmer profiles combining oral history interviews and student-written web pages
     - Cross-course collaboration between qualitative methods and local food systems courses
     - Recordings archived in the UNM Digital Repository
   link: https://oral-histories-mrg.github.io/oral-histories-of-farming/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
 - title: Medieval Elite Marriages
   thumbnail: /assets/images/projects/medieval-marriages.png
   display-order: 5
-  description: Each page builds an argument about medieval elite marriage around a single historical artifact, showing how an object can carry historical interpretation.
+  description: Each student chose a single historical artifact and built a page arguing what it reveals about medieval elite marriage.
   features:
     - Each page centers on a single historical artifact
     - Shows how material objects can anchor historical argument
   link: https://jeseyfried.github.io/medieval-marriages/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
 - title: Santa Fe Trail Sites
   thumbnail: /assets/images/projects/trails.png
   display-order: 6
-  description: A map-first site lets visitors navigate historic Santa Fe Trail locations geographically, still running untouched nearly a decade after students built it.
+  description: Students researched historic Santa Fe Trail locations and built a map-first site for navigating them geographically — still running, untouched, nearly a decade later.
   features:
     - Map integration with linked individual location pages
     - Geographic navigation as the primary entry point
     - Still running without maintenance after nearly a decade
   link: https://historic-trails.unm.edu/
+  link-text: "Visit site →"
   category: class-project
   featured: true
 
@@ -84,6 +90,7 @@
     - Workshop proceedings preserved as a permanent public site
     - Shows how event output can have lasting web presence
   link: http://histscifi.com
+  link-text: "Visit site →"
   category: class-project
   featured: true
 

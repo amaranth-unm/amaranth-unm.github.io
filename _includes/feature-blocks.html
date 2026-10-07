@@ -1,9 +1,13 @@
 {% comment %}
-  Feature blocks from page.features. Each entry takes:
-    title, text, image (+ optional position / zoom / filter),
-    link + link-text for the main button, and an optional `more:` list of
-    {title, url} — the rest of that section's top-nav items, so a block shows
-    the same shape as the menu it corresponds to.
+  Shared full-bleed showcase rows. Reads include.cards; falls back to
+  page.features for the homepage's own sections. Each entry takes:
+    title, image (or thumbnail), text (or description), an optional
+    features: list of technical/innovation notes (rendered smaller, below
+    the main text), link + link-text for the main button, and an optional
+    more: list of {title, url}.
+  Pass screenshot=true to skip the photographic grayscale/sepia filter and
+  default images to top-aligned cropping — for site-screenshot thumbnails
+  rather than header-style photography.
 {% endcomment %}
 {::nomarkdown}
 </div>
@@ -16,17 +20,28 @@
     <h2>{{ include.title }}</h2>
     {% endif %}
 
-    {% for feature in page.features %}
-    <div class="feature-block">
+    {% assign items = include.cards | default: page.features %}
+    {% assign default_position = 'center' %}
+    {% if include.screenshot %}{% assign default_position = 'top' %}{% endif %}
+
+    {% for feature in items %}
+    {% assign block_image = feature.image | default: feature.thumbnail %}
+    {% assign block_text = feature.text | default: feature.description %}
+    {% assign is_external = false %}
+    {% if feature.link contains 'http' %}{% assign is_external = true %}{% endif %}
+    <div class="feature-block{% if include.screenshot %} feature-block-screenshot{% endif %}">
       <div class="feature-block-image{% if feature.filter %} filter-{{ feature.filter }}{% endif %}"
-        style="background-image: url('{{ feature.image }}'); background-position: {{ feature.position | default: 'center' }}; background-size: {{ feature.zoom | default: 'cover' }};"
+        style="background-image: url('{{ block_image }}'); background-position: {{ feature.position | default: default_position }}; background-size: {{ feature.zoom | default: 'cover' }};"
         role="img" aria-label="{{ feature.title }}">
       </div>
       <div class="feature-block-text">
         <h2>{{ feature.title }}</h2>
-        <p>{{ feature.text }}</p>
+        {% if block_text %}<p>{{ block_text }}</p>{% endif %}
+        {% if feature.features %}
+        <ul class="feature-block-features">{% for f in feature.features %}<li>{{ f }}</li>{% endfor %}</ul>
+        {% endif %}
         {% if feature.link %}
-        <a href="{{ feature.link }}" class="btn-cta">{{ feature.link-text | default: "Learn more →" }}</a>
+        <a href="{{ feature.link }}" class="btn-cta"{% if is_external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ feature.link-text | default: "Learn more →" }}</a>
         {% endif %}
         {% if feature.more %}
         <ul class="feature-block-links">

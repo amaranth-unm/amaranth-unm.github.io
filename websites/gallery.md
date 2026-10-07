@@ -18,7 +18,7 @@ All the websites below were built by UNM students and faculty using Amaranth and
 {: .gallery-heading}
 
 {% assign class_sites = site.data.websites | where: "category", "class-project" | sort: "display-order" %}
-{% include card-list.html cards=class_sites image-height=280 %}
+{% include feature-blocks.html cards=class_sites screenshot=true %}
 
 ## Portfolios
 {: .gallery-heading}

@@ -272,6 +272,23 @@ body > .container {
   filter: grayscale(0.85) sepia(0.3) brightness(0.85);
 }
 
+/* Screenshot mode — site thumbnails need to stay crisp and legible,
+   not toned like photographic header imagery */
+.feature-block-screenshot .feature-block-image {
+  filter: none;
+}
+
+/* Technical/innovation notes — intentionally smaller and quieter than
+   the main description text above them */
+.feature-block-features {
+  list-style: none;
+  padding: 0;
+  margin: 0.85rem 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 .feature-block-text {
   flex: 1;
 }

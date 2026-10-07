@@ -8,7 +8,6 @@
 {% assign card_thumbnail = item.thumbnail | default: item.image | default: item.header-image %}
 {% assign card_summary = item.summary | default: item.description %}
 {% assign card_classes = "card card-horizontal mb-3" %}
-{% assign image_height = include.image-height | default: 150 %}
 {% if include.tag-data %}
   {% assign card_classes = card_classes | append: " sketch-tag-card" %}
 {% endif %}
@@ -17,7 +16,7 @@
   <div class="row g-0 align-items-center">
     {% if card_thumbnail %}
     <div class="col-sm-4">                
-      <img src="{{site.baseurl}}{{ card_thumbnail }}" class="img-fluid rounded-start card-image" alt="{{ item.title | escape }}" style="object-fit: cover; height: {{ image_height }}px; width: 100%;">
+      <img src="{{site.baseurl}}{{ card_thumbnail }}" class="img-fluid rounded-start card-image" alt="{{ item.title | escape }}" style="object-fit: cover; height: 150px; width: 100%;">
     </div>
     <div class="col-sm-8 d-flex align-items-center">
     {% else %}
