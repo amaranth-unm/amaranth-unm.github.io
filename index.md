@@ -104,7 +104,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
         <span>Arkham Asylum</span>
       </a>
       <a href="https://jeseyfried.github.io/medieval-marriages/" class="showcase-thumb">
-        <img src="/assets/images/projects/medieval-marriages.png" alt="Medieval Marriages">
+        <img src="/assets/images/projects/medieval-marriages.jpg" alt="Medieval Marriages">
         <span>Medieval Marriages</span>
       </a>
     </div>

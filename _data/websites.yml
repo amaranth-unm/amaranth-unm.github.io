@@ -58,7 +58,7 @@
   featured: true
 
 - title: Medieval Elite Marriages
-  thumbnail: /assets/images/projects/medieval-marriages.png
+  thumbnail: /assets/images/projects/medieval-marriages.jpg
   display-order: 5
   description: Each student chose a single historical artifact and built a page arguing what it reveals about medieval elite marriage.
   features:
@@ -70,7 +70,7 @@
   featured: true
 
 - title: Santa Fe Trail Sites
-  thumbnail: /assets/images/projects/trails.png
+  thumbnail: /assets/images/projects/trails.jpg
   display-order: 6
   description: Students researched historic Santa Fe Trail locations and built a map-first site for navigating them geographically — still running, untouched, nearly a decade later.
   features:
