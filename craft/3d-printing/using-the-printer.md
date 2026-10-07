@@ -29,7 +29,7 @@ header-image: images/kobra3.jpg
 - If the printing stops and an error message comes up on the touchpad about the filament not extruding or loading properly, click 'Resume.' The printer usually does another round of preparatory extrusion and the printing then proceeds smoothly after that. If you get the same error a second time, then cancel the print and seek assistance.
 - Sometimes a spool of filament gets wound in a way that causes the filament to cross over itself during a print. If this happens, unwind the spool and rewind it. You can do this while the filament is still loaded. Click 'Resume' on the touchpad.
 
-For more detailed troubleshooting, refer to the [Anycubic Kobra 3 manual](https://www.anycubic.com/pages/download) or the [Orca Slicer documentation](https://github.com/SoftFever/OrcaSlicer/wiki).
+For more detailed troubleshooting, refer to the [Anycubic Kobra 3 manual](https://wiki.anycubic.com/en/fdm-3d-printer/kobra-3) or the [Orca Slicer documentation](https://github.com/SoftFever/OrcaSlicer/wiki).
 
 ## Tutorial Videos on Orca Slicer and the Anycubic Kobra 3 Printer
 

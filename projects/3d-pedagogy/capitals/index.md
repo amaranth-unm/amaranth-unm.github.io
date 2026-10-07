@@ -111,10 +111,10 @@ The Scan the World Project's [collection](https://www.myminifactory.com/users/Sc
       </tr>
       <tr>
         <td>
-          {% include figure.html image-path="images/wissenbourg-cap-model.jpg" alt="Image of Wissembourg capital model" caption="" %}
+          {% include figure.html image-path="images/wissembourg-cap-model.jpg" alt="Image of Wissembourg capital model" caption="" %}
         </td>
         <td>
-          {% include figure.html image-path="images/wissenbourg-cap-orig.jpg" alt="Image of original Wissembourg capital" caption="" %}
+          {% include figure.html image-path="images/wissembourg-cap-orig.jpg" alt="Image of original Wissembourg capital" caption="" %}
         </td>
         <td>Church of St. Peter and Paul in Wissembourg</td>
         <td>ca. 1140</td>

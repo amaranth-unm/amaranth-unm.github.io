@@ -53,7 +53,7 @@ If for some reason there is a gap after deleting the clip, go to Audacity -> Pre
   class="right"
   width="40%"
   caption="What it looks like when you drag an audio file into Audacity"
-  image-path="images/audacity-drag-audio.jpg"
+  image-path="images/audacity-drag-audio.png"
 %}
 
 - Find (or make) a sound file you want to integrate into your final audio clip. One great Creative Commons site is [Pixabay](https://pixabay.com/), but use whatever you like. 
