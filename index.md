@@ -118,11 +118,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
 ## Bring the question early
 Some of the most interesting collaborations start as a half-formed research question, a course you want students to experience differently, a collection that deserves a public life, or a digital method you are not sure how to evaluate. We want to hear about it.
 
-<<<<<<< Updated upstream
-We work alongside you through the entire duration of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, we not only help you build the thing itself but guide you through the learning that comes from creating. [Read more about our studio ethos →](/studio/ethos)
-=======
 We work alongside you from the first question through the public life of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, what matters less is the finished thing and more what the process makes thinkable. [Read more about our studio ethos →](/studio/ethos)
->>>>>>> Stashed changes
 
 {% include studio-hours.html %}
 

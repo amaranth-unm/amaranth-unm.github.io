@@ -51,11 +51,7 @@ We want to be part of the research conversation early, not brought in for techni
 
 ## Building capability
 
-<<<<<<< Updated upstream
 The goal of working with AI is to expand what you can do and ask—and to build the judgment to know when AI is helping and when it's misleading you.
-=======
-Working with AI isn't meant to hand off intellectual work — it's meant to expand what you can do and ask, and to build the judgment to know when AI is helping and when it's misleading you.
->>>>>>> Stashed changes
 
 Faculty who work through AI-assisted research projects develop the kind of critical fluency that shapes how they design courses and advise students. Students leave with skills and confidence that transfer well beyond a single assignment. And, in addition to the final product, the documented workflow can itself count as a research output.
 

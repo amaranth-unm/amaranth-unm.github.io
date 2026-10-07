@@ -64,23 +64,13 @@ Much of digital humanities over the last two decades has explored tools and tech
 
 Amaranth takes a different approach, one that reflects where the field has arrived and where it needs to go.
 
-<<<<<<< Updated upstream
-**Scholarship should reach people.** Amaranth works with faculty and students on websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. Our approach takes communication as seriously as analysis, with the goal of maintaining complexity while also creating for public consumption.
-
-**Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training, including 3D printers, audio recording gear, large-format printing, and VR headsets, but the studio is organized around the goals of the project. A faculty member developing an oral history project needs more than a microphone: planning, recording, editing, archiving, publishing, and a clear sense of whom the work serves. 
-=======
 **Scholarship should reach people.** Amaranth works with faculty and students on websites, digital exhibits, podcasts, oral history projects, and interactive narratives that bring research to wider audiences. This isn't about simplifying scholarship for public consumption; it's about taking communication as seriously as analysis.
 
 **Tools should serve questions, not the other way around.** Amaranth provides access to equipment and training, including 3D printers, audio recording gear, large-format printing, and VR headsets, organized around what people are trying to do rather than around the technology itself. A faculty member developing an oral history project needs more than a microphone: planning, recording, editing, archiving, publishing, and a clear sense of whom the work serves.
->>>>>>> Stashed changes
 
 **Community engagement is part of the work.** Digital humanities at its best connects university research to communities whose histories and materials deserve scholarly attention. Amaranth actively seeks projects that bring community partners into the research process as partners and collaborators. This kind of work takes longer and requires more care, and it's worth it.
 
-<<<<<<< Updated upstream
 **Course integrations.** Many faculty want students to engage with digital media and think outside the traditional academic essay. Amaranth works with instructors to choose an appropriate site or platform, set up a sustainable structure, prepare student-facing instructions, and provide classroom visits and studio hours for technical support. Students leave with real capability and confidence because they understand how to direct a digital or AI-assisted project, evaluate its outputs, and take intellectual responsibility for the result.
-=======
-**Course integrations.** Many faculty want students to engage with digital media and think outside the traditional academic essay. Amaranth works with instructors to choose an appropriate site or platform, set up a sustainable structure, prepare student-facing instructions, and provide classroom visits and studio hours for technical support. What we're really after is students who leave with real capability and confidence: who understand how to direct a digital or AI-assisted project, evaluate its outputs, and take intellectual responsibility for the result.
->>>>>>> Stashed changes
 
 **Amaranth and UNM.** Amaranth helps make UNM a place where [AI in the humanities](/projects/ai-humanities) and social sciences is practical, ethical, and publicly accountable. That means experiential learning, digital literacy across tools and workflows, university work connected to community partners, and humanities research that people can actually encounter. 
 

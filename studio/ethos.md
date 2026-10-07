@@ -20,13 +20,7 @@ Amaranth is a collaborative studio that brings the humanities and technology tog
 ## Human-centered technology
 Amaranth's work starts with people, sources, communities, and questions, not tools. That matters most with AI. We are interested in AI when it helps [humanists](/projects/humanities-for-ai) see across larger collections, structure messy materials, compare images, or make public projects possible sooner. We are not interested in AI as a substitute for interpretation, accountability, or care.
 
-<<<<<<< Updated upstream
 Human-centered AI means keeping the researcher close to the evidence: prompts that can be inspected, outputs that can be checked, sources that remain traceable, and communities that are treated as partners rather than data. Instead of trying to automate humanities work, we experiment with ways to make more of that work visible, discussable, and responsible.
-=======
-Amaranth's work starts with people, sources, communities, and questions, not tools. That matters most with AI. We are interested in AI when it helps humanists see across larger collections, structure messy materials, compare images, or make public projects possible sooner. We are not interested in AI as a substitute for interpretation, accountability, or care.
-
-Human-centered AI means keeping the researcher close to the evidence: prompts that can be inspected, outputs that can be checked, sources that remain traceable, and communities that are treated as partners rather than data. We're not trying to automate humanities work; we're trying to make more of that work visible, discussable, and responsible.
->>>>>>> Stashed changes
 
 
 ## Our interests and focus

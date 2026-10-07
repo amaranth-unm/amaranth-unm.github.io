@@ -20,11 +20,7 @@ Most academic web publishing advice amounts to picking the least-bad platform. S
 
 Xanthan prioritizes openness and pedagogy. It's built on Jekyll and GitHub Pages: open source, free to host, no subscription. Sites are created from easily accessible and editable plain-text files. This infrastructure is so basic to web fundamentals that Xanthan can be counted on as a long-term sustainable platform.
 
-<<<<<<< Updated upstream
-We argue that digital humanities work should be able to fulfill a sustainabilty promise its audiences---that a site built today won't disappear after a security patch, or move behind a higher paywall. This also means that changing platforms should not require you to over with your content.
-=======
 That's more than a technical preference — it's an argument about what digital humanities work should be able to promise its audiences: that a site built today won't disappear after a security patch, move behind a higher paywall, or force you to start over with your content when you change platforms.
->>>>>>> Stashed changes
 
 
 ## What Xanthan offers
