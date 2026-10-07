@@ -15,14 +15,14 @@
 
 - title: "AI"
   items:
+    - title: "AI Ethics"
+      url: "/projects/ai-ethics"
     - title: "AI for Humanities"
       url: "/projects/ai-humanities"
     - title: "Humanities for AI"
       url: "/projects/humanities-for-ai"
     - title: "AI Sketchbook"
       url: "/projects/ai-sketchbook"
-    - title: "AI Ethics"
-      url: "/projects/ai-ethics"
     - title: "Local LLM"
       url: "/projects/local-ai"
 
