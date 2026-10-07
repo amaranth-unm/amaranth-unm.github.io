@@ -26,7 +26,7 @@ The printer uses inkjet cartridges, which are expensive to replace, so please re
   class="right"
   width="50%"
   caption="The usual default settings will NOT work correctly"
-  image-path="images/mac-36x24-jpg-or-pdf-dialog-box-initial.png"
+  image-path="images/mac-36x24-jpg-or-pdf-dialog-box-initial.jpg"
 %}
 
 Notice the problems with the usual default settings in the print dialog box
@@ -39,7 +39,7 @@ This next image shows the correct settings for printing a 36x24 poster
   class="right"
   width="50%"
   caption="These are the correct settings"
-  image-path="images/mac-36x24-jpg-or-pdf-change-paper-915-610-marked.png"
+  image-path="images/mac-36x24-jpg-or-pdf-change-paper-915-610-marked.jpg"
 %}
 
 - Click on the Paper Size menu and choose 915.58 x 610.99 mm
@@ -54,7 +54,7 @@ This next image shows the correct settings for printing a 36x24 poster
   class="right"
   width="50%"
   caption="The usual default settings will NOT work correctly"
-  image-path="images/pc-initial-print-dialog.png"
+  image-path="images/pc-initial-print-dialog.jpg"
 %}
 Notice the problems with the usual default settings in the print dialog box
 - The print preview should not show extra space around the edges
@@ -65,7 +65,7 @@ Notice the problems with the usual default settings in the print dialog box
   class="right"
   width="50%"
   caption="The Page Setup box"
-  image-path="images/pc-arch-d-page-setup-marked.png"
+  image-path="images/pc-arch-d-page-setup-marked.jpg"
 %}
 Click on Page Setup at the bottom left corner of the print dialog box
 Choose Arch D for the Paper Size and Roll 1 for Source
@@ -76,7 +76,7 @@ This next image shows the correct settings for printing a 36x24 poster
   class="right"
   width="50%"
   caption="These are the correct settings"
-  image-path="images/pc-actual-size-36-24-print-preview-marked.png"
+  image-path="images/pc-actual-size-36-24-print-preview-marked.jpg"
 %}
 
 - The print preview should now show the image taking up the entire box and the document size as 36 x 24 inches

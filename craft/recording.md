@@ -52,7 +52,7 @@ The Mac workstations and the PC laptop in the Amaranth studio all have Audacity 
   class="left"
   width="45%"
   caption="Garage Band screenshot"
-  image-path="images/garage-band-1.png"
+  image-path="images/garage-band-1.jpg"
 %}
 
 {% include figure.html
@@ -123,7 +123,7 @@ Recording is as easy as clicking the record button, but check a few things are s
   class="right"
   width="50%"
   caption="How to select YETI mic as the recording input device"
-  image-path="images/audacity-audio-setup.png"
+  image-path="images/audacity-audio-setup.jpg"
 %}
 Check that the YETI mic as the recording input device is correctly connected by clicking on the Audio Setup button in the top row of controls
 
@@ -133,7 +133,7 @@ Check that the YETI mic as the recording input device is correctly connected by 
   class="right"
   width="40%"
   caption="The Gain dial, at its lowest setting"
-  image-path="images/gain-dial.png"
+  image-path="images/gain-dial.jpg"
 %}
 
 Check the sound meter to see if thee microphone input is too high. You want the dB input to get up to around -12, and you want it always to be green. Yellow or red tells you the input is too loud.

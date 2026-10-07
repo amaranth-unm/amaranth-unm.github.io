@@ -26,7 +26,7 @@ The main task at hand is to edit out pauses, ums, and other sound glitches. When
   class="right"
   width="50%"
   caption="If you hit Control+i then this line will become a division between two clips"
-  image-path="images/audacity-divide-clip.png"
+  image-path="images/audacity-divide-clip.jpg"
 %}
 Click in the middle of an audio clip and then use Control+i to divide that clip into two parts
 
@@ -35,7 +35,7 @@ Click in the middle of an audio clip and then use Control+i to divide that clip 
   class="right"
   width="50%"
   caption="This is what it looks like to select a clip before hitting the Delete key to remove it"
-  image-path="images/audacity-select-clip.png"
+  image-path="images/audacity-select-clip.jpg"
 %}
 
 To remove pauses, drag the cursor over a portion of an audio clip to select it for deletion and then hit the Delete key
@@ -53,7 +53,7 @@ If for some reason there is a gap after deleting the clip, go to Audacity -> Pre
   class="right"
   width="40%"
   caption="What it looks like when you drag an audio file into Audacity"
-  image-path="images/audacity-drag-audio.png"
+  image-path="images/audacity-drag-audio.jpg"
 %}
 
 - Find (or make) a sound file you want to integrate into your final audio clip. One great Creative Commons site is [Pixabay](https://pixabay.com/), but use whatever you like. 

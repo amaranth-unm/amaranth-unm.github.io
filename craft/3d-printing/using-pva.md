@@ -4,7 +4,7 @@ title: Using PVA
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: images/pva-dissolving.png
+header-image: images/pva-dissolving.jpg
 ---
 
 # Coming soon

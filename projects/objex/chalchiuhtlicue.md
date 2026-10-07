@@ -59,7 +59,7 @@ Scan the World offers one of the largest repositories of printable 3D models. Th
   class="right"
   width="40%"
   caption="Screenshot of the object record at Scan the World"
-  image-path="images/chalc-scan-wrld.png"
+  image-path="images/chalc-scan-wrld.jpg"
 %}
 
 We downloaded the 3D model, in STL file format, from Scan the World and then sliced it. After about three hours, we had the printed object ready to display.

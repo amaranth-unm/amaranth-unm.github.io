@@ -100,7 +100,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
         <span>Metahistory</span>
       </a>
       <a href="https://hadas496.github.io/comics-and-Reaganomics-/" class="showcase-thumb">
-        <img src="/assets/images/projects/asylum.png" alt="Arkham Asylum">
+        <img src="/assets/images/projects/asylum.jpg" alt="Arkham Asylum">
         <span>Arkham Asylum</span>
       </a>
       <a href="https://jeseyfried.github.io/medieval-marriages/" class="showcase-thumb">

@@ -39,8 +39,8 @@ The below image shows two prints of the same model file, one printed with three 
 The following images in the carousel show screenshots of Touch Terrain and the printing of a model of terrain further zoomed out but with New Mexico in the center. This model demonstrates the result of using all four colors to indicate water and topography. The vertical distortion for this model is x50. 
 
 {% assign images =
-"images/sw-50-vert-ex.png,
-images/touchter-preview.png,
+"images/sw-50-vert-ex.jpg,
+images/touchter-preview.jpg,
 images/multi-color-mid-print.jpg,
 images/multicolor-sw-nwmex.jpg" | split: ','
 %}
@@ -73,7 +73,7 @@ For this model of the Santa Fe Trail, we wanted to create something larger than 
   class="left"
   width="60%"
   caption="Touch terrain screenshot of SF Trail"
-  image-path="images/sftrail-touchter-select.png"
+  image-path="images/sftrail-touchter-select.jpg"
 %}
 <br style="clear: both">
 Then we sliced the model on two plates, as shown in the image below.
@@ -82,7 +82,7 @@ Then we sliced the model on two plates, as shown in the image below.
   class="left"
   width="60%"
   caption="Santa Fe Trail model in Orca Slicer"
-  image-path="images/printing-with-two-plates.png"
+  image-path="images/printing-with-two-plates.jpg"
 %}
 
 {% include figure.html

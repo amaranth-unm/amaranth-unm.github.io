@@ -68,7 +68,7 @@ Milton turns the unfading flower into an image of care after loss: something rem
 ## Sacred Grain of the Americas
 Amaranth is also more than a symbol from Greek mythology and English poetry: a plant, or rather a family of more than sixty plant species, with a remarkable history in the Americas.
 
-{% include figure.html class="right" width="50%" caption="Amaranth grain, cultivated in the Americas for at least 8,000 years, was a dietary staple rivaling corn in importance." image-path="images/gemini-grains.png" %}
+{% include figure.html class="right" width="50%" caption="Amaranth grain, cultivated in the Americas for at least 8,000 years, was a dietary staple rivaling corn in importance." image-path="images/gemini-grains.jpg" %}
 
 Archaeological evidence suggests that people in Mesoamerica began cultivating amaranth around 6000 BCE, making it one of the oldest domesticated crops in the Western Hemisphere. By the time the Aztec Empire rose to power in the fifteenth century, amaranth---known as *huāuhtli* in Nahuatl---had become one of the three primary tribute crops, alongside maize and beans. Some scholars estimate that amaranth provided up to 80% of the Aztec diet's caloric energy.
 
@@ -124,7 +124,7 @@ The same plant that sustained one community became threatening to another system
 
 For centuries, amaranth remained a marginal crop, known mainly to indigenous communities and a few botanists. That began to change in the 1970s, when the American health food movement rediscovered this "ancient grain."
 
-{% include figure.html class="right" width="45%" caption="Modern amaranth products marketed as superfoods. The grain's complete protein profile and high nutrient density have fueled its commercial revival." image-path="images/gemini-grains.png" %}
+{% include figure.html class="right" width="45%" caption="Modern amaranth products marketed as superfoods. The grain's complete protein profile and high nutrient density have fueled its commercial revival." image-path="images/gemini-grains.jpg" %}
 
 Nutritional analysis revealed what indigenous peoples had known for millennia: amaranth is remarkably nutritious. Unlike most grains, it contains all nine essential amino acids, making it a complete protein---rare for a plant food. It's rich in iron, magnesium, phosphorus, and fiber. It's naturally gluten-free. In an era of increasing interest in plant-based diets and sustainable agriculture, amaranth seemed almost too good to be true.
 
@@ -174,7 +174,7 @@ Survival can look like resilience in one context and resistance in another. Mean
 
 This brings us back to why we chose *amaranth* for a digital humanities studio.
 
-{% include figure.html class="right" width="45%" caption="Hopi Red Dye amaranth, used for centuries to color traditional piki bread and textiles. The same plant family provides food, medicine, dye, and symbolic meaning." image-path="images/gemini-hopi-red-dye.png" %}
+{% include figure.html class="right" width="45%" caption="Hopi Red Dye amaranth, used for centuries to color traditional piki bread and textiles. The same plant family provides food, medicine, dye, and symbolic meaning." image-path="images/gemini-hopi-red-dye.jpg" %}
 
 Amaranth represents the inherent contradictions that humanists explore. The same plant family gives us sacred grain and stubborn weed, superfood and superpest, ancient tradition and modern biotechnology problem. One species feeds people; another resists every attempt to control it. The meaning depends entirely on context---who's growing it, where, and why.
 

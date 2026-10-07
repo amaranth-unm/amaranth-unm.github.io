@@ -8,7 +8,7 @@ header-position: center
 header-size: 100%
 cards:
   - title: "Chalchiuhtlicue"
-    image: "images/chalchiuhtlicue-temp.png"
+    image: "images/chalchiuhtlicue-temp.jpg"
     summary: Challenging expectations of artifact size.
     link: "chalchiuhtlicue"
 

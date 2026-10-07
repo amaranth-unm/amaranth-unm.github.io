@@ -4,7 +4,7 @@ title: 2D Images to 3D Models
 subtitle:
 author: Jonathan Seyfried
 date: 2025-09-15
-header-image: images/2d-3d-header.png
+header-image: images/2d-3d-header.jpg
 ---
 
 # 2D Images to 3D Models

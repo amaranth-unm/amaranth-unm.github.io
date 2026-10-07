@@ -14,7 +14,7 @@ header-height: 30vh
   class="left"
   width="60%"
   caption="Printer settings in Orca Slicer"
-  image-path="images/orca-printer-settings.png"
+  image-path="images/orca-printer-settings.jpg"
 %}
   <br style="clear: both">
 - Ensure the filament type matches the one loaded in the printer.
@@ -24,7 +24,7 @@ header-height: 30vh
   class="left"
   width="60%"
   caption="Printer settings in Orca Slicer"
-  image-path="images/orca-slicer1.png"
+  image-path="images/orca-slicer1.jpg"
 %}
   <br style="clear: both">
 - Adjust the print settings (e.g., layer height, infill percentage) based on your desired print quality.
@@ -33,7 +33,7 @@ header-height: 30vh
   class="left"
   width="60%"
   caption="Model after slicing"
-  image-path="images/orca-slicer2.png"
+  image-path="images/orca-slicer2.jpg"
 %}
   <br style="clear: both">
 - You can preview each layer, and nozzle position within each layer, by moving the toggle bars at the right and bottom of the screen. Save the sliced file as a .gcode file to an SD card or USB drive for printing.

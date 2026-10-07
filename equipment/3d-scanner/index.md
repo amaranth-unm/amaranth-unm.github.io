@@ -31,7 +31,7 @@ For more information about the Revopoint POP3 scanner and software, visit their 
   class="left"
   width="60%"
   caption="Initial scanned material"
-  image-path="images/Revoscan-procedures-1.png"
+  image-path="images/Revoscan-procedures-1.jpg"
 %}
   <br style="clear: both">
 
@@ -44,7 +44,7 @@ For more information about the Revopoint POP3 scanner and software, visit their 
   class="left"
   width="60%"
   caption="Overlapping images for merging"
-  image-path="images/Revoscan-merging.png"
+  image-path="images/Revoscan-merging.jpg"
 %}
   <br style="clear: both">
 
