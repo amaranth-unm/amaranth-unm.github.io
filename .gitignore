@@ -1,3 +1,6 @@
 _site
 .DS_Store
 _config.yml
+
+# Artefacts from scripts/optimize-images.sh
+png_to_jpg_conversions.txt
