@@ -1,0 +1,27 @@
+---
+title: ScrollStories
+layout: base
+date: 2024-10-26
+description: "ScrollStories are scroll-driven digital narratives where backgrounds shift and text emerges as readers move through your argument. Built with Xanthan at Amaranth, UNM."
+header-image: /assets/images/headers/scroll-journey.jpg
+header-title: "Stories designed to be experienced"
+header-tier: section
+header-filter: photo
+header-zoom: 130%
+header-position: 50% 80%
+redirect_from: /websites/scrollstories/
+---
+
+## A webpage designed to move through
+
+A ScrollStory is what happens when you treat a webpage not as a document but as a designed experience. As readers scroll, backgrounds shift, images emerge, and text appears in rhythm with the narrative. The design decisions---pacing, scale, visual rhythm, contrast---shape how your audience encounters your argument, turning reading into something closer to walking through a story.
+
+ScrollStories are built on the same open-source platform as all our websites, which means your story, your images, and your design choices live in files you own---not locked inside a proprietary database. They work on any device, cost nothing to host, and will still be online years from now.
+
+You don't need to be a designer or a developer to build one. If you can write in Markdown and choose images that matter, you can create a ScrollStory. We provide the templates, you bring the narrative, and AI helps smooth over technical bumps.
+
+{% assign all_sites = site.data.websites | where: "category", "scrollstory" | sort: "display-order" %}
+{% assign sites = all_sites | slice: 0, 3 %}
+{% include card-grid.html cards=sites title-only=true gallery=true %}
+
+<p class="mt-3 text-end"><a href="/public-scholarship/gallery" class="btn-cta">See all examples →</a></p>

@@ -6,4 +6,5 @@ baseurl:
 safe: true
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 analytics_id: G-RR5V3Q24RH

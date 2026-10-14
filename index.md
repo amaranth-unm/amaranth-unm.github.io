@@ -14,59 +14,59 @@ features:
   - title: "About the studio"
     image: "/assets/images/headers/DP826009.jpg"
     text: "The studio keeps a public record of its own thinking: how we approach collaboration, what digital humanities means at UNM, what a year of projects actually produced, and where the work goes next. Our research agenda runs from AI-assisted humanities workflows to digital cultural heritage, tactile pedagogy, open documentation, and community collaboration."
-    link: "/studio/ethos"
+    link: "/about/ethos"
     link-text: "How we work →"
     zoom: 110%
     more:
       - title: "The Studio"
-        url: "/studio/space"
+        url: "/about/space"
       - title: "Digital Humanities"
-        url: "/studio/digital-humanities"
+        url: "/about/digital-humanities"
       - title: "AY 25-26 in Review"
-        url: "/studio/annual-report-25-26"
+        url: "/about/annual-report-25-26"
       - title: "Future Directions"
-        url: "/studio/future-directions"
+        url: "/about/future-directions"
 
   - title: "AI for humanities research"
     image: "/assets/images/headers/eniac-programmers.jpg"
     text: "AI enables new research workflows that need close reading, source criticism, provenance, and ethical attention. We help scholars develop accountable methods for using AI for research tasks like transcription, paleography, bibliography, and mapping."
-    link: "/projects/ai-humanities"
+    link: "/ai/humanities-research"
     link-text: "Explore AI + research →"
     more:
       - title: "Humanities for AI"
-        url: "/projects/humanities-for-ai"
+        url: "/ai/humanities-for-ai"
       - title: "AI Sketchbook"
-        url: "/projects/ai-sketchbook"
+        url: "/ai/sketchbook"
 
   - title: "Public scholarship"
     image: "/assets/images/headers/press.webp"
     filter: "woodcut"
     text: "Websites, exhibits, posters, and scroll-driven narratives are forms of argument. We work with instructors and researchers to build them on open infrastructure that the authors own: class sites where students write for readers beyond the instructor, portfolios that move with a scholar between institutions, and projects that stay online long after the semester ends."
-    link: "/websites/class-projects"
+    link: "/public-scholarship/class-projects"
     link-text: "Bring students into the work →"
     zoom: 110%
     more:
       - title: "Xanthan"
-        url: "/projects/xanthan"
+        url: "/public-scholarship/xanthan"
       - title: "Portfolio Websites"
-        url: "/websites/portfolios"
+        url: "/public-scholarship/portfolios"
       - title: "ScrollStories"
-        url: "/websites/scrollstories"
+        url: "/public-scholarship/scrollstories"
       - title: "Posters"
-        url: "/craft/posters"
+        url: "/public-scholarship/posters"
       - title: "Gallery"
-        url: "/websites/gallery"
+        url: "/public-scholarship/gallery"
 
   - title: "3D pedagogy"
     image: "/assets/images/headers/com-statue-close.jpg"
     text: "3D printing becomes pedagogically useful when it helps students compare, handle, question, and remember. We study how replicas, terrain models, and scanned objects can make scale, texture, and spatial relationships part of humanities learning."
-    link: "/projects/3d-pedagogy"
+    link: "/3d-pedagogy"
     link-text: "Tactile learning →"
     more:
       - title: "3D Prints"
-        url: "/craft/3d-printing"
+        url: "/3d-pedagogy/printing"
       - title: "Objex"
-        url: "/projects/objex"
+        url: "/3d-pedagogy/objex"
 
   - title: "Collaborate"
     image: "/assets/images/headers/collaboration.jpg"
@@ -108,7 +108,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
         <span>Medieval Marriages</span>
       </a>
     </div>
-    <p class="showcase-link"><a href="websites/gallery">See more public projects →</a></p>
+    <p class="showcase-link"><a href="/public-scholarship/gallery">See more public projects →</a></p>
   </div>
 </div>
 <div class="container">
@@ -118,7 +118,7 @@ Our work is deliberately pedagogical. We help people build things, but the deepe
 ## Bring the question early
 Some of the most interesting collaborations start as a half-formed research question, a course you want students to experience differently, a collection that deserves a public life, or a digital method you are not sure how to evaluate. We want to hear about it.
 
-We work alongside you from the first question through the public life of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, what matters less is the finished thing and more what the process makes thinkable. [Read more about our studio ethos →](/studio/ethos)
+We work alongside you from the first question through the public life of a project: framing the problem, choosing methods, designing assignments or workflows, building iteratively, and deciding how the work should be shared and sustained. Whether it is a class integration, an AI-assisted research project, a community collaboration, or something you have not quite figured out yet, what matters less is the finished thing and more what the process makes thinkable. [Read more about our studio ethos →](/about/ethos)
 
 {% include studio-hours.html %}
 
