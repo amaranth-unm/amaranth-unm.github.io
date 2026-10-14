@@ -4,7 +4,13 @@
     - title: "Philosophy"
       url: "/studio/ethos"
     - title: "The Studio"
+<<<<<<< Updated upstream
       url: "/studio/space"
+=======
+      url: "/about/space"
+    - title: "Why the name"
+      url: "/about/why-the-name"
+>>>>>>> Stashed changes
     - title: "Digital Humanities"
       url: "/studio/digital-humanities"
     - title: "AY 25-26 in Review"
