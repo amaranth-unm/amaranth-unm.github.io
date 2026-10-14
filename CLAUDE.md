@@ -44,7 +44,11 @@ Then visit http://localhost:4000
 │   ├── README.md            # shared with Xanthan — don't edit
 │   ├── optimize-images.sh   # shared with Xanthan — don't edit
 │   └── update-image-refs.sh # shared with Xanthan — don't edit
-└── [content folders]    # websites/, audio/, 3d-printing/, equipment/, etc.
+├── about/               # "About" menu: studio pages, equipment/, name-origins/
+├── ai/                  # "AI" menu
+├── public-scholarship/  # "Public Scholarship" menu: websites, posters, audio guides
+├── 3d-pedagogy/         # "3D Pedagogy" menu: index is Tactile Learning; printing/, objex/
+└── collaborate.md       # top-level pages that sit outside the menus
 ```
 
 ## Content Guidelines
@@ -108,7 +112,7 @@ copy newer versions from xanthan-web. What's specific to Amaranth is the sizes:
 - **Locally:** add `--preview` first to see what would change.
   ```bash
   bash scripts/optimize-images.sh --no-backup --folder headers --width 2000
-  bash scripts/optimize-images.sh --no-backup --recursive --base-dir studio/name-origins --width 2000
+  bash scripts/optimize-images.sh --no-backup --recursive --base-dir about/name-origins --width 2000
   bash scripts/optimize-images.sh --no-backup --folder team --width 1200
   # everything else at the default 1600 — name the folders you've added images to
   bash scripts/optimize-images.sh --no-backup --recursive --base-dir craft --base-dir projects
@@ -121,15 +125,21 @@ copy newer versions from xanthan-web. What's specific to Amaranth is the sizes:
 | Type | Max Width | Use Case |
 |------|-----------|----------|
 | headers | 2000px | Page heroes |
-| ScrollStory backgrounds (`studio/name-origins/images`) | 2000px | Full-screen `scrollybox/bg` images |
+| ScrollStory backgrounds (`about/name-origins/images`) | 2000px | Full-screen `scrollybox/bg` images |
 | events/posters/projects/services/site | 1600px | General content |
 | team | 1200px | Portraits |
 
 ## Navigation
-Navigation is defined in `_data/top-nav.yml`. When adding new pages:
-1. Create the markdown file in the appropriate folder
+Navigation is defined in `_data/top-nav.yml`. Each top-level menu has one folder, and a page lives in the folder of the menu it appears under, so the URL matches the menu (About > Future Directions is `about/future-directions.md` at `/about/future-directions`). Pages that aren't in a menu go in the folder of the section they belong to.
+
+When adding new pages:
+1. Create the markdown file in the folder for its menu
 2. Add entry to `top-nav.yml` if it should appear in nav
 3. Use `disabled: true` for placeholder/coming-soon items
+
+When moving or renaming a page, keep its old URL working: `git mv` the page together with its `images/` folder, update links to it, and add the old URL to its front matter as `redirect_from: /old/path` (the `jekyll-redirect-from` plugin builds the redirect).
+
+Don't create top-level folders that share a name with another amaranth-unm repo published under amaranth.unm.edu, such as `ai-sketchbook/`, `reliable-ai/`, or `campus-history/`. Those URLs belong to the separate sites.
 
 ## Common Tasks
 
