@@ -141,19 +141,19 @@
   category: scrollstory
 
 - title: Why Amaranth?
-  thumbnail: /studio/name-origins/images/amaranth.jpg
+  thumbnail: /about/name-origins/images/amaranth.jpg
   display-order: 3
   features:
     - Internal demo of the scrollstory format
     - Rich use of botanical and historical imagery
-  link: /studio/name-origins/
+  link: /about/name-origins/
   category: scrollstory
 
 - title: Mesa Vista Hall
-  thumbnail: /websites/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
+  thumbnail: /public-scholarship/scrollstories/mesa-vista-hall/images/mvh-construction.jpg
   display-order: 4
   features:
     - Demo scrollstory using archival UNM photographs
     - Good preview of the format before committing to a full project
-  link: /websites/scrollstories/mesa-vista-hall/
+  link: /public-scholarship/scrollstories/mesa-vista-hall/
   category: scrollstory

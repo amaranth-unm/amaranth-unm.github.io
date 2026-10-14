@@ -1,0 +1,62 @@
+---
+layout: base
+title: The Space
+author: Fred Gibbs
+date: 2025-01-01
+description: "Visit the Amaranth studio in Mesa Vista Hall at UNM. Open studio hours, equipment for 3D printing, audio recording, poster printing, and collaborative workspace for digital humanities projects."
+header-image: /assets/images/headers/cabinet.jpg
+header-title: "Where the work happens"
+header-tier: section
+header-filter: woodcut
+header-height: 60vh
+redirect_from: /studio/space
+---
+
+## Mesa Vista Hall
+
+Amaranth lives in Mesa Vista Hall at UNM---a workspace where students, scholars, and community members come together to experiment with technology, design, and humanities storytelling. Whether you're printing a 3D model, editing a podcast, building a ScrollStory, or just thinking through a project idea, the studio is a place to try things, get feedback, and learn by doing.
+
+You don't need an appointment to stop by during studio hours. Bring your laptop, bring a project, or just bring curiosity. People work on their own things alongside each other, ask questions, share what they're learning, and help each other troubleshoot. Think of it like a pottery studio: someone shows you how to center the clay, but you're the one at the wheel.
+
+
+## Come by
+
+{% include studio-hours.html %}
+
+Or email us at <amaranth@unm.edu> to [book a consultation](/collaborate).
+
+## Directions
+
+<iframe width="200" height="400" src="https://www.youtube.com/embed/_u1CbUogvb8" title="How to Find the Amaranth Digital Humanities Studio at UNM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## What's here
+
+We maintain a range of tools for humanities projects---all available for students, faculty, and community collaborators.
+
+### Printing & fabrication
+- [**3D Printer**](/about/equipment/3d-printer) --- Anycubic Kobra 3 for printing models, terrain maps, architectural details, and experimental objects
+- [**3D Scanner**](/about/equipment/3d-scanner) --- Digitize physical objects for study, comparison, or reproduction
+- [**Poster Printer**](/about/equipment/poster-printer) --- HP DesignJet T630 for large-format academic posters and visual projects
+
+### Audio & media
+- [**Podcast Microphones**](/about/equipment/yeti-mics) --- YETI USB mics for recording oral histories, podcasts, and interviews
+- [**360 Camera**](/about/equipment/360-camera) --- Capture immersive panoramic images of spaces and sites
+
+### Exploration
+- [**VR Headsets**](/about/equipment/vr-headsets) --- Meta Quest 3 and HTC Vive Focus for exploring and critiquing virtual environments
+
+
+## A look inside
+
+Below is a 360 tour from our August 2025 Open House.
+
+<iframe
+  src="https://jeseyfried.github.io/amaranth-holding-area/app-files/index.html"
+  width="100%"
+  height="600"
+  style="border:none;overflow:hidden"
+  allow="fullscreen"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen>
+</iframe>

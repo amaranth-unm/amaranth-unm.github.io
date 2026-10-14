@@ -33,7 +33,7 @@ Both sites share nearly identical `_includes/` components (figure.html, card-gri
 - Support for nested `items:` arrays and optional `divider: true` entries
 
 **4. Content Organization**
-- Content pages in topical folders (`audio/`, `3d-printing/`, `websites/`, `equipment/`)
+- Content pages in one folder per top-nav menu (`about/`, `ai/`, `public-scholarship/`, `3d-pedagogy/`)
 - Each folder can have an `index.md` landing page and `images/` subdirectory
 - Page frontmatter controls layout, header images, and component behavior
 
