@@ -4,12 +4,9 @@
     - title: "Philosophy"
       url: "/about/ethos"
     - title: "The Studio"
-      url: "/studio/space"
-    - title: "Why the name"
-      url: "/about/why-the-name"
-=======
       url: "/about/space"
->>>>>>> 3f4310dbb38b68803a1305f47de137056ef4cc16
+    - title: "Why the name"
+      url: "/about/name-origins"
     - title: "Digital Humanities"
       url: "/about/digital-humanities"
     - title: "AY 25-26 in Review"
@@ -27,7 +24,7 @@
     - title: "Humanities for AI"
       url: "/ai/humanities-for-ai"
     - title: "AI Sketchbook"
-      url: "/ai/sketchbook"
+      url: "/ai-sketchbook"
     - title: "AI Brownbag Sessions"
       url: "/reliable-ai"
     - title: "Local LLMs"
