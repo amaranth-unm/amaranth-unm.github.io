@@ -1,0 +1,6 @@
+# Mailing list signup details used by _includes/listserv.html.
+# The subscribe command is sent as the message body with a blank subject.
+
+list_name: "amaranth-L"
+listserv_address: "listserv@list.unm.edu"
+contact_email: "amaranth@unm.edu"

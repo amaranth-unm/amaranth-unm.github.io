@@ -1,0 +1,7 @@
+{% assign ls = site.data.listserv %}
+{% capture command %}subscribe {{ ls.list_name }} firstname lastname{% endcapture %}
+<div class="callout">
+  <div class="callout-heading">Join our mailing list</div>
+  <p>The best way to keep in touch and learn about Studio events and activities is to join our listserv. <a href="mailto:{{ ls.listserv_address }}?body={{ command | uri_escape }}">Click here</a> to send an email to {{ ls.listserv_address }} from the address you wish to be subscribed. Make sure your message has a BLANK subject field, and include this message with no other text: <code>{{ command }}</code></p>
+  <p>You can also just <a href="mailto:{{ ls.contact_email }}?subject=Please%20add%20me%20to%20the%20mailing%20list">email us</a> and request that we add you, instead of doing it yourself!</p>
+</div>

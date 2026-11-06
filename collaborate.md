@@ -12,19 +12,21 @@ header-caption: Artisans, from the series "An Up-to-Date Parody of the Four Clas
 header-image-link: https://www.metmuseum.org/art/collection/search/55723
 ---
 
-The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of an aesthetic, or a project you're not sure is even possible. We want to help brainstorm possibilities from the outset!
+The best collaborations start before you have it figured out. Please come with a tingling of an idea, a half-formed question, a sense of an aesthetic, or a project you're not sure is even possible. We want to help brainstorm possibilities!
 {: .lead}
 
 
-Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, a researcher wondering what AI could do for your source materials, or a community partner whose history deserves more than a PDF, we can help you move from idea to working form. Bring us the question before the platform is chosen. Interdisciplinary teams and community collaborations are especially welcome.
+Whether you're a teacher looking for a digital home for a class project, a student bringing an assignment to life, a researcher wondering what AI could do for your source materials, or a community partner whose project deserves more than a PDF, we'd love to chat! Interdisciplinary teams and community collaborators are especially welcome.
 
 {% include studio-hours.html %}
 
 
-## Curious about AI?
-We're especially eager to help faculty and students explore how AI can make technical beginnings less intimidating without making judgment optional. You don't need a technical background or a fully formed idea, just a question or a hunch. Maybe you have a collection of texts you'd like to search in new ways, or you're wondering whether AI could help students engage differently with primary sources.
 
-If you're wondering what AI can actually do for humanities research, our [AI for Humanities Research](/ai/humanities-research) page walks through real use cases: exploring patterns across archival collections, making oral histories searchable, and helping students build projects that would have required a development team a few years ago. Humanists are not late to this conversation. The skills humanists constantly refine, including evaluating sources, recognizing bias, and asking whose voices are missing, are exactly what separates meaningful AI use from mechanical AI use.
+
+## Curious about AI?
+We're especially eager to help faculty and students explore how AI can make technical beginnings less intimidating. You don't need a technical background or a fully formed idea, just a question or a hunch. Maybe you have a collection of texts you'd like to search in new ways, or you're wondering whether AI could help students engage differently with primary sources.
+
+If you're wondering what AI can actually do for humanities research, our [AI for Humanities Research](/ai/humanities-research) page walks through real use cases: exploring patterns across archival collections, making oral histories searchable, and helping students build projects that would have required a development team a few years ago. Humanists are essential to this conversation. The skills humanists constantly refine, including evaluating sources, recognizing bias, and asking whose voices are missing, are exactly what separates productive AI use from dangerous AI use.
 
 
 ## Community-engaged projects
@@ -47,3 +49,5 @@ If you're writing a grant proposal, we can work with you to plan a realistic dig
 If you already have funding, we can help shape the public side of the project: design, infrastructure, workflow, documentation, and revision. Everything we build is open-source, sustainable, and yours to keep.
 
 This kind of collaboration works best when it starts early. If you're even thinking about a grant that might have a digital or public dimension, reach out. The earlier we can talk about possibilities, the stronger the proposal.
+
+{% include listserv.html %}
